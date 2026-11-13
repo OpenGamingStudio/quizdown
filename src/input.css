@@ -1,0 +1,74 @@
+@import "tailwindcss";
+@source "../app.js";
+@source "../index.html";
+
+/* QuizDown : papier, encre, rouge tampon. Aucun dégradé, aucune ombre diffuse. */
+@theme {
+  --color-paper: #f2eee3;
+  --color-ink: #1b1a17;
+  --color-muted: #5b574d;
+  --color-accent: #b3260e;
+  --color-ok: #1d6b36;
+  --color-ko: #a31f1f;
+  --color-card: #fbf9f3;
+  --color-track: #d9d3c2;
+  --font-serif: Georgia, "Times New Roman", serif;
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+@layer base {
+  [hidden] { display: none !important; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { @apply m-0 flex min-h-screen flex-col bg-paper font-sans text-[1.0625rem] leading-normal text-ink; }
+  main { @apply mx-auto w-full max-w-160 flex-1 px-5 pt-6 pb-8 outline-none; }
+  h1, h2 { @apply mb-3 font-serif leading-[1.15]; }
+  h1 { font-size: clamp(2.25rem, 9vw, 3.5rem); }
+  h2 { @apply text-[1.75rem]; }
+  p { @apply mb-4; }
+  button { @apply cursor-pointer font-[inherit]; }
+  table { @apply my-4 mb-6 w-full border-collapse tabular-nums; }
+  th, td { @apply border-b border-ink px-2 py-2.5 text-left; }
+  th { @apply text-[.8rem] tracking-[.08em] text-muted uppercase; }
+  td:last-child, th:last-child { @apply text-right; }
+  label { @apply mb-1 block text-[.9rem] text-muted; }
+  input[type=text] { @apply w-full rounded-sm border-2 border-ink bg-white p-3 font-[inherit] text-ink; }
+  :focus-visible { @apply outline-[3px] outline-offset-2 outline-accent; }
+}
+
+@layer components {
+  .bar { @apply flex items-center justify-between border-b-2 border-ink px-5 py-3; }
+  .brand { @apply border-0 bg-transparent py-1 font-serif text-2xl font-bold text-ink; }
+  .brand span { @apply text-accent italic; }
+  .sound { @apply cursor-pointer border-0 bg-transparent p-2 text-[.9rem] text-muted underline; }
+  .foot { @apply border-t border-ink px-5 py-4 text-center text-[.85rem] text-muted; }
+  .foot a { color: inherit; }
+  .lead { @apply max-w-120 text-muted; }
+  .stack { @apply flex flex-col gap-3; }
+  .btn { @apply block min-h-13 w-full rounded-sm border-2 border-ink bg-card px-4 py-3.5 text-left text-ink transition duration-100 ease-out hover:bg-white active:scale-[.98] motion-reduce:transition-none; }
+  .btn.primary { @apply bg-ink font-semibold text-paper hover:bg-black; }
+  .btn small { @apply block text-[.85rem] text-muted; }
+  .btn.primary small { @apply text-[#cfcabb]; }
+  .btn.inline { @apply w-auto; }
+  .btn.ok { @apply border-ok bg-ok text-white; }
+  .btn.ko { @apply border-ko bg-ko text-white; }
+  .btn[disabled] { @apply cursor-default; }
+  .btn[disabled]:not(.ok):not(.ko) { @apply opacity-55; }
+  .btn .key { @apply mr-2 inline-block min-w-6 font-serif font-bold; }
+  .btn.primary:focus-visible, .btn.ok:focus-visible, .btn.ko:focus-visible { @apply outline-ink; box-shadow: 0 0 0 5px var(--color-paper); }
+  .kicker { @apply mb-2 text-[.85rem] tracking-[.08em] text-muted uppercase; }
+  .best { @apply mt-6 border-l-4 border-accent pl-3 text-muted; }
+  .hud { @apply mb-2 flex justify-between gap-4 text-[.95rem] tabular-nums; }
+  .timer { @apply mb-6 h-2 border border-ink bg-track; }
+  .timer i { @apply block h-full w-full bg-ink; }
+  .timer.low i { @apply bg-accent; }
+  .question { @apply mb-5 font-serif text-2xl leading-[1.3] font-semibold; }
+  .fb { @apply my-4 mb-2 min-h-6 font-semibold; }
+  tr.win td { @apply font-bold; }
+  .big { @apply mt-1 mb-4 font-serif text-[3.5rem] leading-none font-bold; }
+  .seg { @apply flex gap-2; }
+  .seg .btn { @apply py-3 text-center; }
+  .seg .btn[aria-pressed=true] { @apply bg-ink text-paper; }
+  .after { @apply mt-6; }
+  .unit { @apply text-xl; }
+  .who { @apply mt-2 mb-6 font-serif text-4xl leading-[1.1] font-bold text-accent; }
+}

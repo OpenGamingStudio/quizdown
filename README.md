@@ -15,11 +15,22 @@ Issues and pull requests are welcome. Contributions are checked (consistency, re
 
 ## Jouer / Play
 
-Le jeu est statique (HTML/CSS/JS, sans build). Il faut le servir par HTTP, car il charge `data/questions.json` :
+Le jeu est statique (HTML/JS) ; le style est écrit avec [Tailwind CSS](https://tailwindcss.com) v4 (source : `src/input.css`) et compilé dans `style.css`, qui est versionné : le déploiement statique n'a donc rien à construire. Il faut servir le dossier par HTTP, car le jeu charge `data/questions.json` :
 
 ```sh
 python3 -m http.server 8000   # puis ouvrir http://localhost:8000
 ```
+
+### Build du CSS (Tailwind)
+
+Node.js 20 ou plus récent requis. Après toute modification de `src/input.css` ou des classes utilisées dans `app.js` / `index.html` :
+
+```sh
+npm install
+npm run build   # génère style.css (minifié) ; `npm run dev` pour recompiler en continu
+```
+
+Commiter `style.css` avec la modification. Charte : papier, encre et rouge tampon, aucun dégradé.
 
 - **Solo** : 10 questions tirées au hasard dans le thème, 4 réponses, 15 s par question. 100 points par bonne réponse + jusqu'à 50 points de bonus de rapidité. Le meilleur score par thème est gardé dans le `localStorage` du navigateur.
 - **Multijoueur local** : 2 à 4 joueurs sur le même appareil. Les joueurs répondent à tour de rôle aux mêmes questions ; classement final.
