@@ -13,7 +13,14 @@ const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;'
 const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const stop = () => { clearInterval(timerId); clearTimeout(advanceId); };
 const KEY = 'quizdown.best.v1';
-const loadBest = () => { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch { return {}; } };
+const loadBest = () => {
+  const out = {};
+  try {
+    const raw = JSON.parse(localStorage.getItem(KEY));
+    if (raw && typeof raw === 'object') for (const [k, v] of Object.entries(raw)) if (Number.isFinite(v) && v > 0) out[k] = Math.min(Math.floor(v), 100000);
+  } catch {}
+  return out;
+};
 const saveBest = (id, score) => {
   const b = loadBest(); const isNew = score > (b[id] || 0);
   if (isNew) { b[id] = score; try { localStorage.setItem(KEY, JSON.stringify(b)); } catch {} }
@@ -29,7 +36,8 @@ function show(node, focusSel) {
 }
 
 /* ---------- sons (WebAudio, sans fichier) ---------- */
-let soundOn = localStorage.getItem('quizdown.sound') !== 'off';
+let soundOn = true;
+try { soundOn = localStorage.getItem('quizdown.sound') !== 'off'; } catch {}
 let ctx = null;
 function refreshSound() { soundBtn.textContent = 'Son : ' + (soundOn ? 'oui' : 'non'); soundBtn.setAttribute('aria-pressed', soundOn); }
 soundBtn.onclick = () => { soundOn = !soundOn; try { localStorage.setItem('quizdown.sound', soundOn ? 'on' : 'off'); } catch {} refreshSound(); beep('ok'); };
@@ -45,6 +53,17 @@ function beep(kind) {
       o.connect(g); g.connect(ctx.destination); o.start(t); o.stop(t + 0.2);
     });
   } catch {}
+}
+
+/* ---------- données : on ne fait confiance à aucun champ du JSON ---------- */
+const isStr = (s, max) => typeof s === 'string' && s.length > 0 && s.length <= max;
+function validThemes(d) {
+  if (!d || !Array.isArray(d.themes)) return [];
+  return d.themes.map((t) => {
+    if (!t || !isStr(t.id, 40) || !/^[a-z0-9-]+$/.test(t.id) || !isStr(t.name, 60) || !Array.isArray(t.questions)) return null;
+    const questions = t.questions.filter((q) => q && isStr(q.q, 300) && Array.isArray(q.a) && q.a.length === 4 && q.a.every((x) => isStr(x, 120)) && Number.isInteger(q.c) && q.c >= 0 && q.c < 4);
+    return questions.length >= 1 ? { id: t.id, name: t.name, questions } : null;
+  }).filter(Boolean);
 }
 
 /* ---------- écrans ---------- */
@@ -68,8 +87,8 @@ function pickTheme(next) {
   const best = loadBest();
   const n = el(`<section>
     <h2>Choisissez un thème</h2>
-    <div class="stack">${themes.map((t) => `<button class="btn" data-id="${t.id}">${esc(t.name)}<small>${t.questions.length} questions${best[t.id] ? ' · record ' + best[t.id] : ''}</small></button>`).join('')}</div>
-    <p style="margin-top:1.5rem"><button class="btn inline" id="back">Retour</button></p>
+    <div class="stack">${themes.map((t) => `<button class="btn" data-id="${esc(t.id)}">${esc(t.name)}<small>${t.questions.length} questions${best[t.id] ? ' · record ' + best[t.id] : ''}</small></button>`).join('')}</div>
+    <p class="after"><button class="btn inline" id="back">Retour</button></p>
   </section>`);
   show(n, '.btn');
   n.querySelectorAll('[data-id]').forEach((b) => b.onclick = () => next(themes.find((t) => t.id === b.dataset.id)));
@@ -182,7 +201,7 @@ function results(g) {
   if (!multi) {
     const p = g.players[0], isNew = saveBest(g.theme.id, p.score), best = loadBest()[g.theme.id];
     body = `<p class="kicker">${esc(g.theme.name)}</p><h2>Résultats</h2>
-      <p class="big">${p.score} <span style="font-size:1.25rem">pts</span></p>
+      <p class="big">${p.score} <span class="unit">pts</span></p>
       <p>${p.good} bonne${p.good > 1 ? 's' : ''} réponse${p.good > 1 ? 's' : ''} sur ${g.qs.length}.</p>
       <p class="best">${isNew && p.score > 0 ? '<strong>Nouveau record !</strong>' : 'Record sur ce thème : <strong>' + (best || 0) + '</strong> pts'}</p>`;
   } else {
@@ -203,6 +222,6 @@ document.getElementById('home').onclick = () => themes.length && home();
 refreshSound();
 fetch('data/questions.json')
   .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
-  .then((d) => { themes = d.themes; home(); })
+  .then((d) => { themes = validThemes(d); if (!themes.length) throw new Error('data'); home(); })
   .catch(() => show(el('<section><h2>Impossible de charger les questions</h2><p>Lancez le jeu depuis un serveur web (voir le README), pas en ouvrant le fichier directement.</p></section>')));
 })();
