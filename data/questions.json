@@ -1,0 +1,58 @@
+{
+  "themes": [
+    {
+      "id": "geographie",
+      "name": "Géographie",
+      "questions": [
+        {"q": "Quelle est la capitale de l'Australie ?", "a": ["Canberra", "Sydney", "Melbourne", "Perth"], "c": 0},
+        {"q": "Quel est le plus long fleuve de France ?", "a": ["La Loire", "La Seine", "Le Rhône", "La Garonne"], "c": 0},
+        {"q": "Quel pays compte le plus d'habitants (2024) ?", "a": ["L'Inde", "La Chine", "Les États-Unis", "L'Indonésie"], "c": 0},
+        {"q": "Sur quel continent se trouve le désert du Sahara ?", "a": ["Afrique", "Asie", "Amérique du Sud", "Océanie"], "c": 0},
+        {"q": "Quelle est la plus haute montagne du monde ?", "a": ["L'Everest", "Le K2", "Le Mont Blanc", "Le Kilimandjaro"], "c": 0},
+        {"q": "Quelle mer borde la côte sud de la France ?", "a": ["La Méditerranée", "La mer du Nord", "La Baltique", "La mer Noire"], "c": 0},
+        {"q": "Quelle est la capitale du Canada ?", "a": ["Ottawa", "Toronto", "Montréal", "Vancouver"], "c": 0},
+        {"q": "Quel est le plus grand océan ?", "a": ["Le Pacifique", "L'Atlantique", "L'océan Indien", "L'Arctique"], "c": 0},
+        {"q": "Dans quel pays se trouve la ville de Marrakech ?", "a": ["Le Maroc", "La Tunisie", "L'Égypte", "L'Algérie"], "c": 0},
+        {"q": "Quel pays a la forme d'une botte ?", "a": ["L'Italie", "L'Espagne", "La Grèce", "Le Portugal"], "c": 0},
+        {"q": "Quelle est la capitale du Brésil ?", "a": ["Brasília", "Rio de Janeiro", "São Paulo", "Salvador"], "c": 0},
+        {"q": "Quel détroit sépare l'Espagne du Maroc ?", "a": ["Gibraltar", "Bosphore", "Ormuz", "Magellan"], "c": 0}
+      ]
+    },
+    {
+      "id": "sciences",
+      "name": "Sciences",
+      "questions": [
+        {"q": "Quel est le symbole chimique de l'or ?", "a": ["Au", "Or", "Ag", "Go"], "c": 0},
+        {"q": "Combien de planètes compte le système solaire ?", "a": ["8", "9", "7", "10"], "c": 0},
+        {"q": "Quelle planète est la plus proche du Soleil ?", "a": ["Mercure", "Vénus", "Mars", "La Terre"], "c": 0},
+        {"q": "Quel gaz les plantes absorbent-elles pour la photosynthèse ?", "a": ["Le dioxyde de carbone", "L'oxygène", "L'azote", "L'hélium"], "c": 0},
+        {"q": "Quelle est la formule chimique de l'eau ?", "a": ["H2O", "CO2", "O2", "NaCl"], "c": 0},
+        {"q": "Combien d'os compte le corps humain adulte ?", "a": ["206", "150", "256", "300"], "c": 0},
+        {"q": "Quelle est la vitesse de la lumière dans le vide, environ ?", "a": ["300 000 km/s", "30 000 km/s", "3 000 km/s", "3 000 000 km/s"], "c": 0},
+        {"q": "Quel organe pompe le sang dans le corps ?", "a": ["Le cœur", "Le foie", "Les poumons", "Le rein"], "c": 0},
+        {"q": "Quel est l'état de l'eau à 120 °C (pression normale) ?", "a": ["Gazeux", "Liquide", "Solide", "Plasma"], "c": 0},
+        {"q": "Qui a formulé la théorie de la relativité ?", "a": ["Albert Einstein", "Isaac Newton", "Galilée", "Marie Curie"], "c": 0},
+        {"q": "Quel est le plus grand animal de la planète ?", "a": ["La baleine bleue", "L'éléphant d'Afrique", "Le requin-baleine", "La girafe"], "c": 0},
+        {"q": "Quelle planète est surnommée la planète rouge ?", "a": ["Mars", "Jupiter", "Vénus", "Saturne"], "c": 0}
+      ]
+    },
+    {
+      "id": "histoire",
+      "name": "Histoire",
+      "questions": [
+        {"q": "En quelle année a débuté la Révolution française ?", "a": ["1789", "1799", "1769", "1815"], "c": 0},
+        {"q": "Qui fut le premier président de la Ve République ?", "a": ["Charles de Gaulle", "Georges Pompidou", "François Mitterrand", "René Coty"], "c": 0},
+        {"q": "Quelle civilisation a construit les pyramides de Gizeh ?", "a": ["Les Égyptiens", "Les Mayas", "Les Romains", "Les Grecs"], "c": 0},
+        {"q": "En quelle année l'homme a-t-il marché sur la Lune pour la première fois ?", "a": ["1969", "1959", "1975", "1981"], "c": 0},
+        {"q": "Qui fut sacré empereur des Français en 1804 ?", "a": ["Napoléon Ier", "Louis XVI", "Louis-Philippe", "Charlemagne"], "c": 0},
+        {"q": "En quelle année est tombé le mur de Berlin ?", "a": ["1989", "1991", "1979", "1985"], "c": 0},
+        {"q": "Quelle bataille a marqué la défaite de Napoléon en 1815 ?", "a": ["Waterloo", "Austerlitz", "Verdun", "Trafalgar"], "c": 0},
+        {"q": "Qui a découvert l'Amérique en 1492 (pour l'Europe) ?", "a": ["Christophe Colomb", "Vasco de Gama", "Magellan", "Marco Polo"], "c": 0},
+        {"q": "Quel roi de France était surnommé le Roi-Soleil ?", "a": ["Louis XIV", "Louis XIII", "Henri IV", "François Ier"], "c": 0},
+        {"q": "Quelle guerre a eu lieu de 1914 à 1918 ?", "a": ["La Première Guerre mondiale", "La guerre de Cent Ans", "La Seconde Guerre mondiale", "La guerre de Crimée"], "c": 0},
+        {"q": "Quelle cité antique fut détruite par l'éruption du Vésuve en 79 ?", "a": ["Pompéi", "Athènes", "Carthage", "Troie"], "c": 0},
+        {"q": "Qui était la chef de guerre brûlée à Rouen en 1431 ?", "a": ["Jeanne d'Arc", "Aliénor d'Aquitaine", "Catherine de Médicis", "Blanche de Castille"], "c": 0}
+      ]
+    }
+  ]
+}

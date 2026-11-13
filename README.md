@@ -4,7 +4,7 @@ Jeu de quiz, seul ou à plusieurs, sur des thématiques prédéfinies. Jouable d
 
 Quiz game, solo or with others, on predefined themes. Playable in the browser and on mobile.
 
-- Jouer / Play : https://quizdown.opengamingstudio.com (bientôt / soon)
+- Jouer / Play : https://quizdown.opengamingstudio.com
 - Licence : [MIT](LICENSE)
 - Projet de [OpenGamingStudio](https://github.com/OpenGamingStudio), studio de jeux web open source.
 
@@ -12,3 +12,30 @@ Quiz game, solo or with others, on predefined themes. Playable in the browser an
 
 Les issues et les pull requests sont les bienvenues. Les contributions sont vérifiées (cohérence, pertinence, fonctionnement) puis relues par l'équipe avant fusion sur `main`.
 Issues and pull requests are welcome. Contributions are checked (consistency, relevance, working state) and reviewed by the team before being merged into `main`.
+
+## Jouer / Play
+
+Le jeu est statique (HTML/CSS/JS, sans build). Il faut le servir par HTTP, car il charge `data/questions.json` :
+
+```sh
+python3 -m http.server 8000   # puis ouvrir http://localhost:8000
+```
+
+- **Solo** : 10 questions tirées au hasard dans le thème, 4 réponses, 15 s par question. 100 points par bonne réponse + jusqu'à 50 points de bonus de rapidité. Le meilleur score par thème est gardé dans le `localStorage` du navigateur.
+- **Multijoueur local** : 2 à 4 joueurs sur le même appareil. Les joueurs répondent à tour de rôle aux mêmes questions ; classement final.
+- Clavier : touches `A` `B` `C` `D` (ou `1` à `4`) pour répondre. Le son (optionnel) se coupe avec le bouton « Son ».
+
+## Ajouter des questions / Add questions
+
+Tout est dans `data/questions.json` :
+
+```json
+{"themes": [{"id": "geographie", "name": "Géographie", "questions": [
+  {"q": "Quelle est la capitale de l'Australie ?", "a": ["Canberra", "Sydney", "Melbourne", "Perth"], "c": 0}
+]}]}
+```
+
+- `q` : la question ; `a` : exactement 4 réponses ; `c` : l'indice (0 à 3) de la bonne réponse. Les réponses sont mélangées au jeu, la bonne peut donc rester en première position dans le fichier.
+- Un nouveau thème = un nouvel objet dans `themes` (`id` unique, au moins 10 questions).
+
+English: the game is a static site; serve the folder with any web server. Add questions in `data/questions.json` (`q` question, `a` four answers, `c` index of the correct one).
