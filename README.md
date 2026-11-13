@@ -36,6 +36,15 @@ Commiter `style.css` avec la modification. Charte : papier, encre et rouge tampo
 - **Multijoueur local** : 2 à 4 joueurs sur le même appareil. Les joueurs répondent à tour de rôle aux mêmes questions ; classement final.
 - Clavier : touches `A` `B` `C` `D` (ou `1` à `4`) pour répondre. Le son (optionnel) se coupe avec le bouton « Son ».
 
+### Docker et en-têtes de sécurité
+
+Le `Dockerfile` compile le CSS (Tailwind, étape Node) puis sert le jeu avec `nginx:1.27-alpine`. `nginx.conf` et `security-headers.conf` posent : `server_tokens off`, une CSP stricte (`default-src 'none'`, scripts, styles, `fetch` et images limités à `'self'`, ni `unsafe-inline` ni CDN, `object-src 'none'`, `frame-ancestors 'none'`), HSTS (`max-age=31536000`, sans preload), `X-Content-Type-Options: nosniff`, `Referrer-Policy` et `Permissions-Policy`. Les en-têtes sont répétés dans chaque `location` qui utilise `add_header` ; CSS/JS/polices sont mis en cache 1 h. Le jeu n'a ni script ni style inline : toute nouvelle ressource externe ou inline serait bloquée par la CSP.
+
+```sh
+docker build -t quizdown .
+docker run --rm -p 8080:80 quizdown   # puis curl -sI http://localhost:8080
+```
+
 ## Ajouter des questions / Add questions
 
 Tout est dans `data/questions.json` :
