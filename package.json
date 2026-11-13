@@ -1,0 +1,13 @@
+{
+  "name": "quizdown",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "tailwindcss -i src/input.css -o style.css --minify",
+    "dev": "tailwindcss -i src/input.css -o style.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.0",
+    "tailwindcss": "^4.1.0"
+  }
+}
