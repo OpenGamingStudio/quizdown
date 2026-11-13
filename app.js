@@ -5,13 +5,13 @@ const ROUNDS = 10, TIME = 15, BASE = 100, BONUS = 50, FEEDBACK_MS = 1400;
 const app = document.getElementById('app');
 const soundBtn = document.getElementById('sound');
 let themes = [];
-let timerId = null, advanceId = null;
+let timerId = null, advanceId = null, keyHandler = null;
 
 /* ---------- utilitaires ---------- */
 const el = (html) => { const t = document.createElement('template'); t.innerHTML = html.trim(); return t.content.firstElementChild; };
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
-const stop = () => { clearInterval(timerId); clearTimeout(advanceId); };
+const stop = () => { clearInterval(timerId); clearTimeout(advanceId); if (keyHandler) { document.removeEventListener('keydown', keyHandler); keyHandler = null; } };
 const KEY = 'quizdown.best.v1';
 const loadBest = () => {
   const out = {};
@@ -148,7 +148,7 @@ function ask(g) {
   const q = g.qs[g.qi], p = g.players[g.pi], multi = g.players.length > 1;
   const n = el(`<section>
     <div class="hud"><span>${multi ? esc(p.name) + ' · ' : ''}Question ${g.qi + 1}/${g.qs.length}</span><span>Score : <strong id="sc">${p.score}</strong></span></div>
-    <div class="timer" id="tm" role="timer" aria-label="Temps restant"><i></i></div>
+    <div class="timer" id="tm" role="progressbar" aria-valuemin="0" aria-valuemax="15" aria-valuenow="15" aria-label="Temps restant en secondes"><i></i></div>
     <h2 class="question">${esc(q.q)}</h2>
     <div class="stack" role="group" aria-label="Réponses">${q.answers.map((a, i) => `<button class="btn" data-i="${i}"><span class="key">${'ABCD'[i]}</span>${esc(a.text)}</button>`).join('')}</div>
     <p class="fb" id="fb"></p>
@@ -162,15 +162,21 @@ function ask(g) {
 
   const finish = (idx) => {
     if (done) return; done = true;
-    stop(); document.removeEventListener('keydown', onKey);
+    stop();
     const left = Math.max(0, TIME - (performance.now() - t0) / 1000);
     const right = idx >= 0 && q.answers[idx].ok;
     const gain = right ? BASE + Math.round(BONUS * left / TIME) : 0;
     p.score += gain; if (right) p.good++;
-    btns.forEach((b, i) => { b.disabled = true; if (q.answers[i].ok) b.classList.add('ok'); else if (i === idx) b.classList.add('ko'); });
-    n.querySelector('#sc').textContent = p.score;
-    fb.textContent = right ? `Bonne réponse ! +${gain} points` : idx < 0 ? 'Temps écoulé.' : 'Raté.';
-    beep(right ? 'ok' : 'ko');
+    btns.forEach((b) => { b.disabled = true; });
+    // en multi, la bonne réponse n'est révélée qu'au dernier joueur de la question
+    if (!multi || g.pi === g.players.length - 1) {
+      btns.forEach((b, i) => { if (q.answers[i].ok) b.classList.add('ok'); else if (i === idx) b.classList.add('ko'); });
+      n.querySelector('#sc').textContent = p.score;
+      fb.textContent = right ? `Bonne réponse ! +${gain} points` : idx < 0 ? 'Temps écoulé.' : 'Raté.';
+      beep(right ? 'ok' : 'ko');
+    } else {
+      fb.textContent = idx < 0 ? 'Temps écoulé. Réponse enregistrée.' : 'Réponse enregistrée.';
+    }
     const last = g.pi === g.players.length - 1 && g.qi === g.qs.length - 1;
     nextBtn.textContent = last ? 'Voir les résultats' : 'Suite'; nextBtn.hidden = false; nextBtn.focus();
     const go = () => { if (++g.pi >= g.players.length) { g.pi = 0; g.qi++; } g.qi >= g.qs.length ? results(g) : g.players.length > 1 ? handover(g) : ask(g); };
@@ -181,7 +187,7 @@ function ask(g) {
     const i = { a: 0, b: 1, c: 2, d: 3, 1: 0, 2: 1, 3: 2, 4: 3 }[e.key.toLowerCase()];
     if (i !== undefined && !e.ctrlKey && !e.metaKey && !e.altKey) finish(i);
   };
-  document.addEventListener('keydown', onKey);
+  keyHandler = onKey; document.addEventListener('keydown', onKey);
   btns.forEach((b, i) => b.onclick = () => finish(i));
   timerId = setInterval(() => {
     const left = TIME - (performance.now() - t0) / 1000;
@@ -190,8 +196,6 @@ function ask(g) {
     bar.setAttribute('aria-valuenow', Math.ceil(Math.max(0, left)));
     if (left <= 0) finish(-1);
   }, 100);
-  const stopKeys = () => document.removeEventListener('keydown', onKey);
-  document.getElementById('home').addEventListener('click', stopKeys, { once: true });
 }
 
 function results(g) {
@@ -209,7 +213,7 @@ function results(g) {
     const top = rank[0], tie = rank.filter((p) => p.score === top.score && p.good === top.good).length > 1;
     body = `<p class="kicker">${esc(g.theme.name)}</p><h2>${tie ? 'Égalité !' : esc(top.name) + ' gagne !'}</h2>
       <table><thead><tr><th>#</th><th>Joueur</th><th>Bonnes rép.</th><th>Score</th></tr></thead><tbody>
-      ${rank.map((p, i) => `<tr class="${p.score === top.score ? 'win' : ''}"><td>${i + 1}</td><td>${esc(p.name)}</td><td>${p.good}/${g.qs.length}</td><td>${p.score}</td></tr>`).join('')}</tbody></table>`;
+      ${rank.map((p, i) => `<tr class="${p.score === top.score && p.good === top.good ? 'win' : ''}"><td>${i + 1}</td><td>${esc(p.name)}</td><td>${p.good}/${g.qs.length}</td><td>${p.score}</td></tr>`).join('')}</tbody></table>`;
   }
   const n = el(`<section>${body}<div class="stack"><button class="btn primary" id="again">Rejouer</button><button class="btn" id="menu">Accueil</button></div></section>`);
   show(n, 'h2');
