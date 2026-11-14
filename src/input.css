@@ -27,6 +27,8 @@
   --animate-tremble: tremble .24s linear;
   @keyframes entree { from { transform: translateX(40%) rotate(-1deg); opacity: 0; } 60% { transform: translateX(0) rotate(-1deg); opacity: 1; } to { transform: rotate(0); } }
   @keyframes bond { 0%, 100% { transform: translateY(0); } 40% { transform: translateY(-8px); } }
+  --animate-sortie: sortie .2s cubic-bezier(.5, 0, .9, .4) both;
+  @keyframes sortie { to { transform: translateX(-40%) rotate(-1deg); opacity: 0; } }
   @keyframes tremble { 0%, 100% { transform: translateX(0); } 16%, 50%, 83% { transform: translateX(-6px); } 33%, 66% { transform: translateX(6px); } }
 }
 
@@ -34,7 +36,8 @@
   [hidden] { display: none !important; }
   html { -webkit-text-size-adjust: 100%; }
   body { @apply m-0 flex min-h-screen flex-col bg-tomate font-sans text-[1.0625rem] leading-normal text-encre; }
-  main { @apply mx-auto w-full max-w-180 flex-1 overflow-x-clip px-4 pt-6 pb-10 outline-none sm:px-6; }
+  main { @apply mx-auto w-full max-w-140 flex-1 overflow-x-clip px-3 pt-2 pb-10 outline-none min-[480px]:px-4 min-[720px]:max-w-180 lg:max-w-240 lg:px-6; }
+  h1, h2, h3 { @apply mt-0; }
   h1, h2 { @apply mb-3 leading-[1.05] font-bold tracking-[-0.02em]; }
   h2 { font-size: clamp(1.75rem, 6vw, 2.5rem); }
   p { @apply mb-4; }
@@ -47,49 +50,139 @@
   label { @apply mb-1 block text-[.9375rem] font-semibold tracking-[.06em] uppercase; }
   input[type=text] { @apply min-h-12 w-full rounded-[10px] border-3 border-encre bg-carte p-3 font-[inherit] text-encre; }
   :focus-visible { @apply outline-[3px] outline-offset-3 outline-encre; }
+  input[aria-invalid=true] { @apply border-brique; }
+  /* titres focalisés par le script au changement d'écran : cible de lecture, pas d'anneau */
+  [tabindex="-1"]:focus { @apply outline-none; }
 }
 
 @layer components {
   /* bandeau et pied, posés sur le plateau */
-  .bar { @apply flex items-center justify-between gap-3 px-4 py-3 sm:px-6; }
+  .bar { @apply mx-auto flex w-full max-w-240 items-center justify-between gap-3 px-3 py-2 min-[480px]:px-4 lg:px-6; }
   .brand { @apply min-h-11 -rotate-3 border-0 bg-transparent py-1 text-[1.75rem] leading-none font-bold tracking-[-0.02em] text-carte; }
   .brand span { @apply text-encre; }
-  .sound { @apply min-h-11 min-w-11 rounded-full border-3 border-encre bg-carte px-4 text-[.9375rem] font-semibold text-encre shadow-dure; }
+  .sound { @apply inline-flex min-h-11 min-w-11 items-center gap-2 rounded-full border-3 border-encre bg-carte px-4 text-[.9375rem] font-semibold text-encre shadow-dure transition-[translate,box-shadow] duration-[60ms] active:translate-x-1 active:translate-y-1 active:shadow-none motion-reduce:active:translate-0; }
+  .sound svg { @apply size-5; }
+  .sound[aria-pressed=true] .off, .sound[aria-pressed=false] .on { @apply hidden; }
   .foot { @apply px-5 py-5 text-center text-[.9375rem] font-medium; }
   .foot a { @apply inline-flex min-h-11 items-center font-bold underline decoration-2 underline-offset-3; color: inherit; }
 
+  /* typographie : étiquettes (thème, numéro de question) en capitales 600 */
+  .etiquette { @apply m-0 text-[.9375rem] leading-[1.3] font-semibold tracking-[.06em] uppercase; }
+  .sous { @apply -mt-1 mb-5 font-medium; }
+  kbd { @apply inline-grid min-w-[1.6em] place-items-center rounded-md border-2 border-encre bg-carte px-1 text-[.875rem] leading-[1.4] font-bold text-encre; }
+
   /* cartes en carton */
   .card { @apply rounded-carte border-3 border-encre bg-carte p-5 shadow-dure sm:p-8; }
-  .plate { @apply flex flex-col gap-5; }
+  .stack { @apply flex flex-col gap-3; }
+  .after { @apply mt-6; }
+
+  /* accueil */
+  .accueil { @apply flex flex-col gap-6; }
   .logo { @apply m-0 -rotate-3 font-bold text-carte; font-size: clamp(3rem, 12vw, 7rem); line-height: .9; letter-spacing: -0.02em; }
   .logo span { @apply text-encre; }
   .tag { @apply m-0 max-w-120 text-[clamp(1.25rem,4vw,1.625rem)] leading-[1.2] font-semibold; }
-  .stack { @apply flex flex-col gap-3; }
-  .kicker { @apply mb-2 text-[.9375rem] leading-[1.3] font-semibold tracking-[.06em] uppercase; }
+  .modes { @apply grid gap-4 min-[720px]:grid-cols-2; }
+  .mode { @apply min-h-28 pr-14; }
+  .mode-title { @apply text-[clamp(1.5rem,5vw,1.875rem)] leading-[1.05] font-bold tracking-[-0.02em]; }
+  .mode-shape { @apply absolute top-3 right-3 size-8; }
+  .regles .etiquette, .records .etiquette { @apply mb-3; }
+  .etapes { @apply m-0 flex list-none flex-col gap-3 p-0; }
+  .etapes li { @apply flex items-start gap-3; }
+  .puce { @apply mt-0.5 size-6; }
+  .puce.p0 { @apply text-miel; }
+  .puce.p1 { @apply text-sarcelle; }
+  .puce.p2 { @apply text-brique; }
+  .puce path, .puce rect, .puce circle { stroke: var(--color-encre); stroke-width: 2px; }
+  .records ul { @apply m-0 flex list-none flex-col p-0; }
+  .records li { @apply flex items-baseline justify-between gap-3 border-b-2 border-encre py-2 last:border-0; }
+  .records strong { @apply text-[1.25rem] tabular-nums; }
 
   /* boutons en carton : on les « enfonce » (descente 4 px, l'ombre disparaît) */
-  .btn { @apply relative flex min-h-14 w-full flex-col justify-center rounded-[10px] border-3 border-encre bg-carte px-4 py-3 text-left text-[1.125rem] leading-[1.2] font-semibold break-words text-encre shadow-dure transition-[transform,box-shadow,background-color] duration-[60ms] ease-out active:translate-x-1 active:translate-y-1 active:shadow-none motion-reduce:transition-[background-color] motion-reduce:duration-150 motion-reduce:active:translate-0; }
-  .btn small { @apply mt-0.5 block text-[.9375rem] leading-[1.3] font-normal; }
+  .btn { @apply relative flex min-h-14 w-full flex-col justify-center rounded-[10px] border-3 border-encre bg-carte px-4 py-3 text-left text-[1.125rem] leading-[1.2] font-semibold break-words text-encre shadow-dure transition-[translate,box-shadow,background-color] duration-[60ms] ease-out active:translate-x-1 active:translate-y-1 active:shadow-none motion-reduce:transition-[background-color] motion-reduce:duration-150 motion-reduce:active:translate-0; }
+  .btn small { @apply mt-1 block text-[.9375rem] leading-[1.3] font-normal; }
   .btn.primary { @apply bg-miel; }
   .btn.alt { @apply bg-sarcelle text-carte; }
-  .btn.inline { @apply w-auto items-center text-center; }
+  .btn.court { @apply w-auto items-center text-center; }
   .btn[disabled] { @apply cursor-default; }
-  .btn.big-btn { @apply min-h-18 text-[1.375rem]; }
 
-  /* bandeau de partie, sablier, carte-question */
-  .hud { @apply mb-3 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 text-[.9375rem] font-semibold tracking-[.06em] uppercase tabular-nums; }
-  .hud strong { @apply text-[2rem] leading-none font-bold tracking-normal normal-case; }
+  /* choix du paquet : cartes posées en éventail, chacune sa couleur, sa forme et son inclinaison */
+  .deck { @apply flex flex-col gap-4 min-[480px]:flex-row min-[480px]:justify-center min-[480px]:gap-0 min-[480px]:px-2 min-[480px]:pt-4; }
+  .paquet { @apply min-h-24 justify-end pr-16 min-[480px]:-mx-1.5 min-[480px]:min-h-52 min-[480px]:w-40 min-[480px]:p-4 min-[720px]:min-h-64 min-[720px]:w-52 min-[720px]:p-5 min-[480px]:hover:z-10 min-[480px]:focus-visible:z-10 min-[480px]:duration-150 pointer-fine:min-[480px]:hover:-translate-y-2 motion-reduce:min-[480px]:hover:translate-y-0; }
+  .paquet-nom { @apply text-[1.75rem] leading-[1.05] font-bold tracking-[-0.02em] min-[720px]:text-[1.875rem]; }
+  .paquet-shape { @apply absolute top-3 right-3 size-9 min-[720px]:top-5 min-[720px]:right-5 min-[720px]:size-14; }
+  /* chaque paquet a sa silhouette : coin arrondi large, bords très ronds, carte droite, inclinée */
+  .paquet.k0 { @apply -rotate-2 rounded-tr-[44px] bg-miel min-[480px]:-rotate-6 min-[480px]:translate-y-3; }
+  .paquet.k1 { @apply rotate-2 rounded-[26px] bg-sarcelle text-carte min-[480px]:rotate-0; }
+  .paquet.k2 { @apply -rotate-1 rounded-bl-[44px] bg-rose min-[480px]:rotate-6 min-[480px]:translate-y-3; }
+  .paquet.k3 { @apply rotate-1 bg-sapin text-carte min-[480px]:-rotate-3; }
+  .paquet.k4 { @apply -rotate-2 bg-carte min-[480px]:rotate-3; }
+
+  /* multijoueur : nombre, noms, jetons */
+  .seg { @apply flex gap-2; }
+  .seg .btn { @apply items-center justify-center text-center text-[1.375rem]; }
+  .seg .btn[aria-pressed=true] { @apply bg-encre text-carte; }
+  .raison { @apply m-0 font-semibold empty:hidden; }
+  .btn.back-btn { @apply flex-row items-center justify-center gap-2; }
+  .btn.back-btn svg { @apply size-5; }
+  .btn.danger { @apply bg-brique text-carte; }
+
+  /* confirmation « Quitter la partie ? » */
+  .confirm { @apply m-auto w-[min(26rem,calc(100%-24px))] rounded-carte border-3 border-encre bg-carte p-6 text-encre shadow-dure; }
+  .confirm::backdrop { @apply bg-encre/70; }
+  .confirm-actions { @apply mt-2 grid grid-cols-2 gap-3; }
+  .confirm-actions .btn { @apply items-center text-center; }
+  .nom { @apply flex items-center gap-3; }
+  .jeton { @apply inline-grid size-11 shrink-0 place-items-center rounded-full border-3 border-encre text-[1rem] font-bold tracking-normal uppercase; }
+  .jeton.small { @apply size-9 text-[.875rem]; }
+  .jeton.big { @apply size-20 text-[1.75rem] sm:size-24 sm:text-[2rem]; }
+  .j0 { @apply bg-miel text-encre; }
+  .j1 { @apply bg-sarcelle text-carte; }
+  .j2 { @apply bg-rose text-encre; }
+  .j3 { @apply bg-sapin text-carte; }
+  /* passage de main : l'écran prend la couleur du jeton du joueur */
+  .passe { @apply flex min-h-[calc(100svh-9rem)] flex-col gap-4 rounded-carte border-3 border-encre p-5 shadow-dure sm:p-8; }
+  .passe > p { @apply m-0; }
+  .passe .scores { @apply text-encre; }
+  .passe .back-btn { @apply mt-auto; }
+  .passe .after { @apply mt-auto; }
+  .who { @apply mt-3 mb-4 flex flex-wrap items-center gap-4 text-[clamp(2rem,8vw,3rem)] leading-[1.05]; }
+  .mini { @apply mt-2 flex list-none flex-col p-0; }
+  .mini li { @apply flex items-center gap-3 border-b-2 border-encre py-2 last:border-0; }
+  .mini li strong { @apply ml-auto text-[1.25rem] tabular-nums; }
+  .mini li.moi { @apply font-bold; }
+
+  /* partie : bandeau, progression, sablier, carte-question */
+  .hud { @apply mb-2 flex h-14 items-center gap-2; }
+  .hud-back { @apply grid size-11 shrink-0 place-items-center rounded-full border-3 border-encre bg-carte text-encre shadow-dure active:translate-x-1 active:translate-y-1 active:shadow-none motion-reduce:active:translate-0; }
+  .hud-back svg { @apply size-6; }
+  .hud-theme { @apply m-0 min-w-0 flex-1 truncate text-[1.5rem] leading-none font-bold text-carte; }
+  .hud-jetons { @apply m-0 flex list-none items-center gap-1 p-0; }
+  .hud-jetons .jeton { @apply border-2; }
+  .hud-jetons .tour .jeton { @apply outline-3 outline-offset-2 outline-encre; }
+  .hud-box { @apply m-0 shrink-0 rounded-[10px] border-3 border-encre bg-carte px-2.5 py-1 text-[1.25rem] leading-tight font-bold tabular-nums; }
+  .hud-score { @apply min-w-[4.5ch] text-right; }
+  @media (max-width: 479px) { .hud:has(.hud-jetons) .hud-theme { @apply sr-only; } }
+  .pips { @apply mb-4 flex list-none gap-1 p-0 min-[400px]:gap-1.5; }
+  .pips li { @apply grid h-5 flex-1 place-items-center rounded-[4px] border-2 border-encre bg-carte; }
+  .pips li.now { @apply border-3 bg-miel; }
+  .pips li.ok { @apply bg-sarcelle text-carte; }
+  .pips li.ko { @apply bg-brique text-carte; }
+  .pips svg { @apply size-3.5; }
   .timer { @apply mb-5 flex items-center gap-3; }
   .rail { @apply h-5 flex-1 overflow-hidden rounded-full border-3 border-encre bg-carte; }
   .rail i { @apply block h-full w-full bg-miel; }
+  .rail.urgent i { @apply bg-brique; }
   .secs { @apply min-w-[2ch] text-right text-[2rem] leading-none font-bold tabular-nums; }
-  .qcard { @apply mb-5 rounded-carte border-3 border-encre bg-carte p-5 shadow-dure motion-safe:animate-entree sm:p-7; }
-  .qcard .kicker { @apply mb-2; }
+  .manche { @apply mx-auto max-w-180; }
+  .qcard { @apply mb-4 rounded-carte border-3 border-encre bg-carte p-5 shadow-dure motion-safe:animate-entree sm:p-7; }
+  .qcard .etiquette { @apply mb-2; }
   .question { @apply m-0 font-bold tracking-[-0.02em]; font-size: clamp(1.5rem, 5vw, 2.5rem); line-height: 1.12; }
+  .sortie .qcard, .sortie .answers { @apply motion-safe:animate-sortie; }
 
   /* réponses : couleur + lettre + forme, jamais la couleur seule */
   .answers { @apply grid gap-3 min-[720px]:grid-cols-2; }
-  .ans { @apply min-h-16 flex-row items-center justify-start gap-3 pr-12; font-size: clamp(1.125rem, 3.5vw, 1.375rem); }
+  .ans { @apply min-h-16 flex-row flex-wrap items-center justify-start gap-x-3 gap-y-2 pr-12; font-size: clamp(1.125rem, 3.5vw, 1.375rem); }
+  .ans-txt { @apply min-w-0 flex-1; }
   .ans .key { @apply grid size-9 shrink-0 place-items-center rounded-md border-2 border-encre bg-carte text-[1.125rem] font-bold text-encre; }
   .ans .shape { @apply absolute top-2.5 right-2.5 size-6; }
   .ans.a0 { @apply bg-miel text-encre; }
@@ -98,42 +191,58 @@
   .ans.a3 { @apply bg-sapin text-carte; }
   .ans.ok { @apply bg-sarcelle text-carte motion-safe:animate-bond; }
   .ans.ko { @apply bg-brique text-carte motion-safe:animate-tremble; }
-  .ans[disabled]:not(.ok):not(.ko) { @apply translate-x-1 translate-y-1 opacity-60 shadow-none; }
+  .ans:not([disabled]) { @apply pointer-fine:hover:-translate-x-0.5 pointer-fine:hover:-translate-y-0.5 pointer-fine:hover:shadow-[6px_6px_0_#16110F] motion-reduce:pointer-fine:hover:translate-0; }
+  .ans:not([disabled]):active { @apply translate-x-1 translate-y-1 shadow-none; }
+  /* focus : anneau encre décalé + anneau intérieur blanc, visible sur les 4 couleurs */
+  .ans:focus-visible { box-shadow: inset 0 0 0 2px #FFFFFF, 4px 4px 0 #16110F; }
+  .ans[disabled]:not(.ok):not(.ko) { @apply bg-carte text-encre shadow-none; }
+  .ans.choisi:not(.ok):not(.ko) { @apply bg-encre text-carte; }
   .verdict { @apply ml-auto inline-flex items-center gap-1 rounded-full border-2 border-encre bg-carte px-2.5 py-0.5 text-[.9375rem] font-bold text-encre uppercase; }
   .verdict svg { @apply size-4; }
-  .fb { @apply my-4 mb-3 min-h-7 text-[1.25rem] font-bold; }
+  .suite { @apply mt-5 flex min-h-14 flex-col items-stretch gap-3 min-[560px]:flex-row min-[560px]:items-center min-[560px]:justify-between; }
+  .fb { @apply m-0 flex items-center gap-2 text-[1.25rem] leading-[1.25] font-bold empty:hidden; }
+  .fb svg { @apply size-8 shrink-0 rounded-full border-3 border-encre p-1; }
+  .fb.juste svg { @apply bg-sarcelle text-carte; }
+  .fb.faux svg { @apply bg-brique text-carte; }
+  .fb.neutre { @apply text-[1.0625rem] font-semibold; }
+  .fb.temps { @apply rounded-[10px] border-3 border-encre bg-miel px-3 py-2; }
+  .fb.temps svg { @apply bg-encre text-miel; }
+  .gain { @apply text-[1.5rem] tabular-nums; }
+  .suite .btn.court { @apply min-[560px]:shrink-0; }
+  .astuce { @apply mt-6 hidden text-[.9375rem] font-medium pointer-fine:block; }
 
-  /* choix du thème : des cartes de paquet, chacune sa couleur, sa forme et son inclinaison */
-  .deck { @apply grid gap-4 min-[720px]:grid-cols-2; }
-  .deck .btn { @apply min-h-24 text-[clamp(1.375rem,4.5vw,1.75rem)] leading-[1.1] font-bold; }
-  .deck .btn:nth-child(5n+1) { @apply -rotate-2 bg-miel; }
-  .deck .btn:nth-child(5n+2) { @apply rotate-1 bg-sarcelle text-carte; }
-  .deck .btn:nth-child(5n+3) { @apply rotate-2 bg-rose; }
-  .deck .btn:nth-child(5n+4) { @apply -rotate-1 bg-sapin text-carte; }
-  .deck .btn:nth-child(5n) { @apply rotate-1 bg-carte; }
-  .deck .btn .shape { @apply absolute top-3 right-3 size-7; }
-  .deck .btn { @apply pr-14; }
-
-  /* joueurs : des jetons ronds */
-  .seg { @apply flex gap-2; }
-  .seg .btn { @apply items-center justify-center text-center text-[1.375rem]; }
-  .seg .btn[aria-pressed=true] { @apply bg-encre text-carte; }
-  .jeton { @apply inline-grid size-11 shrink-0 place-items-center rounded-full border-3 border-encre text-[1rem] font-bold uppercase; }
-  .jeton.big { @apply size-24 text-[2rem]; }
-  .j0 { @apply bg-miel text-encre; }
-  .j1 { @apply bg-sarcelle text-carte; }
-  .j2 { @apply bg-rose text-encre; }
-  .j3 { @apply bg-sapin text-carte; }
-  .player { @apply flex items-center gap-3; }
-  .who { @apply mt-2 mb-6 flex items-center gap-4 text-[clamp(2rem,8vw,3rem)] leading-[1.05] font-bold tracking-[-0.02em]; }
-  tr.win td { @apply font-bold; }
-
-  /* scores */
-  .best { @apply mt-2 text-[1.0625rem]; }
-  .best strong { @apply block text-[.9375rem] tracking-[.06em] uppercase; }
-  .big { @apply mt-1 mb-4 leading-none font-bold tabular-nums; font-size: clamp(4rem, 18vw, 7rem); }
+  /* fin de partie */
+  .score-geant { @apply mt-2 mb-2 leading-none font-bold tabular-nums; font-size: clamp(4rem, 18vw, 7rem); }
   .unit { @apply text-[2rem]; }
-  .after { @apply mt-6; }
-  .missed { @apply mb-5 flex flex-col gap-2 p-0; }
-  .missed li { @apply list-none border-l-6 border-sarcelle pl-3; }
+  .bilan { @apply text-[1.375rem] leading-[1.2] font-bold; }
+  .record { @apply inline-flex items-center gap-2 rounded-full border-3 border-encre px-4 py-1.5 font-semibold; }
+  .record.nouveau { @apply bg-miel font-bold; }
+  .record svg { @apply size-5; }
+  .fin-grid { @apply lg:grid lg:grid-cols-2 lg:items-start lg:gap-10; }
+  .fin-b { @apply mt-6 lg:mt-0; }
+  .fin-actions { @apply min-[720px]:flex-row; }
+  .missed { @apply mt-3 mb-0 flex list-none flex-col gap-3 p-0; }
+  .missed li { @apply flex flex-col gap-0.5 border-l-6 border-sarcelle pl-3; }
+  .missed strong { @apply text-[1.125rem]; }
+
+  /* classement multijoueur : une colonne de jetons empilés, sa hauteur suit le score */
+  .podium { @apply mt-6 grid list-none auto-cols-fr grid-flow-col items-end gap-2 p-0 sm:gap-4; }
+  .podium li { @apply flex min-w-0 flex-col items-center gap-1 text-center; }
+  .colonne { @apply flex h-44 w-full items-end justify-center border-b-3 border-encre sm:h-56; }
+  .pile { @apply flex w-full max-w-24 min-h-14 justify-center rounded-t-carte border-3 border-b-0 border-encre pt-1.5; }
+  .pile .jeton { @apply bg-carte text-encre; }
+  .place { @apply mt-1 text-[1.25rem] leading-none font-bold; }
+  .podium-nom { @apply w-full text-[.9375rem] leading-[1.2] font-semibold break-words; }
+  .podium-score { @apply text-[1.125rem] leading-none font-bold tabular-nums; }
+  .podium-good { @apply text-[.875rem] tabular-nums; }
+  .podium li.win .place { @apply rounded-full bg-miel px-2 py-0.5 ring-3 ring-encre; }
+
+  /* grand écran : motifs décoratifs (formes A-D et jetons en aplat) sur les marges du plateau */
+  .deco { @apply pointer-events-none fixed inset-0 -z-10 hidden overflow-hidden lg:block; }
+  .deco svg { @apply absolute size-24; }
+  .deco path, .deco rect, .deco circle { stroke: var(--color-encre); stroke-width: 1.5px; }
+  .deco .d0 { @apply top-[18%] left-[4%] -rotate-12 text-miel; }
+  .deco .d1 { @apply top-[62%] left-[7%] size-16 text-sarcelle; }
+  .deco .d2 { @apply top-[30%] right-[5%] rotate-6 text-rose; }
+  .deco .d3 { @apply top-[74%] right-[8%] size-20 text-sapin; }
 }
