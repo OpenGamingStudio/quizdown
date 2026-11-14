@@ -1,0 +1,15 @@
+{
+  "name": "QuizDown",
+  "short_name": "QuizDown",
+  "description": "Un quiz en solo ou à plusieurs sur le même appareil. Jeu web open source d'OpenGamingStudio.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#E8402A",
+  "theme_color": "#E8402A",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
