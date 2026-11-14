@@ -52,7 +52,7 @@
   :focus-visible { @apply outline-[3px] outline-offset-3 outline-encre; }
   input[aria-invalid=true] { @apply border-brique; }
   /* titres focalisés par le script au changement d'écran : cible de lecture, pas d'anneau */
-  [tabindex="-1"]:focus { @apply outline-none; }
+  [tabindex="-1"]:focus, [tabindex="-1"]:focus-visible { outline: none; }
 }
 
 @layer components {

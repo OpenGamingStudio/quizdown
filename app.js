@@ -52,6 +52,8 @@ function show(node, focusSel) {
 /* la carte sort par la gauche avant l'écran suivant (même axe que l'entrée) */
 function leave(node, next) {
   stop();
+  // pendant la sortie, ni Échap ni pause : rien ne doit annuler le minuteur qui affiche l'écran suivant
+  backAction = null; quitHook = null;
   if (reduced.matches) return next();
   node.classList.add('sortie');
   advanceId = setTimeout(next, LEAVE_MS);
@@ -398,7 +400,12 @@ document.addEventListener('keydown', (e) => {
 });
 
 /* ---------- démarrage ---------- */
-document.getElementById('home').onclick = () => themes.length && home();
+// en partie, le logo passe par la confirmation ; pendant la sortie de carte (backAction nul), il est ignoré
+document.getElementById('home').onclick = () => {
+  if (!themes.length) return;
+  if (app.querySelector('#quit')) { if (backAction === confirmQuit) confirmQuit(); return; }
+  home();
+};
 refreshSound();
 fetch('data/questions.json')
   .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
