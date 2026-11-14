@@ -1,9 +1,11 @@
 (() => {
 'use strict';
 
-const ROUNDS = 10, TIME = 15, BASE = 100, BONUS = 50, AUTO_NEXT_MS = 2000, LEAVE_MS = 200;
+const ROUNDS = 10, TIME = 15, BASE = 100, BONUS = 50, AUTO_NEXT_MS = 3000, LEAVE_MS = 200;
 const app = document.getElementById('app');
 const soundBtn = document.getElementById('sound');
+const settingsBtn = document.getElementById('settings');
+const liveBox = document.getElementById('live');
 let themes = [];
 let timerId = null, advanceId = null, keyHandler = null;
 // Échap : action « Retour » de l'écran courant ; quitHook = partie en cours (pause / reprise pendant la confirmation)
@@ -40,13 +42,22 @@ const saveBest = (id, score) => {
   return isNew;
 };
 
-function show(node, focusSel) {
+/* annonce lecteur d'écran (zone polite hors de <main>) : vidée puis remplie pour que le même texte soit relu */
+let sayId = 0;
+function say(msg) { liveBox.textContent = ''; clearTimeout(sayId); sayId = setTimeout(() => { liveBox.textContent = msg; }, 60); }
+
+let firstShow = true;
+function show(node, focusSel, title) {
   stop();
+  liveBox.textContent = '';
+  document.title = `${title || node.dataset.title || 'Jeu de quiz'} · QuizDown`;
   backAction = null; quitHook = null;
   app.replaceChildren(node);
   const f = (focusSel && node.querySelector(focusSel)) || node.querySelector('h1,h2');
-  if (f) { if (!f.matches('button,input')) f.tabIndex = -1; f.focus({ preventScroll: true }); }
+  // premier affichage : le focus reste au début de la page (lien d'évitement, en-tête) ; ensuite il suit chaque changement d'écran
+  if (f && !firstShow) { if (!f.matches('button,input')) f.tabIndex = -1; f.focus({ preventScroll: true }); }
   window.scrollTo(0, 0);
+  firstShow = false;
 }
 
 /* la carte sort par la gauche avant l'écran suivant (même axe que l'entrée) */
@@ -71,29 +82,42 @@ function countUp(out, from, to, ms = 400) {
   requestAnimationFrame(step);
 }
 
-/* ---------- son et vibration (WebAudio, sans fichier) ---------- */
-let soundOn = true;
-try { soundOn = localStorage.getItem('quizdown.sound') !== 'off'; } catch {}
+/* ---------- réglages (persistés) : son, volume, minuteur, raccourcis clavier ---------- */
+const SKEY = 'quizdown.settings.v1';
+const TIMERS = { normal: TIME, long: TIME * 2, off: 0 };
+const settings = { sound: true, volume: 80, timer: 'normal', keys: true };
+try {
+  const raw = JSON.parse(localStorage.getItem(SKEY));
+  if (raw && typeof raw === 'object') {
+    if (typeof raw.sound === 'boolean') settings.sound = raw.sound;
+    if (Number.isFinite(raw.volume)) settings.volume = Math.min(100, Math.max(0, Math.round(raw.volume / 10) * 10));
+    if (raw.timer in TIMERS) settings.timer = raw.timer;
+    if (typeof raw.keys === 'boolean') settings.keys = raw.keys;
+  } else if (localStorage.getItem('quizdown.sound') === 'off') settings.sound = false;
+} catch {}
+const saveSettings = () => { try { localStorage.setItem(SKEY, JSON.stringify(settings)); } catch {} };
 let ctx = null;
 function refreshSound() {
-  soundBtn.innerHTML = `${ICON_SOUND}<span>Son ${soundOn ? 'oui' : 'non'}</span>`;
-  soundBtn.setAttribute('aria-pressed', soundOn);
+  soundBtn.innerHTML = `${ICON_SOUND}<span class="max-[479px]:sr-only">${settings.sound ? 'Son activé' : 'Son coupé'}</span>`;
+  soundBtn.dataset.on = settings.sound;
 }
-soundBtn.onclick = () => { soundOn = !soundOn; try { localStorage.setItem('quizdown.sound', soundOn ? 'on' : 'off'); } catch {} refreshSound(); beep('ok'); };
+soundBtn.onclick = () => { settings.sound = !settings.sound; saveSettings(); refreshSound(); beep('ok'); };
 function beep(kind) {
-  if (!soundOn) return;
-  try { if (kind === 'ko' && navigator.vibrate) navigator.vibrate([40, 40, 40]); } catch {}
+  if (!settings.sound || !settings.volume) return;
+  try { if (kind === 'ko' && navigator.vibrate && !reduced.matches) navigator.vibrate([40, 40, 40]); } catch {}
   try {
     ctx = ctx || new (window.AudioContext || window.webkitAudioContext)();
     const notes = { ok: [660, 880], ko: [220, 160], end: [523, 659, 784] }[kind];
+    const vol = 0.15 * settings.volume / 80;
     notes.forEach((f, i) => {
       const o = ctx.createOscillator(), g = ctx.createGain(), t = ctx.currentTime + i * 0.12;
       o.type = 'triangle'; o.frequency.value = f;
-      g.gain.setValueAtTime(0.15, t); g.gain.exponentialRampToValueAtTime(0.001, t + 0.18);
+      g.gain.setValueAtTime(vol, t); g.gain.exponentialRampToValueAtTime(0.001, t + 0.18);
       o.connect(g); g.connect(ctx.destination); o.start(t); o.stop(t + 0.2);
     });
   } catch {}
 }
+const timeText = (t) => t ? `${t} secondes chacune` : 'sans minuteur';
 
 /* ---------- données : on ne fait confiance à aucun champ du JSON ---------- */
 const isStr = (s, max) => typeof s === 'string' && s.length > 0 && s.length <= max;
@@ -110,9 +134,9 @@ function validThemes(d) {
 function home() {
   const best = loadBest();
   const records = themes.filter((t) => best[t.id]);
-  const n = el(`<section class="accueil">
+  const n = el(`<section class="accueil" data-title="Accueil">
     <h1 class="logo">Quiz<span>Down</span></h1>
-    <p class="tag">${ROUNDS} questions, ${TIME} secondes chacune. Répondez vite, répondez juste.</p>
+    <p class="tag">${ROUNDS} questions, ${timeText(TIMERS[settings.timer])}. Répondez vite, répondez juste.</p>
     <div class="modes">
       <button class="btn mode primary" type="button" data-mode="solo">${shape(0, 'shape mode-shape')}<span class="mode-title">Jouer solo</span><small>Battez votre record, gardé sur cet appareil</small></button>
       <button class="btn mode alt" type="button" data-mode="multi">${shape(1, 'shape mode-shape')}<span class="mode-title">Jouer à plusieurs</span><small>2 à 4 joueurs, chacun son tour sur le même téléphone</small></button>
@@ -121,7 +145,7 @@ function home() {
       <h2 class="etiquette">Comment jouer</h2>
       <ol class="etapes">
         <li>${shape(0, 'shape puce p0')}<span>Choisissez un paquet de questions.</span></li>
-        <li>${shape(1, 'shape puce p1')}<span>Touchez la bonne réponse avant la fin du sablier. Au clavier : <kbd>A</kbd> <kbd>B</kbd> <kbd>C</kbd> <kbd>D</kbd>.</span></li>
+        <li>${shape(1, 'shape puce p1')}<span>Touchez la bonne réponse${settings.timer === 'off' ? '' : ' avant la fin du sablier'}. Au clavier : <kbd>A</kbd> <kbd>B</kbd> <kbd>C</kbd> <kbd>D</kbd>.</span></li>
         <li>${shape(2, 'shape puce p2')}<span>Juste = ${BASE} points, plus jusqu'à ${BONUS} de bonus si vous êtes rapide.</span></li>
       </ol>
     </div>
@@ -134,10 +158,10 @@ function home() {
 /* ---------- choix du paquet : des cartes en éventail, chacune sa couleur et sa forme ---------- */
 function pickTheme(next, back = home) {
   const best = loadBest();
-  const n = el(`<section>
-    <h2>Choisissez un paquet</h2>
+  const n = el(`<section data-title="Choix du paquet">
+    <h1>Choisissez un paquet</h1>
     <p class="sous">${ROUNDS} questions tirées au hasard dans le paquet.</p>
-    <div class="deck">${themes.map((t, i) => `<button class="btn paquet k${i % 5}" type="button" data-id="${esc(t.id)}">
+    <div class="deck" role="group" aria-label="Paquets de questions">${themes.map((t, i) => `<button class="btn paquet k${i % 5}" type="button" data-id="${esc(t.id)}">
       ${shape(i, 'shape paquet-shape')}
       <span class="paquet-nom">${esc(t.name)}</span>
       <small>${t.questions.length} questions${best[t.id] ? `<br>Record : ${best[t.id]} pts` : ''}</small>
@@ -153,15 +177,15 @@ function pickTheme(next, back = home) {
 const NAME_MAX = 12;
 function setupMulti(theme, prev = []) {
   let count = Math.max(2, prev.length);
-  const n = el(`<section class="card">
+  const n = el(`<section class="card" data-title="Qui joue ?">
     <p class="etiquette">${esc(theme.name)}</p>
-    <h2>Qui joue ?</h2>
+    <h1>Qui joue ?</h1>
     <form class="stack" novalidate>
       <div><p class="etiquette" id="cl">Nombre de joueurs</p>
-        <div class="seg" role="group" aria-labelledby="cl">${[2,3,4].map((c) => `<button type="button" class="btn" data-n="${c}">${c}</button>`).join('')}</div></div>
+        <div class="seg" role="group" aria-labelledby="cl">${[2,3,4].map((c) => `<button type="button" class="btn" data-n="${c}" aria-label="${c} joueurs">${c}</button>`).join('')}</div></div>
       <div class="stack" id="names"></div>
-      <p class="raison" id="raison" aria-live="polite"></p>
-      <button class="btn primary" type="submit" id="go" data-main aria-describedby="raison">C'est parti</button>
+      <p class="raison" id="raison" role="status"></p>
+      <button class="btn primary" type="submit" id="go" data-main>C'est parti</button>
       <button class="btn back-btn" type="button" id="back">${ICON_BACK}Changer de paquet</button>
     </form></section>`);
   const names = n.querySelector('#names'), go = n.querySelector('#go'), raison = n.querySelector('#raison');
@@ -180,7 +204,7 @@ function setupMulti(theme, prev = []) {
     names.innerHTML = Array.from({ length: count }, (_, i) => {
       const v = old[i] ?? prev[i] ?? `Joueur ${i + 1}`;
       return `<div><label for="p${i}">Joueur ${i + 1}</label>
-      <div class="nom">${jeton(v || `Joueur ${i + 1}`, i)}<input type="text" id="p${i}" maxlength="${NAME_MAX}" autocomplete="off" spellcheck="false" value="${esc(v)}"></div></div>`;
+      <div class="nom">${jeton(v || `Joueur ${i + 1}`, i)}<input type="text" id="p${i}" maxlength="${NAME_MAX}" autocomplete="off" spellcheck="false" aria-describedby="raison" value="${esc(v)}"></div></div>`;
     }).join('');
     names.querySelectorAll('input').forEach((inp, i) => inp.oninput = () => { inp.previousElementSibling.textContent = initials(inp.value.trim() || `Joueur ${i + 1}`); check(); });
     check();
@@ -194,6 +218,44 @@ function setupMulti(theme, prev = []) {
     if (!go.disabled) startGame(theme, values());
   };
 }
+
+/* ---------- réglages : dialog natif (Échap ferme, le focus revient au bouton), minuteur en pause pendant l'ouverture ---------- */
+const ICON_GEAR = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3.2"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M18.7 5.3l-2.1 2.1M7.4 16.6l-2.1 2.1"/></svg>';
+function openSettings() {
+  if (document.querySelector('dialog[open]')) return;
+  const hook = quitHook;
+  hook?.pause?.();
+  const inGame = !!app.querySelector('.manche, .passe');
+  const opts = [['normal', `Normal (${TIME} s)`], ['long', `Allongé (${TIME * 2} s, deux fois plus de temps)`], ['off', 'Désactivé (pas de minuteur)']];
+  const d = el(`<dialog class="confirm reglages" aria-labelledby="rt">
+    <h2 id="rt">Réglages</h2>
+    <div class="stack">
+      <label class="coche"><input type="checkbox" id="r-sound"${settings.sound ? ' checked' : ''}>Sons</label>
+      <div><label for="r-vol">Volume : <output id="r-volv" for="r-vol">${settings.volume} %</output></label>
+        <input type="range" id="r-vol" min="0" max="100" step="10" value="${settings.volume}"></div>
+      <fieldset${inGame ? ' disabled' : ''}><legend class="etiquette">Minuteur</legend>
+        ${opts.map(([v, t]) => `<label class="coche"><input type="radio" name="r-timer" value="${v}"${settings.timer === v ? ' checked' : ''}>${t}</label>`).join('')}
+        <p class="note">${inGame ? 'Modifiable entre deux parties.' : 'Allongé ou désactivé : la question suivante attend votre clic, et le record n\'est pas enregistré.'}</p>
+      </fieldset>
+      <label class="coche"><input type="checkbox" id="r-keys"${settings.keys ? ' checked' : ''}>Raccourcis clavier A B C D et 1 à 4 pendant les questions</label>
+    </div>
+    <div class="confirm-actions one"><button class="btn primary" type="button" id="r-close" autofocus>Fermer</button></div>
+  </dialog>`);
+  document.body.append(d);
+  const close = () => { d.close(); d.remove(); hook?.resume?.(); };
+  d.addEventListener('cancel', (e) => { e.preventDefault(); close(); });
+  d.querySelector('#r-close').onclick = close;
+  d.querySelector('#r-sound').onchange = (e) => { settings.sound = e.target.checked; saveSettings(); refreshSound(); beep('ok'); };
+  const vol = d.querySelector('#r-vol');
+  vol.oninput = () => { settings.volume = +vol.value; d.querySelector('#r-volv').textContent = `${vol.value} %`; saveSettings(); };
+  vol.onchange = () => beep('ok');
+  d.querySelectorAll('[name=r-timer]').forEach((r) => r.onchange = () => { settings.timer = r.value; saveSettings(); });
+  d.querySelector('#r-keys').onchange = (e) => { settings.keys = e.target.checked; saveSettings(); };
+  d.showModal();
+  d.querySelector('#r-close').focus();
+}
+settingsBtn.onclick = openSettings;
+settingsBtn.querySelector('svg').outerHTML = ICON_GEAR;
 
 /* ---------- quitter une partie : confirmation (dialog natif, « Continuer » a le focus) ---------- */
 function confirmQuit() {
@@ -216,11 +278,11 @@ function confirmQuit() {
 
 /* bandeau de partie : Retour, paquet, numéro, score ; en multi les jetons, celui du tour agrandi */
 const bandeau = (g, score) => `<div class="hud">
-  <button class="hud-back" type="button" id="quit" aria-label="Quitter la partie">${ICON_BACK}</button>
+  <button class="hud-back" type="button" id="quit">${ICON_BACK}<span class="sr-only">Quitter la partie</span></button>
   <p class="hud-theme">${esc(g.theme.name)}</p>
   ${g.players.length > 1 ? `<ul class="hud-jetons">${g.players.map((o, i) => `<li class="${i === g.pi ? 'tour' : ''}">${jeton(o.name, i, i === g.pi ? '' : 'small')}<span class="sr-only">${esc(o.name)}${i === g.pi ? ', à son tour' : ''}</span></li>`).join('')}</ul>` : ''}
-  <p class="hud-box"><span class="sr-only">Question </span>${g.qi + 1}/${g.qs.length}</p>
-  <p class="hud-box hud-score"><span class="sr-only">Score </span><strong id="sc">${score}</strong></p>
+  <p class="hud-box"><span class="sr-only">Question </span>${g.qi + 1}<span aria-hidden="true">/</span><span class="sr-only"> sur </span>${g.qs.length}</p>
+  <p class="hud-box hud-score"><span class="sr-only">Score : </span><strong id="sc">${score}</strong></p>
 </div>`;
 
 /* ---------- partie (solo = 1 joueur) ---------- */
@@ -229,7 +291,7 @@ function startGame(theme, players) {
     const answers = shuffle(q.a.map((text, i) => ({ text, ok: i === q.c })));
     return { q: q.q, answers };
   });
-  const g = { theme, players: players.map((name) => ({ name, score: 0, good: 0, missed: [], track: [] })), qs, qi: 0, pi: 0 };
+  const g = { time: TIMERS[settings.timer], record: settings.timer === 'normal', theme, players: players.map((name) => ({ name, score: 0, good: 0, missed: [], track: [] })), qs, qi: 0, pi: 0 };
   if (players.length > 1) handover(g); else ask(g);
 }
 
@@ -242,12 +304,12 @@ const pips = (g, p) => `<ol class="pips" aria-hidden="true">${g.qs.map((_, i) =>
 function handover(g) {
   const p = g.players[g.pi];
   const others = g.players.map((o, i) => `<li class="${i === g.pi ? 'moi' : ''}">${jeton(o.name, i, 'small')}<span>${esc(o.name)}</span><strong>${o.score}</strong></li>`).join('');
-  const n = el(`<section class="passe j${g.pi % 4}">
+  const n = el(`<section class="passe j${g.pi % 4}" data-title="Au tour de ${esc(p.name)}">
     <p class="etiquette">${esc(g.theme.name)} · Question ${g.qi + 1}/${g.qs.length}</p>
-    <h2 class="who">${jeton(p.name, g.pi, 'big')}<span>À toi, ${esc(p.name)}</span></h2>
-    <p>Prends le téléphone. Le sablier démarre quand tu appuies sur « Je suis prêt ».</p>
+    <h1 class="who">${jeton(p.name, g.pi, 'big')}<span>À toi, ${esc(p.name)}</span></h1>
+    <p>Prends le téléphone. ${g.time ? 'Le sablier démarre' : 'La question s\'affiche'} quand tu appuies sur « Je suis prêt ».</p>
     <button class="btn primary" type="button" id="go" data-main>Je suis prêt</button>
-    <div class="card scores"><h3 class="etiquette">Scores</h3><ul class="mini">${others}</ul></div>
+    <div class="card scores"><h2 class="etiquette">Scores</h2><ul class="mini">${others}</ul></div>
     <p class="after"><button class="btn court back-btn" type="button" id="quit">${ICON_BACK}Quitter la partie</button></p></section>`);
   show(n);
   n.querySelector('#go').onclick = () => ask(g);
@@ -255,31 +317,34 @@ function handover(g) {
 }
 
 function ask(g) {
-  const q = g.qs[g.qi], p = g.players[g.pi], multi = g.players.length > 1;
-  const n = el(`<section class="manche">
+  const q = g.qs[g.qi], p = g.players[g.pi], multi = g.players.length > 1, T = g.time, auto = g.time === TIME;
+  const n = el(`<section class="manche" data-title="Question ${g.qi + 1} sur ${g.qs.length}">
+    <h1 class="sr-only" id="qmeta">${esc(g.theme.name)}, question ${g.qi + 1} sur ${g.qs.length}${multi ? `, ${esc(p.name)}` : ''}</h1>
     ${bandeau(g, p.score)}
     ${pips(g, p)}
-    <div class="timer"><div class="rail" id="tm" role="progressbar" aria-valuemin="0" aria-valuemax="${TIME}" aria-valuenow="${TIME}" aria-label="Temps restant en secondes"><i></i></div><span class="secs" id="secs" aria-hidden="true"></span><span class="sr-only" id="alerte" aria-live="assertive"></span></div>
-    <div class="qcard">${multi ? `<p class="etiquette">À ${esc(p.name)} de répondre</p>` : ''}<h2 class="question">${esc(q.q)}</h2></div>
-    <div class="answers" role="group" aria-label="Réponses">${q.answers.map((a, i) => `<button class="btn ans a${i}" type="button" data-i="${i}" aria-keyshortcuts="${'ABCD'[i]}"><span class="key">${'ABCD'[i]}</span><span class="ans-txt">${esc(a.text)}</span>${shape(i)}</button>`).join('')}</div>
+    ${T ? `<div class="timer"><div class="rail" id="tm" aria-hidden="true"><i></i></div><span class="secs" id="secs" aria-hidden="true"></span></div>` : ''}
+    <div class="qcard">${multi ? `<p class="etiquette">À ${esc(p.name)} de répondre</p>` : ''}<h2 class="question" id="qtxt" aria-describedby="qmeta">${esc(q.q)}</h2></div>
+    <div class="answers" role="group" aria-labelledby="qtxt">${q.answers.map((a, i) => `<button class="btn ans a${i}" type="button" data-i="${i}" ${settings.keys ? ` aria-keyshortcuts="${'ABCD'[i]}"` : ''}><span class="key" aria-hidden="true">${'ABCD'[i]}</span><span class="ans-txt">${esc(a.text)}</span>${shape(i)}</button>`).join('')}</div>
     <div class="suite">
-      <p class="fb" id="fb" role="status"></p>
+      <p class="fb" id="fb"></p>
       <button class="btn primary court" type="button" id="next" data-main hidden></button>
     </div>
-    <p class="astuce">Clavier : <kbd>A</kbd> <kbd>B</kbd> <kbd>C</kbd> <kbd>D</kbd> ou <kbd>1</kbd> à <kbd>4</kbd></p>
+    ${settings.keys ? '<p class="astuce">Clavier : <kbd>A</kbd> <kbd>B</kbd> <kbd>C</kbd> <kbd>D</kbd> ou <kbd>1</kbd> à <kbd>4</kbd></p>' : ''}
   </section>`);
   show(n, '.question');
   n.querySelector('#quit').onclick = confirmQuit; backAction = confirmQuit;
   const btns = [...n.querySelectorAll('[data-i]')];
-  const bar = n.querySelector('#tm'), fill = bar.firstElementChild, secs = n.querySelector('#secs'), fb = n.querySelector('#fb'), nextBtn = n.querySelector('#next'), sc = n.querySelector('#sc');
-  let t0 = performance.now(), done = false, lastNow = TIME, warned = false;
+  const bar = n.querySelector('#tm'), fill = bar?.firstElementChild, secs = n.querySelector('#secs'), fb = n.querySelector('#fb'), nextBtn = n.querySelector('#next'), sc = n.querySelector('#sc');
+  let t0 = performance.now(), done = false;
+  // annonces du temps restant par paliers (jamais chaque seconde)
+  const marks = T > TIME ? [20, 10, 5] : T ? [10, 5] : [];
 
   const finish = (idx) => {
     if (done) return; done = true;
     stop();
-    const left = Math.max(0, TIME - (performance.now() - t0) / 1000);
+    const left = T ? Math.max(0, T - (performance.now() - t0) / 1000) : 0;
     const right = idx >= 0 && q.answers[idx].ok;
-    const gain = right ? BASE + Math.round(BONUS * left / TIME) : 0;
+    const gain = right ? BASE + (T ? Math.round(BONUS * left / T) : 0) : 0;
     const before = p.score;
     p.score += gain; p.track[g.qi] = right;
     if (right) p.good++; else p.missed.push({ q: q.q, a: q.answers.find((x) => x.ok).text, timeout: idx < 0 });
@@ -299,47 +364,49 @@ function ask(g) {
       fb.innerHTML = right ? `${ICON_OK}<span>Juste, <strong class="gain">+${gain}</strong> points</span>`
         : `${ICON_KO}<span>${idx < 0 ? 'Temps écoulé' : 'Faux'}, la bonne réponse était <strong>${esc(good)}</strong></span>`;
       beep(right ? 'ok' : 'ko');
+      say(right ? `Juste. Plus ${gain} points. Score : ${p.score}.` : `${idx < 0 ? 'Temps écoulé' : 'Faux'}. La bonne réponse était : ${good}. Score : ${p.score}.`);
     } else {
       sc.textContent = p.score;
       fb.className = 'fb neutre';
       fb.textContent = idx < 0 ? 'Temps écoulé. Réponse enregistrée.' : 'Réponse enregistrée. La bonne réponse sera révélée au dernier joueur.';
+      say(fb.textContent);
     }
     const last = g.pi === g.players.length - 1 && g.qi === g.qs.length - 1;
     nextBtn.textContent = last ? 'Voir les résultats' : multi ? 'Joueur suivant' : 'Question suivante'; nextBtn.hidden = false; nextBtn.focus({ preventScroll: true });
     const go = () => leave(n, () => { if (++g.pi >= g.players.length) { g.pi = 0; g.qi++; } g.qi >= g.qs.length ? results(g) : multi ? handover(g) : ask(g); });
     nextBtn.onclick = go;
-    // solo : on enchaîne seul après 2 s, « Question suivante » permet d'accélérer
-    if (!multi && !last) advanceId = setTimeout(go, AUTO_NEXT_MS);
+    // solo, minuteur normal : on enchaîne seul après 3 s, « Question suivante » permet d'accélérer (sinon on attend le clic : temps réglable, WCAG 2.2.1)
+    if (!multi && !last && auto) advanceId = setTimeout(go, AUTO_NEXT_MS);
     // le Retour reste possible pendant le retour de réponse : la pause suspend l'enchaînement automatique
-    quitHook = { pause: () => clearTimeout(advanceId), resume: () => { if (!multi && !last) advanceId = setTimeout(go, AUTO_NEXT_MS); } };
+    quitHook = { pause: () => clearTimeout(advanceId), resume: () => { if (!multi && !last && auto) advanceId = setTimeout(go, AUTO_NEXT_MS); } };
   };
   const onKey = (e) => {
-    if (e.ctrlKey || e.metaKey || e.altKey || done || document.querySelector('dialog[open]')) return;
+    if (!settings.keys || e.ctrlKey || e.metaKey || e.altKey || done || document.querySelector('dialog[open]')) return;
     const i = { a: 0, b: 1, c: 2, d: 3, 1: 0, 2: 1, 3: 2, 4: 3 }[e.key.toLowerCase()];
     if (i !== undefined) finish(i);
   };
   keyHandler = onKey; document.addEventListener('keydown', onKey);
   btns.forEach((b, i) => b.onclick = () => finish(i));
   const tick = () => {
-    const left = TIME - (performance.now() - t0) / 1000, now = Math.ceil(Math.max(0, left));
+    const left = T - (performance.now() - t0) / 1000, now = Math.ceil(Math.max(0, left));
     // mouvement réduit : le sablier se vide par paliers d'une seconde
-    fill.style.width = (reduced.matches ? now : Math.max(0, left)) / TIME * 100 + '%';
+    fill.style.width = (reduced.matches ? now : Math.max(0, left)) / T * 100 + '%';
     bar.classList.toggle('urgent', left <= 5);
     secs.textContent = left <= 5 ? now : '';
-    if (now !== lastNow) { lastNow = now; bar.setAttribute('aria-valuenow', now); }
-    if (left <= 5 && !warned) { warned = true; n.querySelector('#alerte').textContent = '5 secondes'; }
+    while (marks.length && left <= marks[0]) { const m = marks.shift(); if (!marks.length || left > marks[0]) say(`${m} secondes restantes`); }
     if (left <= 0) finish(-1);
   };
-  timerId = setInterval(tick, 100);
+  if (T) timerId = setInterval(tick, 100);
   // pendant la confirmation « Quitter ? », le sablier est en pause
   let pausedAt = 0;
   quitHook = {
     pause: () => { clearInterval(timerId); pausedAt = performance.now(); },
-    resume: () => { if (done) return; t0 += performance.now() - pausedAt; timerId = setInterval(tick, 100); },
+    resume: () => { if (done || !T) return; t0 += performance.now() - pausedAt; timerId = setInterval(tick, 100); },
   };
 }
 
 /* ---------- fin de partie ---------- */
+const winners0 = (g) => { const r = g.players.slice().sort((a, b) => b.score - a.score || b.good - a.good), w = r.filter((p) => p.score === r[0].score && p.good === r[0].good); return w.length > 1 ? `Partie terminée. Égalité : ${w.map((p) => p.name).join(' et ')}.` : `Partie terminée. ${r[0].name} gagne avec ${r[0].score} points.`; };
 const bilan = (good, total) => good === total ? 'Sans faute. Chapeau !'
   : good >= total * 0.8 ? 'Excellent, il s\'en est fallu de peu.'
   : good >= total * 0.5 ? 'Bien joué, la moyenne est largement passée.'
@@ -351,13 +418,13 @@ function results(g) {
   const multi = g.players.length > 1;
   let body;
   if (!multi) {
-    const p = g.players[0], isNew = saveBest(g.theme.id, p.score), best = loadBest()[g.theme.id];
+    const p = g.players[0], isNew = g.record && saveBest(g.theme.id, p.score), best = loadBest()[g.theme.id];
     body = `<div class="fin-a"><p class="etiquette">${esc(g.theme.name)} · Résultats</p>
-      <h2 class="score-geant"><span id="final">${p.score}</span> <span class="unit">pts</span></h2>
+      <h1 class="score-geant"><span class="sr-only">Score : </span><span id="final">${p.score}</span> <span class="unit">pts</span></h1>
       <p class="bilan">${bilan(p.good, g.qs.length)}</p>
       <p>${plural(p.good, 'bonne réponse')} sur ${g.qs.length}.</p>
-      <p class="record ${isNew && p.score > 0 ? 'nouveau' : ''}">${isNew && p.score > 0 ? `${shape(3)}<span>Nouveau record !</span>` : `<span>Record : <strong>${best || 0} pts</strong></span>`}</p></div>
-      ${p.missed.length ? `<div class="fin-b"><h3 class="etiquette">À retenir</h3><ul class="missed">${p.missed.map((m) => `<li><span>${esc(m.q)}</span><strong>${esc(m.a)}</strong></li>`).join('')}</ul></div>` : ''}`;
+      <p class="record ${isNew && p.score > 0 ? 'nouveau' : ''}">${isNew && p.score > 0 ? `${shape(3)}<span>Nouveau record !</span>` : `<span>Record : <strong>${best || 0} pts</strong>${g.record ? '' : ' (non modifié : minuteur réglé hors du mode normal)'}</span>`}</p></div>
+      ${p.missed.length ? `<div class="fin-b"><h2 class="etiquette">À retenir</h2><ul class="missed">${p.missed.map((m) => `<li><span>${esc(m.q)}</span><strong>${esc(m.a)}</strong></li>`).join('')}</ul></div>` : ''}`;
   } else {
     const rank = g.players.slice().sort((a, b) => b.score - a.score || b.good - a.good);
     const top = rank[0], max = Math.max(1, top.score);
@@ -365,9 +432,9 @@ function results(g) {
     // rang « compétition » : les ex aequo partagent la même place
     const place = (p) => rank.findIndex((o) => o.score === p.score && o.good === p.good) + 1;
     body = `<div class="fin-a"><p class="etiquette">${esc(g.theme.name)} · Résultats</p>
-      <h2>${winners.length > 1 ? 'Égalité !' : esc(top.name) + ' gagne !'}</h2>
+      <h1>${winners.length > 1 ? 'Égalité !' : esc(top.name) + ' gagne !'}</h1>
       <p class="bilan">${winners.length > 1 ? winners.map((p) => esc(p.name)).join(' et ') + ' finissent ex aequo.' : `${plural(top.good, 'bonne réponse')} sur ${g.qs.length}, bravo.`}</p>
-      <ol class="podium">${rank.map((p) => {
+      <ol class="podium" aria-hidden="true">${rank.map((p) => {
         const i = g.players.indexOf(p), h = 12 + Math.round(88 * p.score / max), r = place(p);
         return `<li class="${r === 1 ? 'win' : ''}">
           <span class="colonne"><span class="pile j${i % 4}" data-h="${h}">${jeton(p.name, i)}</span></span>
@@ -377,9 +444,10 @@ function results(g) {
       <div class="fin-b"><table class="detail"><caption class="sr-only">Détail des scores</caption><thead><tr><th scope="col">Place</th><th scope="col">Joueur</th><th scope="col">Justes</th><th scope="col">Points</th></tr></thead>
       <tbody>${rank.map((p) => `<tr><td>${place(p)}</td><td>${esc(p.name)}</td><td>${p.good}/${g.qs.length}</td><td>${p.score}</td></tr>`).join('')}</tbody></table></div>`;
   }
-  const n = el(`<section class="card fin"><div class="fin-grid">${body}</div><div class="stack after fin-actions"><button class="btn primary" type="button" id="again" data-main>Rejouer</button><button class="btn" type="button" id="menu">Changer de thème</button><button class="btn" type="button" id="accueil">Accueil</button></div></section>`);
-  show(n, 'h2');
+  const n = el(`<section class="card fin" data-title="Résultats"><div class="fin-grid">${body}</div><div class="stack after fin-actions"><button class="btn primary" type="button" id="again" data-main>Rejouer</button><button class="btn" type="button" id="menu">Changer de thème</button><button class="btn" type="button" id="accueil">Accueil</button></div></section>`);
+  show(n, 'h1');
   backAction = home;
+  say(multi ? (winners0(g)) : `Partie terminée. Score : ${g.players[0].score} points, ${plural(g.players[0].good, 'bonne réponse')} sur ${g.qs.length}.`);
   if (!multi) countUp(n.querySelector('#final'), 0, g.players[0].score, 700);
   // hauteur des colonnes via CSSOM (la CSP interdit les attributs style inline)
   n.querySelectorAll('.pile').forEach((s) => { s.style.height = s.dataset.h + '%'; });
@@ -410,5 +478,5 @@ refreshSound();
 fetch('data/questions.json')
   .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
   .then((d) => { themes = validThemes(d); if (!themes.length) throw new Error('data'); home(); })
-  .catch(() => show(el('<section class="card"><h2>Impossible de charger les questions</h2><p>Lancez le jeu depuis un serveur web (voir le README), pas en ouvrant le fichier directement.</p></section>')));
+  .catch(() => show(el('<section class="card" data-title="Erreur de chargement"><h1>Impossible de charger les questions</h1><p>Lancez le jeu depuis un serveur web (voir le README), pas en ouvrant le fichier directement.</p></section>')));
 })();
