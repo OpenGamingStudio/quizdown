@@ -9,6 +9,7 @@ RUN npm run build
 FROM nginx:1.27-alpine
 COPY security-headers.conf /etc/nginx/snippets/security-headers.conf
 COPY nginx.conf /etc/nginx/conf.d/default.conf
-COPY index.html app.js /usr/share/nginx/html/
+COPY index.html app.js favicon.svg favicon.ico apple-touch-icon.png icon-192.png icon-512.png /usr/share/nginx/html/
 COPY data/ /usr/share/nginx/html/data/
+COPY fonts/ /usr/share/nginx/html/fonts/
 COPY --from=css /build/style.css /usr/share/nginx/html/style.css
