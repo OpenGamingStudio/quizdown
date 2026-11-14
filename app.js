@@ -10,6 +10,8 @@ let themes = [];
 let timerId = null, advanceId = null, keyHandler = null;
 // Échap : action « Retour » de l'écran courant ; quitHook = partie en cours (pause / reprise pendant la confirmation)
 let backAction = null, quitHook = null;
+// sortie de carte en cours : les Réglages restent fermés
+let leaving = false;
 
 /* ---------- utilitaires ---------- */
 const el = (html) => { const t = document.createElement('template'); t.innerHTML = html.trim(); return t.content.firstElementChild; };
@@ -52,6 +54,7 @@ function show(node, focusSel, title) {
   liveBox.textContent = '';
   document.title = `${title || node.dataset.title || 'Jeu de quiz'} · QuizDown`;
   backAction = null; quitHook = null;
+  leaving = false;
   app.replaceChildren(node);
   const f = (focusSel && node.querySelector(focusSel)) || node.querySelector('h1,h2');
   // premier affichage : le focus reste au début de la page (lien d'évitement, en-tête) ; ensuite il suit chaque changement d'écran
@@ -63,6 +66,7 @@ function show(node, focusSel, title) {
 /* la carte sort par la gauche avant l'écran suivant (même axe que l'entrée) */
 function leave(node, next) {
   stop();
+  leaving = true;
   // pendant la sortie, ni Échap ni pause : rien ne doit annuler le minuteur qui affiche l'écran suivant
   backAction = null; quitHook = null;
   if (reduced.matches) return next();
@@ -145,7 +149,7 @@ function home() {
       <h2 class="etiquette">Comment jouer</h2>
       <ol class="etapes">
         <li>${shape(0, 'shape puce p0')}<span>Choisissez un paquet de questions.</span></li>
-        <li>${shape(1, 'shape puce p1')}<span>Touchez la bonne réponse${settings.timer === 'off' ? '' : ' avant la fin du sablier'}. Au clavier : <kbd>A</kbd> <kbd>B</kbd> <kbd>C</kbd> <kbd>D</kbd>.</span></li>
+        <li>${shape(1, 'shape puce p1')}<span>Touchez la bonne réponse${settings.timer === 'off' ? '' : ' avant la fin du sablier'}. ${settings.keys ? ' Au clavier : <kbd>A</kbd> <kbd>B</kbd> <kbd>C</kbd> <kbd>D</kbd>.' : ''}</span></li>
         <li>${shape(2, 'shape puce p2')}<span>Juste = ${BASE} points, plus jusqu'à ${BONUS} de bonus si vous êtes rapide.</span></li>
       </ol>
     </div>
@@ -222,7 +226,7 @@ function setupMulti(theme, prev = []) {
 /* ---------- réglages : dialog natif (Échap ferme, le focus revient au bouton), minuteur en pause pendant l'ouverture ---------- */
 const ICON_GEAR = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3.2"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M18.7 5.3l-2.1 2.1M7.4 16.6l-2.1 2.1"/></svg>';
 function openSettings() {
-  if (document.querySelector('dialog[open]')) return;
+  if (leaving || document.querySelector('dialog[open]')) return;
   const hook = quitHook;
   hook?.pause?.();
   const inGame = !!app.querySelector('.manche, .passe');
@@ -242,7 +246,12 @@ function openSettings() {
     <div class="confirm-actions one"><button class="btn primary" type="button" id="r-close" autofocus>Fermer</button></div>
   </dialog>`);
   document.body.append(d);
-  const close = () => { d.close(); d.remove(); hook?.resume?.(); };
+  const onHome = !!app.querySelector('.accueil');
+  const close = () => {
+    d.close(); d.remove(); hook?.resume?.();
+    // accueil : le texte dépend des réglages (minuteur, raccourcis), on le redessine puis le focus revient au bouton
+    if (onHome && app.querySelector('.accueil') && !leaving) { home(); settingsBtn.focus({ preventScroll: true }); }
+  };
   d.addEventListener('cancel', (e) => { e.preventDefault(); close(); });
   d.querySelector('#r-close').onclick = close;
   d.querySelector('#r-sound').onchange = (e) => { settings.sound = e.target.checked; saveSettings(); refreshSound(); beep('ok'); };
@@ -381,7 +390,7 @@ function ask(g) {
     quitHook = { pause: () => clearTimeout(advanceId), resume: () => { if (!multi && !last && auto) advanceId = setTimeout(go, AUTO_NEXT_MS); } };
   };
   const onKey = (e) => {
-    if (!settings.keys || e.ctrlKey || e.metaKey || e.altKey || done || document.querySelector('dialog[open]')) return;
+    if (!settings.keys || leaving || e.repeat || e.target.closest?.('input,textarea,select') || e.ctrlKey || e.metaKey || e.altKey || done || document.querySelector('dialog[open]')) return;
     const i = { a: 0, b: 1, c: 2, d: 3, 1: 0, 2: 1, 3: 2, 4: 3 }[e.key.toLowerCase()];
     if (i !== undefined) finish(i);
   };
