@@ -232,8 +232,18 @@
   .fin-b { @apply mt-6 lg:mt-0; }
   .fin-actions { @apply min-[720px]:flex-row; }
   .missed { @apply mt-3 mb-0 flex list-none flex-col gap-3 p-0; }
-  .missed li { @apply flex flex-col gap-0.5 border-l-6 border-sarcelle pl-3; }
+  .missed li { @apply flex flex-col gap-1.5 border-l-6 border-brique pl-3; }
+  .missed .mq { @apply font-bold; }
+  .missed .mine, .missed .good { @apply flex items-start gap-2 text-[1rem]; }
+  .missed .mine svg, .missed .good svg { @apply mt-1 size-4 shrink-0; }
+  .missed .mine { @apply text-brique; }
+  .missed .good { @apply text-sarcelle; }
+  .missed .lbl { @apply text-[.875rem] font-semibold tracking-[.06em] uppercase; }
   .missed strong { @apply text-[1.125rem]; }
+  .recap-titre { @apply mt-6 mb-3; }
+  .joueur-ratees { @apply mb-3 rounded-[10px] border-3 border-encre bg-carte p-3; }
+  .joueur-ratees summary { @apply flex min-h-11 cursor-pointer items-center gap-2 font-semibold; }
+  .joueur-ratees .missed { @apply mt-3; }
 
   /* classement multijoueur : une colonne de jetons empilés, sa hauteur suit le score */
   .podium { @apply mt-6 grid list-none auto-cols-fr grid-flow-col items-end gap-2 p-0 sm:gap-4; }
