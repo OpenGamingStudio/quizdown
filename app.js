@@ -19,7 +19,7 @@ const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;'
 const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const stop = () => { clearInterval(timerId); clearTimeout(advanceId); if (keyHandler) { document.removeEventListener('keydown', keyHandler); keyHandler = null; } };
 const reduced = matchMedia('(prefers-reduced-motion: reduce)');
-const plural = (n, word) => `${n} ${word}${n > 1 ? 's' : ''}`;
+const plural = (n, label) => `${n} ${n > 1 ? label.split(' ').map((w) => w + 's').join(' ') : label}`;
 /* formes pleines A carré, B rond, C triangle, D losange (lettre + forme + couleur : jamais la couleur seule) */
 const SHAPES = ['<rect x="3" y="3" width="18" height="18" rx="2"/>', '<circle cx="12" cy="12" r="10"/>', '<path d="M12 2 23 21H1z"/>', '<path d="M12 1 23 12 12 23 1 12z"/>'];
 const shape = (i, cls = 'shape') => `<svg class="${cls}" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">${SHAPES[i % 4]}</svg>`;
@@ -356,7 +356,7 @@ function ask(g) {
     const gain = right ? BASE + (T ? Math.round(BONUS * left / T) : 0) : 0;
     const before = p.score;
     p.score += gain; p.track[g.qi] = right;
-    if (right) p.good++; else p.missed.push({ q: q.q, a: q.answers.find((x) => x.ok).text, timeout: idx < 0 });
+    if (right) p.good++; else p.missed.push({ q: q.q, a: q.answers.find((x) => x.ok).text, mine: idx < 0 ? null : q.answers[idx].text });
     btns.forEach((b) => { b.disabled = true; });
     if (idx >= 0) btns[idx].classList.add('choisi');
     const pip = n.querySelectorAll('.pips li')[g.qi];
@@ -422,6 +422,11 @@ const bilan = (good, total) => good === total ? 'Sans faute. Chapeau !'
   : good > 0 ? 'Ce paquet se défend. Une revanche ?'
   : 'Ce paquet résiste. On retente ?';
 
+/* récap des questions ratées : la question, la réponse donnée (ou « temps écoulé ») et la bonne réponse */
+const recap = (missed, title = '') => `${title ? `<h2 class="etiquette">${title}</h2>` : ''}<ol class="missed">${missed.map((m) => `<li><span class="mq">${esc(m.q)}</span>
+  <span class="mine">${ICON_KO}<span><span class="lbl">${m.mine === null ? 'Temps écoulé' : 'Votre réponse'}</span>${m.mine === null ? '' : ` <s>${esc(m.mine)}</s>`}</span></span>
+  <span class="good">${ICON_OK}<span><span class="lbl">Bonne réponse</span> <strong>${esc(m.a)}</strong></span></span></li>`).join('')}</ol>`;
+
 function results(g) {
   beep('end');
   const multi = g.players.length > 1;
@@ -433,7 +438,7 @@ function results(g) {
       <p class="bilan">${bilan(p.good, g.qs.length)}</p>
       <p>${plural(p.good, 'bonne réponse')} sur ${g.qs.length}.</p>
       <p class="record ${isNew && p.score > 0 ? 'nouveau' : ''}">${isNew && p.score > 0 ? `${shape(3)}<span>Nouveau record !</span>` : `<span>Record : <strong>${best || 0} pts</strong>${g.record ? '' : ' (non modifié : minuteur réglé hors du mode normal)'}</span>`}</p></div>
-      ${p.missed.length ? `<div class="fin-b"><h2 class="etiquette">À retenir</h2><ul class="missed">${p.missed.map((m) => `<li><span>${esc(m.q)}</span><strong>${esc(m.a)}</strong></li>`).join('')}</ul></div>` : ''}`;
+      ${p.missed.length ? `<div class="fin-b">${recap(p.missed, `À retenir : ${plural(p.missed.length, 'question ratée')}`)}</div>` : ''}`;
   } else {
     const rank = g.players.slice().sort((a, b) => b.score - a.score || b.good - a.good);
     const top = rank[0], max = Math.max(1, top.score);
@@ -451,7 +456,8 @@ function results(g) {
           <span class="podium-score">${p.score} pts</span><span class="podium-good">${p.good}/${g.qs.length}</span></li>`;
       }).join('')}</ol></div>
       <div class="fin-b"><table class="detail"><caption class="sr-only">Détail des scores</caption><thead><tr><th scope="col">Place</th><th scope="col">Joueur</th><th scope="col">Justes</th><th scope="col">Points</th></tr></thead>
-      <tbody>${rank.map((p) => `<tr><td>${place(p)}</td><td>${esc(p.name)}</td><td>${p.good}/${g.qs.length}</td><td>${p.score}</td></tr>`).join('')}</tbody></table></div>`;
+      <tbody>${rank.map((p) => `<tr><td>${place(p)}</td><td>${esc(p.name)}</td><td>${p.good}/${g.qs.length}</td><td>${p.score}</td></tr>`).join('')}</tbody></table>
+      ${rank.some((p) => p.missed.length) ? `<h2 class="etiquette recap-titre">À retenir</h2>${rank.filter((p) => p.missed.length).map((p) => `<details class="joueur-ratees"><summary>${jeton(p.name, g.players.indexOf(p), 'small')}<span>${esc(p.name)} : ${plural(p.missed.length, 'question ratée')}</span></summary>${recap(p.missed)}</details>`).join('')}` : ''}</div>`;
   }
   const n = el(`<section class="card fin" data-title="Résultats"><div class="fin-grid">${body}</div><div class="stack after fin-actions"><button class="btn primary" type="button" id="again" data-main>Rejouer</button><button class="btn" type="button" id="menu">Changer de thème</button><button class="btn" type="button" id="accueil">Accueil</button></div></section>`);
   show(n, 'h1');
