@@ -211,9 +211,13 @@
   .verdict svg { @apply size-4; }
   .suite { @apply mt-5 flex min-h-14 flex-col items-stretch gap-3 min-[560px]:flex-row min-[560px]:items-center min-[560px]:justify-between; }
   .fb { @apply m-0 flex items-center gap-2 text-[1.25rem] leading-[1.25] font-bold empty:hidden; }
-  .fb svg { @apply size-8 shrink-0 rounded-full border-3 border-encre p-1; }
-  .fb.juste svg { @apply bg-sarcelle text-carte; }
-  .fb.faux svg { @apply bg-brique text-carte; }
+  .fb svg { @apply size-8 shrink-0 rounded-full border-3 border-encre bg-carte p-1; }
+  /* retour net : bandeau plein, vert (juste) ou rouge (faux), en plus de l'icône et du texte */
+  .fb.juste, .fb.faux { @apply rounded-[10px] border-3 border-encre px-3 py-2 text-carte shadow-dure motion-safe:animate-bond; }
+  .fb.juste { @apply bg-sarcelle; }
+  .fb.faux { @apply bg-brique; }
+  .fb.juste svg { @apply text-sarcelle; }
+  .fb.faux svg { @apply text-brique; }
   .fb.neutre { @apply text-[1.0625rem] font-semibold; }
   .fb.temps { @apply rounded-[10px] border-3 border-encre bg-miel px-3 py-2; }
   .fb.temps svg { @apply bg-encre text-miel; }
