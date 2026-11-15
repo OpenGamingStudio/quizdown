@@ -89,7 +89,7 @@ function countUp(out, from, to, ms = 400) {
 /* ---------- réglages (persistés) : son, volume, minuteur, raccourcis clavier ---------- */
 const SKEY = 'quizdown.settings.v1';
 const TIMERS = { normal: TIME, long: TIME * 2, off: 0 };
-const settings = { sound: true, volume: 80, timer: 'normal', keys: true };
+const settings = { sound: true, volume: 80, timer: 'normal', keys: true, vibrate: true };
 try {
   const raw = JSON.parse(localStorage.getItem(SKEY));
   if (raw && typeof raw === 'object') {
@@ -97,6 +97,7 @@ try {
     if (Number.isFinite(raw.volume)) settings.volume = Math.min(100, Math.max(0, Math.round(raw.volume / 10) * 10));
     if (raw.timer in TIMERS) settings.timer = raw.timer;
     if (typeof raw.keys === 'boolean') settings.keys = raw.keys;
+    if (typeof raw.vibrate === 'boolean') settings.vibrate = raw.vibrate;
   } else if (localStorage.getItem('quizdown.sound') === 'off') settings.sound = false;
 } catch {}
 const saveSettings = () => { try { localStorage.setItem(SKEY, JSON.stringify(settings)); } catch {} };
@@ -108,7 +109,6 @@ function refreshSound() {
 soundBtn.onclick = () => { settings.sound = !settings.sound; saveSettings(); refreshSound(); beep('ok'); };
 function beep(kind) {
   if (!settings.sound || !settings.volume) return;
-  try { if (kind === 'ko' && navigator.vibrate && !reduced.matches) navigator.vibrate([40, 40, 40]); } catch {}
   try {
     ctx = ctx || new (window.AudioContext || window.webkitAudioContext)();
     const notes = { ok: [660, 880], ko: [220, 160], end: [523, 659, 784] }[kind];
@@ -120,6 +120,13 @@ function beep(kind) {
       o.connect(g); g.connect(ctx.destination); o.start(t); o.stop(t + 0.2);
     });
   } catch {}
+}
+/* vibration courte sur mobile : désactivable dans les Réglages, jamais en mouvement réduit */
+const CAN_VIBRATE = typeof navigator.vibrate === 'function';
+const PULSES = { ok: [25], ko: [40, 40, 40], temps: [90] };
+function buzz(kind) {
+  if (!CAN_VIBRATE || !settings.vibrate || reduced.matches) return;
+  try { navigator.vibrate(PULSES[kind]); } catch {}
 }
 const timeText = (t) => t ? `${t} secondes chacune` : 'sans minuteur';
 
@@ -241,6 +248,7 @@ function openSettings() {
         ${opts.map(([v, t]) => `<label class="coche"><input type="radio" name="r-timer" value="${v}"${settings.timer === v ? ' checked' : ''}>${t}</label>`).join('')}
         <p class="note">${inGame ? 'Modifiable entre deux parties.' : 'Allongé ou désactivé : la question suivante attend votre clic, et le record n\'est pas enregistré.'}</p>
       </fieldset>
+      ${CAN_VIBRATE ? `<label class="coche"><input type="checkbox" id="r-vib"${settings.vibrate ? ' checked' : ''}>Vibration courte à chaque réponse</label>` : ''}
       <label class="coche"><input type="checkbox" id="r-keys"${settings.keys ? ' checked' : ''}>Raccourcis clavier A B C D et 1 à 4 pendant les questions</label>
     </div>
     <div class="confirm-actions one"><button class="btn primary" type="button" id="r-close" autofocus>Fermer</button></div>
@@ -259,6 +267,7 @@ function openSettings() {
   vol.oninput = () => { settings.volume = +vol.value; d.querySelector('#r-volv').textContent = `${vol.value} %`; saveSettings(); };
   vol.onchange = () => beep('ok');
   d.querySelectorAll('[name=r-timer]').forEach((r) => r.onchange = () => { settings.timer = r.value; saveSettings(); });
+  d.querySelector('#r-vib')?.addEventListener('change', (e) => { settings.vibrate = e.target.checked; saveSettings(); buzz('ok'); });
   d.querySelector('#r-keys').onchange = (e) => { settings.keys = e.target.checked; saveSettings(); };
   d.showModal();
   d.querySelector('#r-close').focus();
@@ -373,6 +382,7 @@ function ask(g) {
       fb.innerHTML = right ? `${ICON_OK}<span>Juste, <strong class="gain">+${gain}</strong> points</span>`
         : `${ICON_KO}<span>${idx < 0 ? 'Temps écoulé' : 'Faux'}, la bonne réponse était <strong>${esc(good)}</strong></span>`;
       beep(right ? 'ok' : 'ko');
+      buzz(right ? 'ok' : idx < 0 ? 'temps' : 'ko');
       say(right ? `Juste. Plus ${gain} points. Score : ${p.score}.` : `${idx < 0 ? 'Temps écoulé' : 'Faux'}. La bonne réponse était : ${good}. Score : ${p.score}.`);
     } else {
       sc.textContent = p.score;
