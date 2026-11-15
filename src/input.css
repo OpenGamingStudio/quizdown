@@ -35,13 +35,15 @@
 @layer base {
   [hidden] { display: none !important; }
   html { -webkit-text-size-adjust: 100%; }
+  /* encoche, îlot et barre d'accueil : le contenu reste dans la zone sûre (viewport-fit=cover) */
+  body { padding-top: env(safe-area-inset-top); padding-left: env(safe-area-inset-left); padding-right: env(safe-area-inset-right); }
   body { @apply m-0 flex min-h-screen flex-col bg-tomate font-sans text-[1.0625rem] leading-normal text-encre; }
   main { @apply mx-auto w-full max-w-140 flex-1 overflow-x-clip px-3 pt-2 pb-10 outline-none min-[480px]:px-4 min-[720px]:max-w-180 lg:max-w-240 lg:px-6; }
   h1, h2, h3 { @apply mt-0; }
   h1, h2 { @apply mb-3 leading-[1.05] font-bold tracking-[-0.02em]; }
   h1:not(.logo):not(.sr-only):not(.score-geant):not(.who), h2 { font-size: clamp(1.75rem, 6vw, 2.5rem); }
   p { @apply mb-4; }
-  button { @apply cursor-pointer font-[inherit]; }
+  button { @apply cursor-pointer font-[inherit]; touch-action: manipulation; }
   svg { @apply shrink-0; }
   table { @apply my-4 mb-6 w-full border-collapse tabular-nums; }
   th, td { @apply border-b-3 border-encre px-2 py-2.5 text-left align-middle; }
@@ -65,7 +67,7 @@
   .sound[data-on=true] .off, .sound[data-on=false] .on { @apply hidden; }
   .tools { @apply flex flex-wrap items-center justify-end gap-2; }
   .skip { @apply absolute top-0 left-3 z-50 -translate-y-full rounded-b-[10px] border-3 border-encre bg-carte px-4 py-3 font-bold text-encre underline focus:translate-y-0; }
-  .foot { @apply px-5 py-5 text-center text-[.9375rem] font-medium; }
+  .foot { @apply px-5 pt-5 pb-[calc(1.25rem+env(safe-area-inset-bottom))] text-center text-[.9375rem] font-medium; }
   .foot a { @apply inline-flex min-h-11 items-center font-bold underline decoration-2 underline-offset-3; color: inherit; }
 
   /* typographie : étiquettes (thème, numéro de question) en capitales 600 */
