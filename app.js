@@ -19,7 +19,7 @@ const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;'
 const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const stop = () => { clearInterval(timerId); clearTimeout(advanceId); if (keyHandler) { document.removeEventListener('keydown', keyHandler); keyHandler = null; } };
 const reduced = matchMedia('(prefers-reduced-motion: reduce)');
-const plural = (n, word) => `${n} ${word}${n > 1 ? 's' : ''}`;
+const plural = (n, label) => `${n} ${n > 1 ? label.split(' ').map((w) => w + 's').join(' ') : label}`;
 /* formes pleines A carré, B rond, C triangle, D losange (lettre + forme + couleur : jamais la couleur seule) */
 const SHAPES = ['<rect x="3" y="3" width="18" height="18" rx="2"/>', '<circle cx="12" cy="12" r="10"/>', '<path d="M12 2 23 21H1z"/>', '<path d="M12 1 23 12 12 23 1 12z"/>'];
 const shape = (i, cls = 'shape') => `<svg class="${cls}" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">${SHAPES[i % 4]}</svg>`;
