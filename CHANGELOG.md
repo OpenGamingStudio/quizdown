@@ -2,6 +2,9 @@
 
 Versionnage semver x.y.z ; la version s'affiche dans le jeu (Réglages).
 
+## 2.4.0 - Serveur multijoueur (en ligne, privé)
+- Serveur WebSocket autoritaire (rooms privées en mémoire, codes de 5 caractères, 8 joueurs max, limites et rate limit par IP, reconnexion), derrière nginx (`/ws`) dans la même image (port 80). Protocole : `docs/MULTIJOUEUR.md`. Tests vitest du serveur. Pas encore d'écran dans le jeu (version 3.0.0).
+
 ## 2.3.0 - Réglages de la partie
 - Écran de réglages avant chaque partie (solo et à plusieurs sur un téléphone) : un ou plusieurs thèmes, niveaux (CP à Terminale, groupes primaire/collège/lycée), 5/10/15/20/30 questions ou un nombre libre, temps par question ; réglages mémorisés.
 - Tirage équitable entre thèmes x niveaux, sans doublon ; banque chargée à la demande (un fichier par thème x niveau).
