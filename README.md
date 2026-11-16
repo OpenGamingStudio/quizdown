@@ -15,7 +15,7 @@ Issues and pull requests are welcome. Contributions are checked (consistency, re
 
 ## Jouer / Play
 
-Le jeu est statique (HTML/JS) ; le style est écrit avec [Tailwind CSS](https://tailwindcss.com) v4 (source : `src/input.css`) et compilé dans `style.css`, qui est versionné : le déploiement statique n'a donc rien à construire. Il faut servir le dossier par HTTP, car le jeu charge `data/questions.json` :
+Le jeu est statique (HTML/JS) ; le style est écrit avec [Tailwind CSS](https://tailwindcss.com) v4 (source : `src/input.css`) et compilé dans `style.css`, qui est versionné : le déploiement statique n'a donc rien à construire. Il faut servir le dossier par HTTP, car le jeu charge `data/index.json` et `data/bank/` :
 
 ```sh
 python3 -m http.server 8000   # puis ouvrir http://localhost:8000
@@ -47,15 +47,12 @@ docker run --rm -p 8080:80 quizdown   # puis curl -sI http://localhost:8080
 
 ## Ajouter des questions / Add questions
 
-Tout est dans `data/questions.json` :
+Un fichier par thème x niveau : `data/bank/<theme>/<niveau>.json` (voir `docs/BANQUE.md`), puis `node scripts/build-index.mjs` pour régénérer `data/index.json`, et `npm test` pour valider la banque.
 
 ```json
-{"themes": [{"id": "geographie", "name": "Géographie", "questions": [
-  {"q": "Quelle est la capitale de l'Australie ?", "a": ["Canberra", "Sydney", "Melbourne", "Perth"], "c": 0}
-]}]}
+[{"q": "Quelle est la capitale de l'Australie ?", "a": ["Canberra", "Sydney", "Melbourne", "Perth"], "c": 0}]
 ```
 
-- `q` : la question ; `a` : exactement 4 réponses ; `c` : l'indice (0 à 3) de la bonne réponse. Les réponses sont mélangées au jeu, la bonne peut donc rester en première position dans le fichier.
-- Un nouveau thème = un nouvel objet dans `themes` (`id` unique, au moins 10 questions).
+- `q` : la question ; `a` : exactement 4 réponses ; `c` : l'indice (0 à 3) de la bonne réponse (les réponses sont mélangées au jeu). Niveaux : cp ce1 ce2 cm1 cm2 6e 5e 4e 3e 2nde 1ere term.
 
-English: the game is a static site; serve the folder with any web server. Add questions in `data/questions.json` (`q` question, `a` four answers, `c` index of the correct one).
+English: the game is a static site; serve the folder with any web server. Add questions in `data/bank/<theme>/<level>.json` (`q` question, `a` four answers, `c` index of the correct one).

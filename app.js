@@ -1,12 +1,12 @@
 (() => {
 'use strict';
 
-const ROUNDS = 10, TIME = 15, BASE = 100, BONUS = 50, AUTO_NEXT_MS = 3000, LEAVE_MS = 200;
+const VERSION = '2.3.0';
+const TIME = 15, BASE = 100, BONUS = 50, AUTO_NEXT_MS = 3000, LEAVE_MS = 200;
 const app = document.getElementById('app');
 const soundBtn = document.getElementById('sound');
 const settingsBtn = document.getElementById('settings');
 const liveBox = document.getElementById('live');
-let themes = [];
 let timerId = null, advanceId = null, keyHandler = null;
 // Échap : action « Retour » de l'écran courant ; quitHook = partie en cours (pause / reprise pendant la confirmation)
 let backAction = null, quitHook = null;
@@ -29,18 +29,24 @@ const ICON_BACK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" st
 const ICON_SOUND = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9h4l5-4v14l-5-4H3z" fill="currentColor"/><path class="on" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path class="off" d="m16 9 6 6m0-6-6 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>';
 const initials = (name) => name.split(/\s+/).filter(Boolean).slice(0, 2).map((w) => [...w][0]).join('') || '?';
 const jeton = (name, i, size = '') => `<span class="jeton j${i % 4} ${size}" aria-hidden="true">${esc(initials(name))}</span>`;
-const KEY = 'quizdown.best.v1';
+const KEY = 'quizdown.best.v2';
+/* records par réglage de partie (thèmes, niveaux, nombre, temps) : { signature: { s: score, l: libellé, t: date } }, les 30 plus récents */
 const loadBest = () => {
   const out = {};
   try {
     const raw = JSON.parse(localStorage.getItem(KEY));
-    if (raw && typeof raw === 'object') for (const [k, v] of Object.entries(raw)) if (Number.isFinite(v) && v > 0) out[k] = Math.min(Math.floor(v), 100000);
+    if (raw && typeof raw === 'object' && !Array.isArray(raw)) for (const [k, v] of Object.entries(raw).slice(0, 60)) if (v && Number.isFinite(v.s) && v.s > 0 && typeof v.l === 'string') out[k] = { s: Math.min(Math.floor(v.s), 100000), l: v.l.slice(0, 90), t: Number(v.t) || 0 };
   } catch {}
   return out;
 };
-const saveBest = (id, score) => {
-  const b = loadBest(); const isNew = score > (b[id] || 0);
-  if (isNew) { b[id] = score; try { localStorage.setItem(KEY, JSON.stringify(b)); } catch {} }
+const saveBest = (id, score, label) => {
+  const b = loadBest(); const isNew = score > (b[id]?.s || 0);
+  if (isNew) {
+    b[id] = { s: score, l: label, t: Date.now() };
+    const keep = {};
+    Object.keys(b).sort((x, y) => b[y].t - b[x].t).slice(0, 30).forEach((k) => { keep[k] = b[k]; });
+    try { localStorage.setItem(KEY, JSON.stringify(keep)); } catch {}
+  }
   return isNew;
 };
 
@@ -88,14 +94,12 @@ function countUp(out, from, to, ms = 400) {
 
 /* ---------- réglages (persistés) : son, volume, minuteur, raccourcis clavier ---------- */
 const SKEY = 'quizdown.settings.v1';
-const TIMERS = { normal: TIME, long: TIME * 2, off: 0 };
-const settings = { sound: true, volume: 80, timer: 'normal', keys: true, vibrate: true };
+const settings = { sound: true, volume: 80, keys: true, vibrate: true };
 try {
   const raw = JSON.parse(localStorage.getItem(SKEY));
   if (raw && typeof raw === 'object') {
     if (typeof raw.sound === 'boolean') settings.sound = raw.sound;
     if (Number.isFinite(raw.volume)) settings.volume = Math.min(100, Math.max(0, Math.round(raw.volume / 10) * 10));
-    if (raw.timer in TIMERS) settings.timer = raw.timer;
     if (typeof raw.keys === 'boolean') settings.keys = raw.keys;
     if (typeof raw.vibrate === 'boolean') settings.vibrate = raw.vibrate;
   } else if (localStorage.getItem('quizdown.sound') === 'off') settings.sound = false;
@@ -128,68 +132,181 @@ function buzz(kind) {
   if (!CAN_VIBRATE || !settings.vibrate || reduced.matches) return;
   try { navigator.vibrate(PULSES[kind]); } catch {}
 }
-const timeText = (t) => t ? `${t} secondes chacune` : 'sans minuteur';
 
-/* ---------- données : on ne fait confiance à aucun champ du JSON ---------- */
+/* ---------- banque : index + un fichier par thème x niveau, chargé à la demande ---------- */
 const isStr = (s, max) => typeof s === 'string' && s.length > 0 && s.length <= max;
-function validThemes(d) {
-  if (!d || !Array.isArray(d.themes)) return [];
-  return d.themes.map((t) => {
-    if (!t || !isStr(t.id, 40) || !/^[a-z0-9-]+$/.test(t.id) || !isStr(t.name, 60) || !Array.isArray(t.questions)) return null;
-    const questions = t.questions.filter((q) => q && isStr(q.q, 300) && Array.isArray(q.a) && q.a.length === 4 && q.a.every((x) => isStr(x, 120)) && Number.isInteger(q.c) && q.c >= 0 && q.c < 4);
-    return questions.length >= 1 ? { id: t.id, name: t.name, questions } : null;
+const GROUPS = [['primaire', 'Primaire', 'CP à CM2'], ['college', 'Collège', '6e à 3e'], ['lycee', 'Lycée', '2nde à Terminale']];
+let idx = { levels: [], themes: [] };
+function validIndex(d) {
+  if (!d || !Array.isArray(d.levels) || !Array.isArray(d.themes)) return null;
+  const levels = d.levels.filter((l) => l && /^[a-z0-9]{2,6}$/.test(l.id) && isStr(l.name, 20) && GROUPS.some((g) => g[0] === l.group));
+  const ids = new Set(levels.map((l) => l.id));
+  const themes = d.themes.map((t) => {
+    if (!t || !/^[a-z0-9-]{2,40}$/.test(t.id) || !isStr(t.name, 60) || !t.counts || typeof t.counts !== 'object') return null;
+    const counts = {};
+    for (const [k, v] of Object.entries(t.counts)) if (ids.has(k) && Number.isInteger(v) && v > 0) counts[k] = v;
+    return Object.keys(counts).length ? { id: t.id, name: t.name, counts } : null;
   }).filter(Boolean);
+  return themes.length && levels.length ? { levels, themes } : null;
 }
+const validQs = (a) => Array.isArray(a) ? a.filter((q) => q && isStr(q.q, 300) && Array.isArray(q.a) && q.a.length === 4 && q.a.every((x) => isStr(x, 120)) && Number.isInteger(q.c) && q.c >= 0 && q.c < 4) : [];
+const bankCache = new Map();
+function fetchFile(t, l) {
+  const k = `${t}/${l}`;
+  if (!bankCache.has(k)) bankCache.set(k, fetch(`data/bank/${k}.json`).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(validQs).catch((e) => { bankCache.delete(k); throw e; }));
+  return bankCache.get(k);
+}
+const themeOf = (id) => idx.themes.find((t) => t.id === id);
+const levelOf = (id) => idx.levels.find((l) => l.id === id);
+/* couples thème x niveau qui ont des questions : [thème, niveau, nombre] */
+const combos = (cfg) => cfg.themes.flatMap((t) => cfg.levels.map((l) => [t, l, themeOf(t)?.counts[l] || 0])).filter((c) => c[2] > 0);
+const available = (cfg) => combos(cfg).reduce((s, c) => s + c[2], 0);
+/* tirage équitable : on prend à tour de rôle une question dans chaque couple, on ne charge que les fichiers utiles ; sans doublon */
+async function drawQuestions(cfg) {
+  const cs = shuffle(combos(cfg)).map(([t, l, left]) => ({ t, l, left, take: 0 }));
+  for (let k = Math.min(cfg.n, available(cfg)); k > 0;) {
+    let moved = false;
+    for (const c of cs) if (k > 0 && c.take < c.left) { c.take++; k--; moved = true; }
+    if (!moved) break;
+  }
+  const parts = await Promise.all(cs.filter((c) => c.take).map(async (c) => shuffle(await fetchFile(c.t, c.l)).slice(0, c.take).map((q) => ({ ...q, theme: themeOf(c.t).name, level: levelOf(c.l).name }))));
+  const seen = new Set();
+  return shuffle(parts.flat().filter((q) => !seen.has(q.q) && seen.add(q.q)));
+}
+
+/* ---------- réglages de la partie (mémorisés) : thèmes, niveaux, nombre de questions, temps par question ---------- */
+const CKEY = 'quizdown.config.v1';
+const NS = [5, 10, 15, 20, 30], N_MAX = 50, TIMES = [10, 15, 20, 30, 0];
+let config = { themes: ['culture-generale'], levels: ['cm1', 'cm2', '6e'], n: 10, time: TIME };
+function loadConfig() {
+  let raw = null;
+  try { raw = JSON.parse(localStorage.getItem(CKEY)); } catch {}
+  let old = null;
+  try { old = JSON.parse(localStorage.getItem(SKEY))?.timer; } catch {}
+  const c = { ...config };
+  if (!raw && old) c.time = { normal: TIME, long: TIME * 2, off: 0 }[old] ?? TIME;
+  if (raw && typeof raw === 'object') {
+    if (Array.isArray(raw.themes)) c.themes = raw.themes.filter((t) => themeOf(t));
+    if (Array.isArray(raw.levels)) c.levels = raw.levels.filter((l) => levelOf(l));
+    if (Number.isInteger(raw.n) && raw.n >= 1 && raw.n <= N_MAX) c.n = raw.n;
+    if (TIMES.includes(raw.time)) c.time = raw.time;
+  }
+  c.themes = c.themes.filter((t) => themeOf(t)); c.levels = c.levels.filter((l) => levelOf(l));
+  if (!c.themes.length) c.themes = [idx.themes[0].id];
+  if (!c.levels.length) c.levels = idx.levels.slice(0, 3).map((l) => l.id);
+  config = c;
+}
+const saveConfig = () => { try { localStorage.setItem(CKEY, JSON.stringify(config)); } catch {} };
+const timeLabel = (t) => t ? `${t} s` : 'Sans limite';
+const themesLabel = (cfg) => { const n = cfg.themes.map((t) => themeOf(t)?.name).filter(Boolean); return n.length <= 2 ? n.join(' + ') : `${n.length} thèmes`; };
+const levelsLabel = (cfg) => { const n = idx.levels.filter((l) => cfg.levels.includes(l.id)).map((l) => l.name); return n.length <= 3 ? n.join(', ') : `${n.length} niveaux`; };
+const fullLabel = (cfg) => `${themesLabel(cfg)} · ${levelsLabel(cfg)} · ${Math.min(cfg.n, available(cfg))} questions`;
+const sigOf = (cfg) => [cfg.themes.slice().sort().join('+'), cfg.levels.slice().sort().join('+'), cfg.n, cfg.time].join('|');
+const ICONS = {
+  maths: '<path d="M5 12h14"/><circle cx="12" cy="6" r="1.6"/><circle cx="12" cy="18" r="1.6"/>',
+  francais: '<path d="M4 5h6a2 2 0 0 1 2 2v12a2 2 0 0 0-2-2H4zM20 5h-6a2 2 0 0 0-2 2v12a2 2 0 0 1 2-2h6z"/>',
+  histoire: '<path d="M3 20h18M5 20V10M10 20V10M14 20V10M19 20V10M3 10l9-6 9 6z"/>',
+  geographie: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/>',
+  sciences: '<path d="M5 19C5 9 11 5 20 4c0 9-4 15-13 15zM5 19l8-8"/>',
+  'physique-chimie': '<path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-9V3M8 15h8"/>',
+  anglais: '<path d="M4 5h16v11H10l-5 4v-4H4z"/>',
+  'culture-generale': '<path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10c1 1 1 2 1 3h6c0-1 0-2 1-3a6 6 0 0 0-4-10z"/>',
+  arts: '<path d="M12 3a9 9 0 1 0 0 18c1.5 0 2-1 1.5-2s0-2 1.5-2h2a3 3 0 0 0 3-3c0-6-4-11-8-11z"/><circle cx="8" cy="11" r="1"/><circle cx="12" cy="7.5" r="1"/><circle cx="16" cy="10" r="1"/>',
+  sport: '<circle cx="12" cy="12" r="9"/><path d="M5 6c5 2 5 10 0 12M19 6c-5 2-5 10 0 12"/>',
+  numerique: '<rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/>',
+  emc: '<path d="M12 3l8 3v6c0 5-4 8-8 9-4-1-8-4-8-9V6z"/>',
+};
+const icon = (id) => `<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[id] || '<circle cx="12" cy="12" r="8"/>'}</svg>`;
 
 /* ---------- accueil ---------- */
 function home() {
   const best = loadBest();
-  const records = themes.filter((t) => best[t.id]);
+  const records = Object.values(best).sort((a, b) => b.t - a.t).slice(0, 5);
   const n = el(`<section class="accueil" data-title="Accueil">
     <h1 class="logo">Quiz<span>Down</span></h1>
-    <p class="tag">${ROUNDS} questions, ${timeText(TIMERS[settings.timer])}. Répondez vite, répondez juste.</p>
+    <p class="tag">Vos thèmes, votre niveau, de 5 à 30 questions. Répondez vite, répondez juste.</p>
     <div class="modes">
-      <button class="btn mode primary" type="button" data-mode="solo">${shape(0, 'shape mode-shape')}<span class="mode-title">Jouer solo</span><small>Battez votre record, gardé sur cet appareil</small></button>
+      <button class="btn mode primary" type="button" data-mode="solo">${shape(0, 'shape mode-shape')}<span class="mode-title">Jouer solo</span><small>Réglez la partie et battez votre record, gardé sur cet appareil</small></button>
       <button class="btn mode alt" type="button" data-mode="multi">${shape(1, 'shape mode-shape')}<span class="mode-title">Jouer à plusieurs</span><small>2 à 4 joueurs, chacun son tour sur le même téléphone</small></button>
     </div>
     <div class="card regles">
       <h2 class="etiquette">Comment jouer</h2>
       <ol class="etapes">
-        <li>${shape(0, 'shape puce p0')}<span>Choisissez un paquet de questions.</span></li>
-        <li>${shape(1, 'shape puce p1')}<span>Touchez la bonne réponse${settings.timer === 'off' ? '' : ' avant la fin du sablier'}. ${settings.keys ? ' Au clavier : <kbd>A</kbd> <kbd>B</kbd> <kbd>C</kbd> <kbd>D</kbd>.' : ''}</span></li>
+        <li>${shape(0, 'shape puce p0')}<span>Réglez la partie : thèmes, niveau (CP à Terminale), nombre de questions et temps.</span></li>
+        <li>${shape(1, 'shape puce p1')}<span>Touchez la bonne réponse${config.time ? ' avant la fin du sablier' : ''}. ${settings.keys ? ' Au clavier : <kbd>A</kbd> <kbd>B</kbd> <kbd>C</kbd> <kbd>D</kbd>.' : ''}</span></li>
         <li>${shape(2, 'shape puce p2')}<span>Juste = ${BASE} points, plus jusqu'à ${BONUS} de bonus si vous êtes rapide.</span></li>
       </ol>
     </div>
-    ${records.length ? `<div class="card records"><h2 class="etiquette">Vos records</h2><ul>${records.map((t) => `<li><span>${esc(t.name)}</span><strong>${best[t.id]} pts</strong></li>`).join('')}</ul></div>` : ''}
+    ${records.length ? `<div class="card records"><h2 class="etiquette">Vos records</h2><ul>${records.map((r) => `<li><span>${esc(r.l)}</span><strong>${r.s} pts</strong></li>`).join('')}</ul></div>` : ''}
   </section>`);
   show(n);
-  n.querySelectorAll('[data-mode]').forEach((b) => b.onclick = () => b.dataset.mode === 'solo' ? pickTheme((t) => startGame(t, ['Vous'])) : pickTheme((t) => setupMulti(t)));
+  n.querySelectorAll('[data-mode]').forEach((b) => b.onclick = () => reglages(b.dataset.mode === 'multi'));
 }
 
-/* ---------- choix du paquet : des cartes en éventail, chacune sa couleur et sa forme ---------- */
-function pickTheme(next, back = home) {
-  const best = loadBest();
-  const n = el(`<section data-title="Choix du paquet">
-    <h1>Choisissez un paquet</h1>
-    <p class="sous">${ROUNDS} questions tirées au hasard dans le paquet.</p>
-    <div class="deck" role="group" aria-label="Paquets de questions">${themes.map((t, i) => `<button class="btn paquet k${i % 5}" type="button" data-id="${esc(t.id)}">
-      ${shape(i, 'shape paquet-shape')}
-      <span class="paquet-nom">${esc(t.name)}</span>
-      <small>${t.questions.length} questions${best[t.id] ? `<br>Record : ${best[t.id]} pts` : ''}</small>
-    </button>`).join('')}</div>
-    <p class="after"><button class="btn court back-btn" type="button" id="back">${ICON_BACK}Retour</button></p>
-  </section>`);
-  show(n);
-  n.querySelectorAll('[data-id]').forEach((b) => b.onclick = () => next(themes.find((t) => t.id === b.dataset.id)));
-  n.querySelector('#back').onclick = back; backAction = back;
+/* ---------- réglages de la partie : thèmes, niveaux, nombre de questions, temps (mémorisés) ---------- */
+const reglages = (multi, names = []) => setup({ title: 'Réglages de la partie', cta: multi ? 'Suivant : les joueurs' : 'Jouer', back: home, next: (c) => multi ? setupMulti(c, names) : startGame(c, names.length ? names : ['Vous']) });
+const toggle = (arr, v) => arr.includes(v) ? arr.filter((x) => x !== v) : [...arr, v];
+function setup({ title, cta, back, next, noTime = false }) {
+  const cfg = { ...config, themes: config.themes.slice(), levels: config.levels.slice() };
+  const n = el(`<section class="card reglage" data-title="${esc(title)}">
+    <h1>${esc(title)}</h1>
+    <form class="stack" novalidate>
+      <fieldset class="bloc"><legend class="etiquette">Thèmes</legend>
+        <div class="chips" id="themes">${idx.themes.map((t) => `<button type="button" class="chip" data-t="${esc(t.id)}" aria-pressed="false">${icon(t.id)}<span>${esc(t.name)}</span></button>`).join('')}</div>
+        <button type="button" class="lien" id="t-all"></button></fieldset>
+      <fieldset class="bloc"><legend class="etiquette">Niveaux</legend>
+        <div class="chips groupes">${GROUPS.map(([g, name, sub]) => `<button type="button" class="chip groupe" data-g="${g}" aria-pressed="false"><span>${name}</span><small>${sub}</small></button>`).join('')}</div>
+        <div class="chips" id="levels">${idx.levels.map((l) => `<button type="button" class="chip petit" data-l="${l.id}" aria-pressed="false">${esc(l.name)}</button>`).join('')}</div></fieldset>
+      <fieldset class="bloc"><legend class="etiquette">Nombre de questions</legend>
+        <div class="chips" id="ns">${NS.map((v) => `<button type="button" class="chip petit" data-n="${v}" aria-pressed="false">${v}</button>`).join('')}</div>
+        <label for="n-custom">Ou un autre nombre (1 à ${N_MAX})</label>
+        <input type="number" id="n-custom" inputmode="numeric" min="1" max="${N_MAX}" autocomplete="off">
+        <p class="note">Tirées au hasard, sans doublon.</p></fieldset>
+      ${noTime ? '' : `<fieldset class="bloc"><legend class="etiquette">Temps par question</legend>
+        <div class="chips" id="times">${TIMES.map((v) => `<button type="button" class="chip petit" data-time="${v}" aria-pressed="false">${timeLabel(v)}</button>`).join('')}</div>
+        <p class="note" id="time-note"></p></fieldset>`}
+      <p class="raison" id="raison" role="status"></p>
+      <button class="btn primary" type="submit" id="go" data-main>${esc(cta)}</button>
+      <button class="btn back-btn" type="button" id="back">${ICON_BACK}Retour</button>
+    </form></section>`);
+  const q = (sel) => n.querySelector(sel), qa = (sel) => [...n.querySelectorAll(sel)];
+  const go = q('#go'), raison = q('#raison'), custom = q('#n-custom');
+  const refresh = () => {
+    qa('[data-t]').forEach((b) => b.setAttribute('aria-pressed', cfg.themes.includes(b.dataset.t)));
+    qa('[data-l]').forEach((b) => b.setAttribute('aria-pressed', cfg.levels.includes(b.dataset.l)));
+    qa('[data-g]').forEach((b) => { const ids = idx.levels.filter((l) => l.group === b.dataset.g).map((l) => l.id); b.setAttribute('aria-pressed', ids.every((i) => cfg.levels.includes(i))); });
+    qa('[data-n]').forEach((b) => b.setAttribute('aria-pressed', +b.dataset.n === cfg.n));
+    qa('[data-time]').forEach((b) => b.setAttribute('aria-pressed', +b.dataset.time === cfg.time));
+    q('#t-all').textContent = cfg.themes.length === idx.themes.length ? 'Tout décocher' : 'Tout cocher';
+    const tn = q('#time-note'); if (tn) tn.textContent = cfg.time > TIME || !cfg.time ? 'Au-delà de 15 s, la question suivante attend votre clic.' : '';
+    const avail = available(cfg);
+    raison.textContent = !cfg.themes.length ? 'Choisissez au moins un thème.' : !cfg.levels.length ? 'Choisissez au moins un niveau.' : !avail ? 'Aucune question pour ce mélange : ajoutez un niveau ou un autre thème.'
+      : cfg.n > avail ? `Il n'y a que ${plural(avail, 'question')} pour ce mélange : la partie en aura ${avail}.` : `${plural(avail, 'question disponible')} pour ce mélange.`;
+    go.disabled = !cfg.themes.length || !cfg.levels.length || !avail;
+  };
+  q('#themes').onclick = (e) => { const b = e.target.closest('[data-t]'); if (b) { cfg.themes = toggle(cfg.themes, b.dataset.t); refresh(); } };
+  q('#t-all').onclick = () => { cfg.themes = cfg.themes.length === idx.themes.length ? [] : idx.themes.map((t) => t.id); refresh(); };
+  q('#levels').onclick = (e) => { const b = e.target.closest('[data-l]'); if (b) { cfg.levels = toggle(cfg.levels, b.dataset.l); refresh(); } };
+  qa('[data-g]').forEach((b) => b.onclick = () => {
+    const ids = idx.levels.filter((l) => l.group === b.dataset.g).map((l) => l.id), all = ids.every((i) => cfg.levels.includes(i));
+    cfg.levels = all ? cfg.levels.filter((l) => !ids.includes(l)) : [...new Set([...cfg.levels, ...ids])]; refresh();
+  });
+  qa('[data-n]').forEach((b) => b.onclick = () => { cfg.n = +b.dataset.n; custom.value = cfg.n; refresh(); });
+  custom.value = cfg.n;
+  custom.oninput = () => { const v = parseInt(custom.value, 10); if (v >= 1 && v <= N_MAX) { cfg.n = v; refresh(); } };
+  custom.onblur = () => { custom.value = cfg.n; };
+  qa('[data-time]').forEach((b) => b.onclick = () => { cfg.time = +b.dataset.time; refresh(); });
+  refresh(); show(n);
+  q('#back').onclick = back; backAction = back;
+  q('form').onsubmit = (e) => { e.preventDefault(); if (go.disabled) return; config = { themes: cfg.themes, levels: cfg.levels, n: cfg.n, time: cfg.time }; saveConfig(); next(config); };
 }
 
 /* ---------- multijoueur : nombre et prénoms (après le choix du paquet) ---------- */
 const NAME_MAX = 12;
-function setupMulti(theme, prev = []) {
+function setupMulti(cfg, prev = []) {
   let count = Math.max(2, prev.length);
   const n = el(`<section class="card" data-title="Qui joue ?">
-    <p class="etiquette">${esc(theme.name)}</p>
+    <p class="etiquette">${esc(fullLabel(cfg))}</p>
     <h1>Qui joue ?</h1>
     <form class="stack" novalidate>
       <div><p class="etiquette" id="cl">Nombre de joueurs</p>
@@ -197,7 +314,7 @@ function setupMulti(theme, prev = []) {
       <div class="stack" id="names"></div>
       <p class="raison" id="raison" role="status"></p>
       <button class="btn primary" type="submit" id="go" data-main>C'est parti</button>
-      <button class="btn back-btn" type="button" id="back">${ICON_BACK}Changer de paquet</button>
+      <button class="btn back-btn" type="button" id="back">${ICON_BACK}Changer les réglages</button>
     </form></section>`);
   const names = n.querySelector('#names'), go = n.querySelector('#go'), raison = n.querySelector('#raison');
   const values = () => [...names.querySelectorAll('input')].map((i) => i.value.trim());
@@ -222,11 +339,11 @@ function setupMulti(theme, prev = []) {
   };
   n.querySelectorAll('[data-n]').forEach((b) => b.onclick = () => { count = +b.dataset.n; draw(); });
   draw(); show(n);
-  const back = () => pickTheme((t) => setupMulti(t, values()));
+  const back = () => reglages(true, values());
   n.querySelector('#back').onclick = back; backAction = back;
   n.querySelector('form').onsubmit = (e) => {
     e.preventDefault(); check();
-    if (!go.disabled) startGame(theme, values());
+    if (!go.disabled) startGame(cfg, values());
   };
 }
 
@@ -236,28 +353,24 @@ function openSettings() {
   if (leaving || document.querySelector('dialog[open]')) return;
   const hook = quitHook;
   hook?.pause?.();
-  const inGame = !!app.querySelector('.manche, .passe');
-  const opts = [['normal', `Normal (${TIME} s)`], ['long', `Allongé (${TIME * 2} s, deux fois plus de temps)`], ['off', 'Désactivé (pas de minuteur)']];
   const d = el(`<dialog class="confirm reglages" aria-labelledby="rt">
     <h2 id="rt">Réglages</h2>
     <div class="stack">
       <label class="coche"><input type="checkbox" id="r-sound"${settings.sound ? ' checked' : ''}>Sons</label>
       <div><label for="r-vol">Volume : <output id="r-volv" for="r-vol">${settings.volume} %</output></label>
         <input type="range" id="r-vol" min="0" max="100" step="10" value="${settings.volume}"></div>
-      <fieldset${inGame ? ' disabled' : ''}><legend class="etiquette">Minuteur</legend>
-        ${opts.map(([v, t]) => `<label class="coche"><input type="radio" name="r-timer" value="${v}"${settings.timer === v ? ' checked' : ''}>${t}</label>`).join('')}
-        <p class="note">${inGame ? 'Modifiable entre deux parties.' : 'Allongé ou désactivé : la question suivante attend votre clic, et le record n\'est pas enregistré.'}</p>
-      </fieldset>
       ${CAN_VIBRATE ? `<label class="coche"><input type="checkbox" id="r-vib"${settings.vibrate ? ' checked' : ''}>Vibration courte à chaque réponse</label>` : ''}
       <label class="coche"><input type="checkbox" id="r-keys"${settings.keys ? ' checked' : ''}>Raccourcis clavier A B C D et 1 à 4 pendant les questions</label>
     </div>
+    <p class="note">Le temps par question se règle avant chaque partie.</p>
     <div class="confirm-actions one"><button class="btn primary" type="button" id="r-close" autofocus>Fermer</button></div>
+    <p class="note version">QuizDown v${VERSION}</p>
   </dialog>`);
   document.body.append(d);
   const onHome = !!app.querySelector('.accueil');
   const close = () => {
     d.close(); d.remove(); hook?.resume?.();
-    // accueil : le texte dépend des réglages (minuteur, raccourcis), on le redessine puis le focus revient au bouton
+    // accueil : le texte dépend des réglages (raccourcis), on le redessine puis le focus revient au bouton
     if (onHome && app.querySelector('.accueil') && !leaving) { home(); settingsBtn.focus({ preventScroll: true }); }
   };
   d.addEventListener('cancel', (e) => { e.preventDefault(); close(); });
@@ -266,7 +379,6 @@ function openSettings() {
   const vol = d.querySelector('#r-vol');
   vol.oninput = () => { settings.volume = +vol.value; d.querySelector('#r-volv').textContent = `${vol.value} %`; saveSettings(); };
   vol.onchange = () => beep('ok');
-  d.querySelectorAll('[name=r-timer]').forEach((r) => r.onchange = () => { settings.timer = r.value; saveSettings(); });
   d.querySelector('#r-vib')?.addEventListener('change', (e) => { settings.vibrate = e.target.checked; saveSettings(); buzz('ok'); });
   d.querySelector('#r-keys').onchange = (e) => { settings.keys = e.target.checked; saveSettings(); };
   d.showModal();
@@ -297,19 +409,20 @@ function confirmQuit() {
 /* bandeau de partie : Retour, paquet, numéro, score ; en multi les jetons, celui du tour agrandi */
 const bandeau = (g, score) => `<div class="hud">
   <button class="hud-back" type="button" id="quit">${ICON_BACK}<span class="sr-only">Quitter la partie</span></button>
-  <p class="hud-theme">${esc(g.theme.name)}</p>
+  <p class="hud-theme">${esc(g.label)}</p>
   ${g.players.length > 1 ? `<ul class="hud-jetons">${g.players.map((o, i) => `<li class="${i === g.pi ? 'tour' : ''}">${jeton(o.name, i, i === g.pi ? '' : 'small')}<span class="sr-only">${esc(o.name)}${i === g.pi ? ', à son tour' : ''}</span></li>`).join('')}</ul>` : ''}
   <p class="hud-box"><span class="sr-only">Question </span>${g.qi + 1}<span aria-hidden="true">/</span><span class="sr-only"> sur </span>${g.qs.length}</p>
   <p class="hud-box hud-score"><span class="sr-only">Score : </span><strong id="sc">${score}</strong></p>
 </div>`;
 
 /* ---------- partie (solo = 1 joueur) ---------- */
-function startGame(theme, players) {
-  const qs = shuffle(theme.questions).slice(0, ROUNDS).map((q) => {
-    const answers = shuffle(q.a.map((text, i) => ({ text, ok: i === q.c })));
-    return { q: q.q, answers };
-  });
-  const g = { time: TIMERS[settings.timer], record: settings.timer === 'normal', theme, players: players.map((name) => ({ name, score: 0, good: 0, missed: [], track: [] })), qs, qi: 0, pi: 0 };
+async function startGame(cfg, players) {
+  show(el('<section class="card" data-title="Préparation"><h1>Préparation…</h1><p role="status">On mélange les questions.</p></section>'));
+  let raw = [];
+  try { raw = await drawQuestions(cfg); } catch {}
+  if (!raw.length) { show(el('<section class="card" data-title="Erreur de chargement"><h1>Impossible de charger les questions</h1><p>Vérifiez votre connexion puis réessayez.</p><button class="btn primary" type="button" id="retry">Revenir aux réglages</button></section>')); app.querySelector('#retry').onclick = () => reglages(players.length > 1, players); return; }
+  const qs = raw.map((q) => ({ q: q.q, theme: q.theme, level: q.level, answers: shuffle(q.a.map((text, i) => ({ text, ok: i === q.c }))) }));
+  const g = { cfg, sig: sigOf(cfg), label: themesLabel(cfg), full: fullLabel(cfg), time: cfg.time, players: players.map((name) => ({ name, score: 0, good: 0, missed: [], track: [] })), qs, qi: 0, pi: 0 };
   if (players.length > 1) handover(g); else ask(g);
 }
 
@@ -323,7 +436,7 @@ function handover(g) {
   const p = g.players[g.pi];
   const others = g.players.map((o, i) => `<li class="${i === g.pi ? 'moi' : ''}">${jeton(o.name, i, 'small')}<span>${esc(o.name)}</span><strong>${o.score}</strong></li>`).join('');
   const n = el(`<section class="passe j${g.pi % 4}" data-title="Au tour de ${esc(p.name)}">
-    <p class="etiquette">${esc(g.theme.name)} · Question ${g.qi + 1}/${g.qs.length}</p>
+    <p class="etiquette">${esc(g.label)} · Question ${g.qi + 1}/${g.qs.length}</p>
     <h1 class="who">${jeton(p.name, g.pi, 'big')}<span>À toi, ${esc(p.name)}</span></h1>
     <p>Prends le téléphone. ${g.time ? 'Le sablier démarre' : 'La question s\'affiche'} quand tu appuies sur « Je suis prêt ».</p>
     <button class="btn primary" type="button" id="go" data-main>Je suis prêt</button>
@@ -335,13 +448,13 @@ function handover(g) {
 }
 
 function ask(g) {
-  const q = g.qs[g.qi], p = g.players[g.pi], multi = g.players.length > 1, T = g.time, auto = g.time === TIME;
+  const q = g.qs[g.qi], p = g.players[g.pi], multi = g.players.length > 1, T = g.time, auto = T > 0 && T <= TIME;
   const n = el(`<section class="manche" data-title="Question ${g.qi + 1} sur ${g.qs.length}">
-    <h1 class="sr-only" id="qmeta">${esc(g.theme.name)}, question ${g.qi + 1} sur ${g.qs.length}${multi ? `, ${esc(p.name)}` : ''}</h1>
+    <h1 class="sr-only" id="qmeta">${esc(q.theme)}, ${esc(q.level)}, question ${g.qi + 1} sur ${g.qs.length}${multi ? `, ${esc(p.name)}` : ''}</h1>
     ${bandeau(g, p.score)}
     ${pips(g, p)}
     ${T ? `<div class="timer"><div class="rail" id="tm" aria-hidden="true"><i></i></div><span class="secs" id="secs" aria-hidden="true"></span></div>` : ''}
-    <div class="qcard">${multi ? `<p class="etiquette">À ${esc(p.name)} de répondre</p>` : ''}<h2 class="question" id="qtxt" aria-describedby="qmeta">${esc(q.q)}</h2></div>
+    <div class="qcard"><p class="etiquette">${esc(q.theme)} · ${esc(q.level)}${multi ? ` · À ${esc(p.name)} de répondre` : ''}</p><h2 class="question" id="qtxt" aria-describedby="qmeta">${esc(q.q)}</h2></div>
     <div class="answers" role="group" aria-labelledby="qtxt">${q.answers.map((a, i) => `<button class="btn ans a${i}" type="button" data-i="${i}" ${settings.keys ? ` aria-keyshortcuts="${'ABCD'[i]}"` : ''}><span class="key" aria-hidden="true">${'ABCD'[i]}</span><span class="ans-txt">${esc(a.text)}</span>${shape(i)}</button>`).join('')}</div>
     <div class="suite">
       <p class="fb" id="fb"></p>
@@ -429,8 +542,8 @@ const winners0 = (g) => { const r = g.players.slice().sort((a, b) => b.score - a
 const bilan = (good, total) => good === total ? 'Sans faute. Chapeau !'
   : good >= total * 0.8 ? 'Excellent, il s\'en est fallu de peu.'
   : good >= total * 0.5 ? 'Bien joué, la moyenne est largement passée.'
-  : good > 0 ? 'Ce paquet se défend. Une revanche ?'
-  : 'Ce paquet résiste. On retente ?';
+  : good > 0 ? 'Ça se défend. Une revanche ?'
+  : 'C\'est coriace. On retente ?';
 
 /* récap des questions ratées : la question, la réponse donnée (ou « temps écoulé ») et la bonne réponse */
 const recap = (missed, title = '') => `${title ? `<h2 class="etiquette">${title}</h2>` : ''}<ol class="missed">${missed.map((m) => `<li><span class="mq">${esc(m.q)}</span>
@@ -442,12 +555,12 @@ function results(g) {
   const multi = g.players.length > 1;
   let body;
   if (!multi) {
-    const p = g.players[0], isNew = g.record && saveBest(g.theme.id, p.score), best = loadBest()[g.theme.id];
-    body = `<div class="fin-a"><p class="etiquette">${esc(g.theme.name)} · Résultats</p>
+    const p = g.players[0], isNew = saveBest(g.sig, p.score, g.full), best = loadBest()[g.sig]?.s;
+    body = `<div class="fin-a"><p class="etiquette">${esc(g.full)} · Résultats</p>
       <h1 class="score-geant"><span class="sr-only">Score : </span><span id="final">${p.score}</span> <span class="unit">pts</span></h1>
       <p class="bilan">${bilan(p.good, g.qs.length)}</p>
       <p>${plural(p.good, 'bonne réponse')} sur ${g.qs.length}.</p>
-      <p class="record ${isNew && p.score > 0 ? 'nouveau' : ''}">${isNew && p.score > 0 ? `${shape(3)}<span>Nouveau record !</span>` : `<span>Record : <strong>${best || 0} pts</strong>${g.record ? '' : ' (non modifié : minuteur réglé hors du mode normal)'}</span>`}</p></div>
+      <p class="record ${isNew && p.score > 0 ? 'nouveau' : ''}">${isNew && p.score > 0 ? `${shape(3)}<span>Nouveau record !</span>` : `<span>Record pour ce réglage : <strong>${best || 0} pts</strong></span>`}</p></div>
       ${p.missed.length ? `<div class="fin-b">${recap(p.missed, `À retenir : ${plural(p.missed.length, 'question ratée')}`)}</div>` : ''}`;
   } else {
     const rank = g.players.slice().sort((a, b) => b.score - a.score || b.good - a.good);
@@ -455,7 +568,7 @@ function results(g) {
     const winners = rank.filter((p) => p.score === top.score && p.good === top.good);
     // rang « compétition » : les ex aequo partagent la même place
     const place = (p) => rank.findIndex((o) => o.score === p.score && o.good === p.good) + 1;
-    body = `<div class="fin-a"><p class="etiquette">${esc(g.theme.name)} · Résultats</p>
+    body = `<div class="fin-a"><p class="etiquette">${esc(g.full)} · Résultats</p>
       <h1>${winners.length > 1 ? 'Égalité !' : esc(top.name) + ' gagne !'}</h1>
       <p class="bilan">${winners.length > 1 ? winners.map((p) => esc(p.name)).join(' et ') + ' finissent ex aequo.' : `${plural(top.good, 'bonne réponse')} sur ${g.qs.length}, bravo.`}</p>
       <ol class="podium" aria-hidden="true">${rank.map((p) => {
@@ -469,7 +582,7 @@ function results(g) {
       <tbody>${rank.map((p) => `<tr><td>${place(p)}</td><td>${esc(p.name)}</td><td>${p.good}/${g.qs.length}</td><td>${p.score}</td></tr>`).join('')}</tbody></table>
       ${rank.some((p) => p.missed.length) ? `<h2 class="etiquette recap-titre">À retenir</h2>${rank.filter((p) => p.missed.length).map((p) => `<details class="joueur-ratees"><summary>${jeton(p.name, g.players.indexOf(p), 'small')}<span>${esc(p.name)} : ${plural(p.missed.length, 'question ratée')}</span></summary>${recap(p.missed)}</details>`).join('')}` : ''}</div>`;
   }
-  const n = el(`<section class="card fin" data-title="Résultats"><div class="fin-grid">${body}</div><div class="stack after fin-actions"><button class="btn primary" type="button" id="again" data-main>Rejouer</button><button class="btn" type="button" id="menu">Changer de thème</button><button class="btn" type="button" id="accueil">Accueil</button></div></section>`);
+  const n = el(`<section class="card fin" data-title="Résultats"><div class="fin-grid">${body}</div><div class="stack after fin-actions"><button class="btn primary" type="button" id="again" data-main>Rejouer</button><button class="btn" type="button" id="menu">Changer les réglages</button><button class="btn" type="button" id="accueil">Accueil</button></div></section>`);
   show(n, 'h1');
   backAction = home;
   say(multi ? (winners0(g)) : `Partie terminée. Score : ${g.players[0].score} points, ${plural(g.players[0].good, 'bonne réponse')} sur ${g.qs.length}.`);
@@ -477,8 +590,8 @@ function results(g) {
   // hauteur des colonnes via CSSOM (la CSP interdit les attributs style inline)
   n.querySelectorAll('.pile').forEach((s) => { s.style.height = s.dataset.h + '%'; });
   const names = g.players.map((p) => p.name);
-  n.querySelector('#again').onclick = () => startGame(g.theme, names);
-  n.querySelector('#menu').onclick = () => pickTheme((t) => multi ? setupMulti(t, names) : startGame(t, names));
+  n.querySelector('#again').onclick = () => startGame(g.cfg, names);
+  n.querySelector('#menu').onclick = () => reglages(multi, names);
   n.querySelector('#accueil').onclick = home;
 }
 
@@ -495,13 +608,13 @@ document.addEventListener('keydown', (e) => {
 /* ---------- démarrage ---------- */
 // en partie, le logo passe par la confirmation ; pendant la sortie de carte (backAction nul), il est ignoré
 document.getElementById('home').onclick = () => {
-  if (!themes.length) return;
+  if (!idx.themes.length) return;
   if (app.querySelector('#quit')) { if (backAction === confirmQuit) confirmQuit(); return; }
   home();
 };
 refreshSound();
-fetch('data/questions.json')
+fetch('data/index.json')
   .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
-  .then((d) => { themes = validThemes(d); if (!themes.length) throw new Error('data'); home(); })
+  .then((d) => { const v = validIndex(d); if (!v) throw new Error('data'); idx = v; loadConfig(); home(); })
   .catch(() => show(el('<section class="card" data-title="Erreur de chargement"><h1>Impossible de charger les questions</h1><p>Lancez le jeu depuis un serveur web (voir le README), pas en ouvrant le fichier directement.</p></section>')));
 })();
