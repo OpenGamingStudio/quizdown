@@ -3,3 +3,5 @@ node_modules
 *.md
 LICENSE
 .github
+server/node_modules
+tests
