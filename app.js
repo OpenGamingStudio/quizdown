@@ -1,7 +1,7 @@
 (() => {
 'use strict';
 
-const VERSION = '2.3.0';
+const VERSION = '3.0.0';
 const TIME = 15, BASE = 100, BONUS = 50, AUTO_NEXT_MS = 3000, LEAVE_MS = 200;
 const app = document.getElementById('app');
 const soundBtn = document.getElementById('sound');
@@ -228,6 +228,7 @@ function home() {
     <div class="modes">
       <button class="btn mode primary" type="button" data-mode="solo">${shape(0, 'shape mode-shape')}<span class="mode-title">Jouer solo</span><small>Réglez la partie et battez votre record, gardé sur cet appareil</small></button>
       <button class="btn mode alt" type="button" data-mode="multi">${shape(1, 'shape mode-shape')}<span class="mode-title">Jouer à plusieurs</span><small>2 à 4 joueurs, chacun son tour sur le même téléphone</small></button>
+      <button class="btn mode online" type="button" data-mode="online">${shape(2, 'shape mode-shape')}<span class="mode-title">Jouer en ligne</span><small>Chacun sur son téléphone, avec un code à partager (room privée)</small></button>
     </div>
     <div class="card regles">
       <h2 class="etiquette">Comment jouer</h2>
@@ -240,14 +241,18 @@ function home() {
     ${records.length ? `<div class="card records"><h2 class="etiquette">Vos records</h2><ul>${records.map((r) => `<li><span>${esc(r.l)}</span><strong>${r.s} pts</strong></li>`).join('')}</ul></div>` : ''}
   </section>`);
   show(n);
-  n.querySelectorAll('[data-mode]').forEach((b) => b.onclick = () => reglages(b.dataset.mode === 'multi'));
+  n.querySelectorAll('[data-mode]').forEach((b) => b.onclick = () => b.dataset.mode === 'online' ? onlineMenu() : reglages(b.dataset.mode === 'multi'));
 }
 
 /* ---------- réglages de la partie : thèmes, niveaux, nombre de questions, temps (mémorisés) ---------- */
 const reglages = (multi, names = []) => setup({ title: 'Réglages de la partie', cta: multi ? 'Suivant : les joueurs' : 'Jouer', back: home, next: (c) => multi ? setupMulti(c, names) : startGame(c, names.length ? names : ['Vous']) });
 const toggle = (arr, v) => arr.includes(v) ? arr.filter((x) => x !== v) : [...arr, v];
-function setup({ title, cta, back, next, noTime = false }) {
-  const cfg = { ...config, themes: config.themes.slice(), levels: config.levels.slice() };
+function setup({ title, cta, back, next, noTime = false, online = false, init = null }) {
+  const nMax = online ? 30 : N_MAX, nMin = online ? 5 : 1, times = online ? TIMES.filter(Boolean) : TIMES;
+  const base = init || config;
+  const cfg = { ...base, themes: base.themes.slice(), levels: base.levels.slice() };
+  if (online && !times.includes(cfg.time)) cfg.time = 20;
+  cfg.n = Math.min(nMax, Math.max(nMin, cfg.n));
   const n = el(`<section class="card reglage" data-title="${esc(title)}">
     <h1>${esc(title)}</h1>
     <form class="stack" novalidate>
@@ -259,11 +264,11 @@ function setup({ title, cta, back, next, noTime = false }) {
         <div class="chips" id="levels">${idx.levels.map((l) => `<button type="button" class="chip petit" data-l="${l.id}" aria-pressed="false">${esc(l.name)}</button>`).join('')}</div></fieldset>
       <fieldset class="bloc"><legend class="etiquette">Nombre de questions</legend>
         <div class="chips" id="ns">${NS.map((v) => `<button type="button" class="chip petit" data-n="${v}" aria-pressed="false">${v}</button>`).join('')}</div>
-        <label for="n-custom">Ou un autre nombre (1 à ${N_MAX})</label>
-        <input type="number" id="n-custom" inputmode="numeric" min="1" max="${N_MAX}" autocomplete="off">
+        <label for="n-custom">Ou un autre nombre (${nMin} à ${nMax})</label>
+        <input type="number" id="n-custom" inputmode="numeric" min="${nMin}" max="${nMax}" autocomplete="off">
         <p class="note">Tirées au hasard, sans doublon.</p></fieldset>
       ${noTime ? '' : `<fieldset class="bloc"><legend class="etiquette">Temps par question</legend>
-        <div class="chips" id="times">${TIMES.map((v) => `<button type="button" class="chip petit" data-time="${v}" aria-pressed="false">${timeLabel(v)}</button>`).join('')}</div>
+        <div class="chips" id="times">${times.map((v) => `<button type="button" class="chip petit" data-time="${v}" aria-pressed="false">${timeLabel(v)}</button>`).join('')}</div>
         <p class="note" id="time-note"></p></fieldset>`}
       <p class="raison" id="raison" role="status"></p>
       <button class="btn primary" type="submit" id="go" data-main>${esc(cta)}</button>
@@ -293,12 +298,12 @@ function setup({ title, cta, back, next, noTime = false }) {
   });
   qa('[data-n]').forEach((b) => b.onclick = () => { cfg.n = +b.dataset.n; custom.value = cfg.n; refresh(); });
   custom.value = cfg.n;
-  custom.oninput = () => { const v = parseInt(custom.value, 10); if (v >= 1 && v <= N_MAX) { cfg.n = v; refresh(); } };
+  custom.oninput = () => { const v = parseInt(custom.value, 10); if (v >= nMin && v <= nMax) { cfg.n = v; refresh(); } };
   custom.onblur = () => { custom.value = cfg.n; };
   qa('[data-time]').forEach((b) => b.onclick = () => { cfg.time = +b.dataset.time; refresh(); });
   refresh(); show(n);
   q('#back').onclick = back; backAction = back;
-  q('form').onsubmit = (e) => { e.preventDefault(); if (go.disabled) return; config = { themes: cfg.themes, levels: cfg.levels, n: cfg.n, time: cfg.time }; saveConfig(); next(config); };
+  q('form').onsubmit = (e) => { e.preventDefault(); if (go.disabled) return; const c = { themes: cfg.themes, levels: cfg.levels, n: cfg.n, time: cfg.time }; if (!online) { config = c; saveConfig(); } next(c); };
 }
 
 /* ---------- multijoueur : nombre et prénoms (après le choix du paquet) ---------- */
@@ -595,6 +600,277 @@ function results(g) {
   n.querySelector('#accueil').onclick = home;
 }
 
+/* ---------- en ligne : room privée sur WebSocket (le serveur chronomètre et note, le client n'envoie que son choix) ---------- */
+const PKEY = 'quizdown.online.v1', RKEY = 'quizdown.room.v1';
+const CODE_CHARS = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789', AV_N = 12;
+const cleanCode = (s) => String(s || '').toUpperCase().replace(/[^A-Z0-9]/g, '').replace(/[OI01]/g, '').slice(0, 5);
+const validCode = (c) => c.length === 5 && [...c].every((x) => CODE_CHARS.includes(x));
+const loadProfile = () => { try { const p = JSON.parse(localStorage.getItem(PKEY)); return { name: String(p.name || '').slice(0, NAME_MAX), av: Number.isInteger(p.av) && p.av >= 0 && p.av < AV_N ? p.av : Math.floor(Math.random() * AV_N) }; } catch { return { name: '', av: Math.floor(Math.random() * AV_N) }; } };
+const saveProfile = (p) => { try { localStorage.setItem(PKEY, JSON.stringify(p)); } catch {} };
+const getSess = () => { try { const s = JSON.parse(sessionStorage.getItem(RKEY)); return s && typeof s.code === 'string' && typeof s.token === 'string' ? s : null; } catch { return null; } };
+const setSess = (s) => { try { s ? sessionStorage.setItem(RKEY, JSON.stringify(s)) : sessionStorage.removeItem(RKEY); } catch {} };
+/* avatars : 4 couleurs x 3 visages, aplats, dessinés en SVG (aucune image à charger) */
+const FACES = [
+  '<path d="M8 14.5c1 2 2.500 3 4 3s3-1 4-3" fill="none" stroke="#1B1B1F" stroke-width="2" stroke-linecap="round"/>',
+  '<path d="M8 14h8c0 3-1.800 4.500-4 4.500S8 17 8 14z" fill="#1B1B1F"/>',
+  '<path d="M7.500 15c1.500 1.800 3 2.500 4.500 2.500s3-.7 4.500-2.500" fill="none" stroke="#1B1B1F" stroke-width="2" stroke-linecap="round"/><rect x="5" y="8" width="6" height="4" rx="1.500" fill="#1B1B1F"/><rect x="13" y="8" width="6" height="4" rx="1.500" fill="#1B1B1F"/><path d="M11 9.500h2" stroke="#1B1B1F" stroke-width="1.500"/>',
+];
+const avatar = (a, cls = '') => { const n = Math.abs(a | 0) % AV_N, f = Math.floor(n / 4); return `<svg class="avatar c${n % 4} ${cls}" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10.500"/>${f === 2 ? '' : '<circle cx="8.500" cy="10" r="1.500" fill="#1B1B1F"/><circle cx="15.500" cy="10" r="1.500" fill="#1B1B1F"/>'}${FACES[f]}</svg>`; };
+const avNum = (id) => { const m = /^a(\d+)$/.exec(id || ''); return m ? +m[1] : 0; };
+
+const on = { ws: null, st: null, at: 0, sess: null, first: null, retry: 0, rt: 0, ping: 0, view: null, picked: null, off: false, tick: 0 };
+const wsUrl = () => `${location.protocol === 'https:' ? 'wss:' : 'ws:'}//${location.host}/ws`;
+const send = (m) => { if (on.ws && on.ws.readyState === 1) on.ws.send(JSON.stringify(m)); };
+function netOpen(first) {
+  on.off = false; on.first = first || null; on.st = null; on.sess = first ? null : (on.sess || getSess());
+  if (first) setSess(null);
+  netConnect();
+}
+function netConnect() {
+  clearTimeout(on.rt);
+  if (on.ws && on.ws.readyState <= 1) return;
+  let ws;
+  try { ws = new WebSocket(wsUrl()); } catch { return netLost(); }
+  on.ws = ws;
+  ws.onopen = () => {
+    on.retry = 0;
+    if (on.first) { send(on.first); on.first = null; }
+    else if (on.sess) send({ t: 'resume', code: on.sess.code, pid: on.sess.pid, token: on.sess.token });
+    clearInterval(on.ping); on.ping = setInterval(() => send({ t: 'ping' }), 25000);
+  };
+  ws.onmessage = (e) => { let m; try { m = JSON.parse(e.data); } catch { return; } netMsg(m); };
+  ws.onclose = () => { if (on.ws === ws) { clearInterval(on.ping); on.ws = null; netLost(); } };
+  ws.onerror = () => {};
+}
+function netLost() {
+  if (on.off) return;
+  if (!on.sess) { if (on.view?.key === 'menu') oerr('Connexion impossible. Vérifiez votre réseau puis réessayez.'); return; }
+  // téléphone en veille ou réseau coupé : on reprend la place avec le jeton, pendant 2 minutes
+  if (++on.retry > 24) { netEnd('La connexion est perdue. La partie continue sans vous.'); return; }
+  const b = document.getElementById('net-banner'); if (b) b.hidden = false;
+  on.rt = setTimeout(netConnect, Math.min(5000, 500 * on.retry));
+}
+function netEnd(msg) {
+  on.off = true; clearTimeout(on.rt); clearInterval(on.ping); clearInterval(on.tick);
+  if (on.ws) { const w = on.ws; on.ws = null; w.onclose = null; try { w.close(); } catch {} }
+  on.sess = null; on.st = null; on.view = null; setSess(null);
+  if (msg) { home(); app.insertAdjacentHTML('afterbegin', `<p class="card alerte" role="alert">${esc(msg)}</p>`); say(msg); } else home();
+}
+function oerr(msg) { const e = document.getElementById('oerr'); if (e) e.textContent = msg; say(msg); }
+function netMsg(m) {
+  if (m.t === 'joined') { on.sess = { code: m.code, pid: m.pid, token: m.token }; setSess(on.sess); const b = document.getElementById('net-banner'); if (b) b.hidden = true; return; }
+  if (m.t === 'closed') return netEnd('La room a été fermée.');
+  if (m.t === 'error') {
+    if (on.sess && !on.st) return netEnd(m.code === 'not_found' ? 'Cette room n\'existe plus.' : 'Impossible de reprendre la partie.');
+    return oerr(m.msg || 'Une erreur est survenue.');
+  }
+  if (m.t === 'room') { on.st = m; on.at = performance.now(); const b = document.getElementById('net-banner'); if (b) b.hidden = true; render(); }
+}
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && on.sess && !on.off && !(on.ws && on.ws.readyState <= 1)) { on.retry = 0; netConnect(); } });
+window.addEventListener('online', () => { if (on.sess && !on.off) netConnect(); });
+
+const banner = '<p class="net-banner card alerte" id="net-banner" role="status" hidden>Connexion perdue, reconnexion…</p>';
+const oLeave = () => { send({ t: 'leave' }); netEnd(); };
+const onlineSettingsLabel = (s) => `${themesLabel(s)} · ${levelsLabel(s)} · ${s.n} questions · ${s.time} s`;
+
+/* menu : pseudo, avatar, créer ou rejoindre */
+function onlineMenu(code = '') {
+  on.view = { key: 'menu' };
+  const prof = loadProfile();
+  const n = el(`<section class="card" data-title="Jouer en ligne">
+    <h1>Jouer en ligne</h1>
+    <p class="note">Une room privée : seuls ceux qui ont le code ou le lien peuvent entrer. 2 à 8 joueurs, chacun sur son téléphone.</p>
+    <form class="stack" novalidate>
+      <div><label for="o-name">Votre pseudo</label>
+        <input type="text" id="o-name" maxlength="${NAME_MAX}" autocomplete="off" spellcheck="false" value="${esc(prof.name)}"></div>
+      <fieldset class="bloc"><legend class="etiquette">Votre avatar</legend>
+        <div class="avatars" id="avs">${Array.from({ length: AV_N }, (_, i) => `<button type="button" class="av-btn" data-a="${i}" aria-pressed="false" aria-label="Avatar ${i + 1}">${avatar(i)}</button>`).join('')}</div></fieldset>
+      <p class="raison" id="oerr" role="alert"></p>
+      <button class="btn primary" type="button" id="create" data-main>Créer une room</button>
+      <div class="ou" aria-hidden="true">ou</div>
+      <div><label for="o-code">Rejoindre avec un code (5 caractères)</label>
+        <input type="text" id="o-code" class="code-in" maxlength="5" autocomplete="off" autocapitalize="characters" spellcheck="false" inputmode="text" value="${esc(code)}"></div>
+      <button class="btn alt" type="submit" id="join">Rejoindre</button>
+      <button class="btn back-btn" type="button" id="back">${ICON_BACK}Retour</button>
+    </form></section>`);
+  show(n, code ? '#o-name' : undefined);
+  let av = prof.av;
+  const name = n.querySelector('#o-name'), cin = n.querySelector('#o-code');
+  const drawAv = () => n.querySelectorAll('[data-a]').forEach((b) => b.setAttribute('aria-pressed', +b.dataset.a === av));
+  drawAv();
+  n.querySelector('#avs').onclick = (e) => { const b = e.target.closest('[data-a]'); if (b) { av = +b.dataset.a; drawAv(); } };
+  cin.oninput = () => { cin.value = cleanCode(cin.value); };
+  const me = () => {
+    const nm = name.value.replace(/\s+/g, ' ').trim();
+    if (!nm) { oerr('Choisissez un pseudo.'); name.focus(); return null; }
+    saveProfile({ name: nm, av });
+    return { name: nm, avatar: 'a' + av };
+  };
+  n.querySelector('#create').onclick = () => { const p = me(); if (p) { oerr(''); netOpen({ t: 'create', ...p }); } };
+  n.querySelector('form').onsubmit = (e) => {
+    e.preventDefault();
+    const p = me(); if (!p) return;
+    const c = cleanCode(cin.value);
+    if (!validCode(c)) { oerr('Le code a 5 caractères (lettres et chiffres, sans O, 0, I, 1).'); cin.focus(); return; }
+    oerr(''); netOpen({ t: 'join', code: c, ...p });
+  };
+  n.querySelector('#back').onclick = () => { netEnd(); }; backAction = () => netEnd();
+}
+
+/* un seul rendu par clé de vue (phase + question) ; ensuite on met à jour sur place */
+function render() {
+  const st = on.st; if (!st) return;
+  if (on.view?.key === 'reglages' && st.phase === 'lobby') return;
+  const key = st.phase === 'lobby' ? 'lobby' : st.phase === 'final' ? 'final' : 'q' + st.qi;
+  if (on.view?.key !== key) { clearInterval(on.tick); on.picked = null; on.view = { key }; ({ lobby: viewLobby, final: viewFinal }[key] || viewQuestion)(st); }
+  on.view.update?.(st);
+}
+const me = (st) => st.players.find((p) => p.id === st.you);
+const plRow = (p, st, extra = '') => `<li class="${p.id === st.you ? 'moi' : ''} ${p.connected ? '' : 'off'}">${avatar(avNum(p.avatar), 'small')}<span class="pn">${esc(p.name)}${p.id === st.host ? ' <small class="hote">hôte</small>' : ''}${p.connected ? '' : ' <small>reconnexion…</small>'}</span>${extra}</li>`;
+
+function viewLobby(st) {
+  const n = el(`<section class="card lobby" data-title="Salle d'attente">
+    ${banner}
+    <p class="etiquette">Code de la room</p>
+    <p class="code-geant" id="code" aria-label="Code : ${[...st.code].join(' ')}">${esc(st.code)}</p>
+    <div class="stack"><button class="btn alt" type="button" id="share">Partager le lien</button><p class="note" id="shared" role="status"></p></div>
+    <h2 class="etiquette" id="pc"></h2>
+    <ul class="mini lobby-joueurs" id="pl"></ul>
+    <div class="bloc"><h2 class="etiquette">La partie</h2><p id="cfg" class="cfg"></p><button class="btn court" type="button" id="reglages" hidden>Régler la partie</button></div>
+    <p class="raison" id="oerr" role="alert"></p>
+    <button class="btn primary" type="button" id="start" data-main hidden>Lancer la partie</button>
+    <p class="note" id="wait" hidden>L'hôte lance la partie quand tout le monde est là.</p>
+    <button class="btn back-btn" type="button" id="quit">${ICON_BACK}Quitter la room</button></section>`);
+  show(n, '#code');
+  const link = `${location.origin}${location.pathname}?room=${st.code}`;
+  n.querySelector('#share').onclick = async () => {
+    const out = n.querySelector('#shared');
+    try { if (navigator.share) { await navigator.share({ title: 'QuizDown', text: `Rejoins ma partie QuizDown : code ${st.code}`, url: link }); return; } } catch (e) { if (e && e.name === 'AbortError') return; }
+    try { await navigator.clipboard.writeText(link); out.textContent = 'Lien copié.'; } catch { out.textContent = link; }
+  };
+  n.querySelector('#quit').onclick = oLeave; backAction = oLeave;
+  n.querySelector('#start').onclick = () => { oerr(''); send({ t: 'start' }); };
+  n.querySelector('#reglages').onclick = () => {
+    const cur = on.st.settings;
+    const back = () => { on.view = null; render(); };
+    on.view = { key: 'reglages' };
+    setup({ title: 'Réglages de la partie', cta: 'Valider', online: true, init: cur, back, next: (c) => { send({ t: 'settings', settings: c }); back(); } });
+  };
+  on.view.update = (s) => {
+    const host = s.host === s.you, conn = s.players.filter((p) => p.connected).length;
+    n.querySelector('#pc').textContent = `Joueurs (${s.players.length}/8)`;
+    n.querySelector('#pl').innerHTML = s.players.map((p) => plRow(p, s)).join('');
+    n.querySelector('#cfg').textContent = onlineSettingsLabel(s.settings);
+    n.querySelector('#reglages').hidden = !host;
+    const go = n.querySelector('#start'); go.hidden = !host; go.disabled = conn < 2;
+    go.textContent = conn < 2 ? 'Il faut au moins 2 joueurs' : 'Lancer la partie';
+    n.querySelector('#wait').hidden = host;
+  };
+}
+
+function viewQuestion(st) {
+  const T = st.T / 1000, auto = true;
+  const n = el(`<section class="manche" data-title="Question ${st.qi + 1} sur ${st.total}">
+    ${banner}
+    <h1 class="sr-only" id="qmeta">${esc(st.q.theme)}, ${esc(st.q.level)}, question ${st.qi + 1} sur ${st.total}</h1>
+    <div class="hud"><button class="hud-back" type="button" id="quit">${ICON_BACK}<span class="sr-only">Quitter la room</span></button>
+      <p class="hud-theme">Room ${esc(st.code)}</p>
+      <p class="hud-box"><span class="sr-only">Question </span>${st.qi + 1}<span aria-hidden="true">/</span><span class="sr-only"> sur </span>${st.total}</p>
+      <p class="hud-box hud-score"><span class="sr-only">Score : </span><strong id="sc">${me(st)?.score || 0}</strong></p></div>
+    <div class="timer"><div class="rail" id="tm" aria-hidden="true"><i></i></div><span class="secs" id="secs" aria-hidden="true"></span></div>
+    <div class="qcard"><p class="etiquette">${esc(st.q.theme)} · ${esc(st.q.level)}</p><h2 class="question" id="qtxt" aria-describedby="qmeta">${esc(st.q.text)}</h2></div>
+    <div class="answers" role="group" aria-labelledby="qtxt">${st.q.answers.map((a, i) => `<button class="btn ans a${i}" type="button" data-i="${i}" ${settings.keys ? ` aria-keyshortcuts="${'ABCD'[i]}"` : ''}><span class="key" aria-hidden="true">${'ABCD'[i]}</span><span class="ans-txt">${esc(a)}</span>${shape(i)}</button>`).join('')}</div>
+    <p class="fb" id="fb"></p>
+    <h2 class="etiquette">Classement en direct</h2>
+    <ol class="mini live" id="pl"></ol></section>`);
+  show(n, '.question');
+  n.querySelector('#quit').onclick = oLeave; backAction = oLeave;
+  const btns = [...n.querySelectorAll('[data-i]')], fill = n.querySelector('#tm').firstElementChild, secs = n.querySelector('#secs'), fb = n.querySelector('#fb'), bar = n.querySelector('#tm');
+  let revealed = false;
+  const pick = (i) => {
+    if (on.picked !== null || revealed || on.st.phase !== 'question') return;
+    on.picked = i; send({ t: 'answer', qi: on.st.qi, i });
+    btns.forEach((b, k) => { b.disabled = true; if (k === i) b.classList.add('choisi'); });
+    fb.className = 'fb neutre'; fb.textContent = 'Réponse envoyée. On attend les autres…'; say(fb.textContent);
+  };
+  btns.forEach((b, i) => b.onclick = () => pick(i));
+  const onKey = (e) => {
+    if (!settings.keys || e.repeat || e.ctrlKey || e.metaKey || e.altKey || e.target.closest?.('input,textarea,select') || document.querySelector('dialog[open]')) return;
+    const i = { a: 0, b: 1, c: 2, d: 3, 1: 0, 2: 1, 3: 2, 4: 3 }[e.key.toLowerCase()];
+    if (i !== undefined) pick(i);
+  };
+  keyHandler = onKey; document.addEventListener('keydown', onKey);
+  const left = () => Math.max(0, on.st.ms - (performance.now() - on.at)) / 1000;
+  const tick = () => {
+    if (on.st.phase !== 'question') return;
+    const l = left();
+    fill.style.width = (reduced.matches ? Math.ceil(l) : l) / T * 100 + '%';
+    bar.classList.toggle('urgent', l <= 5); secs.textContent = l <= 5 ? Math.ceil(l) : '';
+  };
+  on.tick = setInterval(tick, 100); tick();
+  on.view.update = (s) => {
+    const mine = me(s);
+    n.querySelector('#sc').textContent = mine?.score || 0;
+    const rank = s.players.slice().sort((a, b) => b.score - a.score || b.good - a.good);
+    n.querySelector('#pl').innerHTML = rank.map((p) => plRow(p, s, `<span class="pt">${p.score}</span>${s.phase === 'question' ? (p.answered ? `<span class="rep">${ICON_OK}<span class="sr-only">a répondu</span></span>` : '') : ''}`)).join('');
+    if (s.phase === 'reveal' && !revealed) {
+      revealed = true; clearInterval(on.tick); bar.classList.remove('urgent'); secs.textContent = '';
+      const r = s.reveal, mineR = r.results.find((x) => x.id === s.you), gain = mineR?.gain || 0, idx0 = mineR ? mineR.i : -1;
+      btns.forEach((b, i) => {
+        b.disabled = true;
+        if (i === r.correct) { b.classList.add('ok'); b.insertAdjacentHTML('beforeend', `<span class="verdict">${ICON_OK}Juste</span>`); }
+        else if (i === idx0) { b.classList.add('ko'); b.insertAdjacentHTML('beforeend', `<span class="verdict">${ICON_KO}Faux</span>`); }
+        else b.classList.remove('choisi');
+      });
+      if (idx0 >= 0) btns[idx0].classList.add('choisi');
+      const right = idx0 === r.correct;
+      fb.className = 'fb ' + (right ? 'juste' : idx0 < 0 ? 'temps' : 'faux');
+      fb.innerHTML = right ? `${ICON_OK}<span>Juste, <strong class="gain">+${gain}</strong> points</span>` : `${ICON_KO}<span>${idx0 < 0 ? 'Temps écoulé' : 'Faux'}, la bonne réponse était <strong>${esc(s.q.answers[r.correct])}</strong></span>`;
+      beep(right ? 'ok' : 'ko'); buzz(right ? 'ok' : idx0 < 0 ? 'temps' : 'ko');
+      say(`${right ? `Juste. Plus ${gain} points.` : `${idx0 < 0 ? 'Temps écoulé' : 'Faux'}. Bonne réponse : ${s.q.answers[r.correct]}.`} Prochaine question dans quelques secondes.`);
+    }
+  };
+}
+
+function viewFinal(st) {
+  beep('end');
+  const rank = st.players.slice().sort((a, b) => b.score - a.score || b.good - a.good);
+  const top = rank[0], max = Math.max(1, top.score);
+  const winners = rank.filter((p) => p.score === top.score && p.good === top.good);
+  const place = (p) => rank.findIndex((o) => o.score === p.score && o.good === p.good) + 1;
+  const mine = me(st), host = st.host === st.you;
+  const n = el(`<section class="card fin" data-title="Résultats">${banner}<div class="fin-grid"><div class="fin-a">
+    <p class="etiquette">Room ${esc(st.code)} · Résultats</p>
+    <h1>${winners.length > 1 ? 'Égalité !' : esc(top.name) + ' gagne !'}</h1>
+    <p class="bilan">${winners.length > 1 ? winners.map((p) => esc(p.name)).join(' et ') + ' finissent ex aequo.' : `${plural(top.good, 'bonne réponse')} sur ${st.total}, bravo.`}</p>
+    <ol class="podium" aria-hidden="true">${rank.map((p) => {
+      const h = 12 + Math.round(88 * p.score / max), r = place(p);
+      return `<li class="${r === 1 ? 'win' : ''}"><span class="colonne"><span class="pile" data-h="${h}">${avatar(avNum(p.avatar), 'big')}</span></span><span class="place">${r === 1 ? '1er' : r + 'e'}</span><span class="podium-nom">${esc(p.name)}</span><span class="podium-score">${p.score} pts</span><span class="podium-good">${p.good}/${st.total}</span></li>`;
+    }).join('')}</ol></div>
+    <div class="fin-b"><table class="detail"><caption class="sr-only">Détail des scores</caption><thead><tr><th scope="col">Place</th><th scope="col">Joueur</th><th scope="col">Justes</th><th scope="col">Points</th></tr></thead>
+    <tbody>${rank.map((p) => `<tr><td>${place(p)}</td><td>${esc(p.name)}${p.id === st.you ? ' (vous)' : ''}</td><td>${p.good}/${st.total}</td><td>${p.score}</td></tr>`).join('')}</tbody></table>
+    ${st.missed?.length ? recap(st.missed, `À retenir : ${plural(st.missed.length, 'question ratée')}`) : '<p class="bilan">Aucune erreur, bravo !</p>'}</div></div>
+    <div class="stack after fin-actions"><button class="btn primary" type="button" id="again" data-main ${host ? '' : 'hidden'}>Rejouer avec les mêmes joueurs</button>
+    <p class="note" id="wait" ${host ? 'hidden' : ''}>L'hôte peut relancer une partie.</p>
+    <button class="btn" type="button" id="quit">Quitter la room</button></div></section>`);
+  show(n, 'h1'); backAction = oLeave;
+  say(winners0({ players: rank }));
+  n.querySelectorAll('.pile').forEach((s) => { s.style.height = s.dataset.h + '%'; });
+  n.querySelector('#again').onclick = () => send({ t: 'again' });
+  n.querySelector('#quit').onclick = oLeave;
+  on.view.update = (s) => {
+    const h = s.host === s.you; n.querySelector('#again').hidden = !h; n.querySelector('#wait').hidden = h;
+  };
+}
+
+/* lien direct : ?room=CODE ouvre le menu avec le code ; une room en cours (téléphone rechargé) est reprise */
+function onlineBoot() {
+  const q = new URLSearchParams(location.search).get('room');
+  if (q) { history.replaceState(null, '', location.pathname); const c = cleanCode(q); if (c) { const s = getSess(); if (s && s.code === c) { netOpen(null); return true; } onlineMenu(c); return true; } }
+  if (getSess()) { netOpen(null); return true; }
+  return false;
+}
+
 /* ---------- clavier global : Échap = Retour, Entrée / Espace = bouton principal ---------- */
 document.addEventListener('keydown', (e) => {
   if (e.ctrlKey || e.metaKey || e.altKey || document.querySelector('dialog[open]')) return;
@@ -609,12 +885,13 @@ document.addEventListener('keydown', (e) => {
 // en partie, le logo passe par la confirmation ; pendant la sortie de carte (backAction nul), il est ignoré
 document.getElementById('home').onclick = () => {
   if (!idx.themes.length) return;
+  if (on.sess && !on.off) { if (confirm('Quitter la room ?')) oLeave(); return; }
   if (app.querySelector('#quit')) { if (backAction === confirmQuit) confirmQuit(); return; }
   home();
 };
 refreshSound();
 fetch('data/index.json')
   .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
-  .then((d) => { const v = validIndex(d); if (!v) throw new Error('data'); idx = v; loadConfig(); home(); })
+  .then((d) => { const v = validIndex(d); if (!v) throw new Error('data'); idx = v; loadConfig(); if (!onlineBoot()) home(); })
   .catch(() => show(el('<section class="card" data-title="Erreur de chargement"><h1>Impossible de charger les questions</h1><p>Lancez le jeu depuis un serveur web (voir le README), pas en ouvrant le fichier directement.</p></section>')));
 })();
