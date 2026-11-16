@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Comment s'appelle la technique de Léonard de Vinci aux contours estompés, comme dans la Joconde ?",
+  "a": [
+   "Le pointillisme",
+   "Le collage",
+   "Le fusain",
+   "Le sfumato"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a peint « Le Radeau de la Méduse » ?",
+  "a": [
+   "Eugène Delacroix",
+   "Gustave Courbet",
+   "Théodore Géricault",
+   "Édouard Manet"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel instrument à vent, avec une poche d'air, est typique de l'Écosse ?",
+  "a": [
+   "L'accordéon",
+   "Le saxophone",
+   "La cornemuse",
+   "Le tuba"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel mouvement artistique est associé à Claude Monet ?",
+  "a": [
+   "L'impressionnisme",
+   "Le cubisme",
+   "Le surréalisme",
+   "Le fauvisme"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Dans quel pays se trouve la chapelle Sixtine ?",
+  "a": [
+   "Au Vatican",
+   "En France",
+   "En Espagne",
+   "En Grèce"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel compositeur est devenu sourd tout en continuant à composer ?",
+  "a": [
+   "Mozart",
+   "Bach",
+   "Vivaldi",
+   "Beethoven"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que signifie « crescendo » ?",
+  "a": [
+   "De plus en plus doux",
+   "De plus en plus vite",
+   "De plus en plus fort",
+   "De plus en plus lent"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a peint « Le Cri » ?",
+  "a": [
+   "Gustav Klimt",
+   "Edvard Munch",
+   "Vincent van Gogh",
+   "Paul Gauguin"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Dans quel musée se trouve la Vénus de Milo ?",
+  "a": [
+   "Le musée d'Orsay",
+   "Le Louvre",
+   "Le Prado",
+   "Le British Museum"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a composé « Le Lac des cygnes » ?",
+  "a": [
+   "Tchaïkovski",
+   "Prokofiev",
+   "Stravinsky",
+   "Chopin"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Dans une partition, combien de temps dure une blanche (la noire valant 1 temps) ?",
+  "a": [
+   "1 temps",
+   "3 temps",
+   "4 temps",
+   "2 temps"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans une partition, combien de temps dure une ronde (la noire valant 1 temps) ?",
+  "a": [
+   "2 temps",
+   "3 temps",
+   "4 temps",
+   "8 temps"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a peint « Le Baiser », un tableau orné d'or ?",
+  "a": [
+   "Egon Schiele",
+   "Edvard Munch",
+   "Gustav Klimt",
+   "Henri Matisse"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans quelle région de France se trouve le Mont-Saint-Michel ?",
+  "a": [
+   "La Bretagne",
+   "La Normandie",
+   "L'Alsace",
+   "La Provence"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle artiste mexicaine est célèbre pour ses autoportraits ?",
+  "a": [
+   "Frida Kahlo",
+   "Georgia O'Keeffe",
+   "Camille Claudel",
+   "Niki de Saint Phalle"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel architecte américain d'origine chinoise a dessiné la pyramide de verre du Louvre ?",
+  "a": [
+   "Frank Gehry",
+   "Le Corbusier",
+   "Norman Foster",
+   "Ieoh Ming Pei"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel art est surnommé « le septième art » ?",
+  "a": [
+   "La danse",
+   "La photographie",
+   "La bande dessinée",
+   "Le cinéma"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel peintre japonais a réalisé « La Grande Vague de Kanagawa » ?",
+  "a": [
+   "Kurosawa",
+   "Miyazaki",
+   "Hokusai",
+   "Tezuka"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a composé l'opéra « Carmen » ?",
+  "a": [
+   "Giuseppe Verdi",
+   "Georges Bizet",
+   "Jacques Offenbach",
+   "Maurice Ravel"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel peintre a vécu à Arles et peint « La Chambre » ?",
+  "a": [
+   "Vincent van Gogh",
+   "Paul Cézanne",
+   "Georges Seurat",
+   "Camille Pissarro"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Dans quel pays le flamenco est-il né ?",
+  "a": [
+   "En Espagne",
+   "En Italie",
+   "Au Portugal",
+   "En Argentine"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Dans quelle ville se trouve la célèbre tour penchée ?",
+  "a": [
+   "Rome",
+   "Florence",
+   "Venise",
+   "Pise"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment appelle-t-on le langage qui permet d'écrire la musique ?",
+  "a": [
+   "La grammaire",
+   "La calligraphie",
+   "Le solfège",
+   "La notation scientifique"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel dessinateur a créé Astérix avec Goscinny ?",
+  "a": [
+   "Hergé",
+   "Albert Uderzo",
+   "Morris",
+   "Franquin"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a écrit les paroles et la musique de « La Marseillaise » ?",
+  "a": [
+   "Victor Hugo",
+   "Rouget de Lisle",
+   "Napoléon",
+   "Hector Berlioz"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment s'appelle une image obtenue en imprimant une planche gravée ?",
+  "a": [
+   "Une estampe",
+   "Une mosaïque",
+   "Un vitrail",
+   "Une aquarelle"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le prénom de Mozart ?",
+  "a": [
+   "Ludwig van",
+   "Johann Sebastian",
+   "Frédéric",
+   "Wolfgang Amadeus"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel peintre a réalisé « La Jeune Fille à la perle » ?",
+  "a": [
+   "Rembrandt",
+   "Frans Hals",
+   "Johannes Vermeer",
+   "Rubens"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel instrument à cordes pincées a une caisse en forme de huit et six cordes ?",
+  "a": [
+   "Le violon",
+   "Le tambour",
+   "La guitare",
+   "La clarinette"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelle-t-on un morceau chanté ou joué par une seule personne ?",
+  "a": [
+   "Un duo",
+   "Un trio",
+   "Un solo",
+   "Un chœur"
+  ],
+  "c": 2
+ }
+]

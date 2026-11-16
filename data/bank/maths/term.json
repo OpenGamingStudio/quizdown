@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quelle est la limite de 1/x quand x tend vers +infini ?",
+  "a": [
+   "1",
+   "+infini",
+   "-infini",
+   "0"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la limite en +infini de e^x ?",
+  "a": [
+   "+infini",
+   "0",
+   "1",
+   "e"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la limite en -infini de e^x ?",
+  "a": [
+   "-infini",
+   "0",
+   "1",
+   "+infini"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la limite de la suite (1/2)ⁿ quand n tend vers +infini ?",
+  "a": [
+   "1/2",
+   "1",
+   "0",
+   "+infini"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Une suite géométrique de raison q avec -1 < q < 1 a pour limite...",
+  "a": [
+   "1",
+   "+infini",
+   "q",
+   "0"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que vaut ln(1) ?",
+  "a": [
+   "1",
+   "e",
+   "-1",
+   "0"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que vaut ln(e) ?",
+  "a": [
+   "1",
+   "0",
+   "e",
+   "e²"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que vaut ln(a x b) pour a et b strictement positifs ?",
+  "a": [
+   "ln a + ln b",
+   "ln a x ln b",
+   "ln a - ln b",
+   "a ln b"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la dérivée de ln(x) sur ]0 ; +infini[ ?",
+  "a": [
+   "1/x",
+   "x",
+   "ln(x)/x",
+   "-1/x"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la dérivée de e^(2x) ?",
+  "a": [
+   "e^(2x)",
+   "2 e^(2x)",
+   "2x e^(2x)",
+   "e^(2x)/2"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la solution de e^x = 5 ?",
+  "a": [
+   "5 ln",
+   "e⁵",
+   "ln 5",
+   "1/5"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la solution de ln x = 2 ?",
+  "a": [
+   "2e",
+   "ln 2",
+   "2",
+   "e²"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est une primitive de f(x) = 2x ?",
+  "a": [
+   "x²/2",
+   "2",
+   "2x²",
+   "x²"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est une primitive de f(x) = e^x ?",
+  "a": [
+   "e^x",
+   "x e^x",
+   "e^(x+1)",
+   "e^x / x"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est une primitive de f(x) = 1/x sur ]0 ; +infini[ ?",
+  "a": [
+   "-1/x²",
+   "ln x",
+   "x ln x",
+   "1/x²"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que vaut l'intégrale de 0 à 2 de x dx ?",
+  "a": [
+   "4",
+   "1",
+   "1/2",
+   "2"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que vaut l'intégrale de 0 à 1 de 3x² dx ?",
+  "a": [
+   "1",
+   "3",
+   "1/3",
+   "0"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que vaut l'intégrale de 1 à 2 de 1/x dx ?",
+  "a": [
+   "1/2",
+   "ln 2",
+   "ln 1",
+   "2"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Si f est positive sur [a ; b], l'intégrale de f entre a et b représente...",
+  "a": [
+   "la pente de la courbe",
+   "la dérivée en b",
+   "l'aire sous la courbe",
+   "le maximum de f"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la valeur moyenne de f(x) = x sur [0 ; 2] ?",
+  "a": [
+   "2",
+   "1/2",
+   "4",
+   "1"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien y a-t-il de façons de choisir 2 éléments parmi 5 (sans ordre) ?",
+  "a": [
+   "20",
+   "25",
+   "5",
+   "10"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien y a-t-il de façons d'ordonner 4 objets distincts ?",
+  "a": [
+   "24",
+   "16",
+   "12",
+   "4"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que vaut 5 factorielle ?",
+  "a": [
+   "120",
+   "25",
+   "60",
+   "720"
+  ],
+  "c": 0
+ },
+ {
+  "q": "X suit une loi binomiale B(3 ; 0,5). Quelle est la probabilité P(X = 0) ?",
+  "a": [
+   "1/8",
+   "1/2",
+   "3/8",
+   "1/4"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Avec B et son contraire, la formule des probabilités totales donne P(A) =",
+  "a": [
+   "P(B) + P(non B)",
+   "P(B)xP(A/B) + P(non B)xP(A/non B)",
+   "P(A/B) + P(A/non B)",
+   "P(A inter B) - P(A inter non B)"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Le théorème des valeurs intermédiaires s'applique à une fonction...",
+  "a": [
+   "dérivable en un point seulement",
+   "croissante en un point",
+   "continue sur un intervalle",
+   "définie par morceaux seulement"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que vaut la limite de (2x + 1)/(x + 3) quand x tend vers +infini ?",
+  "a": [
+   "0",
+   "1/3",
+   "+infini",
+   "2"
+  ],
+  "c": 3
+ },
+ {
+  "q": "La fonction f(x) = x² - 4x est convexe car sa dérivée seconde est...",
+  "a": [
+   "positive",
+   "négative",
+   "nulle",
+   "impaire"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est un vecteur directeur de la droite d'équation paramétrique (x = 1 + 2t, y = 3 - t, z = t) ?",
+  "a": [
+   "(1 ; 3 ; 0)",
+   "(2 ; -1 ; 1)",
+   "(2 ; 1 ; 1)",
+   "(1 ; 3 ; 1)"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Deux droites de l'espace de vecteurs directeurs (1 ; 2 ; 3) et (2 ; 4 ; 6) sont...",
+  "a": [
+   "orthogonales",
+   "parallèles",
+   "sécantes",
+   "gauches obligatoirement"
+  ],
+  "c": 1
+ }
+]

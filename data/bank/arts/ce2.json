@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel mot désigne celui qui joue d'un instrument de musique dans un orchestre ?",
+  "a": [
+   "Un peintre",
+   "Un sculpteur",
+   "Un architecte",
+   "Un musicien"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelles sont les trois couleurs secondaires en peinture ?",
+  "a": [
+   "Rouge, jaune, bleu",
+   "Noir, blanc, gris",
+   "Orange, vert, violet",
+   "Rose, marron, beige"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans le cercle chromatique traditionnel, quelle couleur est complémentaire du rouge ?",
+  "a": [
+   "Le bleu",
+   "Le vert",
+   "Le jaune",
+   "L'orange"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Dans quel musée de Paris peut-on voir la Joconde ?",
+  "a": [
+   "Le Louvre",
+   "Le musée d'Orsay",
+   "Le Centre Pompidou",
+   "Le Grand Palais"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de cordes a une guitare classique ?",
+  "a": [
+   "6",
+   "4",
+   "8",
+   "12"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Dans quel type de bâtiment voit-on souvent des vitraux ?",
+  "a": [
+   "Une piscine",
+   "Une gare",
+   "Un supermarché",
+   "Une église"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment appelle-t-on un silence d'une durée d'un temps ?",
+  "a": [
+   "Une croche",
+   "Un dièse",
+   "Un soupir",
+   "Une clé"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment s'appelle une chanson où les voix commencent l'une après l'autre sur la même mélodie, comme « Frère Jacques » ?",
+  "a": [
+   "Un solo",
+   "Un canon",
+   "Un duo",
+   "Un refrain"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel sculpteur a créé « Le Penseur » ?",
+  "a": [
+   "Michel-Ange",
+   "Auguste Rodin",
+   "Pablo Picasso",
+   "Claude Monet"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle célèbre cathédrale gothique se trouve sur l'île de la Cité à Paris ?",
+  "a": [
+   "Notre-Dame",
+   "Le Sacré-Cœur",
+   "La Madeleine",
+   "Saint-Sulpice"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a composé « La Petite Musique de nuit » ?",
+  "a": [
+   "Beethoven",
+   "Vivaldi",
+   "Ravel",
+   "Mozart"
+  ],
+  "c": 3
+ },
+ {
+  "q": "À quoi sert une palette de peintre ?",
+  "a": [
+   "À essuyer le pinceau",
+   "À accrocher le tableau",
+   "À mélanger les couleurs",
+   "À découper le papier"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelle-t-on un tableau qui représente une personne ?",
+  "a": [
+   "Un paysage",
+   "Une nature morte",
+   "Un portrait",
+   "Un décor"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelle-t-on un tableau qui représente un lieu en pleine nature ?",
+  "a": [
+   "Un portrait",
+   "Un paysage",
+   "Une nature morte",
+   "Un autoportrait"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel instrument de percussion est composé de lames de bois ou de métal frappées avec des baguettes ?",
+  "a": [
+   "Le xylophone",
+   "Le violon",
+   "La clarinette",
+   "La harpe"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel très grand instrument à tuyaux trouve-t-on souvent dans les églises ?",
+  "a": [
+   "L'accordéon",
+   "La harpe",
+   "Le banjo",
+   "L'orgue"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment appelle-t-on les cinq lignes sur lesquelles on écrit les notes ?",
+  "a": [
+   "La gamme",
+   "Le refrain",
+   "Le rythme",
+   "La portée"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment appelle-t-on la personne qui joue un rôle sur la scène d'un théâtre ?",
+  "a": [
+   "Un sculpteur",
+   "Un comédien",
+   "Un architecte",
+   "Un chef d'orchestre"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a composé l'« Ode à la joie » ?",
+  "a": [
+   "Mozart",
+   "Beethoven",
+   "Chopin",
+   "Bizet"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle couleur obtient-on en mélangeant du blanc à du rouge ?",
+  "a": [
+   "Du rose",
+   "Du vert",
+   "Du marron",
+   "Du gris"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment s'appelle l'art japonais du pliage de papier ?",
+  "a": [
+   "L'origami",
+   "Le kimono",
+   "Le manga",
+   "Le bonsaï"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a composé « Le Carnaval des animaux » ?",
+  "a": [
+   "Maurice Ravel",
+   "Georges Bizet",
+   "Claude Debussy",
+   "Camille Saint-Saëns"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel instrument fait partie de la famille des bois ?",
+  "a": [
+   "La trompette",
+   "Le trombone",
+   "La clarinette",
+   "Le tuba"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelle-t-on la vitesse à laquelle on joue un morceau de musique ?",
+  "a": [
+   "La clé",
+   "Le tempo",
+   "La nuance",
+   "La gamme"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel dessinateur belge a créé Tintin ?",
+  "a": [
+   "Uderzo",
+   "Hergé",
+   "Franquin",
+   "Peyo"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle statue géante, offerte par la France, se trouve à New York ?",
+  "a": [
+   "La statue de la Liberté",
+   "Le Penseur",
+   "Le Christ Rédempteur",
+   "La Vénus de Milo"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel instrument à vent en cuivre se joue avec une coulisse ?",
+  "a": [
+   "La flûte",
+   "La clarinette",
+   "Le hautbois",
+   "Le trombone"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel nom donne-t-on à une œuvre en trois dimensions faite par un sculpteur ?",
+  "a": [
+   "Une peinture",
+   "Une affiche",
+   "Une sculpture",
+   "Une gravure"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a peint « La Nuit étoilée » ?",
+  "a": [
+   "Léonard de Vinci",
+   "Claude Monet",
+   "Vincent van Gogh",
+   "Pablo Picasso"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que représente une nature morte ?",
+  "a": [
+   "Un paysage de montagne",
+   "Des objets, des fruits ou des fleurs",
+   "Un portrait de roi",
+   "Une bataille"
+  ],
+  "c": 1
+ }
+]

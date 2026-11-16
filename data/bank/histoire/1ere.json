@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Quel économiste du XIXe siècle publie « Le Capital » (1867) ?",
+  "a": [
+   "Adam Smith",
+   "John Maynard Keynes",
+   "Alfred Marshall",
+   "Karl Marx"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle crise commence en 1873 et ralentit la croissance dans les pays industrialisés ?",
+  "a": [
+   "Le krach de 1929",
+   "Le choc pétrolier de 1973",
+   "La Grande Dépression de la fin du XIXe siècle",
+   "La crise de 2008"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment nomme-t-on la forte croissance des échanges mondiaux avant 1914 ?",
+  "a": [
+   "La guerre froide",
+   "La décolonisation",
+   "La première mondialisation",
+   "La Reconstruction"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle invention de Ford permet la production en grande série des automobiles ?",
+  "a": [
+   "Le moteur à explosion",
+   "La machine à vapeur",
+   "Le travail à la chaîne",
+   "La lampe à incandescence"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle crise économique débute en 1929 aux États-Unis ?",
+  "a": [
+   "Le choc pétrolier",
+   "La crise de la dette",
+   "La Grande Dépression",
+   "La Longue Dépression"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel président américain met en œuvre le New Deal ?",
+  "a": [
+   "Herbert Hoover",
+   "Franklin D. Roosevelt",
+   "Harry Truman",
+   "John F. Kennedy"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle période de forte croissance en Europe occidentale suit la Seconde Guerre mondiale ?",
+  "a": [
+   "Les Années folles",
+   "Les Trente Glorieuses",
+   "La Belle Époque",
+   "La Grande Dépression"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel choc de 1973 met fin aux Trente Glorieuses ?",
+  "a": [
+   "Le krach d'octobre",
+   "La crise de Suez",
+   "Le choc pétrolier",
+   "La crise des subprimes"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle affaire, de 1894 à 1906, divise la France autour d'un officier juif accusé de trahison ?",
+  "a": [
+   "L'affaire Dreyfus",
+   "L'affaire Stavisky",
+   "Le boulangisme",
+   "La Commune"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui publie « J'accuse » en 1898 ?",
+  "a": [
+   "Victor Hugo",
+   "Jean Jaurès",
+   "Émile Zola",
+   "Georges Clemenceau"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle loi de 1905 sépare les Églises et l'État ?",
+  "a": [
+   "Le Concordat",
+   "La loi Falloux",
+   "La loi de séparation des Églises et de l'État",
+   "La loi Ferry"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle loi de 1884 autorise les syndicats en France ?",
+  "a": [
+   "La loi Le Chapelier",
+   "La loi Ferry",
+   "La loi Veil",
+   "La loi Waldeck-Rousseau"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle loi de 1881 garantit la liberté de la presse ?",
+  "a": [
+   "La loi de 1905",
+   "La loi du 29 juillet 1881",
+   "La loi de 1901",
+   "La loi de 1884"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle loi de 1901 reconnaît la liberté d'association ?",
+  "a": [
+   "La loi de 1905",
+   "La loi Falloux",
+   "La loi du 1er juillet 1901",
+   "La loi Combes de 1904"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle alliance regroupe la France, le Royaume-Uni et la Russie avant 1914 ?",
+  "a": [
+   "La Triple-Alliance",
+   "La Triple-Entente",
+   "La Sainte-Alliance",
+   "L'Axe"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle grande bataille de septembre 1914 stoppe l'avancée allemande vers Paris ?",
+  "a": [
+   "Verdun",
+   "La Marne",
+   "La Somme",
+   "Tannenberg"
+  ],
+  "c": 1
+ },
+ {
+  "q": "En quelle année les États-Unis entrent-ils dans la Première Guerre mondiale ?",
+  "a": [
+   "1914",
+   "1917",
+   "1916",
+   "1918"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel traité de 1919 impose des réparations à l'Allemagne ?",
+  "a": [
+   "Le traité de Versailles",
+   "Le traité de Rome",
+   "Le traité de Brest-Litovsk",
+   "Le traité de Trianon"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle organisation internationale est créée en 1919 pour préserver la paix ?",
+  "a": [
+   "L'ONU",
+   "L'OTAN",
+   "La Société des Nations",
+   "L'Union européenne"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle coalition de gauche arrive au pouvoir en France en 1936 ?",
+  "a": [
+   "Le Cartel des gauches",
+   "Le Bloc national",
+   "Le Front populaire",
+   "Le Front national"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel texte du 22 juin 1940 est signé à Rethondes ?",
+  "a": [
+   "L'armistice avec l'Allemagne",
+   "Le traité de Versailles",
+   "Le pacte germano-soviétique",
+   "L'acte de capitulation de 1945"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui dirige le gouvernement provisoire de la République française en 1944 ?",
+  "a": [
+   "Philippe Pétain",
+   "Charles de Gaulle",
+   "Vincent Auriol",
+   "Léon Blum"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle ordonnance de 1944 donne le droit de vote aux femmes ?",
+  "a": [
+   "La loi de 1905",
+   "La loi Veil",
+   "La loi de 1881",
+   "L'ordonnance du 21 avril 1944"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle institution est créée en 1945 pour assurer une protection sociale ?",
+  "a": [
+   "La Caisse d'épargne",
+   "La Sécurité sociale",
+   "La Banque de France",
+   "Le Conseil d'État"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel mouvement de contestation majeur a lieu en France au printemps 1968 ?",
+  "a": [
+   "Le Front populaire",
+   "Mai 68",
+   "La Libération",
+   "La Commune"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui est le premier président de la Ve République élu au suffrage universel direct en 1965 ?",
+  "a": [
+   "Georges Pompidou",
+   "Valéry Giscard d'Estaing",
+   "Charles de Gaulle",
+   "François Mitterrand"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle réforme constitutionnelle de 1962 instaure l'élection du président au suffrage universel direct ?",
+  "a": [
+   "Le référendum d'octobre 1962",
+   "La loi Veil",
+   "La Constitution de 1946",
+   "La loi de 1905"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel accord signé en mars 1962 met fin à la guerre d'Algérie ?",
+  "a": [
+   "Les accords d'Évian",
+   "Les accords de Munich",
+   "Les accords de Matignon",
+   "Les accords de Grenelle"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel régime politique est instauré en France par la Constitution de 1958 ?",
+  "a": [
+   "La Ve République",
+   "La IVe République",
+   "Le Second Empire",
+   "La Restauration"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel président de la République français est élu en 1981 et appartient à la gauche ?",
+  "a": [
+   "François Mitterrand",
+   "Georges Pompidou",
+   "Valéry Giscard d'Estaing",
+   "Jacques Chirac"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel dirigeant socialiste fonde la SFIO en 1905 et est assassiné en 1914 ?",
+  "a": [
+   "Léon Blum",
+   "Jules Guesde",
+   "Jean Jaurès",
+   "Georges Clemenceau"
+  ],
+  "c": 2
+ }
+]

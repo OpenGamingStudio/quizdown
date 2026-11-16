@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Quelle est la différence entre le matériel et le logiciel ?",
+  "a": [
+   "Le matériel se touche, le logiciel est un programme",
+   "Aucune",
+   "Le logiciel se touche",
+   "Le matériel est un programme"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un système d'exploitation ?",
+  "a": [
+   "Un jeu",
+   "Un navigateur",
+   "Un virus",
+   "Un logiciel qui gère l'ordinateur"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est un exemple de système d'exploitation ?",
+  "a": [
+   "Scratch",
+   "Word",
+   "Linux",
+   "Firefox"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'une adresse IP ?",
+  "a": [
+   "Un mot de passe",
+   "Un identifiant d'appareil sur un réseau",
+   "Un fichier",
+   "Un écran"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le rôle d'un routeur ?",
+  "a": [
+   "Imprimer",
+   "Relier des réseaux",
+   "Stocker des photos",
+   "Capturer des sons"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que le cloud ?",
+  "a": [
+   "Des serveurs distants qui stockent des données",
+   "Un nuage météo",
+   "Un câble",
+   "Une souris"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un serveur ?",
+  "a": [
+   "Un écran",
+   "Un clavier",
+   "Un câble",
+   "Un ordinateur qui fournit des services"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que signifie « HTML » ?",
+  "a": [
+   "Un virus",
+   "Un navigateur",
+   "Un langage pour décrire des pages web",
+   "Un jeu"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans Scratch, à quoi sert un bloc « si ... sinon » ?",
+  "a": [
+   "Répéter sans fin",
+   "Dessiner un cercle",
+   "Choisir entre deux actions selon une condition",
+   "Fermer le programme"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans un programme, qu'est-ce qu'un événement ?",
+  "a": [
+   "Une erreur",
+   "Une action qui déclenche des instructions",
+   "Un écran",
+   "Un fichier"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'une boucle infinie ?",
+  "a": [
+   "Une répétition qui ne s'arrête jamais",
+   "Une boucle de 4 fois",
+   "Une erreur d'impression",
+   "Un fichier compressé"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que fait « répéter jusqu'à ... » ?",
+  "a": [
+   "Ne répète jamais",
+   "Efface le programme",
+   "Arrête le lutin",
+   "Répète tant que la condition n'est pas vraie"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Pourquoi nommer ses variables clairement ?",
+  "a": [
+   "Pour le ralentir",
+   "Pour le cacher",
+   "Pour l'effacer",
+   "Pour comprendre le programme"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'une donnée numérique ?",
+  "a": [
+   "Un fichier papier",
+   "Une peinture",
+   "Une information codée en nombres",
+   "Un câble"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment un ordinateur code-t-il l'information ?",
+  "a": [
+   "En lettres seulement",
+   "En binaire avec des 0 et des 1",
+   "En couleurs seulement",
+   "En sons seulement"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que représente le binaire 10 en décimal ?",
+  "a": [
+   "2",
+   "10",
+   "1",
+   "3"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que représente le binaire 11 en décimal ?",
+  "a": [
+   "3",
+   "11",
+   "2",
+   "4"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la netiquette ?",
+  "a": [
+   "Un virus",
+   "Un logiciel",
+   "Une adresse",
+   "Les règles de politesse en ligne"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'une pièce jointe dans un courriel ?",
+  "a": [
+   "Un virus obligatoire",
+   "Une adresse IP",
+   "Un mot de passe",
+   "Un fichier envoyé avec le message"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que le hameçonnage (phishing) ?",
+  "a": [
+   "Une pêche en ligne",
+   "Une arnaque pour voler des informations",
+   "Une mise à jour",
+   "Un jeu"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un cookie sur un site web ?",
+  "a": [
+   "Un virus mortel",
+   "Un petit fichier enregistré par un site",
+   "Un câble",
+   "Un logiciel de jeu"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que signifie « télécharger » un fichier ?",
+  "a": [
+   "Le copier depuis Internet sur son appareil",
+   "L'envoyer à tous ses contacts",
+   "L'effacer du réseau",
+   "Le protéger par un code"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que l'identité numérique ?",
+  "a": [
+   "Un passeport papier",
+   "Un écran",
+   "Un mot de passe seul",
+   "Les traces et informations qu'on laisse en ligne"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'une licence libre ?",
+  "a": [
+   "Un virus",
+   "Un jeu vidéo",
+   "Une autorisation d'utiliser et partager une œuvre",
+   "Une interdiction totale"
+  ],
+  "c": 2
+ },
+ {
+  "q": "À quoi sert un antivirus ?",
+  "a": [
+   "Imprimer",
+   "Accélérer les photos",
+   "Détecter et bloquer des logiciels malveillants",
+   "Réduire le son"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que mesure un « ping » ?",
+  "a": [
+   "La taille d'un fichier",
+   "Le temps de réponse d'un réseau",
+   "La couleur d'un écran",
+   "Un virus"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un tableur ?",
+  "a": [
+   "Un logiciel de calculs dans des tableaux",
+   "Un navigateur",
+   "Un éditeur de photos",
+   "Un lecteur de musique"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel logiciel sert à écrire un texte ?",
+  "a": [
+   "Un tableur",
+   "Un lecteur vidéo",
+   "Un antivirus",
+   "Un traitement de texte"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est l'avantage d'un mot de passe unique par site ?",
+  "a": [
+   "Aucun",
+   "Le rendre plus court",
+   "Le partager",
+   "Limiter les dégâts en cas de vol"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Pourquoi limiter son temps d'écran ?",
+  "a": [
+   "Pour détruire l'écran",
+   "Pour libérer la RAM",
+   "Pour préserver sommeil et attention",
+   "Aucune raison"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un clic droit ?",
+  "a": [
+   "Un double clic",
+   "Un clic qui ouvre un menu",
+   "Un clic sur le clavier",
+   "Une erreur"
+  ],
+  "c": 1
+ }
+]

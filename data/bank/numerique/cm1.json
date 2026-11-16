@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Que faut-il faire avec un mot de passe ?",
+  "a": [
+   "Le garder secret",
+   "Le dire à ses amis",
+   "L'écrire sur la porte",
+   "Le choisir très court"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel mot de passe est le plus solide ?",
+  "a": [
+   "Ton prénom",
+   "1234",
+   "Le mot « motdepasse »",
+   "Un long mélange de lettres, chiffres et symboles"
+  ],
+  "c": 3
+ },
+ {
+  "q": "À qui peut-on parler si on voit une image qui fait peur sur Internet ?",
+  "a": [
+   "À personne",
+   "À un inconnu en ligne",
+   "À un adulte de confiance",
+   "À tous ses contacts"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que faut-il faire avant de donner son adresse en ligne ?",
+  "a": [
+   "La donner à tous",
+   "Ne pas la donner à des inconnus",
+   "L'écrire en public",
+   "La poster sur un forum"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que veut dire « Internet » ?",
+  "a": [
+   "Un jeu vidéo",
+   "Un réseau mondial d'ordinateurs reliés",
+   "Une marque d'ordinateurs",
+   "Un logiciel de dessin"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un navigateur ?",
+  "a": [
+   "Un logiciel pour consulter des sites",
+   "Un écran",
+   "Un clavier",
+   "Un câble"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est un exemple de navigateur ?",
+  "a": [
+   "Word",
+   "Scratch",
+   "Paint",
+   "Firefox"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel périphérique permet de saisir du texte ?",
+  "a": [
+   "L'écran",
+   "L'imprimante",
+   "Le clavier",
+   "Le haut-parleur"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel périphérique permet de montrer des images ?",
+  "a": [
+   "La souris",
+   "Le clavier",
+   "L'écran",
+   "Le micro"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel périphérique sert à pointer et cliquer ?",
+  "a": [
+   "L'imprimante",
+   "La souris",
+   "Le haut-parleur",
+   "L'écran"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que fait une imprimante ?",
+  "a": [
+   "Elle met un document sur papier",
+   "Elle enregistre des vidéos",
+   "Elle capte le son",
+   "Elle envoie du courant"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un fichier ?",
+  "a": [
+   "Un câble",
+   "Un écran",
+   "Un virus",
+   "Un document enregistré dans l'ordinateur"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment appelle-t-on un regroupement de fichiers ?",
+  "a": [
+   "Un câble",
+   "Un pixel",
+   "Un clic",
+   "Un dossier"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que veut dire « copier-coller » ?",
+  "a": [
+   "Supprimer pour toujours",
+   "Imprimer une page",
+   "Dupliquer et placer ailleurs",
+   "Fermer un programme"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans Scratch, que fait un bloc « avancer de 10 pas » ?",
+  "a": [
+   "Il efface le lutin",
+   "Il déplace le lutin",
+   "Il change la musique",
+   "Il ferme le jeu"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment appelle-t-on le personnage animé dans Scratch ?",
+  "a": [
+   "Un lutin",
+   "Un robot",
+   "Un mot",
+   "Un pixel"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un algorithme ?",
+  "a": [
+   "Une suite d'instructions pour résoudre un problème",
+   "Un virus",
+   "Un écran",
+   "Un jeu vidéo"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un programme ?",
+  "a": [
+   "Une émission télé",
+   "Un câble",
+   "Un dossier",
+   "Une suite d'instructions comprises par un ordinateur"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans Scratch, que fait « répéter 4 fois » ?",
+  "a": [
+   "Il fait un son",
+   "Il efface l'écran",
+   "Il répète des blocs 4 fois",
+   "Il cache le lutin"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'une boucle ?",
+  "a": [
+   "Un nœud de corde",
+   "Une répétition d'instructions",
+   "Une erreur grave",
+   "Un type de clavier"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle touche du clavier efface la dernière lettre tapée ?",
+  "a": [
+   "Entrée",
+   "Retour arrière",
+   "Espace",
+   "Majuscule"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un courriel ?",
+  "a": [
+   "Un message électronique",
+   "Un journal",
+   "Une carte postale",
+   "Un colis"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que faire d'un message qui demande ton mot de passe ?",
+  "a": [
+   "Répondre vite",
+   "Le transférer",
+   "Donner un faux mot de passe à tous",
+   "Ne pas répondre et le dire à un adulte"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que le cyberharcèlement ?",
+  "a": [
+   "Une panne",
+   "Un jeu",
+   "Des moqueries ou menaces répétées en ligne",
+   "Une vidéo drôle"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que faire si quelqu'un te harcèle en ligne ?",
+  "a": [
+   "Se venger",
+   "Le cacher",
+   "En parler à un adulte et ne pas répondre",
+   "Supprimer l'ordinateur"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel numéro national gratuit aide les jeunes victimes de cyberharcèlement ?",
+  "a": [
+   "Le 3018",
+   "Le 15",
+   "Le 118 218",
+   "Le 3615"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que faut-il faire régulièrement devant un écran ?",
+  "a": [
+   "Des pauses pour reposer ses yeux",
+   "Aucune pause",
+   "Fixer l'écran plus près",
+   "Éteindre la lumière de la pièce"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un pixel ?",
+  "a": [
+   "Un type de câble",
+   "Une souris",
+   "Un virus",
+   "Un petit point d'une image numérique"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que signifie « bit » ?",
+  "a": [
+   "Un morceau de bois",
+   "Un câble",
+   "Un écran",
+   "Un chiffre binaire 0 ou 1"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle donnée est personnelle ?",
+  "a": [
+   "La météo",
+   "Une capitale",
+   "Ton nom et ton adresse",
+   "Un nombre premier"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'une icône ?",
+  "a": [
+   "Un virus",
+   "Un petit dessin qui représente un programme",
+   "Un câble",
+   "Une souris"
+  ],
+  "c": 1
+ }
+]

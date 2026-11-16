@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel est le nom de la planète sur laquelle nous vivons ?",
+  "a": [
+   "Mars",
+   "La Terre",
+   "La Lune",
+   "Vénus"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment s'appelle le pays où nous habitons ?",
+  "a": [
+   "La France",
+   "L'Espagne",
+   "L'Italie",
+   "L'Allemagne"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le nom de la capitale de la France ?",
+  "a": [
+   "Lyon",
+   "Marseille",
+   "Bordeaux",
+   "Paris"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quels sont les points cardinaux ?",
+  "a": [
+   "Haut, bas, gauche, droite",
+   "Avant, arrière, côté, dessous",
+   "Nord, Sud, Est, Ouest",
+   "Nord, Sud, Centre, Coin"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel point cardinal est en face du Nord ?",
+  "a": [
+   "Le Sud",
+   "L'Est",
+   "L'Ouest",
+   "Le Centre"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Sur une carte, que représente en général le bleu ?",
+  "a": [
+   "Les forêts",
+   "L'eau (mers, lacs, fleuves)",
+   "Les montagnes",
+   "Les villes"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'une mer ?",
+  "a": [
+   "Un petit ruisseau",
+   "Un lac d'eau douce",
+   "Une très grande étendue d'eau salée",
+   "Une montagne enneigée"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'une montagne ?",
+  "a": [
+   "Un relief très haut avec des sommets",
+   "Une étendue plate",
+   "Un trou dans le sol",
+   "Un grand lac"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un fleuve ?",
+  "a": [
+   "Un grand cours d'eau qui se jette dans la mer",
+   "Un étang",
+   "Une flaque d'eau",
+   "Un puits"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment s'appelle le lieu où un fleuve rejoint la mer ?",
+  "a": [
+   "La source",
+   "Le confluent des montagnes",
+   "Le sommet",
+   "L'embouchure"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment s'appelle l'endroit où un fleuve naît ?",
+  "a": [
+   "L'embouchure",
+   "Le delta de la mer",
+   "La source",
+   "Le port"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel mot désigne un village de pêcheurs au bord de la mer ?",
+  "a": [
+   "Une station de ski",
+   "Un aéroport",
+   "Une mine",
+   "Un port de pêche"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans quel type de lieu habite-t-on à la ville ?",
+  "a": [
+   "Dans une grotte",
+   "Dans une cabane en forêt",
+   "Dans une tente",
+   "Dans un immeuble ou une maison en ville"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'une plaine ?",
+  "a": [
+   "Un haut sommet",
+   "Une île",
+   "Une grande étendue de terrain plat",
+   "Un volcan"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'une île ?",
+  "a": [
+   "Une terre au milieu des montagnes",
+   "Une terre entourée d'eau",
+   "Une ville au bord d'un fleuve",
+   "Un désert"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Dans quel paysage trouve-t-on beaucoup d'arbres ?",
+  "a": [
+   "Dans un désert",
+   "Sur un glacier",
+   "Dans une forêt",
+   "Sur la plage"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Où voit-on souvent des champs de blé ?",
+  "a": [
+   "Au pôle Nord",
+   "Dans une mine",
+   "À la campagne",
+   "Sur la Lune"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel moyen de transport utilise-t-on pour voyager sur l'eau ?",
+  "a": [
+   "Un bateau",
+   "Un train",
+   "Un avion",
+   "Un vélo"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel moyen de transport roule sur des rails ?",
+  "a": [
+   "La voiture",
+   "Le bateau",
+   "L'avion",
+   "Le train"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel moyen de transport vole dans le ciel ?",
+  "a": [
+   "L'avion",
+   "Le bus",
+   "Le bateau",
+   "Le tramway"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment s'appelle le chemin tracé sur le sol qui permet aux voitures de rouler ?",
+  "a": [
+   "La route",
+   "La rivière",
+   "La plage",
+   "La piste d'envol"
+  ],
+  "c": 0
+ },
+ {
+  "q": "À quoi sert une carte ?",
+  "a": [
+   "À jouer aux cartes",
+   "À écrire une lettre",
+   "À compter",
+   "À se repérer dans l'espace"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Sur un plan de classe, qu'est-ce qui est représenté ?",
+  "a": [
+   "Le visage de la maîtresse",
+   "Le toit de l'école",
+   "La classe vue de dessus",
+   "Un paysage de montagne"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quand on regarde un plan, d'où voit-on les objets ?",
+  "a": [
+   "De face",
+   "De côté",
+   "De dessous",
+   "De dessus"
+  ],
+  "c": 3
+ },
+ {
+  "q": "De quel côté le Soleil se lève-t-il ?",
+  "a": [
+   "À l'Ouest",
+   "Au Nord",
+   "Au Sud",
+   "À l'Est"
+  ],
+  "c": 3
+ },
+ {
+  "q": "De quel côté le soleil se couche-t-il ?",
+  "a": [
+   "À l'Est",
+   "Au Nord",
+   "À l'Ouest",
+   "Au Sud"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un village ?",
+  "a": [
+   "Une très grande ville",
+   "Une île",
+   "Un petit groupe de maisons à la campagne",
+   "Une montagne"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel animal vit au pôle Nord ?",
+  "a": [
+   "Le lion",
+   "Le chameau",
+   "L'ours polaire",
+   "Le kangourou"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans quel paysage vit le chameau ?",
+  "a": [
+   "La banquise",
+   "La forêt tropicale",
+   "Le désert",
+   "La prairie alpine"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un désert ?",
+  "a": [
+   "Un endroit très humide",
+   "Un endroit très sec où il pleut très peu",
+   "Une forêt",
+   "Une grande ville"
+  ],
+  "c": 1
+ }
+]

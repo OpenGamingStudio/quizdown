@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Qu'est-ce qu'un protocole réseau ?",
+  "a": [
+   "Des règles pour échanger des données",
+   "Un câble",
+   "Un logiciel de dessin",
+   "Un composant électronique"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel protocole sert à afficher des pages web ?",
+  "a": [
+   "SMTP",
+   "POP",
+   "DNS",
+   "HTTP"
+  ],
+  "c": 3
+ },
+ {
+  "q": "À quoi sert le DNS ?",
+  "a": [
+   "Chiffrer des fichiers",
+   "Stocker des mails",
+   "Traduire un nom de site en adresse IP",
+   "Dessiner des pages"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un paquet de données ?",
+  "a": [
+   "Un colis postal",
+   "Un morceau de message envoyé sur un réseau",
+   "Un câble",
+   "Un logiciel"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un pare-feu ?",
+  "a": [
+   "Un virus",
+   "Un dispositif qui filtre les connexions",
+   "Un écran",
+   "Une souris"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle information contient une adresse IPv4 ?",
+  "a": [
+   "Quatre nombres entre 0 et 255",
+   "Trois lettres",
+   "Un mot de passe",
+   "Un nom de site"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un langage de programmation ?",
+  "a": [
+   "Un virus",
+   "Un format d'image",
+   "Un réseau",
+   "Un langage pour écrire des programmes"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel langage est souvent utilisé au collège pour apprendre à programmer ?",
+  "a": [
+   "HTML seul",
+   "Photoshop",
+   "Python",
+   "Excel"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans Python, que fait print(\"Bonjour\") ?",
+  "a": [
+   "Efface Bonjour",
+   "Ajoute Bonjour",
+   "Affiche Bonjour",
+   "Joue un son"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans Python, que vaut 7 // 2 ?",
+  "a": [
+   "3,5",
+   "3",
+   "4",
+   "2"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Dans Python, que vaut 7 % 2 ?",
+  "a": [
+   "1",
+   "3",
+   "0",
+   "2"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Dans Python, quelle structure répète un bloc 5 fois ?",
+  "a": [
+   "if 5",
+   "print(5)",
+   "def 5",
+   "for i in range(5)"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans Python, quel mot-clé définit une fonction ?",
+  "a": [
+   "func",
+   "loop",
+   "define",
+   "def"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans Python, quel symbole sert à comparer l'égalité ?",
+  "a": [
+   "=",
+   "=>",
+   "==",
+   "!="
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans Python, que fait le symbole = ?",
+  "a": [
+   "Compare deux valeurs",
+   "Affecte une valeur à une variable",
+   "Affiche une valeur",
+   "Ferme le programme"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un tableau (liste) en programmation ?",
+  "a": [
+   "Une collection ordonnée de valeurs",
+   "Une seule variable",
+   "Une boucle",
+   "Une fonction"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Dans Python, quel est l'indice du premier élément d'une liste ?",
+  "a": [
+   "0",
+   "1",
+   "-1",
+   "2"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'une chaîne de caractères ?",
+  "a": [
+   "Un nombre",
+   "Une boucle",
+   "Un fichier",
+   "Du texte"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que fait un test conditionnel « if » ?",
+  "a": [
+   "Répète sans fin",
+   "Efface un fichier",
+   "Exécute un bloc si la condition est vraie",
+   "Ferme le programme"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un capteur dans un objet connecté ?",
+  "a": [
+   "Un moteur",
+   "Un composant qui mesure un phénomène",
+   "Un écran",
+   "Un câble"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un objet connecté ?",
+  "a": [
+   "Un objet sans énergie",
+   "Un objet relié à Internet",
+   "Un objet cassé",
+   "Un objet sans fil sans réseau"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est un exemple d'objet connecté ?",
+  "a": [
+   "Une montre connectée",
+   "Un grille-pain classique",
+   "Une règle graduée",
+   "Une lampe de poche à piles"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un moteur à courant continu ?",
+  "a": [
+   "Un capteur de lumière",
+   "Un écran",
+   "Un logiciel",
+   "Un actionneur qui tourne"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le rôle d'un cahier des charges ?",
+  "a": [
+   "Dessiner une pièce",
+   "Compter des pixels",
+   "Décrire les besoins d'un projet",
+   "Installer un OS"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la première étape d'une démarche de projet ?",
+  "a": [
+   "Fabriquer",
+   "Vendre",
+   "Exprimer le besoin",
+   "Jeter"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un prototype ?",
+  "a": [
+   "Un virus",
+   "Une première version pour tester",
+   "Un produit final vendu",
+   "Un logiciel"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un matériau recyclable ?",
+  "a": [
+   "Un matériau qui peut être réutilisé",
+   "Un matériau qui brûle",
+   "Un matériau qui se casse",
+   "Un matériau toxique"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est l'impact environnemental du numérique ?",
+  "a": [
+   "Aucun",
+   "Il supprime tous les déchets",
+   "Il augmente les forêts",
+   "Consommation d'énergie et de ressources"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que signifie « RGPD » ?",
+  "a": [
+   "Réseau global pour données",
+   "Règle générale des PC",
+   "Registre des programmes",
+   "Règlement général sur la protection des données"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que le chiffrement ?",
+  "a": [
+   "Copier un fichier",
+   "Réduire une image",
+   "Rendre un message illisible sans clé",
+   "Supprimer un cookie"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'une sauvegarde 3-2-1 ?",
+  "a": [
+   "3 virus, 2 clics, 1 écran",
+   "3 copies, 2 supports, 1 hors site",
+   "3 mots de passe",
+   "3 disques seulement"
+  ],
+  "c": 1
+ }
+]

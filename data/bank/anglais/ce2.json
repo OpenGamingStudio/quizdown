@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Comment dit-on « banane » en anglais ?",
+  "a": [
+   "bread",
+   "banana",
+   "apple",
+   "berry"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment dit-on « lait » en anglais ?",
+  "a": [
+   "milk",
+   "water",
+   "juice",
+   "tea"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment dit-on « eau » en anglais ?",
+  "a": [
+   "milk",
+   "wine",
+   "juice",
+   "water"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment dit-on « pain » en anglais ?",
+  "a": [
+   "butter",
+   "cheese",
+   "bread",
+   "cake"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment dit-on « fromage » en anglais ?",
+  "a": [
+   "chicken",
+   "cheese",
+   "chocolate",
+   "cherry"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment dit-on « gâteau » en anglais ?",
+  "a": [
+   "cake",
+   "cat",
+   "cow",
+   "cap"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel nombre est « thirteen » ?",
+  "a": [
+   "30",
+   "3",
+   "31",
+   "13"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel nombre est « fifteen » ?",
+  "a": [
+   "50",
+   "5",
+   "15",
+   "51"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel nombre est « thirty » ?",
+  "a": [
+   "13",
+   "30",
+   "3",
+   "300"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel nombre est « one hundred » ?",
+  "a": [
+   "100",
+   "10",
+   "1000",
+   "101"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment dit-on « maison » en anglais ?",
+  "a": [
+   "horse",
+   "mouse",
+   "hotel",
+   "house"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment dit-on « école » en anglais ?",
+  "a": [
+   "shop",
+   "street",
+   "school",
+   "station"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment dit-on « livre » en anglais ?",
+  "a": [
+   "box",
+   "book",
+   "bag",
+   "pen"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment dit-on « crayon » en anglais ?",
+  "a": [
+   "pencil",
+   "pen",
+   "ruler",
+   "rubber"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment dit-on « cartable / sac » en anglais ?",
+  "a": [
+   "bed",
+   "ball",
+   "bin",
+   "bag"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment dit-on « tête » en anglais ?",
+  "a": [
+   "hand",
+   "heart",
+   "head",
+   "hair"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment dit-on « main » en anglais ?",
+  "a": [
+   "head",
+   "hand",
+   "arm",
+   "leg"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment dit-on « pied » en anglais ?",
+  "a": [
+   "foot",
+   "finger",
+   "face",
+   "fork"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment dit-on « yeux » en anglais ?",
+  "a": [
+   "ears",
+   "arms",
+   "legs",
+   "eyes"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment dit-on « nez » en anglais ?",
+  "a": [
+   "mouth",
+   "neck",
+   "nose",
+   "knee"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment dit-on « lundi » en anglais ?",
+  "a": [
+   "Sunday",
+   "Monday",
+   "Tuesday",
+   "Friday"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment dit-on « dimanche » en anglais ?",
+  "a": [
+   "Sunday",
+   "Saturday",
+   "Monday",
+   "Sunny"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment dit-on « été » en anglais ?",
+  "a": [
+   "winter",
+   "spring",
+   "autumn",
+   "summer"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment dit-on « il pleut » en anglais ?",
+  "a": [
+   "It's sunny",
+   "It's snowing",
+   "It's raining",
+   "It's windy"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que veut dire « It's sunny » ?",
+  "a": [
+   "Il pleut",
+   "Il y a du soleil",
+   "Il neige",
+   "Il y a du vent"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que veut dire « I like pizza » ?",
+  "a": [
+   "J'aime la pizza",
+   "Je déteste la pizza",
+   "Je mange une pizza",
+   "Je veux la pizza"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que veut dire « I have a dog » ?",
+  "a": [
+   "Je suis un chien",
+   "Je vois un chien",
+   "J'aime les chiens",
+   "J'ai un chien"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment dit-on « Je suis un garçon » ?",
+  "a": [
+   "I have a boy",
+   "I like a boy",
+   "I am a boy",
+   "He is a boy"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment dit-on « Il est grand » ?",
+  "a": [
+   "He has tall",
+   "He is tall",
+   "She is tall",
+   "I am tall"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel mot est le contraire de « big » ?",
+  "a": [
+   "small",
+   "tall",
+   "new",
+   "hot"
+  ],
+  "c": 0
+ }
+]

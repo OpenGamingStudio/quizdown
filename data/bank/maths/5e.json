@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Combien font (-3) + (-5) ?",
+  "a": [
+   "-8",
+   "8",
+   "-2",
+   "2"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien font (-7) + 10 ?",
+  "a": [
+   "-17",
+   "3",
+   "17",
+   "-3"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien font 4 - 9 ?",
+  "a": [
+   "5",
+   "13",
+   "-5",
+   "-13"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien font (-6) x (-3) ?",
+  "a": [
+   "-18",
+   "-9",
+   "9",
+   "18"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien font (-12) / 4 ?",
+  "a": [
+   "-3",
+   "3",
+   "-8",
+   "48"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Parmi -2, -7, 0 et -4, quel nombre est le plus petit ?",
+  "a": [
+   "-2",
+   "-7",
+   "0",
+   "-4"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est l'opposé de -9 ?",
+  "a": [
+   "-9",
+   "1/9",
+   "9",
+   "0"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien font 2/3 + 1/6 ?",
+  "a": [
+   "3/9",
+   "3/6",
+   "1/2",
+   "5/6"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien font 3/4 x 2/3 ?",
+  "a": [
+   "1/2",
+   "5/7",
+   "6/7",
+   "2/3"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien font 5/6 - 1/3 ?",
+  "a": [
+   "4/3",
+   "1/2",
+   "4/6",
+   "1/6"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est l'écriture simplifiée de 12/18 ?",
+  "a": [
+   "3/4",
+   "5/9",
+   "2/3",
+   "1/6"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien d'axes de symétrie un triangle équilatéral a-t-il ?",
+  "a": [
+   "1",
+   "2",
+   "6",
+   "3"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien d'axes de symétrie un losange (non carré) a-t-il ?",
+  "a": [
+   "2",
+   "4",
+   "1",
+   "0"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Dans un triangle, deux angles mesurent 50 et 70 degrés : combien mesure le troisième ?",
+  "a": [
+   "50 degrés",
+   "60 degrés",
+   "70 degrés",
+   "120 degrés"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la somme des angles d'un quadrilatère ?",
+  "a": [
+   "180 degrés",
+   "360 degrés",
+   "270 degrés",
+   "720 degrés"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Un parallélogramme a ses côtés opposés...",
+  "a": [
+   "perpendiculaires",
+   "tous de même longueur toujours",
+   "parallèles et de même longueur",
+   "de longueurs différentes"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est l'aire d'un parallélogramme de base 8 cm et de hauteur 5 cm ?",
+  "a": [
+   "13 cm²",
+   "26 cm²",
+   "40 cm²",
+   "20 cm²"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est l'aire d'un triangle de base 9 cm et de hauteur 4 cm ?",
+  "a": [
+   "36 cm²",
+   "13 cm²",
+   "26 cm²",
+   "18 cm²"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le volume d'un pavé droit de 5 cm, 4 cm et 3 cm ?",
+  "a": [
+   "60 cm³",
+   "12 cm³",
+   "47 cm³",
+   "24 cm³"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de litres y a-t-il dans 1 dm³ ?",
+  "a": [
+   "10",
+   "1",
+   "100",
+   "0,1"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Un article à 80 euros baisse de 25 %. Quel est son nouveau prix ?",
+  "a": [
+   "55 euros",
+   "20 euros",
+   "60 euros",
+   "65 euros"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est 15 % de 200 ?",
+  "a": [
+   "15",
+   "3",
+   "35",
+   "30"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Une voiture roule à 60 km/h pendant 3 h. Quelle distance parcourt-elle ?",
+  "a": [
+   "180 km",
+   "20 km",
+   "63 km",
+   "120 km"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Si 5 kg de pommes coûtent 15 euros, combien coûtent 8 kg ?",
+  "a": [
+   "40 euros",
+   "24 euros",
+   "21 euros",
+   "23 euros"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la moyenne de 12, 15, 9 et 16 ?",
+  "a": [
+   "12",
+   "14",
+   "13",
+   "52"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien font -2 - (-5) ?",
+  "a": [
+   "3",
+   "-7",
+   "7",
+   "-3"
+  ],
+  "c": 0
+ },
+ {
+  "q": "On lance un dé équilibré à 6 faces. Quelle est la probabilité d'obtenir 6 ?",
+  "a": [
+   "1/3",
+   "1/2",
+   "6",
+   "1/6"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la probabilité d'un événement impossible ?",
+  "a": [
+   "0",
+   "1",
+   "1/2",
+   "-1"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien vaut 3 x 4 + 2 x 5 ?",
+  "a": [
+   "70",
+   "22",
+   "50",
+   "34"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien vaut 3 x (x + 2) quand x = 4 ?",
+  "a": [
+   "14",
+   "20",
+   "18",
+   "12"
+  ],
+  "c": 2
+ }
+]

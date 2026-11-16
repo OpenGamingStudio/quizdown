@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Dans quel pays le Bauhaus est-il né ?",
+  "a": [
+   "La France",
+   "La Russie",
+   "L'Allemagne",
+   "Les Pays-Bas"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quels artistes ont inventé le cubisme ?",
+  "a": [
+   "Monet et Renoir",
+   "Picasso et Braque",
+   "Matisse et Derain",
+   "Dalí et Magritte"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel mouvement a été défini par André Breton dans un manifeste de 1924 ?",
+  "a": [
+   "Le surréalisme",
+   "Le cubisme",
+   "Le fauvisme",
+   "Le dadaïsme"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel peintre belge a signé « La Trahison des images » (« Ceci n'est pas une pipe ») ?",
+  "a": [
+   "Salvador Dalí",
+   "Paul Delvaux",
+   "James Ensor",
+   "René Magritte"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel architecte a conçu la villa Savoye à Poissy ?",
+  "a": [
+   "Auguste Perret",
+   "Gustave Eiffel",
+   "Mies van der Rohe",
+   "Le Corbusier"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel peintre est considéré comme l'un des pionniers de l'abstraction avec « Composition VII » ?",
+  "a": [
+   "Claude Monet",
+   "Paul Cézanne",
+   "Vassily Kandinsky",
+   "Georges Seurat"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel peintre a réalisé « Carré blanc sur fond blanc » ?",
+  "a": [
+   "Piet Mondrian",
+   "Kasimir Malevitch",
+   "Vassily Kandinsky",
+   "Joan Miró"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel artiste du pop art a réalisé des sérigraphies de Marilyn Monroe ?",
+  "a": [
+   "Andy Warhol",
+   "Jackson Pollock",
+   "Jean-Michel Basquiat",
+   "Keith Haring"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quels architectes ont conçu le Centre Pompidou ?",
+  "a": [
+   "Renzo Piano et Richard Rogers",
+   "Le Corbusier et Jean Prouvé",
+   "Jean Nouvel et Norman Foster",
+   "Frank Gehry et Zaha Hadid"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel compositeur a mis au point la technique dodécaphonique ?",
+  "a": [
+   "Igor Stravinsky",
+   "Claude Debussy",
+   "Maurice Ravel",
+   "Arnold Schönberg"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel genre musical est né à La Nouvelle-Orléans au début du XXe siècle ?",
+  "a": [
+   "Le rock",
+   "La country",
+   "Le jazz",
+   "La salsa"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel trompettiste de jazz est surnommé « Satchmo » ?",
+  "a": [
+   "Miles Davis",
+   "Louis Armstrong",
+   "Duke Ellington",
+   "Chet Baker"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un ready-made ?",
+  "a": [
+   "Un tableau peint en une heure",
+   "Un objet manufacturé promu œuvre d'art par l'artiste",
+   "Une sculpture en marbre",
+   "Un film muet"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle technique Jackson Pollock a-t-il utilisée ?",
+  "a": [
+   "Le dripping",
+   "Le pointillisme",
+   "La fresque",
+   "Le collage de journaux"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel sculpteur est l'auteur de « L'Homme qui marche » ?",
+  "a": [
+   "Auguste Rodin",
+   "Constantin Brancusi",
+   "Henry Moore",
+   "Alberto Giacometti"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel artiste a réalisé des papiers découpés à la fin de sa vie ?",
+  "a": [
+   "Pablo Picasso",
+   "Claude Monet",
+   "Henri Matisse",
+   "Paul Gauguin"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que désigne le land art ?",
+  "a": [
+   "Des œuvres sur ordinateur",
+   "Des tableaux de paysages",
+   "Des œuvres réalisées dans la nature",
+   "Des sculptures en glace uniquement"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel musée new-yorkais en forme de spirale a été conçu par Frank Lloyd Wright ?",
+  "a": [
+   "Le MoMA",
+   "Le Guggenheim",
+   "Le Metropolitan",
+   "Le Whitney"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel acteur et réalisateur a créé le personnage de Charlot ?",
+  "a": [
+   "Charlie Chaplin",
+   "Buster Keaton",
+   "Harold Lloyd",
+   "Jacques Tati"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a composé « Rhapsody in Blue » ?",
+  "a": [
+   "Leonard Bernstein",
+   "Aaron Copland",
+   "Duke Ellington",
+   "George Gershwin"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel mouvement artistique est né à Zurich en 1916, au Cabaret Voltaire ?",
+  "a": [
+   "Le cubisme",
+   "Le fauvisme",
+   "Le pop art",
+   "Dada"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel peintre mexicain est célèbre pour ses fresques murales ?",
+  "a": [
+   "Joan Miró",
+   "Diego Velázquez",
+   "Diego Rivera",
+   "Pablo Picasso"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel dessinateur est associé à la « ligne claire » ?",
+  "a": [
+   "Franquin",
+   "Hergé",
+   "Moebius",
+   "Peyo"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel mouvement artistique a été lancé en 1909 par le manifeste de Marinetti ?",
+  "a": [
+   "Le futurisme",
+   "Le romantisme",
+   "Le baroque",
+   "Le néoclassicisme"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel photographe a pris « Le Baiser de l'hôtel de ville » ?",
+  "a": [
+   "Robert Doisneau",
+   "Henri Cartier-Bresson",
+   "Man Ray",
+   "Brassaï"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel artiste est associé à l'op art, un art des illusions d'optique ?",
+  "a": [
+   "Marc Chagall",
+   "Yves Klein",
+   "Fernand Léger",
+   "Victor Vasarely"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel courant du cinéma français de la fin des années 1950 est lié à Truffaut et Godard ?",
+  "a": [
+   "Le réalisme poétique",
+   "Le cinéma muet",
+   "La Nouvelle Vague",
+   "L'expressionnisme"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelles sculptures colorées et rondes sont la signature de Niki de Saint Phalle ?",
+  "a": [
+   "Les Danseuses",
+   "Les Nanas",
+   "Les Pénélopes",
+   "Les Poupées russes"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui est l'architecte de l'église de la Sagrada Família à Barcelone ?",
+  "a": [
+   "Le Corbusier",
+   "Antoni Gaudí",
+   "Oscar Niemeyer",
+   "Santiago Calatrava"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel architecte brésilien a conçu les principaux bâtiments de Brasilia ?",
+  "a": [
+   "Le Corbusier",
+   "Frank Lloyd Wright",
+   "Oscar Niemeyer",
+   "Zaha Hadid"
+  ],
+  "c": 2
+ }
+]

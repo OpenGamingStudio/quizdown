@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel pays est le principal allié de l'Allemagne en 1914 ?",
+  "a": [
+   "L'Autriche-Hongrie",
+   "L'Italie",
+   "La Russie",
+   "Le Japon"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel attentat déclenche la Première Guerre mondiale en 1914 ?",
+  "a": [
+   "La prise de la Bastille",
+   "L'incendie du Reichstag",
+   "L'assassinat de l'archiduc François-Ferdinand à Sarajevo",
+   "L'attaque de Pearl Harbor"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que désigne l'« Union sacrée » en France en 1914 ?",
+  "a": [
+   "Le rassemblement de tous les partis derrière le gouvernement",
+   "Une alliance avec la Russie",
+   "Un traité de paix",
+   "Un impôt de guerre"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel traité de 1919 met fin officiellement à la guerre avec l'Allemagne ?",
+  "a": [
+   "Le traité de Rome",
+   "Le traité de Versailles",
+   "Le traité de Vienne",
+   "Le traité de Paris"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle révolution de 1917 porte les bolcheviks au pouvoir ?",
+  "a": [
+   "La révolution russe",
+   "La révolution de 1848",
+   "La Commune",
+   "La révolution chinoise"
+  ],
+  "c": 0
+ },
+ {
+  "q": "En quelle année a lieu le krach boursier de Wall Street ?",
+  "a": [
+   "1914",
+   "1939",
+   "1945",
+   "1929"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel dirigeant arrive au pouvoir en Allemagne en janvier 1933 ?",
+  "a": [
+   "Benito Mussolini",
+   "Adolf Hitler",
+   "Staline",
+   "Franco"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle conférence de septembre 1938 laisse Hitler annexer les Sudètes ?",
+  "a": [
+   "La conférence de Munich",
+   "La conférence de Yalta",
+   "La conférence de Potsdam",
+   "La conférence de Locarno"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle ligne fortifiée française est contournée par les Allemands en 1940 ?",
+  "a": [
+   "La ligne Maginot",
+   "La ligne Siegfried",
+   "Le mur de l'Atlantique",
+   "La ligne Magellan"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment appelle-t-on la stratégie de guerre rapide de l'Allemagne en 1940 ?",
+  "a": [
+   "La guerre des tranchées",
+   "La guerre froide",
+   "La guerre d'usure",
+   "La guerre éclair (Blitzkrieg)"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle date correspond à l'armistice demandé par le maréchal Pétain ?",
+  "a": [
+   "Juin 1940",
+   "Novembre 1918",
+   "Mai 1945",
+   "Septembre 1939"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que désigne le STO, institué par le régime de Vichy en 1943 ?",
+  "a": [
+   "L'envoi forcé de travailleurs français en Allemagne",
+   "Un impôt de guerre",
+   "Un réseau de résistance",
+   "Une armée de volontaires"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui préside le Conseil national de la Résistance, créé en 1943 ?",
+  "a": [
+   "Charles de Gaulle",
+   "Jean Moulin",
+   "Philippe Pétain",
+   "Pierre Laval"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel centre de mise à mort, situé en Pologne, est le symbole de la Shoah ?",
+  "a": [
+   "Auschwitz-Birkenau",
+   "Dachau",
+   "Buchenwald",
+   "Ravensbrück"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle bataille de 1942-1943 est un tournant sur le front de l'Est ?",
+  "a": [
+   "Stalingrad",
+   "Verdun",
+   "Waterloo",
+   "Valmy"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle attaque japonaise de décembre 1941 fait entrer les États-Unis en guerre ?",
+  "a": [
+   "Hiroshima",
+   "Pearl Harbor",
+   "Dunkerque",
+   "Midway"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle rafle de juillet 1942 enferme à Paris des milliers de Juifs dans un vélodrome ?",
+  "a": [
+   "La rafle du Vél' d'Hiv",
+   "La Nuit de cristal",
+   "Le massacre d'Oradour",
+   "La bataille de Verdun"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle ville japonaise est bombardée par la première bombe atomique ?",
+  "a": [
+   "Tokyo",
+   "Kyoto",
+   "Osaka",
+   "Hiroshima"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment appelle-t-on la rivalité entre les États-Unis et l'URSS après 1945 ?",
+  "a": [
+   "La guerre éclair",
+   "La guerre froide",
+   "La guerre de Trente Ans",
+   "La guerre de Sécession"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel mur est construit en 1961 pour séparer deux parties d'une ville ?",
+  "a": [
+   "La muraille de Chine",
+   "Le mur d'Hadrien",
+   "Le mur de Berlin",
+   "La ligne Maginot"
+  ],
+  "c": 2
+ },
+ {
+  "q": "En quelle année tombe le mur de Berlin ?",
+  "a": [
+   "1961",
+   "1945",
+   "1991",
+   "1989"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle organisation est créée en 1945 pour maintenir la paix ?",
+  "a": [
+   "L'OTAN",
+   "L'Union européenne",
+   "La SDN",
+   "L'ONU"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel traité de 1957 fonde la Communauté économique européenne ?",
+  "a": [
+   "Le traité de Versailles",
+   "Le traité de Rome",
+   "Le traité de Maastricht",
+   "Le traité de Paris"
+  ],
+  "c": 1
+ },
+ {
+  "q": "En quelle année l'ONU adopte-t-elle la Déclaration universelle des droits de l'homme ?",
+  "a": [
+   "1948",
+   "1945",
+   "1958",
+   "1789"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel pays devient indépendant de la France en 1962 ?",
+  "a": [
+   "Le Maroc",
+   "Le Viêt Nam",
+   "L'Algérie",
+   "Le Sénégal"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel mouvement lance l'insurrection du 1er novembre 1954 en Algérie ?",
+  "a": [
+   "Le FLN",
+   "L'OAS",
+   "Le FIS",
+   "L'ANC"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel ministre de la Justice fait voter l'abolition de la peine de mort en 1981 ?",
+  "a": [
+   "Robert Badinter",
+   "Simone Veil",
+   "Jean Moulin",
+   "Jacques Chaban-Delmas"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle réforme de 1936 accorde les congés payés ?",
+  "a": [
+   "Le Front populaire",
+   "Le Consulat",
+   "Le Second Empire",
+   "La Restauration"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle ministre fait voter en 1975 la loi sur l'IVG ?",
+  "a": [
+   "Marie Curie",
+   "Olympe de Gouges",
+   "Louise Michel",
+   "Simone Veil"
+  ],
+  "c": 3
+ },
+ {
+  "q": "En quelle année est signé le traité de Maastricht créant l'Union européenne ?",
+  "a": [
+   "1957",
+   "1992",
+   "1989",
+   "2002"
+  ],
+  "c": 1
+ }
+]

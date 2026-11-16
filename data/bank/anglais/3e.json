@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Complète : « I wish I ___ more time. »",
+  "a": [
+   "have",
+   "had",
+   "would have",
+   "will have"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Complète : « If she had studied, she ___ the exam. »",
+  "a": [
+   "would have passed",
+   "would pass",
+   "will pass",
+   "had passed"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « He said that he ___ the film the day before. »",
+  "a": [
+   "has seen",
+   "will see",
+   "sees",
+   "had seen"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Complète : « She told me she ___ come the next day. »",
+  "a": [
+   "will",
+   "shall",
+   "would",
+   "does"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « The bridge ___ in 1890. »",
+  "a": [
+   "built",
+   "was built",
+   "is built",
+   "has built"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Complète : « The cake ___ by my mother right now. »",
+  "a": [
+   "is being made",
+   "is made",
+   "makes",
+   "has made"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « This house ___ be sold next year. »",
+  "a": [
+   "is",
+   "has",
+   "does",
+   "will"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Complète : « I have been waiting ___ two hours. »",
+  "a": [
+   "since",
+   "during",
+   "for",
+   "ago"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « How long ___ you lived here? »",
+  "a": [
+   "did",
+   "have",
+   "are",
+   "do"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Complète : « I ___ him for ages. » (je ne l'ai pas vu depuis longtemps)",
+  "a": [
+   "haven't seen",
+   "didn't see",
+   "don't see",
+   "am not seeing"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « By the time we arrived, the film ___ . »",
+  "a": [
+   "has started",
+   "started",
+   "was started",
+   "had started"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Complète : « I'd rather you ___ smoke here. »",
+  "a": [
+   "don't",
+   "won't",
+   "didn't",
+   "haven't"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « She enjoys ___ . »",
+  "a": [
+   "to swim",
+   "swimming",
+   "swim",
+   "swum"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Complète : « I decided ___ to the party. »",
+  "a": [
+   "to go",
+   "going",
+   "go",
+   "for go"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « He suggested ___ a taxi. »",
+  "a": [
+   "to take",
+   "take",
+   "to taking",
+   "taking"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Complète : « Neither Tom ___ Anna came. »",
+  "a": [
+   "or",
+   "and",
+   "nor",
+   "but"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « The more you practise, ___ you get. »",
+  "a": [
+   "better",
+   "the better",
+   "the best",
+   "more good"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Complète : « Despite ___ tired, he went out. »",
+  "a": [
+   "being",
+   "to be",
+   "be",
+   "been"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que signifie « although » ?",
+  "a": [
+   "parce que",
+   "pendant que",
+   "puisque",
+   "bien que"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que signifie « to get used to » ?",
+  "a": [
+   "utiliser",
+   "être utile",
+   "s'habituer à",
+   "habiter"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que signifie le faux ami « to pretend » ?",
+  "a": [
+   "prétendre (affirmer)",
+   "faire semblant",
+   "prévenir",
+   "prétendre avoir droit"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que signifie le faux ami « eventually » ?",
+  "a": [
+   "finalement",
+   "éventuellement",
+   "évidemment",
+   "fréquemment"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que signifie le faux ami « to resume » ?",
+  "a": [
+   "résumer",
+   "résister",
+   "rester",
+   "reprendre"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que signifie le faux ami « a lecture » ?",
+  "a": [
+   "une lecture",
+   "un lecteur",
+   "un cours magistral",
+   "une leçon de lecture"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la capitale du pays de Galles ?",
+  "a": [
+   "Swansea",
+   "Cardiff",
+   "Belfast",
+   "Newport"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel océan sépare le Royaume-Uni des États-Unis ?",
+  "a": [
+   "the Atlantic",
+   "the Pacific",
+   "the Indian",
+   "the Arctic"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la capitale des États-Unis ?",
+  "a": [
+   "New York",
+   "Los Angeles",
+   "Chicago",
+   "Washington, D.C."
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel pays est « Wales » ?",
+  "a": [
+   "l'Écosse",
+   "l'Irlande",
+   "le pays de Galles",
+   "l'Angleterre"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel plat britannique associe du poisson pané et des frites ?",
+  "a": [
+   "shepherd's pie",
+   "fish and chips",
+   "bangers and mash",
+   "toad in the hole"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la fête américaine célébrée le quatrième jeudi de novembre ?",
+  "a": [
+   "Thanksgiving",
+   "Independence Day",
+   "Memorial Day",
+   "Labor Day"
+  ],
+  "c": 0
+ }
+]

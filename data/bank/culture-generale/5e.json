@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quelle est la capitale du Portugal ?",
+  "a": [
+   "Madrid",
+   "Porto",
+   "Lisbonne",
+   "Séville"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la capitale de l'Australie ?",
+  "a": [
+   "Sydney",
+   "Canberra",
+   "Melbourne",
+   "Perth"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a peint « Guernica » ?",
+  "a": [
+   "Pablo Picasso",
+   "Salvador Dalí",
+   "Joan Miró",
+   "Henri Matisse"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a écrit « Le Comte de Monte-Cristo » ?",
+  "a": [
+   "Victor Hugo",
+   "Balzac",
+   "Jules Verne",
+   "Alexandre Dumas"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le plus petit pays du monde par sa superficie ?",
+  "a": [
+   "Monaco",
+   "Saint-Marin",
+   "Le Liechtenstein",
+   "Le Vatican"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle partie de l'œil règle la quantité de lumière qui entre ?",
+  "a": [
+   "La cornée",
+   "La rétine",
+   "L'iris",
+   "Le nerf optique"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est l'élément chimique le plus abondant dans l'Univers ?",
+  "a": [
+   "L'oxygène",
+   "L'hydrogène",
+   "Le carbone",
+   "L'hélium"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a écrit « Roméo et Juliette » ?",
+  "a": [
+   "William Shakespeare",
+   "Molière",
+   "Charles Dickens",
+   "Oscar Wilde"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la capitale de l'Inde ?",
+  "a": [
+   "Mumbai",
+   "New Delhi",
+   "Calcutta",
+   "Bangalore"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel instrument fait partie des bois ?",
+  "a": [
+   "Le trombone",
+   "La trompette",
+   "Le cor",
+   "La clarinette"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la langue officielle du Brésil ?",
+  "a": [
+   "L'espagnol",
+   "L'anglais",
+   "Le portugais",
+   "Le français"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel pays est surnommé « le pays du Soleil-Levant » ?",
+  "a": [
+   "La Chine",
+   "La Corée",
+   "Le Vietnam",
+   "Le Japon"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a écrit « Le Rouge et le Noir » ?",
+  "a": [
+   "Balzac",
+   "Stendhal",
+   "Zola",
+   "Flaubert"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le plus grand désert du monde, tous types confondus ?",
+  "a": [
+   "L'Antarctique",
+   "Le Sahara",
+   "Le Gobi",
+   "Le désert d'Arabie"
+  ],
+  "c": 0
+ },
+ {
+  "q": "À quelle température l'eau pure gèle-t-elle (pression normale) ?",
+  "a": [
+   "4 °C",
+   "-10 °C",
+   "10 °C",
+   "0 °C"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a écrit « Candide » ?",
+  "a": [
+   "Diderot",
+   "Rousseau",
+   "Voltaire",
+   "Montesquieu"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle ville américaine est surnommée « Big Apple » ?",
+  "a": [
+   "Los Angeles",
+   "Chicago",
+   "New York",
+   "Boston"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel nombre représente le chiffre romain L ?",
+  "a": [
+   "5",
+   "50",
+   "500",
+   "100"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le plus grand os du corps humain ?",
+  "a": [
+   "Le fémur",
+   "Le tibia",
+   "L'humérus",
+   "Le sternum"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle mer sépare l'Europe de l'Afrique ?",
+  "a": [
+   "La mer Rouge",
+   "La mer Noire",
+   "La mer Baltique",
+   "La Méditerranée"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a composé l'« Ode à la joie » de la Neuvième Symphonie ?",
+  "a": [
+   "Mozart",
+   "Haydn",
+   "Schubert",
+   "Beethoven"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle planète est surnommée la planète rouge ?",
+  "a": [
+   "Vénus",
+   "Mercure",
+   "Mars",
+   "Jupiter"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans quel pays se trouve le Kilimandjaro ?",
+  "a": [
+   "Au Kenya",
+   "En Tanzanie",
+   "En Éthiopie",
+   "En Ouganda"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel pays est à l'origine de l'invention du papier ?",
+  "a": [
+   "La Chine",
+   "L'Égypte",
+   "La Grèce",
+   "L'Inde"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a écrit « L'Étranger » ?",
+  "a": [
+   "Albert Camus",
+   "Jean-Paul Sartre",
+   "André Gide",
+   "Marcel Proust"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de cases compte un échiquier ?",
+  "a": [
+   "49",
+   "81",
+   "100",
+   "64"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel détroit sépare l'Espagne du Maroc ?",
+  "a": [
+   "Le détroit du Bosphore",
+   "Le détroit de Béring",
+   "Le détroit de Gibraltar",
+   "Le canal de Suez"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la plus grande île du monde ?",
+  "a": [
+   "Madagascar",
+   "Le Groenland",
+   "Bornéo",
+   "L'Islande"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel fleuve traverse Le Caire ?",
+  "a": [
+   "Le Congo",
+   "Le Nil",
+   "Le Niger",
+   "Le Tigre"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle fosse océanique est la plus profonde connue ?",
+  "a": [
+   "La fosse des Mariannes",
+   "La fosse de Porto Rico",
+   "La fosse du Japon",
+   "La fosse de Java"
+  ],
+  "c": 0
+ }
+]

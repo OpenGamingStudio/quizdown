@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quelle couleur obtient-on en mélangeant du cyan et du jaune (synthèse soustractive) ?",
+  "a": [
+   "L'orange",
+   "Le violet",
+   "Le vert",
+   "Le rouge"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a peint « La Naissance de Vénus » ?",
+  "a": [
+   "Raphaël",
+   "Botticelli",
+   "Titien",
+   "Giotto"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment s'appelle la période artistique née en Italie au XVe siècle, qui redécouvre l'Antiquité ?",
+  "a": [
+   "La Renaissance",
+   "Le Moyen Âge",
+   "Le romantisme",
+   "Le baroque"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a peint « La Ronde de nuit » ?",
+  "a": [
+   "Vermeer",
+   "Rubens",
+   "Van Gogh",
+   "Rembrandt"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle œuvre a donné son nom à l'impressionnisme ?",
+  "a": [
+   "La Joconde",
+   "Guernica",
+   "Les Tournesols",
+   "Impression, soleil levant"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel instrument à vent utilise une anche double ?",
+  "a": [
+   "La flûte traversière",
+   "La trompette",
+   "Le hautbois",
+   "Le saxophone"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le plus grave des instruments à cordes frottées de l'orchestre ?",
+  "a": [
+   "Le violoncelle",
+   "La contrebasse",
+   "L'alto",
+   "Le violon"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que signifie « andante » ?",
+  "a": [
+   "À allure modérée, en marchant",
+   "Très vite",
+   "Très lent",
+   "En détachant les notes"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel élément d'architecture gothique soutient les murs de l'extérieur d'une cathédrale ?",
+  "a": [
+   "L'arc-boutant",
+   "Le fronton",
+   "Le pilori",
+   "Le chapiteau ionique"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle déesse était honorée au Parthénon d'Athènes ?",
+  "a": [
+   "Aphrodite",
+   "Héra",
+   "Artémis",
+   "Athéna"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans quel pays se trouve le Taj Mahal ?",
+  "a": [
+   "La Chine",
+   "L'Iran",
+   "L'Inde",
+   "La Turquie"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a sculpté la « Pietà » de la basilique Saint-Pierre ?",
+  "a": [
+   "Donatello",
+   "Michel-Ange",
+   "Le Bernin",
+   "Rodin"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la perspective en peinture ?",
+  "a": [
+   "Un mélange de couleurs",
+   "Un procédé qui donne une impression de profondeur",
+   "Un type de pinceau",
+   "Un cadre doré"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a composé la Symphonie n° 5 qui commence par quatre notes célèbres ?",
+  "a": [
+   "Beethoven",
+   "Mozart",
+   "Schubert",
+   "Brahms"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que désigne un chœur ?",
+  "a": [
+   "Un seul instrument",
+   "Un type de partition",
+   "Une chanson pour un seul chanteur",
+   "Un groupe de chanteurs"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a peint « Le Déjeuner sur l'herbe » (1863) ?",
+  "a": [
+   "Gustave Courbet",
+   "Claude Monet",
+   "Édouard Manet",
+   "Edgar Degas"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle était la fonction des pyramides d'Égypte ?",
+  "a": [
+   "Des phares",
+   "Des marchés",
+   "Des tombeaux pour les pharaons",
+   "Des écoles"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel type d'arc caractérise l'art roman ?",
+  "a": [
+   "L'arc brisé",
+   "L'arc en plein cintre",
+   "L'arc en accolade",
+   "L'arc outrepassé seulement"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel ordre de l'architecture grecque a des chapiteaux ornés de deux grandes volutes ?",
+  "a": [
+   "L'ordre dorique",
+   "L'ordre ionique",
+   "L'ordre toscan",
+   "L'ordre composite"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle couleur obtient-on en superposant des lumières rouge, verte et bleue ?",
+  "a": [
+   "Le noir",
+   "Le gris",
+   "Le marron",
+   "Le blanc"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment s'appelle l'art de l'écriture soignée et décorative ?",
+  "a": [
+   "La calligraphie",
+   "La sculpture",
+   "La gravure",
+   "La mosaïque"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel peuple de l'Antiquité a construit des aqueducs comme le pont du Gard ?",
+  "a": [
+   "Les Grecs",
+   "Les Égyptiens",
+   "Les Romains",
+   "Les Gaulois"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelle-t-on la partie qui revient plusieurs fois dans une chanson ?",
+  "a": [
+   "Le couplet",
+   "Le refrain",
+   "La coda",
+   "La cadence"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Dans quel pays se trouve l'Alhambra, un palais de Grenade ?",
+  "a": [
+   "En Espagne",
+   "Au Maroc",
+   "En Turquie",
+   "En Italie"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel mouvement artistique est associé à Salvador Dalí ?",
+  "a": [
+   "Le surréalisme",
+   "Le cubisme",
+   "L'impressionnisme",
+   "Le fauvisme"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Dans quel pays est né l'opéra, à la fin du XVIe siècle ?",
+  "a": [
+   "La France",
+   "L'Allemagne",
+   "L'Angleterre",
+   "L'Italie"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que signifie la nuance « pianissimo » en musique ?",
+  "a": [
+   "Très fort",
+   "Très doucement",
+   "Très vite",
+   "En silence"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel mot désigne un tableau de la mer ?",
+  "a": [
+   "Un portrait",
+   "Une marine",
+   "Une nature morte",
+   "Une fresque"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a composé « La Flûte enchantée » ?",
+  "a": [
+   "Verdi",
+   "Mozart",
+   "Puccini",
+   "Rossini"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment appelle-t-on un instrument de musique à clavier et à cordes frappées par des marteaux ?",
+  "a": [
+   "Le piano",
+   "Le clavecin",
+   "L'orgue",
+   "L'accordéon"
+  ],
+  "c": 0
+ }
+]

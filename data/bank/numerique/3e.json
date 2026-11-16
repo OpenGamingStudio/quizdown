@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Quel langage décrit la structure d'une page web ?",
+  "a": [
+   "HTML",
+   "Python",
+   "SQL",
+   "C"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel langage met en forme une page web ?",
+  "a": [
+   "HTML",
+   "SMTP",
+   "DNS",
+   "CSS"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'une URL ?",
+  "a": [
+   "Un mot de passe",
+   "Un virus",
+   "L'adresse complète d'une ressource web",
+   "Un format d'image"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel protocole sert à envoyer un courriel ?",
+  "a": [
+   "HTTP",
+   "SMTP",
+   "HTTPS",
+   "FTP"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est l'avantage de HTTPS sur HTTP ?",
+  "a": [
+   "Les pages sont plus colorées",
+   "Les échanges sont chiffrés",
+   "Il est plus lent",
+   "Il supprime les pubs"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un algorithme de tri ?",
+  "a": [
+   "Une méthode pour ordonner des données",
+   "Un virus",
+   "Un réseau",
+   "Un format"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Dans Python, que fait len(\"abc\") ?",
+  "a": [
+   "Renvoie \"abc\"",
+   "Renvoie 0",
+   "Renvoie 2",
+   "Renvoie 3"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans Python, que vaut 2 ** 5 ?",
+  "a": [
+   "10",
+   "25",
+   "32",
+   "7"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans Python, que fait while x < 10 ?",
+  "a": [
+   "Exécute une fois",
+   "Arrête le programme",
+   "Répète tant que x est inférieur à 10",
+   "Définit x"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel type en Python est « True » ?",
+  "a": [
+   "Entier",
+   "Booléen",
+   "Chaîne",
+   "Liste"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que renvoie une fonction ?",
+  "a": [
+   "Une valeur de retour",
+   "Un câble",
+   "Une erreur toujours",
+   "Un écran"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un paramètre de fonction ?",
+  "a": [
+   "Un résultat",
+   "Un bug",
+   "Un fichier",
+   "Une valeur donnée à la fonction"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans Python, que fait « import math » ?",
+  "a": [
+   "Efface les maths",
+   "Crée une variable",
+   "Dessine une courbe",
+   "Charge un module de maths"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'un commentaire dans un programme ?",
+  "a": [
+   "Une instruction",
+   "Une erreur",
+   "Un texte ignoré destiné aux humains",
+   "Un fichier"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un microcontrôleur ?",
+  "a": [
+   "Un gros serveur",
+   "Un petit ordinateur sur une puce",
+   "Un écran",
+   "Un virus"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel composant mesure la température dans un système automatisé ?",
+  "a": [
+   "Une sonde de température",
+   "Un servomoteur",
+   "Un haut-parleur",
+   "Un écran"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un servomoteur ?",
+  "a": [
+   "Un moteur contrôlé en position",
+   "Un capteur de son",
+   "Un logiciel",
+   "Un réseau"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la modélisation numérique ?",
+  "a": [
+   "Un jeu de rôle",
+   "Un type de câble",
+   "Un virus",
+   "Représenter un système par un modèle sur ordinateur"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que l'impression 3D ?",
+  "a": [
+   "Imprimer sur du papier",
+   "Scanner une image",
+   "Fabriquer un objet par ajout de matière, couche par couche",
+   "Compresser un fichier"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un format ouvert ?",
+  "a": [
+   "Un format payant",
+   "Un format dont les spécifications sont publiques",
+   "Un format secret",
+   "Un format de jeu"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la neutralité du Net ?",
+  "a": [
+   "Bloquer les sites",
+   "Traiter équitablement toutes les données",
+   "Censurer des vidéos",
+   "Fixer un prix par site"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le risque d'un compte public mal réglé ?",
+  "a": [
+   "Exposer des informations personnelles",
+   "Une panne d'écran",
+   "Un manque de mémoire",
+   "Un virus matériel"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que sont les métadonnées d'une photo ?",
+  "a": [
+   "La photo elle-même",
+   "Un virus",
+   "Un filtre",
+   "Des informations sur la photo comme la date ou le lieu"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que désigne l'expression « IA générative » ?",
+  "a": [
+   "Une IA qui répare les ordinateurs",
+   "Une IA qui efface les virus",
+   "Une IA qui crée du contenu (texte, image...)",
+   "Un robot aspirateur"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un deepfake ?",
+  "a": [
+   "Un fichier chiffré",
+   "Un navigateur",
+   "Une vidéo ou un audio truqués par IA",
+   "Un réseau"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que l'intelligence artificielle ?",
+  "a": [
+   "Des robots conscients",
+   "Des programmes qui apprennent à partir de données",
+   "Un virus",
+   "Un écran"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Pourquoi faut-il vérifier les réponses d'une IA générative ?",
+  "a": [
+   "Elle peut se tromper",
+   "Elle ne se trompe jamais",
+   "Elle est toujours drôle",
+   "Elle est interdite"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la sobriété numérique ?",
+  "a": [
+   "Éteindre le monde",
+   "Acheter plus d'appareils",
+   "Utiliser plus de données",
+   "Réduire son impact environnemental numérique"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel geste réduit l'empreinte du numérique ?",
+  "a": [
+   "Changer de téléphone chaque année",
+   "Laisser tout allumé",
+   "Stocker toutes les vidéos en HD",
+   "Garder ses appareils plus longtemps"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que le tri sélectif de l'électronique ?",
+  "a": [
+   "Les jeter à la poubelle",
+   "Les brûler",
+   "Déposer les appareils usagés dans une filière dédiée",
+   "Les enterrer"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'une base de données ?",
+  "a": [
+   "Un virus",
+   "Un ensemble organisé de données",
+   "Un écran",
+   "Un jeu"
+  ],
+  "c": 1
+ }
+]

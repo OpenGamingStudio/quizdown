@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Qu'est-ce que l'État de droit ?",
+  "a": [
+   "Un État sans lois",
+   "Un État soumis au droit, où les pouvoirs sont limités",
+   "Un État dirigé par l'armée",
+   "Un État sans juges"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la valeur d'une Constitution ?",
+  "a": [
+   "Elle est la norme suprême qui organise les pouvoirs",
+   "Elle est un simple conseil",
+   "Elle change chaque jour",
+   "Elle est un décret"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un scrutin proportionnel ?",
+  "a": [
+   "Le candidat en tête gagne tout",
+   "Un tirage au sort",
+   "Les sièges sont répartis selon les voix de chaque liste",
+   "Un vote à main levée"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel mode de scrutin élit le président en France ?",
+  "a": [
+   "Scrutin proportionnel",
+   "Tirage au sort",
+   "Scrutin uninominal majoritaire à deux tours",
+   "Désignation par le Sénat"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le seuil pour être élu dès le premier tour à la présidentielle ?",
+  "a": [
+   "25 %",
+   "La majorité absolue des suffrages exprimés",
+   "40 %",
+   "33 %"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'une motion de censure ?",
+  "a": [
+   "Une loi de finances",
+   "Un vote de l'Assemblée pour renverser le gouvernement",
+   "Un référendum",
+   "Une peine"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le rôle du Conseil d'État ?",
+  "a": [
+   "Voter les lois",
+   "Juger les crimes",
+   "Élire le président",
+   "Juger l'administration et conseiller le gouvernement"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'un traité international ?",
+  "a": [
+   "Un jugement",
+   "Une loi locale",
+   "Un décret municipal",
+   "Un accord entre États"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que la liberté d'expression en droit français ?",
+  "a": [
+   "Un droit absolu sans limite",
+   "Un droit garanti sauf abus prévus par la loi",
+   "Un droit interdit",
+   "Un droit pour les journalistes seulement"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que punit la loi à propos de l'apologie du terrorisme ?",
+  "a": [
+   "Elle sanctionne pénalement ceux qui la font",
+   "Elle l'autorise",
+   "Elle l'encourage",
+   "Elle l'ignore"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que le droit à la vie privée ?",
+  "a": [
+   "Le droit de cacher des crimes",
+   "Le droit de ne pas payer d'impôts",
+   "Un droit réservé aux élus",
+   "Le droit à l'intimité et à la protection de ses données"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que signifie le principe du contradictoire ?",
+  "a": [
+   "Le juge décide sans entendre",
+   "Les débats sont secrets",
+   "Il n'y a pas de défense",
+   "Chaque partie peut discuter les arguments de l'autre"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que la garde à vue ?",
+  "a": [
+   "Une peine de prison",
+   "Une privation de liberté limitée durant l'enquête",
+   "Une amende",
+   "Une libération"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'une discrimination indirecte ?",
+  "a": [
+   "Un avantage fiscal",
+   "Une règle en apparence neutre qui défavorise un groupe",
+   "Un impôt",
+   "Un vote"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel organisme juridique européen siège à Luxembourg ?",
+  "a": [
+   "La Cour européenne des droits de l'homme",
+   "La Cour de cassation",
+   "Le Conseil constitutionnel",
+   "La Cour de justice de l'Union européenne"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel organisme siège à Strasbourg pour la protection des droits ?",
+  "a": [
+   "La Cour de justice de l'UE",
+   "La BCE",
+   "La Cour européenne des droits de l'homme",
+   "Le Conseil de l'UE"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que sont les droits civils et politiques ?",
+  "a": [
+   "Les droits économiques",
+   "Libertés individuelles et participation politique",
+   "Les droits fiscaux",
+   "Les droits d'auteur"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que sont les droits économiques et sociaux ?",
+  "a": [
+   "Travail, santé, éducation, protection sociale",
+   "Voter",
+   "S'exprimer",
+   "Se réunir"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la nationalité ?",
+  "a": [
+   "Un passeport",
+   "Une langue",
+   "Le lien juridique d'une personne avec un État",
+   "Une origine ethnique"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est un devoir du citoyen ?",
+  "a": [
+   "Ne pas voter",
+   "Désobéir",
+   "Respecter la loi et payer l'impôt",
+   "Fuir l'impôt"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un bulletin nul ?",
+  "a": [
+   "Un bulletin non valable, non compté",
+   "Un bulletin sans nom compté à part",
+   "Un vote par procuration",
+   "Une abstention"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un vote blanc ?",
+  "a": [
+   "Un bulletin sans nom, compté à part",
+   "Un bulletin nul",
+   "Une abstention",
+   "Un bulletin d'un candidat"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que le vote par procuration ?",
+  "a": [
+   "Voter deux fois",
+   "Voter à distance sans mandat",
+   "Voter pour son voisin sans accord",
+   "Donner mandat à quelqu'un de voter à sa place"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que le service civique ?",
+  "a": [
+   "Un impôt",
+   "Un vote",
+   "Un engagement volontaire d'intérêt général pour les jeunes",
+   "Un examen"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'une ONG ?",
+  "a": [
+   "Une organisation nationale gouvernementale",
+   "Une organisation non gouvernementale",
+   "Une organisation numérique",
+   "Une association sportive"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Citer une ONG de défense des droits de l'homme :",
+  "a": [
+   "Amnesty International",
+   "FIFA",
+   "OTAN",
+   "OMC"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la Convention européenne des droits de l'homme ?",
+  "a": [
+   "Un règlement de l'UE",
+   "Un traité de l'ONU",
+   "Une loi française",
+   "Un traité de 1950 du Conseil de l'Europe"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que la liberté de réunion ?",
+  "a": [
+   "Un droit d'imposer sa présence",
+   "Un droit réservé aux élus",
+   "Un droit de bloquer les routes",
+   "Le droit de se rassembler pacifiquement"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que le droit de réponse ?",
+  "a": [
+   "Répondre à un examen",
+   "Pouvoir répondre à une mise en cause dans un média",
+   "Répondre à une convocation",
+   "Répondre à un sondage"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'une bulle de filtres ?",
+  "a": [
+   "Des infos en ligne filtrées selon ses goûts",
+   "Un filtre d'eau",
+   "Une loi",
+   "Un moteur de recherche"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la désinformation ?",
+  "a": [
+   "Une erreur involontaire",
+   "Un sondage",
+   "Une opinion",
+   "La diffusion volontaire de fausses informations"
+  ],
+  "c": 3
+ }
+]

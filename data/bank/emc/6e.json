@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel principe garantit la liberté de conscience en France ?",
+  "a": [
+   "La monarchie",
+   "La laïcité",
+   "Le communautarisme",
+   "La censure"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que dit l'article 1er de la Constitution de 1958 sur la République ?",
+  "a": [
+   "Elle est indivisible, laïque, démocratique et sociale",
+   "Elle est religieuse et unique",
+   "Elle est une monarchie",
+   "Elle est fédérale"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle charte est affichée dans les établissements scolaires pour rappeler la laïcité ?",
+  "a": [
+   "La Charte de l'ONU",
+   "Le Code civil",
+   "La Charte de l'Europe",
+   "La Charte de la laïcité à l'école"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que proclame l'article 1er de la Déclaration de 1789 ?",
+  "a": [
+   "Les rois sont libres",
+   "La religion est obligatoire",
+   "Les hommes naissent libres et égaux en droits",
+   "Les hommes sont égaux en richesse"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que signifie « mixité » à l'école ?",
+  "a": [
+   "Les matières sont mélangées",
+   "La cantine est mélangée",
+   "Filles et garçons étudient ensemble",
+   "Le sport est obligatoire"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un préjugé ?",
+  "a": [
+   "Une idée toute faite sur quelqu'un ou un groupe",
+   "Une preuve",
+   "Une loi",
+   "Un sondage"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que le sexisme ?",
+  "a": [
+   "Un sport",
+   "Une loi",
+   "Une fête",
+   "Une discrimination fondée sur le sexe"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui exerce l'autorité parentale ?",
+  "a": [
+   "Le maire",
+   "Les parents ou représentants légaux",
+   "Le directeur",
+   "Le préfet"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le rôle du règlement intérieur d'un collège ?",
+  "a": [
+   "Fixer les programmes nationaux",
+   "Fixer les droits et devoirs des élèves",
+   "Décider des notes",
+   "Supprimer les cours"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui représente les élèves au conseil d'administration du collège ?",
+  "a": [
+   "Les délégués élèves",
+   "Les parents seuls",
+   "Le principal seul",
+   "Les surveillants"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui dirige un collège ?",
+  "a": [
+   "Le maire",
+   "Le recteur",
+   "Le député",
+   "Le principal ou la principale"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la durée de l'instruction obligatoire en France ?",
+  "a": [
+   "De 6 à 14 ans",
+   "De 5 à 18 ans",
+   "De 3 ans à 16 ans",
+   "De 3 à 10 ans"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que l'engagement citoyen ?",
+  "a": [
+   "Faire ce qu'on veut",
+   "Agir pour l'intérêt général",
+   "Ne rien faire",
+   "Payer des impôts seulement"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment un élève peut-il s'engager au collège ?",
+  "a": [
+   "En devenant délégué ou éco-délégué",
+   "En évitant les cours",
+   "En ne votant jamais",
+   "En sautant l'école"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que doit faire un témoin de harcèlement scolaire ?",
+  "a": [
+   "Alerter un adulte du collège",
+   "Se moquer aussi",
+   "Filmer pour partager",
+   "Ne rien dire jamais"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel numéro national contre le harcèlement à l'école ?",
+  "a": [
+   "Le 3018",
+   "Le 3030",
+   "Le 3020",
+   "Le 3115"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un droit ?",
+  "a": [
+   "Une punition",
+   "Une règle qui protège une liberté ou un besoin",
+   "Un devoir",
+   "Un vœu"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel droit assure la sécurité sociale ?",
+  "a": [
+   "Le droit à la santé",
+   "Le droit de vote",
+   "Le droit d'asile",
+   "Le droit de grève"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que l'impôt ?",
+  "a": [
+   "Une amende",
+   "Un cadeau",
+   "Un emprunt",
+   "Une contribution payée pour financer les services publics"
+  ],
+  "c": 3
+ },
+ {
+  "q": "À quoi servent les impôts ?",
+  "a": [
+   "À enrichir un seul",
+   "À acheter des jouets",
+   "À financer écoles, hôpitaux, routes",
+   "À rien"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un service public ?",
+  "a": [
+   "Une entreprise privée",
+   "Une activité d'intérêt général assurée pour tous",
+   "Un club",
+   "Un magasin"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Citer un service public :",
+  "a": [
+   "L'école publique",
+   "Un cinéma privé",
+   "Un restaurant",
+   "Une boutique"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Sur quels bâtiments publics trouve-t-on souvent la devise de la République ?",
+  "a": [
+   "Sur le fronton des mairies et des écoles",
+   "Sur les panneaux routiers",
+   "Sur les maillots sportifs",
+   "Sur les billets de cinéma"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel jour fête-t-on le travail en France ?",
+  "a": [
+   "Le 8 mai",
+   "Le 1er mai",
+   "Le 14 juillet",
+   "Le 11 novembre"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Pourquoi le 8 mai est-il férié ?",
+  "a": [
+   "Fête du travail",
+   "Fin de la Seconde Guerre mondiale en Europe en 1945",
+   "Prise de la Bastille",
+   "Armistice de 1918"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que le développement durable ?",
+  "a": [
+   "Répondre aux besoins actuels sans nuire à demain",
+   "Produire toujours plus",
+   "Arrêter toute activité",
+   "Construire sans limite"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un écogeste ?",
+  "a": [
+   "Un jeu vidéo",
+   "Un sport",
+   "Une règle de grammaire",
+   "Un geste simple qui protège l'environnement"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel écogeste réduit les déchets ?",
+  "a": [
+   "Acheter des bouteilles jetables",
+   "Jeter les emballages",
+   "Utiliser une gourde réutilisable",
+   "Imprimer tout"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que le respect de la vie privée ?",
+  "a": [
+   "Raconter les secrets",
+   "Fouiller les affaires",
+   "Ne pas révéler ce qui relève de l'intimité de chacun",
+   "Publier sans accord"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que l'homophobie ?",
+  "a": [
+   "Une peur des hauteurs",
+   "Un sport",
+   "Une loi",
+   "Le rejet ou la haine envers les homosexuels"
+  ],
+  "c": 3
+ }
+]

@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quelle région française est la plus peuplée ?",
+  "a": [
+   "La Bretagne",
+   "La Corse",
+   "L'Île-de-France",
+   "La Normandie"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle ville est la capitale de la région Auvergne-Rhône-Alpes ?",
+  "a": [
+   "Clermont-Ferrand",
+   "Grenoble",
+   "Lyon",
+   "Saint-Étienne"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle ville est la préfecture de la région Occitanie ?",
+  "a": [
+   "Montpellier",
+   "Toulouse",
+   "Perpignan",
+   "Nîmes"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle ville est la capitale de la Nouvelle-Aquitaine ?",
+  "a": [
+   "Limoges",
+   "Bordeaux",
+   "Poitiers",
+   "La Rochelle"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le nom de la grande région du nord de la France avec Lille ?",
+  "a": [
+   "Hauts-de-France",
+   "Grand Est",
+   "Normandie",
+   "Centre-Val de Loire"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment appelle-t-on les territoires français situés hors d'Europe ?",
+  "a": [
+   "Les colonies",
+   "Les enclaves",
+   "Les protectorats",
+   "Les outre-mer"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel territoire d'outre-mer du Pacifique a pour chef-lieu Nouméa ?",
+  "a": [
+   "La Nouvelle-Calédonie",
+   "La Polynésie française",
+   "Wallis-et-Futuna",
+   "Saint-Pierre-et-Miquelon"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'une métropole en France ?",
+  "a": [
+   "Un village de montagne",
+   "Un hameau agricole",
+   "Une grande ville qui concentre pouvoirs et activités",
+   "Un port de pêche"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que l'aménagement du territoire ?",
+  "a": [
+   "L'ensemble des actions pour organiser et équilibrer l'espace",
+   "La construction d'une seule maison",
+   "La décoration d'une ville",
+   "Un impôt local"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment appelle-t-on le recul de l'industrie dans une région ?",
+  "a": [
+   "La désindustrialisation",
+   "L'urbanisation",
+   "La métropolisation",
+   "La littoralisation"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'une métropolisation ?",
+  "a": [
+   "La concentration croissante des hommes en grandes villes",
+   "La disparition des villes",
+   "Le départ vers les campagnes",
+   "La construction de ports"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle ligne à grande vitesse relie Paris à Lyon depuis 1981 ?",
+  "a": [
+   "Le TER",
+   "Le TGV (LGV Sud-Est)",
+   "Le RER",
+   "Le métro"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel mode de transport est le plus utilisé pour les déplacements quotidiens en France ?",
+  "a": [
+   "Le bateau",
+   "La voiture",
+   "Le téléphérique",
+   "Le cheval"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel aéroport est le premier de France par le nombre de passagers ?",
+  "a": [
+   "Orly",
+   "Roissy-Charles-de-Gaulle",
+   "Nice",
+   "Lyon-Saint-Exupéry"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le pays le plus peuplé de l'Union européenne ?",
+  "a": [
+   "L'Allemagne",
+   "La France",
+   "L'Italie",
+   "L'Espagne"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel traité signé en 1992 crée l'Union européenne ?",
+  "a": [
+   "Le traité de Rome",
+   "Le traité de Maastricht",
+   "Le traité de Paris",
+   "Le traité de Versailles"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel espace de l'UE permet de circuler sans contrôle aux frontières ?",
+  "a": [
+   "L'espace Schengen",
+   "L'espace Marshall",
+   "L'espace Vienne",
+   "La zone Atlantique"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel organisme réunit les pays ayant le français en partage ?",
+  "a": [
+   "L'OTAN",
+   "L'OMC",
+   "L'ONU",
+   "L'Organisation internationale de la Francophonie"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle région française est une grande région agricole céréalière du Bassin parisien ?",
+  "a": [
+   "Le Limousin",
+   "La Beauce",
+   "La Corse",
+   "La Camargue"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel produit est emblématique de la région de Bordeaux ?",
+  "a": [
+   "Le fromage de brebis de Roquefort",
+   "Les pommes de Normandie",
+   "Le vin",
+   "Le bœuf de Charolles"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle région est connue pour la production de fromage de Camembert ?",
+  "a": [
+   "La Corse",
+   "L'Occitanie",
+   "La Bretagne",
+   "La Normandie"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle activité agricole est très développée en Bretagne ?",
+  "a": [
+   "L'élevage (porcs, volailles)",
+   "La viticulture",
+   "La riziculture",
+   "La culture des oliviers"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle région française a une industrie aéronautique majeure avec Toulouse ?",
+  "a": [
+   "La Bretagne",
+   "L'Occitanie",
+   "La Normandie",
+   "La Corse"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel atout a la France dans l'espace maritime mondial ?",
+  "a": [
+   "Aucune côte",
+   "Un seul port",
+   "Aucun territoire ultramarin",
+   "Un vaste espace maritime grâce aux outre-mer"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel terme désigne le fait que certains territoires sont peu connectés, éloignés des services ?",
+  "a": [
+   "Des métropoles",
+   "Des littoraux touristiques",
+   "Des territoires enclavés",
+   "Des aéroports"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel centre spatial européen est situé en Guyane ?",
+  "a": [
+   "Cayenne",
+   "Kourou",
+   "Saint-Laurent-du-Maroni",
+   "Sinnamary"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle forme prend le réseau ferroviaire à grande vitesse français autour de Paris ?",
+  "a": [
+   "Une étoile",
+   "Un damier",
+   "Un anneau",
+   "Une ligne unique"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le nom de l'organisation de coopération entre pays européens créée en 1957 (traité de Rome) ?",
+  "a": [
+   "La Communauté économique européenne",
+   "L'OTAN",
+   "L'ONU",
+   "Le Conseil de l'Europe"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel territoire de l'océan Indien devient en 2011 le 101e département français ?",
+  "a": [
+   "Mayotte",
+   "La Réunion",
+   "Les Comores",
+   "Madagascar"
+  ],
+  "c": 0
+ },
+ {
+  "q": "En quelle année le tunnel sous la Manche est-il inauguré ?",
+  "a": [
+   "1994",
+   "1981",
+   "1989",
+   "2004"
+  ],
+  "c": 0
+ }
+]

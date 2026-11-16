@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel est le nom de l'Union qui regroupe de nombreux pays européens ?",
+  "a": [
+   "L'Union européenne",
+   "L'ONU",
+   "L'OTAN",
+   "Le Commonwealth"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle ville est le siège du Parlement européen ?",
+  "a": [
+   "Strasbourg",
+   "Marseille",
+   "Londres",
+   "Vienne"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle monnaie est utilisée dans de nombreux pays de l'Union européenne ?",
+  "a": [
+   "Le dollar",
+   "Le franc",
+   "La livre",
+   "L'euro"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la capitale du Royaume-Uni ?",
+  "a": [
+   "Édimbourg",
+   "Londres",
+   "Manchester",
+   "Dublin"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel fleuve traverse Vienne, Budapest et Belgrade ?",
+  "a": [
+   "Le Rhin",
+   "La Loire",
+   "L'Elbe",
+   "Le Danube"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle chaîne de montagnes traverse le sud de l'Europe, avec le mont Blanc ?",
+  "a": [
+   "Les Carpates",
+   "L'Oural",
+   "Les Pyrénées",
+   "Les Alpes"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle chaîne de montagnes sépare l'Europe de l'Asie ?",
+  "a": [
+   "L'Oural",
+   "Les Alpes",
+   "Les Pyrénées",
+   "Les Vosges"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le plus grand pays d'Europe de l'Ouest par la superficie ?",
+  "a": [
+   "L'Allemagne",
+   "L'Espagne",
+   "La France",
+   "L'Italie"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le plus grand pays du monde par la superficie ?",
+  "a": [
+   "La Russie",
+   "Le Canada",
+   "La Chine",
+   "Les États-Unis"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la capitale des États-Unis ?",
+  "a": [
+   "Washington D.C.",
+   "New York",
+   "Los Angeles",
+   "Chicago"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la capitale de la Chine ?",
+  "a": [
+   "Shanghai",
+   "Pékin",
+   "Hong Kong",
+   "Canton"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la capitale du Japon ?",
+  "a": [
+   "Osaka",
+   "Kyoto",
+   "Hiroshima",
+   "Tokyo"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la capitale du Brésil ?",
+  "a": [
+   "Rio de Janeiro",
+   "Brasilia",
+   "São Paulo",
+   "Salvador"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la capitale de l'Australie ?",
+  "a": [
+   "Sydney",
+   "Canberra",
+   "Melbourne",
+   "Perth"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le plus long fleuve d'Afrique ?",
+  "a": [
+   "Le Congo",
+   "Le Niger",
+   "Le Nil",
+   "Le Zambèze"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel océan se trouve entre l'Afrique et l'Australie ?",
+  "a": [
+   "L'océan Indien",
+   "L'océan Atlantique",
+   "L'océan Arctique",
+   "La mer Rouge"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel pays est une île-continent de l'hémisphère Sud ?",
+  "a": [
+   "Le Japon",
+   "Madagascar",
+   "L'Australie",
+   "L'Islande"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que désigne la mondialisation ?",
+  "a": [
+   "La fermeture des frontières",
+   "La fin du commerce",
+   "L'augmentation des échanges entre les pays du monde",
+   "La construction de villes nouvelles"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un conteneur dans le transport mondial ?",
+  "a": [
+   "Un petit sac",
+   "Un wagon-restaurant",
+   "Un bateau de pêche",
+   "Une grande boîte métallique de transport de marchandises"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel port de la Manche est le premier de France pour les conteneurs ?",
+  "a": [
+   "Marseille",
+   "Le Havre",
+   "Nantes",
+   "Bordeaux"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quels types d'espaces trouve-t-on dans une ville ?",
+  "a": [
+   "Cultures, forêts et lacs",
+   "Glaciers, déserts et mers",
+   "Prairies, marais et dunes",
+   "Habitat, commerces et activités économiques"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment appelle-t-on les habitants d'une ville ?",
+  "a": [
+   "Les ruraux",
+   "Les nomades",
+   "Les insulaires",
+   "Les citadins"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'un espace rural ?",
+  "a": [
+   "Un centre-ville dense",
+   "Un espace de faible densité avec des champs et des villages",
+   "Une zone portuaire uniquement",
+   "Un désert polaire"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel pays d'Afrique du Nord est bordé par la Méditerranée et l'Atlantique ?",
+  "a": [
+   "L'Égypte",
+   "Le Maroc",
+   "La Tunisie",
+   "La Libye"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le plus petit État du monde ?",
+  "a": [
+   "Monaco",
+   "Saint-Marin",
+   "Le Vatican",
+   "Le Liechtenstein"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel pays est le plus peuplé d'Amérique du Sud ?",
+  "a": [
+   "L'Argentine",
+   "La Colombie",
+   "Le Brésil",
+   "Le Pérou"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel canal relie la Méditerranée à la mer Rouge ?",
+  "a": [
+   "Le canal de Panama",
+   "Le canal de Suez",
+   "Le canal du Midi",
+   "Le canal de Corinthe"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel gaz à effet de serre est le plus émis par les activités humaines ?",
+  "a": [
+   "L'oxygène",
+   "Le dioxyde de carbone",
+   "L'hélium",
+   "L'azote"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle énergie est produite par les panneaux photovoltaïques ?",
+  "a": [
+   "L'énergie éolienne",
+   "L'énergie nucléaire",
+   "L'énergie hydraulique",
+   "L'énergie solaire"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle énergie fournit la majorité de l'électricité en France ?",
+  "a": [
+   "Le nucléaire",
+   "Le charbon",
+   "Le solaire",
+   "L'éolien"
+  ],
+  "c": 0
+ }
+]

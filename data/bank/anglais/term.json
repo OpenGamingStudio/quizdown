@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Complète : « Had she left earlier, she ___ the plane. »",
+  "a": [
+   "won't miss",
+   "wouldn't have missed",
+   "wouldn't miss",
+   "hadn't missed"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Complète : « Were I in your position, I ___ accept. »",
+  "a": [
+   "would",
+   "will",
+   "had",
+   "did"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « Should you need help, ___ me. »",
+  "a": [
+   "to call",
+   "calling",
+   "called",
+   "call"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Complète : « No sooner had he arrived ___ it started to rain. »",
+  "a": [
+   "when than",
+   "then",
+   "than",
+   "that"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « Hardly had we sat down ___ the phone rang. »",
+  "a": [
+   "than",
+   "when",
+   "that",
+   "as than"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Complète : « I'd prefer ___ at home to going out. »",
+  "a": [
+   "to stay",
+   "staying",
+   "stay",
+   "stayed"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Complète : « Only after the meeting ___ the truth. »",
+  "a": [
+   "he learned",
+   "learned he",
+   "he did learn",
+   "did he learn"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Complète : « He insisted ___ paying the bill. »",
+  "a": [
+   "in",
+   "to",
+   "on",
+   "for"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « She is accused ___ stealing money. »",
+  "a": [
+   "for",
+   "of",
+   "with",
+   "by"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Complète : « He apologised ___ being late. »",
+  "a": [
+   "for",
+   "of",
+   "about to",
+   "at"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « She prevented him ___ leaving. »",
+  "a": [
+   "to",
+   "of",
+   "for",
+   "from"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Complète : « He took part ___ the debate. »",
+  "a": [
+   "at",
+   "to",
+   "on",
+   "in"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Complète : « The meeting was called ___ because of the strike. »",
+  "a": [
+   "out",
+   "off",
+   "up",
+   "over"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le sens de « to bring up » (un enfant) ?",
+  "a": [
+   "élever",
+   "apporter en haut",
+   "vomir toujours",
+   "se lever"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le sens de « to turn down » (une offre) ?",
+  "a": [
+   "tourner en bas",
+   "baisser la tête",
+   "accepter",
+   "refuser"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le sens de « to set up » (une entreprise) ?",
+  "a": [
+   "installer en bas",
+   "se coucher",
+   "créer",
+   "renoncer à"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le sens de « to come up with » (une idée) ?",
+  "a": [
+   "monter avec",
+   "trouver / proposer",
+   "s'entendre avec",
+   "se lever tôt"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le sens de « to get along with » ?",
+  "a": [
+   "s'entendre avec",
+   "avancer avec",
+   "recevoir avec",
+   "longer"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le sens de « to look into » ?",
+  "a": [
+   "regarder dans",
+   "ressembler à",
+   "faire attention",
+   "examiner / enquêter sur"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que signifie « however » ?",
+  "a": [
+   "comment",
+   "toujours",
+   "cependant",
+   "parce que"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que signifie « nevertheless » ?",
+  "a": [
+   "jamais plus",
+   "néanmoins",
+   "donc",
+   "en outre"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que signifie « whereas » ?",
+  "a": [
+   "alors que (contraste)",
+   "où",
+   "puisque",
+   "dès que"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que signifie « thus » ?",
+  "a": [
+   "pourtant",
+   "quoique",
+   "alors que",
+   "ainsi"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que signifie le faux ami « to support » ?",
+  "a": [
+   "supporter (tolérer)",
+   "supposer",
+   "soutenir",
+   "surprendre"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que signifie le faux ami « a coin » ?",
+  "a": [
+   "un coin (angle)",
+   "une pièce de monnaie",
+   "un coup",
+   "un cochon"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que signifie le faux ami « confident » ?",
+  "a": [
+   "sûr de soi",
+   "confident (personne)",
+   "confidentiel",
+   "confus"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que signifie « the stock market » ?",
+  "a": [
+   "le marché de gros",
+   "le supermarché",
+   "la marchandise",
+   "la bourse"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que signifie « to raise awareness » ?",
+  "a": [
+   "éveiller le matin",
+   "augmenter le salaire",
+   "sensibiliser",
+   "lever la main"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle ville est le siège de l'ONU ?",
+  "a": [
+   "Washington",
+   "New York",
+   "Geneva",
+   "London"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que le « Bill of Rights » ?",
+  "a": [
+   "les amendements garantissant les libertés aux États-Unis",
+   "un traité commercial",
+   "une loi sur la monnaie",
+   "un discours du Président"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la durée d'un mandat présidentiel aux États-Unis ?",
+  "a": [
+   "five years",
+   "six years",
+   "two years",
+   "four years"
+  ],
+  "c": 3
+ }
+]

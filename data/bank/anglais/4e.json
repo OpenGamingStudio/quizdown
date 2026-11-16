@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Complète : « I ___ TV when the phone rang. »",
+  "a": [
+   "watched",
+   "was watching",
+   "am watching",
+   "have watched"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Complète : « While she ___ , he was cooking. »",
+  "a": [
+   "was reading",
+   "read",
+   "reads",
+   "has read"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « I have ___ finished my homework. »",
+  "a": [
+   "yesterday",
+   "ago",
+   "last",
+   "just"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Complète : « She has lived here ___ 2015. »",
+  "a": [
+   "for",
+   "ago",
+   "since",
+   "during"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « They have lived here ___ ten years. »",
+  "a": [
+   "since",
+   "for",
+   "ago",
+   "from"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le participe passé de « go » ?",
+  "a": [
+   "gone",
+   "went",
+   "goed",
+   "going"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le participe passé de « take » ?",
+  "a": [
+   "took",
+   "taked",
+   "taking",
+   "taken"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le participe passé de « do » ?",
+  "a": [
+   "did",
+   "doed",
+   "done",
+   "doing"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « Have you ever ___ sushi? »",
+  "a": [
+   "ate",
+   "eaten",
+   "eat",
+   "eating"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Complète : « I ___ him yesterday. »",
+  "a": [
+   "saw",
+   "have seen",
+   "see",
+   "seen"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « We ___ to Paris three times so far. »",
+  "a": [
+   "are",
+   "went",
+   "was",
+   "have been"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Complète : « If it rains, I ___ at home. »",
+  "a": [
+   "would stay",
+   "stay'll",
+   "will stay",
+   "stayed"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « If I ___ rich, I would travel the world. »",
+  "a": [
+   "am",
+   "were",
+   "will be",
+   "would be"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Complète : « She said she ___ tired. »",
+  "a": [
+   "was",
+   "is",
+   "will be",
+   "has been"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « He asked me where I ___ . »",
+  "a": [
+   "live",
+   "do live",
+   "am living",
+   "lived"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Complète : « You ___ see a doctor. » (conseil)",
+  "a": [
+   "must to",
+   "can to",
+   "should",
+   "would to"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « She ___ be at home; her light is on. » (probable)",
+  "a": [
+   "should to",
+   "must",
+   "mustn't",
+   "needn't"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Complète : « I ___ go to the party. I'm busy. » (impossibilité)",
+  "a": [
+   "can't",
+   "mustn't",
+   "needn't",
+   "don't can"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « I'm going to ___ a shower. »",
+  "a": [
+   "make",
+   "do",
+   "put",
+   "take"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Complète : « The film is ___ . » (qui ennuie)",
+  "a": [
+   "bored",
+   "bore",
+   "boring",
+   "boringly"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « I'd like to know where ___ . »",
+  "a": [
+   "does he live",
+   "lives he",
+   "he lives",
+   "he does live"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « The letter ___ yesterday. » (passif)",
+  "a": [
+   "was sent",
+   "sent",
+   "is sent",
+   "has sent"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « English ___ in many countries. »",
+  "a": [
+   "speaks",
+   "is speaking",
+   "spoken",
+   "is spoken"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Complète : « This is the boy ___ lives next door. »",
+  "a": [
+   "which",
+   "whose",
+   "who",
+   "where"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « This is the book ___ I bought. »",
+  "a": [
+   "who",
+   "that",
+   "whom",
+   "where"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Complète : « She's afraid ___ spiders. »",
+  "a": [
+   "of",
+   "from",
+   "about to",
+   "at"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « I'm good ___ maths. »",
+  "a": [
+   "in",
+   "on",
+   "by",
+   "at"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel faux ami : « to attend » signifie...",
+  "a": [
+   "attendre",
+   "attaquer",
+   "assister à",
+   "s'attacher"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel faux ami : « sensible » signifie...",
+  "a": [
+   "sensible (émotif)",
+   "raisonnable",
+   "sensationnel",
+   "sentimental"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel faux ami : « a journey » signifie...",
+  "a": [
+   "un voyage",
+   "un journal",
+   "une journée",
+   "un jeu"
+  ],
+  "c": 0
+ }
+]

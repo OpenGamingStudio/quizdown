@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Quel est le phénomène à l'origine de la plupart des séismes et volcans ?",
+  "a": [
+   "La tectonique des plaques",
+   "La photosynthèse",
+   "Les marées",
+   "Le climat"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la subduction ?",
+  "a": [
+   "L'ouverture d'un océan",
+   "La formation d'un glacier",
+   "Une éruption",
+   "L'enfoncement d'une plaque océanique sous une autre"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle roche forme la croûte océanique ?",
+  "a": [
+   "Le granite",
+   "Le calcaire",
+   "Le basalte et le gabbro",
+   "Le grès"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel type de limite correspond aux dorsales océaniques ?",
+  "a": [
+   "Convergente",
+   "Divergente",
+   "Transformante",
+   "Immobile"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que forme la subduction en surface ?",
+  "a": [
+   "Une dorsale",
+   "Une fosse océanique et un arc volcanique",
+   "Un delta",
+   "Un désert"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle roche caractérise la croûte continentale ?",
+  "a": [
+   "Le granite",
+   "Le basalte",
+   "Le gabbro seul",
+   "Le sel"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un point chaud ?",
+  "a": [
+   "Un geyser",
+   "Un incendie",
+   "Un volcan sous-marin éteint",
+   "Une remontée de magma indépendante des limites de plaques"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est un exemple d'archipel de point chaud ?",
+  "a": [
+   "Les Alpes",
+   "Les Pyrénées",
+   "Hawaï",
+   "La Corse"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle méthode utilise les ondes sismiques pour explorer l'intérieur de la Terre ?",
+  "a": [
+   "La radiographie",
+   "La spectrométrie de masse",
+   "La tomographie sismique",
+   "La photographie"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel marqueur permet de reconstituer les climats passés ?",
+  "a": [
+   "La couleur du ciel",
+   "Les isotopes de l'oxygène dans les glaces",
+   "Le nom des saisons",
+   "La taille des arbres modernes"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel gaz de l'air piégé dans les glaces polaires a été analysé pour le passé ?",
+  "a": [
+   "Le dioxyde de carbone",
+   "L'hélium",
+   "Le néon",
+   "L'argon"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est l'âge approximatif des glaces anciennes forées en Antarctique ?",
+  "a": [
+   "Quelques siècles",
+   "Quelques années",
+   "Plusieurs dizaines de millions d'années",
+   "Plusieurs centaines de milliers d'années"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que la rétroaction positive dans le climat ?",
+  "a": [
+   "Un mécanisme qui l'annule",
+   "Un effet sans conséquence",
+   "Un effet de serre inverse",
+   "Un mécanisme qui amplifie une perturbation"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel effet fait fondre davantage de glace en réduisant l'albédo ?",
+  "a": [
+   "La photosynthèse",
+   "La marée",
+   "La rétroaction glace-albédo",
+   "La respiration"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel rôle joue l'océan pour le CO2 atmosphérique ?",
+  "a": [
+   "Il n'en dissout pas",
+   "Il en dissout une partie",
+   "Il en fabrique",
+   "Il le détruit entièrement"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que l'immunité adaptative ?",
+  "a": [
+   "Une réponse spécifique avec mémoire",
+   "Une réponse rapide non spécifique",
+   "Une barrière cutanée",
+   "Une digestion"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle cellule présente l'antigène aux lymphocytes T ?",
+  "a": [
+   "La cellule présentatrice d'antigène",
+   "Le globule rouge",
+   "La plaquette",
+   "Le neurone"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel lymphocyte détruit les cellules infectées ?",
+  "a": [
+   "Le lymphocyte B",
+   "Le globule rouge",
+   "La plaquette",
+   "Le lymphocyte T cytotoxique (LT8)"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle cellule produit les anticorps après activation ?",
+  "a": [
+   "Le macrophage",
+   "Le neurone",
+   "Le plasmocyte",
+   "Le globule rouge"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le mécanisme de reconnaissance d'un antigène ?",
+  "a": [
+   "Une digestion",
+   "La fixation d'un récepteur spécifique",
+   "Une photosynthèse",
+   "Une mitose"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que le VIH attaque principalement ?",
+  "a": [
+   "Les globules rouges",
+   "Les lymphocytes T4",
+   "Les neurones",
+   "Les cellules du foie"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un neurotransmetteur ?",
+  "a": [
+   "Une molécule qui transmet le message à travers la synapse",
+   "Un gène",
+   "Un anticorps",
+   "Une enzyme digestive"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la plasticité cérébrale ?",
+  "a": [
+   "La rigidité du cerveau",
+   "La perte de neurones",
+   "Un type de cellule",
+   "La capacité du cerveau à se remodeler"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle hormone induit l'ovulation chez la femme ?",
+  "a": [
+   "L'insuline",
+   "L'adrénaline",
+   "La LH",
+   "La thyroxine"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle hormone sexuelle est produite par les testicules ?",
+  "a": [
+   "L'œstrogène",
+   "La progestérone",
+   "La testostérone",
+   "L'insuline"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le rôle de la progestérone ?",
+  "a": [
+   "Provoquer l'ovulation",
+   "Préparer et maintenir l'utérus pour une grossesse",
+   "Faire baisser la glycémie",
+   "Stimuler la voix"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que fait la pilule contraceptive ?",
+  "a": [
+   "Bloque l'ovulation par des hormones",
+   "Détruit les spermatozoïdes",
+   "Empêche la fécondation après",
+   "Stérilise définitivement"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la sélection artificielle ?",
+  "a": [
+   "Évolution sans choix",
+   "Mutation spontanée",
+   "Isolement d'une île",
+   "Choix humain des individus reproducteurs"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que la CRISPR-Cas9 ?",
+  "a": [
+   "Un virus",
+   "Un médicament",
+   "Un organe",
+   "Un outil d'édition du génome"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'une cellule souche ?",
+  "a": [
+   "Une cellule morte",
+   "Une cellule sanguine mature",
+   "Une cellule capable de se différencier",
+   "Un gamète"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la durée approximative de l'histoire de la vie sur Terre ?",
+  "a": [
+   "Environ 3,5 millions d'années",
+   "Environ 3,5 milliards d'années",
+   "Environ 350 000 ans",
+   "Environ 35 milliards d'années"
+  ],
+  "c": 1
+ }
+]

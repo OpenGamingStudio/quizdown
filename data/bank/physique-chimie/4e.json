@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quelle est la formule chimique du dioxygène ?",
+  "a": [
+   "O",
+   "O₂",
+   "CO₂",
+   "H₂O"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la formule chimique de l'eau ?",
+  "a": [
+   "HO₂",
+   "H₂O",
+   "H₂O₂",
+   "OH"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la formule chimique du dioxyde de carbone ?",
+  "a": [
+   "CO",
+   "C₂O",
+   "CO₂",
+   "O₂C₂"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle particule porte une charge électrique négative dans un atome ?",
+  "a": [
+   "Le proton",
+   "Le neutron",
+   "Le noyau",
+   "L'électron"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle particule porte une charge positive dans un noyau ?",
+  "a": [
+   "Le proton",
+   "L'électron",
+   "Le neutron",
+   "Le photon"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Un atome de carbone neutre possède 6 électrons. Combien a-t-il de protons ?",
+  "a": [
+   "6",
+   "12",
+   "8",
+   "4"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Un atome est électriquement...",
+  "a": [
+   "positif",
+   "neutre",
+   "négatif",
+   "variable chaque seconde"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que conserve-t-on lors d'une transformation chimique ?",
+  "a": [
+   "Les molécules",
+   "Les propriétés des corps",
+   "Les atomes et la masse totale",
+   "Le volume"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Les corps qui disparaissent lors d'une transformation chimique sont les...",
+  "a": [
+   "produits",
+   "catalyseurs seulement",
+   "réactifs",
+   "solvants"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel test montre la présence de dioxyde de carbone ?",
+  "a": [
+   "Le papier pH devient rouge",
+   "La flamme devient bleue",
+   "Le sulfate de cuivre bleuit",
+   "L'eau de chaux se trouble"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel test identifie le dihydrogène ?",
+  "a": [
+   "La baguette incandescente se rallume",
+   "L'eau de chaux se trouble",
+   "Le papier pH vire au bleu",
+   "Une petite détonation à l'approche d'une flamme"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel test identifie le dioxygène ?",
+  "a": [
+   "Il ravive une bûchette incandescente",
+   "Il trouble l'eau de chaux",
+   "Il fait une détonation",
+   "Il bleuit le sulfate de cuivre"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Une solution de pH 3 est...",
+  "a": [
+   "neutre",
+   "acide",
+   "basique",
+   "saturée"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Une solution de pH 7 est...",
+  "a": [
+   "acide",
+   "basique",
+   "neutre",
+   "très acide"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Une solution de pH 11 est...",
+  "a": [
+   "acide",
+   "neutre",
+   "saturée",
+   "basique"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel ion rend une solution acide ?",
+  "a": [
+   "H⁺",
+   "OH⁻",
+   "Na⁺",
+   "Cl⁻"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel appareil permet de mesurer une résistance électrique ?",
+  "a": [
+   "Un ohmmètre",
+   "Un voltmètre",
+   "Un ampèremètre",
+   "Un baromètre"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle loi relie U, R et I ?",
+  "a": [
+   "U = R / I",
+   "U = I / R",
+   "U = R x I",
+   "U = R + I"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Une résistance de 100 ohms est traversée par un courant de 0,1 A. Quelle est la tension à ses bornes ?",
+  "a": [
+   "1 000 V",
+   "1 V",
+   "0,001 V",
+   "10 V"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans un circuit en série, la tension aux bornes du générateur est...",
+  "a": [
+   "la somme des tensions aux bornes des dipôles",
+   "la même qu'aux bornes de chacun",
+   "toujours nulle",
+   "la moyenne des tensions"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Dans un circuit en dérivation, la tension aux bornes de chaque branche est...",
+  "a": [
+   "nulle",
+   "la même que celle du générateur",
+   "la moitié du générateur",
+   "la somme des intensités"
+  ],
+  "c": 1
+ },
+ {
+  "q": "La loi des noeuds dit que...",
+  "a": [
+   "la tension est nulle",
+   "les intensités entrantes égalent les sortantes",
+   "l'intensité est toujours nulle",
+   "U = R x I"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la vitesse d'un objet qui parcourt 100 m en 20 s ?",
+  "a": [
+   "2 m/s",
+   "0,2 m/s",
+   "5 m/s",
+   "120 m/s"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Un train roule à 120 km/h. Quelle distance parcourt-il en 15 minutes ?",
+  "a": [
+   "30 km",
+   "8 km",
+   "60 km",
+   "1 800 km"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Un objet en mouvement rectiligne uniforme a une vitesse...",
+  "a": [
+   "constante",
+   "qui augmente",
+   "qui diminue",
+   "nulle"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est l'unité de force du Système international ?",
+  "a": [
+   "Le newton",
+   "Le kilogramme",
+   "Le joule",
+   "Le watt"
+  ],
+  "c": 0
+ },
+ {
+  "q": "La lumière blanche peut être décomposée par...",
+  "a": [
+   "un miroir plan",
+   "un prisme",
+   "un filtre gris",
+   "une lentille éteinte"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la couleur de la lumière la plus déviée par un prisme ?",
+  "a": [
+   "Rouge",
+   "Vert",
+   "Violet",
+   "Jaune"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Un rayon lumineux passe obliquement de l'air dans l'eau : quel phénomène observe-t-on ?",
+  "a": [
+   "La réfraction",
+   "La diffraction",
+   "La vaporisation",
+   "La condensation"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Une année-lumière est une unité de...",
+  "a": [
+   "distance",
+   "temps",
+   "vitesse",
+   "masse"
+  ],
+  "c": 0
+ }
+]

@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel est l'ordre du trajet de l'air inspiré ?",
+  "a": [
+   "Nez, trachée, bronches, poumons",
+   "Bouche, estomac, intestin, poumons",
+   "Nez, oesophage, coeur, poumons",
+   "Poumons, nez, trachée, coeur"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment appelle-t-on les minuscules sacs où se font les échanges gazeux dans les poumons ?",
+  "a": [
+   "Les artères",
+   "Les villosités",
+   "Les tendons",
+   "Les alvéoles"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la fonction principale du coeur ?",
+  "a": [
+   "Digérer les aliments",
+   "Filtrer l'air",
+   "Faire circuler le sang",
+   "Produire la bile"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelle-t-on les vaisseaux qui partent du coeur ?",
+  "a": [
+   "Les veines",
+   "Les artères",
+   "Les capillaires uniquement",
+   "Les nerfs"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel gaz le corps rejette-t-il en expirant en plus grande quantité que dans l'air inspiré ?",
+  "a": [
+   "Le dioxygène",
+   "Le dioxyde de carbone",
+   "L'hélium",
+   "Le diazote seul"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel nutriment est la principale source d'énergie rapide ?",
+  "a": [
+   "Les glucides",
+   "Les vitamines",
+   "Les sels minéraux",
+   "L'eau"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel nutriment aide surtout à construire les muscles ?",
+  "a": [
+   "Les glucides",
+   "Les lipides uniquement",
+   "Le sel",
+   "Les protéines"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment appelle-t-on les êtres vivants qui se nourrissent d'autres êtres vivants ?",
+  "a": [
+   "Des producteurs",
+   "Des décomposeurs seulement",
+   "Des consommateurs",
+   "Des minéraux"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'une espèce ?",
+  "a": [
+   "Tous les animaux d'un pays",
+   "Tous les êtres de même couleur",
+   "Des êtres vivants qui peuvent se reproduire entre eux",
+   "Les êtres vivant au même endroit"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un écosystème ?",
+  "a": [
+   "Un type de maison",
+   "Un milieu avec les êtres vivants qui y vivent",
+   "Une machine",
+   "Un animal rare"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est un exemple d'adaptation au milieu ?",
+  "a": [
+   "Les pattes palmées du canard",
+   "Le chant d'un poste radio",
+   "Un nid vide",
+   "Un mur de pierre"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la cause principale du réchauffement climatique actuel ?",
+  "a": [
+   "Le déplacement de la Lune",
+   "Les volcans sous-marins uniquement",
+   "Les marées",
+   "Les gaz à effet de serre émis par les activités humaines"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel gaz est un gaz à effet de serre ?",
+  "a": [
+   "Le dioxygène",
+   "L'hélium",
+   "L'azote",
+   "Le dioxyde de carbone"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment s'appelle la couche de gaz qui entoure la Terre ?",
+  "a": [
+   "La lithosphère",
+   "L'hydrosphère",
+   "L'atmosphère",
+   "La biosphère"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Classe de la plus proche à la plus éloignée du Soleil : Terre, Mars, Vénus.",
+  "a": [
+   "Terre, Vénus, Mars",
+   "Mars, Terre, Vénus",
+   "Vénus, Mars, Terre",
+   "Vénus, Terre, Mars"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien de temps la Lune met-elle environ pour tourner autour de la Terre ?",
+  "a": [
+   "Environ 1 mois",
+   "Un jour",
+   "Un an",
+   "Une semaine"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qui cause les phases de la Lune ?",
+  "a": [
+   "La position de la Lune par rapport au Soleil et à la Terre",
+   "L'ombre des nuages",
+   "Les saisons",
+   "Le vent solaire"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le nom du phénomène où la Lune passe devant le Soleil ?",
+  "a": [
+   "Une éclipse de Lune",
+   "Une aurore",
+   "Une marée",
+   "Une éclipse de Soleil"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel phénomène a pour cause l'attraction de la Lune et du Soleil sur les océans ?",
+  "a": [
+   "Les vagues de tempête",
+   "Les tsunamis",
+   "Les marées",
+   "Les cyclones"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelle-t-on la grande vague provoquée par un séisme sous la mer ?",
+  "a": [
+   "Une avalanche",
+   "Une éruption",
+   "Un tsunami",
+   "Une marée"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que le cycle de l'eau ?",
+  "a": [
+   "Le passage de l'eau dans un tuyau",
+   "La circulation de l'eau entre mers, air et sol",
+   "Un jeu d'eau",
+   "Une façon de laver le linge"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est l'état de l'eau dans un glacier ?",
+  "a": [
+   "Solide",
+   "Liquide",
+   "Gazeux",
+   "Vapeur"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel micro-organisme peut provoquer une maladie contagieuse ?",
+  "a": [
+   "Un minéral",
+   "Un nuage",
+   "Un fruit",
+   "Un virus ou une bactérie"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que permet un vaccin ?",
+  "a": [
+   "Guérir tous les rhumes",
+   "Remplacer les repas",
+   "Préparer le corps à se défendre",
+   "Faire grandir plus vite"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Pourquoi se laver les mains est-il utile ?",
+  "a": [
+   "Pour renforcer les os",
+   "Pour mieux voir",
+   "Pour limiter la transmission des microbes",
+   "Pour dormir plus"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le rôle d'un arbre dans la lutte contre le CO2 ?",
+  "a": [
+   "Il en fabrique en journée",
+   "Il absorbe du dioxyde de carbone",
+   "Il le transforme en pétrole",
+   "Aucun rôle"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la biodiversité ?",
+  "a": [
+   "La diversité des êtres vivants",
+   "Le nombre de voitures",
+   "La quantité d'eau",
+   "La taille des arbres"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment s'appelle une espèce qui risque de disparaître ?",
+  "a": [
+   "Une espèce domestique",
+   "Une espèce invasive uniquement",
+   "Une espèce ancienne",
+   "Une espèce menacée"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle roche vient du refroidissement du magma ?",
+  "a": [
+   "Le calcaire",
+   "Le grès",
+   "L'argile",
+   "Le granite"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est l'état de l'eau à 100 °C à pression normale ?",
+  "a": [
+   "Elle gèle",
+   "Elle reste glace",
+   "Elle bout et devient vapeur",
+   "Elle devient sable"
+  ],
+  "c": 2
+ }
+]

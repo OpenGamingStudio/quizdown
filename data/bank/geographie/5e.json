@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quelle est la tendance de la population mondiale depuis le XXe siècle ?",
+  "a": [
+   "Elle diminue",
+   "Elle augmente fortement",
+   "Elle reste constante",
+   "Elle a disparu"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la transition démographique ?",
+  "a": [
+   "Le passage de la campagne à la ville",
+   "La migration vers le Nord",
+   "La disparition des naissances",
+   "Le passage de forte à faible natalité et mortalité"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que l'IDH ?",
+  "a": [
+   "L'indice de densité humaine",
+   "L'impôt du département humain",
+   "L'institut d'histoire humaine",
+   "L'indicateur de développement humain"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que mesure l'IDH ?",
+  "a": [
+   "Le nombre de villes",
+   "Santé, éducation et niveau de vie",
+   "La superficie",
+   "La température"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel pays est parmi les plus peuplés du monde ?",
+  "a": [
+   "La Suisse",
+   "L'Inde",
+   "L'Islande",
+   "Le Luxembourg"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un pays en développement ?",
+  "a": [
+   "Un pays sans habitants",
+   "Un pays aux revenus et conditions de vie plus faibles",
+   "Un pays qui n'a pas de frontières",
+   "Un pays très riche"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que l'espérance de vie ?",
+  "a": [
+   "L'âge de la retraite",
+   "L'âge moyen auquel on peut espérer vivre",
+   "L'âge légal pour voter",
+   "L'âge d'entrée à l'école"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'une ressource renouvelable ?",
+  "a": [
+   "Une ressource qui se reconstitue naturellement",
+   "Une ressource épuisée",
+   "Une ressource qui n'existe pas",
+   "Une ressource très coûteuse"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est un combustible fossile ?",
+  "a": [
+   "Le vent",
+   "Le soleil",
+   "Le pétrole",
+   "La géothermie"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel phénomène devient plus fréquent avec le réchauffement climatique ?",
+  "a": [
+   "Les vagues de chaleur (canicules)",
+   "Les éclipses",
+   "Les marées noires",
+   "Les séismes"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que le réchauffement climatique ?",
+  "a": [
+   "La baisse des températures",
+   "La disparition des saisons à l'équateur",
+   "La hausse de la température moyenne de la planète",
+   "L'augmentation du froid en été"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle conséquence du réchauffement observe-t-on dans les régions polaires ?",
+  "a": [
+   "L'augmentation de la glace",
+   "Le gel du Sahara",
+   "La fonte de la banquise et des glaciers",
+   "L'arrêt des marées"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel pays est le plus peuplé d'Afrique ?",
+  "a": [
+   "L'Égypte",
+   "Le Nigeria",
+   "L'Afrique du Sud",
+   "Le Maroc"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle ressource est indispensable à la vie et inégalement répartie ?",
+  "a": [
+   "Le sable",
+   "Le sel",
+   "Le charbon",
+   "L'eau douce"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment nomme-t-on le fait de ne pas manger à sa faim de façon durable ?",
+  "a": [
+   "La surpêche",
+   "La mondialisation",
+   "L'urbanisation",
+   "La sous-alimentation"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la principale cause de déforestation en Amazonie ?",
+  "a": [
+   "L'agriculture et l'élevage",
+   "Le tourisme",
+   "L'eau douce",
+   "Les marées"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel événement naturel est une inondation causée par la mer lors d'une tempête ?",
+  "a": [
+   "Une submersion marine",
+   "Un séisme",
+   "Une éruption",
+   "Une avalanche"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un risque naturel ?",
+  "a": [
+   "Un jeu de société",
+   "Un type de culture",
+   "Un paysage",
+   "Un danger naturel qui menace des populations"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel phénomène est un risque géologique ?",
+  "a": [
+   "Une canicule",
+   "Une sécheresse",
+   "Une tempête",
+   "Un séisme"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'un tsunami ?",
+  "a": [
+   "Un tourbillon d'air",
+   "Des vagues géantes provoquées par un séisme sous-marin",
+   "Une tempête de sable",
+   "Un glissement de neige"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle région du monde est particulièrement exposée aux séismes (ceinture de feu) ?",
+  "a": [
+   "Le Sahara",
+   "Le Groenland",
+   "Le pourtour de l'océan Pacifique",
+   "L'Amazonie"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle énergie renouvelable utilise la chaleur de l'intérieur de la Terre ?",
+  "a": [
+   "La géothermie",
+   "L'éolien",
+   "Le solaire",
+   "L'hydraulique"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel pays produit beaucoup d'électricité à partir de l'énergie hydraulique grâce à ses fleuves ?",
+  "a": [
+   "Le Brésil",
+   "Le Qatar",
+   "Le Koweït",
+   "L'Arabie saoudite"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la sécurité alimentaire ?",
+  "a": [
+   "Une alarme dans un supermarché",
+   "Un contrôle des frontières",
+   "Une loi sur le tabac",
+   "Un accès suffisant à une alimentation saine pour tous"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel océan est le plus touché par l'accumulation de déchets plastiques appelée « continent de plastique » ?",
+  "a": [
+   "L'Arctique uniquement",
+   "Le Pacifique (gyre du Pacifique nord)",
+   "La mer Morte",
+   "La mer Caspienne"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel pays d'Asie, comme l'Inde, compte plus d'un milliard d'habitants ?",
+  "a": [
+   "Le Japon",
+   "La Mongolie",
+   "Le Viêt Nam",
+   "La Chine"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'une ville durable ?",
+  "a": [
+   "Une ville ancienne",
+   "Une ville qui limite son impact sur l'environnement",
+   "Une ville très peuplée",
+   "Une ville sans habitants"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel type de culture est pratiqué dans les rizières d'Asie ?",
+  "a": [
+   "La viticulture",
+   "La riziculture",
+   "L'oléiculture",
+   "L'arboriculture fruitière"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le principal problème posé par le manque d'eau potable ?",
+  "a": [
+   "Les maladies et les difficultés sanitaires",
+   "Le surpeuplement des forêts",
+   "La surproduction de pétrole",
+   "L'excès de transports"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que mesure l'échelle de Richter ?",
+  "a": [
+   "La magnitude d'un séisme",
+   "La vitesse du vent",
+   "La température de l'air",
+   "Le niveau de la mer"
+  ],
+  "c": 0
+ }
+]

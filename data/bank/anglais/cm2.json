@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel est le pluriel de « a child » ?",
+  "a": [
+   "childs",
+   "children",
+   "childrens",
+   "childes"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le pluriel de « a man » ?",
+  "a": [
+   "men",
+   "mans",
+   "mens",
+   "manes"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le pluriel de « a mouse » ?",
+  "a": [
+   "mouses",
+   "mices",
+   "mouse",
+   "mice"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le pluriel de « a box » ?",
+  "a": [
+   "boxs",
+   "boxies",
+   "boxes",
+   "boxen"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « He ___ football every Saturday. »",
+  "a": [
+   "play",
+   "plays",
+   "playing",
+   "is play"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Complète : « I ___ a book now. » (en ce moment)",
+  "a": [
+   "am reading",
+   "read",
+   "reads",
+   "reading"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « She ___ to school by bus. »",
+  "a": [
+   "go",
+   "going",
+   "gos",
+   "goes"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Complète : « Do you ___ tea? »",
+  "a": [
+   "likes",
+   "liking",
+   "like",
+   "to likes"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « He ___ like carrots. »",
+  "a": [
+   "don't",
+   "doesn't",
+   "isn't",
+   "not"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Complète : « ___ you have a pet? »",
+  "a": [
+   "Do",
+   "Does",
+   "Are",
+   "Is"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « ___ she live in London? »",
+  "a": [
+   "Do",
+   "Is",
+   "Has",
+   "Does"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment dit-on « un boulanger » ?",
+  "a": [
+   "a butcher",
+   "a banker",
+   "a baker",
+   "a builder"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que signifie « It's half past two »?",
+  "a": [
+   "Il est deux heures moins le quart",
+   "Il est deux heures et demie",
+   "Il est deux heures et quart",
+   "Il est trois heures"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que signifie « It's a quarter to six » ?",
+  "a": [
+   "Il est six heures moins le quart",
+   "Il est six heures et quart",
+   "Il est quatre heures et quart",
+   "Il est six heures et demie"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment dit-on « mon frère » ?",
+  "a": [
+   "me brother",
+   "I brother",
+   "mine brother",
+   "my brother"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment dit-on « sa voiture » (à lui) ?",
+  "a": [
+   "her car",
+   "he car",
+   "his car",
+   "its him car"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment dit-on « Je suis en train de manger » ?",
+  "a": [
+   "I eat now",
+   "I am eating",
+   "I am eat",
+   "I eating"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel mot est le contraire de « hot » ?",
+  "a": [
+   "cold",
+   "warm",
+   "wet",
+   "high"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel mot est le contraire de « old » ?",
+  "a": [
+   "tall",
+   "long",
+   "slow",
+   "young"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel mot est le contraire de « happy » ?",
+  "a": [
+   "angry",
+   "tired",
+   "sad",
+   "hungry"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que signifie « hungry » ?",
+  "a": [
+   "avoir soif",
+   "avoir faim",
+   "avoir chaud",
+   "avoir peur"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que signifie « thirsty » ?",
+  "a": [
+   "avoir soif",
+   "avoir faim",
+   "être fatigué",
+   "être en retard"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment dit-on « un médecin » ?",
+  "a": [
+   "a driver",
+   "a dentist",
+   "a farmer",
+   "a doctor"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel mot signifie « à côté de » ?",
+  "a": [
+   "between",
+   "under",
+   "next to",
+   "behind"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel mot signifie « sous » ?",
+  "a": [
+   "over",
+   "under",
+   "on",
+   "in"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel mot signifie « derrière » ?",
+  "a": [
+   "behind",
+   "in front of",
+   "between",
+   "near"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel mot signifie « entre » ?",
+  "a": [
+   "behind",
+   "under",
+   "over",
+   "between"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la capitale de l'Écosse ?",
+  "a": [
+   "Cardiff",
+   "Belfast",
+   "Edinburgh",
+   "London"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel drapeau est appelé « Union Jack » ?",
+  "a": [
+   "celui de l'Irlande",
+   "celui du Royaume-Uni",
+   "celui des États-Unis",
+   "celui de l'Australie"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle boisson est typiquement servie à « teatime » au Royaume-Uni ?",
+  "a": [
+   "tea",
+   "coffee",
+   "cider",
+   "cola"
+  ],
+  "c": 0
+ }
+]

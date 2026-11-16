@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quelle ville est la capitale de Charlemagne ?",
+  "a": [
+   "Aix-la-Chapelle",
+   "Paris",
+   "Reims",
+   "Rome"
+  ],
+  "c": 0
+ },
+ {
+  "q": "À quelle dynastie royale appartient Clovis ?",
+  "a": [
+   "Les Mérovingiens",
+   "Les Carolingiens",
+   "Les Capétiens",
+   "Les Valois"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle bataille arrête les troupes arabo-berbères en 732 ?",
+  "a": [
+   "Hastings",
+   "Bouvines",
+   "Marignan",
+   "Poitiers"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui est le chef victorieux à Poitiers en 732 ?",
+  "a": [
+   "Charlemagne",
+   "Charles Martel",
+   "Clovis",
+   "Roland"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel prophète fonde l'islam au VIIe siècle ?",
+  "a": [
+   "Moïse",
+   "Mahomet (Muhammad)",
+   "Abraham",
+   "Jésus"
+  ],
+  "c": 1
+ },
+ {
+  "q": "En quelle année a lieu l'hégire, début du calendrier musulman ?",
+  "a": [
+   "476",
+   "622",
+   "800",
+   "1096"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le livre sacré de l'islam ?",
+  "a": [
+   "La Torah",
+   "Le Coran",
+   "La Bible",
+   "Le Talmud"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le nom de l'empire d'Orient dont la capitale est Constantinople ?",
+  "a": [
+   "L'Empire byzantin",
+   "L'Empire carolingien",
+   "L'Empire ottoman",
+   "L'Empire romain d'Occident"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle dynastie royale commence avec Hugues Capet en 987 ?",
+  "a": [
+   "Les Mérovingiens",
+   "Les Carolingiens",
+   "Les Capétiens",
+   "Les Bourbons"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelle-t-on le lien entre un seigneur et son vassal ?",
+  "a": [
+   "La vassalité",
+   "L'esclavage",
+   "La démocratie",
+   "Le consulat"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel mot désigne le domaine d'un seigneur cultivé par les paysans ?",
+  "a": [
+   "La cité",
+   "Le forum",
+   "La seigneurie",
+   "La province"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que doit le paysan serf à son seigneur ?",
+  "a": [
+   "Un salaire",
+   "Des impôts à l'État moderne",
+   "Des redevances et des corvées",
+   "Des livres"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment s'appelle la grande expédition militaire chrétienne vers Jérusalem lancée en 1095 ?",
+  "a": [
+   "La guerre de Cent Ans",
+   "La première croisade",
+   "La Reconquista",
+   "La Fronde"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel pape lance l'appel à la croisade à Clermont en 1095 ?",
+  "a": [
+   "Grégoire VII",
+   "Jean-Paul II",
+   "Léon X",
+   "Urbain II"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel roi de France est appelé Saint Louis ?",
+  "a": [
+   "Louis XIV",
+   "Louis XI",
+   "Louis VII",
+   "Louis IX"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel roi capétien gagne la bataille de Bouvines en 1214 ?",
+  "a": [
+   "Philippe Auguste",
+   "Louis XIV",
+   "Hugues Capet",
+   "Charles V"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel style architectural est caractérisé par la voûte en plein cintre et des murs épais ?",
+  "a": [
+   "Le style roman",
+   "Le style gothique",
+   "Le style baroque",
+   "Le style classique"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel élément caractérise l'art gothique ?",
+  "a": [
+   "Le dôme de brique",
+   "La colonne dorique",
+   "La mosaïque byzantine",
+   "L'arc brisé et la croisée d'ogives"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle cathédrale de Paris est commencée au XIIe siècle ?",
+  "a": [
+   "Le Sacré-Cœur",
+   "La Madeleine",
+   "Saint-Sulpice",
+   "Notre-Dame"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment appelle-t-on la maladie qui frappe l'Europe à partir de 1347 ?",
+  "a": [
+   "Le choléra",
+   "La peste noire",
+   "La grippe espagnole",
+   "La variole"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle bataille de 1415 voit une lourde défaite de la chevalerie française face aux Anglais ?",
+  "a": [
+   "Azincourt",
+   "Bouvines",
+   "Poitiers (732)",
+   "Valmy"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel roi est sacré à Reims en 1429 grâce à Jeanne d'Arc ?",
+  "a": [
+   "Charles VII",
+   "Louis XI",
+   "Charles V",
+   "Henri V"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle année voit la prise de Constantinople par les Ottomans ?",
+  "a": [
+   "1453",
+   "1492",
+   "1215",
+   "1066"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel duc de Normandie conquiert l'Angleterre en 1066 ?",
+  "a": [
+   "Richard Cœur de Lion",
+   "Henri II",
+   "Édouard III",
+   "Guillaume le Conquérant"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel roi d'Angleterre signe la Grande Charte en 1215 ?",
+  "a": [
+   "Henri VIII",
+   "Jean sans Terre",
+   "Guillaume le Conquérant",
+   "Richard III"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle ville italienne est une grande puissance commerciale en Méditerranée au Moyen Âge ?",
+  "a": [
+   "Turin",
+   "Naples",
+   "Milan",
+   "Venise"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui est Mansa Moussa, souverain du XIVe siècle ?",
+  "a": [
+   "Roi des Francs",
+   "Empereur du Mali, célèbre pour sa richesse",
+   "Sultan ottoman",
+   "Calife de Bagdad"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment appelle-t-on les ordres religieux qui vivent dans les monastères ?",
+  "a": [
+   "Les chevaliers",
+   "Les moines",
+   "Les serfs",
+   "Les bourgeois"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel marchand vénitien raconte son voyage en Chine dans « Le Livre des merveilles » ?",
+  "a": [
+   "Marco Polo",
+   "Christophe Colomb",
+   "Vasco de Gama",
+   "Jacques Cartier"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment s'appelle la période de renouveau artistique et intellectuel des XVe-XVIe siècles ?",
+  "a": [
+   "Le Moyen Âge",
+   "La Réforme",
+   "La Renaissance",
+   "Les Lumières"
+  ],
+  "c": 2
+ }
+]

@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel philosophe allemand a écrit la « Critique de la faculté de juger », texte fondateur de l'esthétique moderne ?",
+  "a": [
+   "Hegel",
+   "Nietzsche",
+   "Schopenhauer",
+   "Emmanuel Kant"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a composé « Le Marteau sans maître » ?",
+  "a": [
+   "Olivier Messiaen",
+   "Karlheinz Stockhausen",
+   "Iannis Xenakis",
+   "Pierre Boulez"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel cinéaste a réalisé « Le Chien andalou » avec Salvador Dalí ?",
+  "a": [
+   "Jean Cocteau",
+   "René Clair",
+   "Luis Buñuel",
+   "Man Ray"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel penseur a écrit « L'œuvre d'art à l'époque de sa reproductibilité technique » ?",
+  "a": [
+   "Theodor Adorno",
+   "Walter Benjamin",
+   "Roland Barthes",
+   "Guy Debord"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel architecte a imaginé le Modulor, un système de proportions ?",
+  "a": [
+   "Walter Gropius",
+   "Le Corbusier",
+   "Auguste Perret",
+   "Alvar Aalto"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Dans quel pays est né le mouvement de l'arte povera ?",
+  "a": [
+   "En Italie",
+   "Aux États-Unis",
+   "En France",
+   "En Allemagne"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel compositeur américain a écrit « Music for 18 Musicians » ?",
+  "a": [
+   "John Cage",
+   "Philip Glass",
+   "Aaron Copland",
+   "Steve Reich"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel cinéaste a réalisé « Le Septième Sceau » ?",
+  "a": [
+   "Andreï Tarkovski",
+   "Federico Fellini",
+   "Ingmar Bergman",
+   "Akira Kurosawa"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel peintre a réalisé « Les Quatre Saisons » avec des têtes composées de fruits, fleurs et légumes ?",
+  "a": [
+   "Le Greco",
+   "Caravage",
+   "Giuseppe Arcimboldo",
+   "Bosch"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel architecte est associé à la formule « Less is more » ?",
+  "a": [
+   "Le Corbusier",
+   "Mies van der Rohe",
+   "Frank Lloyd Wright",
+   "Gaudí"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle photographe a pris « Migrant Mother » en 1936 ?",
+  "a": [
+   "Dorothea Lange",
+   "Diane Arbus",
+   "Vivian Maier",
+   "Margaret Bourke-White"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel couple d'artistes a recouvert d'étoffe le Reichstag à Berlin en 1995 ?",
+  "a": [
+   "Gilbert et George",
+   "Claes Oldenburg et Coosje van Bruggen",
+   "Pierre et Gilles",
+   "Christo et Jeanne-Claude"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a composé « Gruppen » pour trois orchestres ?",
+  "a": [
+   "Pierre Boulez",
+   "György Ligeti",
+   "Luciano Berio",
+   "Karlheinz Stockhausen"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que signifie le mot « mimésis » en esthétique ?",
+  "a": [
+   "La destruction de l'œuvre",
+   "L'abstraction pure",
+   "L'imitation de la réalité",
+   "La reproduction mécanique"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel peintre a réalisé « L'Atelier du peintre » (1855) ?",
+  "a": [
+   "Édouard Manet",
+   "Gustave Courbet",
+   "Jean-François Millet",
+   "Honoré Daumier"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle artiste franco-américaine est connue pour son araignée géante « Maman » ?",
+  "a": [
+   "Louise Bourgeois",
+   "Niki de Saint Phalle",
+   "Camille Claudel",
+   "Yayoi Kusama"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel cinéaste japonais a réalisé « Voyage à Tokyo » ?",
+  "a": [
+   "Yasujirō Ozu",
+   "Akira Kurosawa",
+   "Kenji Mizoguchi",
+   "Hayao Miyazaki"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a composé l'opéra « Wozzeck » ?",
+  "a": [
+   "Arnold Schönberg",
+   "Anton Webern",
+   "Paul Hindemith",
+   "Alban Berg"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel sculpteur a dirigé les travaux de sculpture du Parthénon ?",
+  "a": [
+   "Praxitèle",
+   "Lysippe",
+   "Phidias",
+   "Myron"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel artiste américain est l'auteur de « Spiral Jetty » ?",
+  "a": [
+   "Richard Long",
+   "Robert Smithson",
+   "Walter De Maria",
+   "Donald Judd"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel artiste a inventé le terme « art brut » ?",
+  "a": [
+   "Pierre Soulages",
+   "Jean Dubuffet",
+   "Georges Mathieu",
+   "Jean Fautrier"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel compositeur hongrois a écrit le « Concerto pour orchestre » ?",
+  "a": [
+   "Béla Bartók",
+   "Franz Liszt",
+   "Zoltán Kodály",
+   "György Ligeti"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel cinéaste français a réalisé « Playtime » ?",
+  "a": [
+   "Jean Renoir",
+   "Robert Bresson",
+   "François Truffaut",
+   "Jacques Tati"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel compositeur est l'auteur du « Chant de la terre » ?",
+  "a": [
+   "Anton Bruckner",
+   "Richard Strauss",
+   "Gustav Mahler",
+   "Arnold Schönberg"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel peintre néerlandais a réalisé « Broadway Boogie Woogie » ?",
+  "a": [
+   "Theo van Doesburg",
+   "Kasimir Malevitch",
+   "Piet Mondrian",
+   "Bart van der Leck"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle artiste mexicaine a peint « Les Deux Frida » ?",
+  "a": [
+   "Remedios Varo",
+   "Frida Kahlo",
+   "Tamara de Lempicka",
+   "Georgia O'Keeffe"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel sculpteur néoclassique est l'auteur de « Psyché ranimée par le baiser de l'Amour » ?",
+  "a": [
+   "Le Bernin",
+   "Antonio Canova",
+   "Jean-Antoine Houdon",
+   "Auguste Rodin"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel architecte a dessiné la chapelle Notre-Dame-du-Haut à Ronchamp ?",
+  "a": [
+   "Alvar Aalto",
+   "Oscar Niemeyer",
+   "Auguste Perret",
+   "Le Corbusier"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel cinéaste est l'auteur de « Stalker » ?",
+  "a": [
+   "Sergueï Eisenstein",
+   "Alexandre Sokourov",
+   "Elem Klimov",
+   "Andreï Tarkovski"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment s'appelle le groupe d'artistes fondé en 1960 autour d'Yves Klein et d'Arman ?",
+  "a": [
+   "Les nabis",
+   "Les fauves",
+   "Les cubistes",
+   "Les nouveaux réalistes"
+  ],
+  "c": 3
+ }
+]

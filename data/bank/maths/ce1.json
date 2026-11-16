@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Combien font 7 x 2 ?",
+  "a": [
+   "14",
+   "9",
+   "12",
+   "72"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien font 5 x 4 ?",
+  "a": [
+   "9",
+   "20",
+   "25",
+   "45"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien font 35 + 27 ?",
+  "a": [
+   "52",
+   "61",
+   "62",
+   "512"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien font 80 - 35 ?",
+  "a": [
+   "55",
+   "115",
+   "35",
+   "45"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans 482, quel est le chiffre des dizaines ?",
+  "a": [
+   "8",
+   "4",
+   "2",
+   "48"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Dans 482, quel est le chiffre des centaines ?",
+  "a": [
+   "8",
+   "4",
+   "2",
+   "482"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment écrit-on en chiffres « deux cent six » ?",
+  "a": [
+   "260",
+   "2006",
+   "206",
+   "26"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le double de 35 ?",
+  "a": [
+   "65",
+   "60",
+   "75",
+   "70"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la moitié de 50 ?",
+  "a": [
+   "25",
+   "20",
+   "52",
+   "30"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de centimètres y a-t-il dans 1 mètre ?",
+  "a": [
+   "10",
+   "100",
+   "1000",
+   "50"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien font 3 x 10 ?",
+  "a": [
+   "13",
+   "300",
+   "30",
+   "3"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien font 10 x 6 ?",
+  "a": [
+   "16",
+   "106",
+   "600",
+   "60"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel nombre complète : 6 + ... = 15 ?",
+  "a": [
+   "8",
+   "10",
+   "21",
+   "9"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien de côtés a un hexagone ?",
+  "a": [
+   "6",
+   "5",
+   "8",
+   "7"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de faces un cube possède-t-il ?",
+  "a": [
+   "6",
+   "4",
+   "8",
+   "12"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel angle a un coin d'une feuille de papier ?",
+  "a": [
+   "Un angle aigu",
+   "Un angle plat",
+   "Un angle nul",
+   "Un angle droit"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien de minutes y a-t-il dans une heure ?",
+  "a": [
+   "60",
+   "30",
+   "100",
+   "24"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le triple de 4 ?",
+  "a": [
+   "12",
+   "7",
+   "8",
+   "16"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien font 9 x 3 ?",
+  "a": [
+   "12",
+   "24",
+   "27",
+   "36"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Parmi 261, 126, 216 et 612, quel nombre est le plus grand ?",
+  "a": [
+   "261",
+   "126",
+   "216",
+   "612"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le résultat de 100 - 1 ?",
+  "a": [
+   "99",
+   "90",
+   "101",
+   "9"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de cases y a-t-il dans un rectangle de 3 lignes et 5 colonnes ?",
+  "a": [
+   "8",
+   "15",
+   "35",
+   "18"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel nombre suit : 5, 10, 15, 20, ... ?",
+  "a": [
+   "30",
+   "22",
+   "25",
+   "24"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien font 4 x 5 + 1 ?",
+  "a": [
+   "24",
+   "25",
+   "20",
+   "21"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien font 45 + 10 ?",
+  "a": [
+   "55",
+   "46",
+   "65",
+   "450"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien d'euros y a-t-il dans 2 pièces de 5 euros et 1 pièce de 2 euros ?",
+  "a": [
+   "10",
+   "12",
+   "9",
+   "17"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien font 6 x 5 ?",
+  "a": [
+   "11",
+   "36",
+   "30",
+   "25"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien de sommets a un cube ?",
+  "a": [
+   "6",
+   "12",
+   "4",
+   "8"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel nombre est juste avant 1000 ?",
+  "a": [
+   "999",
+   "990",
+   "1001",
+   "900"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de centaines y a-t-il dans 700 ?",
+  "a": [
+   "70",
+   "7",
+   "0",
+   "100"
+  ],
+  "c": 1
+ }
+]

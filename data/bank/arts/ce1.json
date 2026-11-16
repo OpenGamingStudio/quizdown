@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quelles sont les trois couleurs primaires en peinture ?",
+  "a": [
+   "Vert, orange, violet",
+   "Noir, blanc, gris",
+   "Rose, marron, vert",
+   "Rouge, jaune, bleu"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle couleur obtient-on en mélangeant du rouge et du jaune ?",
+  "a": [
+   "Vert",
+   "Violet",
+   "Orange",
+   "Marron clair"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle couleur obtient-on en mélangeant du bleu et du jaune ?",
+  "a": [
+   "Orange",
+   "Vert",
+   "Rose",
+   "Violet"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle couleur obtient-on en mélangeant du bleu et du rouge ?",
+  "a": [
+   "Violet",
+   "Vert",
+   "Orange",
+   "Jaune"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel instrument a des cordes et se joue avec un archet ?",
+  "a": [
+   "Le violon",
+   "Le piano",
+   "Le tambour",
+   "La flûte"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel instrument a des touches blanches et noires ?",
+  "a": [
+   "La guitare",
+   "La trompette",
+   "Le violon",
+   "Le piano"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a peint la Joconde ?",
+  "a": [
+   "Picasso",
+   "Van Gogh",
+   "Léonard de Vinci",
+   "Monet"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Avec quel outil peint-on un tableau ?",
+  "a": [
+   "Un marteau",
+   "Un pinceau",
+   "Une règle",
+   "Une scie"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel instrument se joue en le frappant avec des baguettes ?",
+  "a": [
+   "La flûte",
+   "Le tambour",
+   "La harpe",
+   "Le violon"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel artiste fabrique des statues ?",
+  "a": [
+   "Un sculpteur",
+   "Un boulanger",
+   "Un facteur",
+   "Un jardinier"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel grand monument de fer se trouve à Paris ?",
+  "a": [
+   "Le Colisée",
+   "Les pyramides",
+   "Big Ben",
+   "La tour Eiffel"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel instrument à vent se joue en soufflant dans un tube percé de trous ?",
+  "a": [
+   "Le violon",
+   "La harpe",
+   "La flûte",
+   "Le tambour"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans quelle ville se trouve le musée du Louvre ?",
+  "a": [
+   "Lyon",
+   "Nice",
+   "Paris",
+   "Lille"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelle-t-on le portrait qu'un artiste fait de lui-même ?",
+  "a": [
+   "Un paysage",
+   "Un autoportrait",
+   "Une photo",
+   "Une affiche"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que veut dire « forte » en musique ?",
+  "a": [
+   "Fort",
+   "Doucement",
+   "Vite",
+   "Lentement"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel instrument à cordes se pince et en compte souvent six ?",
+  "a": [
+   "La trompette",
+   "Le tambour",
+   "Le xylophone",
+   "La guitare"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment s'appelle la personne qui dirige un orchestre ?",
+  "a": [
+   "Le metteur en scène",
+   "Le peintre",
+   "Le sculpteur",
+   "Le chef d'orchestre"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle matière peut-on modeler avec les mains pour faire un objet ?",
+  "a": [
+   "Le verre",
+   "Le fer",
+   "L'argile",
+   "L'eau"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel peintre a peint des tournesols dans un vase ?",
+  "a": [
+   "Léonard de Vinci",
+   "Vincent van Gogh",
+   "Pablo Picasso",
+   "Claude Monet"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment appelle-t-on un tableau peint sur un grand mur ?",
+  "a": [
+   "Une fresque",
+   "Un puzzle",
+   "Une affiche",
+   "Une gravure"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Parmi ces couleurs, laquelle est une couleur chaude ?",
+  "a": [
+   "L'orange",
+   "Le bleu",
+   "Le vert",
+   "Le violet"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment s'appellent do, ré, mi, fa, sol, la, si ?",
+  "a": [
+   "Les couleurs",
+   "Les jours",
+   "Les saisons",
+   "Les notes de musique"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien de noms de notes y a-t-il dans la liste : do, ré, mi, fa, sol, la, si ?",
+  "a": [
+   "5",
+   "8",
+   "12",
+   "7"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel instrument à cordes a un grand cadre triangulaire et se pince des deux mains ?",
+  "a": [
+   "Le tambour",
+   "La harpe",
+   "Le piano",
+   "La flûte"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Avec quoi dessine-t-on des traits fins et gris sur une feuille ?",
+  "a": [
+   "Un crayon à papier",
+   "Une cuillère",
+   "Un ballon",
+   "Un peigne"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment appelle-t-on une image faite avec de petits morceaux de pierre ou de verre collés ?",
+  "a": [
+   "Une mosaïque",
+   "Une photographie",
+   "Un dessin au crayon",
+   "Une gravure"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment appelle-t-on l'art de faire des images avec un appareil photo ?",
+  "a": [
+   "La sculpture",
+   "La danse",
+   "Le théâtre",
+   "La photographie"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment s'appelle la technique qui consiste à coller des morceaux de papier ?",
+  "a": [
+   "La sculpture",
+   "Le fusain",
+   "Le collage",
+   "Le vitrail"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel instrument de cuivre brillant joue des notes en soufflant et en appuyant sur trois pistons ?",
+  "a": [
+   "Le violon",
+   "Le piano",
+   "La trompette",
+   "La harpe"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que fait un chanteur ?",
+  "a": [
+   "Il peint",
+   "Il chante",
+   "Il sculpte",
+   "Il photographie"
+  ],
+  "c": 1
+ }
+]

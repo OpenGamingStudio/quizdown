@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Qui a écrit « Ainsi parlait Zarathoustra » ?",
+  "a": [
+   "Nietzsche",
+   "Kant",
+   "Hegel",
+   "Schopenhauer"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel romancier a publié « La Nausée » en 1938 ?",
+  "a": [
+   "Albert Camus",
+   "Simone de Beauvoir",
+   "André Malraux",
+   "Jean-Paul Sartre"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel physicien a formulé le principe d'incertitude ?",
+  "a": [
+   "Niels Bohr",
+   "Max Born",
+   "Werner Heisenberg",
+   "Erwin Schrödinger"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a écrit « Ulysse » en 1922 ?",
+  "a": [
+   "Virginia Woolf",
+   "James Joyce",
+   "Samuel Beckett",
+   "T. S. Eliot"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a démontré le dernier théorème de Fermat en 1994-1995 ?",
+  "a": [
+   "Grigori Perelman",
+   "Andrew Wiles",
+   "Terence Tao",
+   "Pierre de Fermat"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a écrit « Une saison en enfer » ?",
+  "a": [
+   "Arthur Rimbaud",
+   "Paul Verlaine",
+   "Charles Baudelaire",
+   "Stéphane Mallarmé"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la capitale du Kenya ?",
+  "a": [
+   "Mombasa",
+   "Kampala",
+   "Dodoma",
+   "Nairobi"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a écrit « Les Caractères » ?",
+  "a": [
+   "La Fontaine",
+   "Pascal",
+   "La Rochefoucauld",
+   "La Bruyère"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle bataille de 1066 a vu Guillaume le Conquérant vaincre le roi d'Angleterre ?",
+  "a": [
+   "Azincourt",
+   "Crécy",
+   "Hastings",
+   "Bouvines"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans la formule E = mc², que représente c ?",
+  "a": [
+   "La charge électrique",
+   "La vitesse de la lumière",
+   "La chaleur",
+   "La capacité thermique"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a écrit « Le Père Goriot » ?",
+  "a": [
+   "Honoré de Balzac",
+   "Stendhal",
+   "Émile Zola",
+   "Eugène Sue"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a écrit « Le Prince » ?",
+  "a": [
+   "Érasme",
+   "Thomas More",
+   "Dante",
+   "Machiavel"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la capitale du Vietnam ?",
+  "a": [
+   "Hô Chi Minh-Ville",
+   "Bangkok",
+   "Phnom Penh",
+   "Hanoï"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a écrit « Les Liaisons dangereuses » ?",
+  "a": [
+   "Diderot",
+   "Marivaux",
+   "Choderlos de Laclos",
+   "Crébillon"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la capitale de l'Iran ?",
+  "a": [
+   "Bagdad",
+   "Téhéran",
+   "Ispahan",
+   "Kaboul"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel biologiste a mis au point le vaccin contre la rage en 1885 ?",
+  "a": [
+   "Louis Pasteur",
+   "Robert Koch",
+   "Alexandre Yersin",
+   "Edward Jenner"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est l'unité de la quantité de matière ?",
+  "a": [
+   "La mole",
+   "Le gramme",
+   "Le litre",
+   "Le newton"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a découvert le neutron en 1932 ?",
+  "a": [
+   "Ernest Rutherford",
+   "Niels Bohr",
+   "Marie Curie",
+   "James Chadwick"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la capitale du Chili ?",
+  "a": [
+   "Valparaiso",
+   "Lima",
+   "Santiago",
+   "Buenos Aires"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a écrit « Les Contemplations » ?",
+  "a": [
+   "Lamartine",
+   "Victor Hugo",
+   "Alfred de Vigny",
+   "Gérard de Nerval"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a réalisé « Citizen Kane » ?",
+  "a": [
+   "John Ford",
+   "Orson Welles",
+   "Howard Hawks",
+   "Frank Capra"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel traité de 1648 a mis fin à la guerre de Trente Ans ?",
+  "a": [
+   "Les traités de Westphalie",
+   "Le traité de Versailles",
+   "Le traité d'Utrecht",
+   "Le traité de Tordesillas"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le plus long fleuve d'Amérique du Sud ?",
+  "a": [
+   "L'Orénoque",
+   "Le Paraná",
+   "Le São Francisco",
+   "L'Amazone"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a écrit « Bel-Ami » ?",
+  "a": [
+   "Guy de Maupassant",
+   "Émile Zola",
+   "Gustave Flaubert",
+   "Honoré de Balzac"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel physicien a énoncé les lois du mouvement des planètes (ellipses) ?",
+  "a": [
+   "Galilée",
+   "Tycho Brahe",
+   "Johannes Kepler",
+   "Copernic"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a écrit « Ubu roi » ?",
+  "a": [
+   "Eugène Ionesco",
+   "Alfred Jarry",
+   "Samuel Beckett",
+   "Boris Vian"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel auteur russe a écrit « Crime et Châtiment » ?",
+  "a": [
+   "Dostoïevski",
+   "Tolstoï",
+   "Gogol",
+   "Tourgueniev"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a écrit « Le Spleen de Paris » ?",
+  "a": [
+   "Paul Verlaine",
+   "Charles Baudelaire",
+   "Stéphane Mallarmé",
+   "Lautréamont"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a écrit « Thérèse Raquin » ?",
+  "a": [
+   "Maupassant",
+   "Flaubert",
+   "Huysmans",
+   "Émile Zola"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a écrit « Les Fleurs bleues » ?",
+  "a": [
+   "Georges Perec",
+   "Boris Vian",
+   "Raymond Queneau",
+   "Romain Gary"
+  ],
+  "c": 2
+ }
+]

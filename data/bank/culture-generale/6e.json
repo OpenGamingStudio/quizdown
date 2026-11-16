@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel est le plus grand pays du monde par sa superficie ?",
+  "a": [
+   "Le Canada",
+   "La Chine",
+   "La Russie",
+   "Les États-Unis"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le symbole chimique de l'oxygène ?",
+  "a": [
+   "Ox",
+   "O",
+   "Og",
+   "Om"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a composé « Les Quatre Saisons » ?",
+  "a": [
+   "Vivaldi",
+   "Mozart",
+   "Bach",
+   "Beethoven"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le seul mammifère capable de voler ?",
+  "a": [
+   "L'écureuil volant",
+   "Le colibri",
+   "Le rat",
+   "La chauve-souris"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans quelle galaxie se trouve la Terre ?",
+  "a": [
+   "Andromède",
+   "Le Triangle",
+   "Orion",
+   "La Voie lactée"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a écrit « Les Misérables » ?",
+  "a": [
+   "Émile Zola",
+   "Alexandre Dumas",
+   "Victor Hugo",
+   "Balzac"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans quelle ville se trouve Big Ben ?",
+  "a": [
+   "Édimbourg",
+   "Londres",
+   "Dublin",
+   "Manchester"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le plus long fleuve d'Europe ?",
+  "a": [
+   "La Volga",
+   "Le Danube",
+   "Le Rhin",
+   "La Seine"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de joueurs d'une équipe de basket sont sur le terrain ?",
+  "a": [
+   "5",
+   "6",
+   "7",
+   "4"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a découvert la pénicilline en 1928 ?",
+  "a": [
+   "Louis Pasteur",
+   "Marie Curie",
+   "Robert Koch",
+   "Alexander Fleming"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le plus grand oiseau actuel ?",
+  "a": [
+   "L'albatros",
+   "Le condor",
+   "L'aigle",
+   "L'autruche"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a peint « La Nuit étoilée » ?",
+  "a": [
+   "Claude Monet",
+   "Vincent van Gogh",
+   "Paul Cézanne",
+   "Edgar Degas"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la langue maternelle la plus parlée dans le monde ?",
+  "a": [
+   "L'anglais",
+   "Le mandarin",
+   "L'espagnol",
+   "Le hindi"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel navigateur est arrivé en Amérique en 1492 ?",
+  "a": [
+   "Christophe Colomb",
+   "Vasco de Gama",
+   "Magellan",
+   "Jacques Cartier"
+  ],
+  "c": 0
+ },
+ {
+  "q": "À quelle température l'eau bout-elle au niveau de la mer ?",
+  "a": [
+   "90 °C",
+   "80 °C",
+   "120 °C",
+   "100 °C"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment appelle-t-on un animal qui ne mange que des plantes ?",
+  "a": [
+   "Un carnivore",
+   "Un omnivore",
+   "Un herbivore",
+   "Un insectivore"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien de planètes compte le système solaire ?",
+  "a": [
+   "7",
+   "9",
+   "8",
+   "10"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel écrivain a créé le détective Sherlock Holmes ?",
+  "a": [
+   "Agatha Christie",
+   "Arthur Conan Doyle",
+   "Edgar Poe",
+   "Jules Verne"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Dans quel pays se trouve le Machu Picchu ?",
+  "a": [
+   "Au Pérou",
+   "Au Mexique",
+   "En Bolivie",
+   "Au Chili"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le plus grand organe du corps humain ?",
+  "a": [
+   "Le foie",
+   "Le cerveau",
+   "L'intestin",
+   "La peau"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel animal mâle porte les petits dans une poche ventrale ?",
+  "a": [
+   "Le kangourou",
+   "Le requin",
+   "Le dauphin",
+   "L'hippocampe"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel instrument a été inventé par Adolphe Sax ?",
+  "a": [
+   "La clarinette",
+   "Le trombone",
+   "Le saxophone",
+   "L'accordéon"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la capitale du Canada ?",
+  "a": [
+   "Toronto",
+   "Ottawa",
+   "Montréal",
+   "Québec"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a écrit « Harry Potter » ?",
+  "a": [
+   "J. K. Rowling",
+   "Roald Dahl",
+   "Tolkien",
+   "C. S. Lewis"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel gaz les plantes absorbent-elles pour la photosynthèse ?",
+  "a": [
+   "Le dioxyde de carbone",
+   "L'oxygène",
+   "L'azote",
+   "L'hydrogène"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le plus grand continent ?",
+  "a": [
+   "L'Afrique",
+   "L'Amérique du Nord",
+   "L'Europe",
+   "L'Asie"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel organe filtre le sang pour fabriquer l'urine ?",
+  "a": [
+   "Le foie",
+   "Le poumon",
+   "Le rein",
+   "La rate"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle ville a accueilli les Jeux olympiques d'été en 2024 ?",
+  "a": [
+   "Londres",
+   "Paris",
+   "Tokyo",
+   "Rio de Janeiro"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment s'appelle le plus grand récif corallien du monde, au large de l'Australie ?",
+  "a": [
+   "La Grande Barrière de corail",
+   "Le récif de Belize",
+   "Les Maldives",
+   "Les Galápagos"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel pays a remporté la Coupe du monde de football en 1998 ?",
+  "a": [
+   "La France",
+   "Le Brésil",
+   "L'Allemagne",
+   "L'Italie"
+  ],
+  "c": 0
+ }
+]

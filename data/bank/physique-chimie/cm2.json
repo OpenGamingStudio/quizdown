@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Quels sont les trois états de la matière courants ?",
+  "a": [
+   "Chaud, froid, tiède",
+   "Dur, mou, fluide",
+   "Eau, air, terre",
+   "Solide, liquide, gaz"
+  ],
+  "c": 3
+ },
+ {
+  "q": "À quelle température l'eau pure gèle-t-elle à pression normale ?",
+  "a": [
+   "0 °C",
+   "10 °C",
+   "-10 °C",
+   "100 °C"
+  ],
+  "c": 0
+ },
+ {
+  "q": "À quelle température l'eau pure bout-elle à pression normale ?",
+  "a": [
+   "90 °C",
+   "100 °C",
+   "0 °C",
+   "50 °C"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment appelle-t-on le passage de l'état liquide à l'état gazeux ?",
+  "a": [
+   "La fusion",
+   "La vaporisation",
+   "La solidification",
+   "La condensation"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment appelle-t-on le passage de l'état solide à l'état liquide ?",
+  "a": [
+   "La solidification",
+   "La vaporisation",
+   "La fusion",
+   "La condensation"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que devient l'eau liquide au congélateur ?",
+  "a": [
+   "De la vapeur",
+   "Du sel",
+   "De l'air",
+   "De la glace"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est l'unité de masse du Système international ?",
+  "a": [
+   "Le kilogramme",
+   "Le gramme",
+   "La tonne",
+   "Le litre"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Un litre d'eau a une masse d'environ...",
+  "a": [
+   "10 kg",
+   "1 kg",
+   "100 g",
+   "2 kg"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel instrument mesure la masse d'un objet ?",
+  "a": [
+   "Un thermomètre",
+   "Une règle",
+   "Une balance",
+   "Un chronomètre"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle source d'énergie est renouvelable ?",
+  "a": [
+   "Le charbon",
+   "Le pétrole",
+   "Le gaz naturel",
+   "Le vent"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle source d'énergie est fossile ?",
+  "a": [
+   "Le charbon",
+   "Le soleil",
+   "L'eau d'un barrage",
+   "Le vent"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Dans un circuit électrique simple, que faut-il pour que la lampe brille ?",
+  "a": [
+   "Un circuit ouvert",
+   "Un circuit fermé avec une pile",
+   "Deux interrupteurs ouverts",
+   "Un fil seul"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel matériau est un bon conducteur d'électricité ?",
+  "a": [
+   "Le plastique",
+   "Le bois sec",
+   "Le cuivre",
+   "Le verre"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel matériau est isolant électrique ?",
+  "a": [
+   "Le fer",
+   "L'aluminium",
+   "Le cuivre",
+   "Le plastique"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la planète la plus proche du Soleil ?",
+  "a": [
+   "Mercure",
+   "Vénus",
+   "La Terre",
+   "Mars"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de temps la Terre met-elle pour faire un tour sur elle-même ?",
+  "a": [
+   "Environ 24 heures",
+   "Environ un an",
+   "Environ un mois",
+   "Environ une heure"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de temps la Terre met-elle pour tourner autour du Soleil ?",
+  "a": [
+   "Environ un mois",
+   "Environ 24 heures",
+   "Environ une semaine",
+   "Environ un an"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qui cause l'alternance du jour et de la nuit ?",
+  "a": [
+   "La rotation du Soleil autour de la Terre",
+   "Les nuages",
+   "La rotation de la Terre sur elle-même",
+   "La Lune"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelle-t-on l'eau à l'état gazeux ?",
+  "a": [
+   "De la glace",
+   "De la rosée",
+   "Du brouillard liquide",
+   "De la vapeur d'eau"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la source de la lumière du jour ?",
+  "a": [
+   "Le Soleil",
+   "La Lune",
+   "Les étoiles filantes",
+   "Les nuages"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel mélange est homogène ?",
+  "a": [
+   "Du sable dans l'eau",
+   "Du sucre dissous dans l'eau",
+   "De l'huile dans l'eau",
+   "Des cailloux dans de la terre"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment sépare-t-on du sable de l'eau ?",
+  "a": [
+   "Par évaporation du sable",
+   "Par aimant",
+   "Par filtration",
+   "Par ébullition du sable"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment récupère-t-on le sel d'une eau salée ?",
+  "a": [
+   "Par filtration simple",
+   "Par aimant",
+   "Par évaporation de l'eau",
+   "Par tamisage"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Un objet qui tombe est attiré par...",
+  "a": [
+   "la Lune",
+   "le Soleil",
+   "le vent",
+   "la Terre"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est l'unité de longueur du Système international ?",
+  "a": [
+   "Le mètre",
+   "Le kilomètre",
+   "Le centimètre",
+   "Le litre"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle unité mesure la température dans la vie courante en France ?",
+  "a": [
+   "Le kilogramme",
+   "Le degré Celsius",
+   "Le mètre",
+   "Le volt"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le gaz le plus abondant dans l'air ?",
+  "a": [
+   "Le dioxygène",
+   "Le dioxyde de carbone",
+   "Le diazote",
+   "L'hydrogène"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel gaz respire-t-on pour vivre ?",
+  "a": [
+   "Le diazote",
+   "L'hélium",
+   "Le dioxyde de carbone",
+   "Le dioxygène"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel gaz les plantes absorbent-elles pour la photosynthèse ?",
+  "a": [
+   "Le dioxyde de carbone",
+   "Le dioxygène seulement",
+   "L'hélium",
+   "Le diazote seulement"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que se passe-t-il quand on chauffe de la glace ?",
+  "a": [
+   "Elle se solidifie",
+   "Elle fond",
+   "Elle se condense",
+   "Elle devient du sucre"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la forme d'énergie fournie par un panneau solaire ?",
+  "a": [
+   "Fossile",
+   "Nucléaire",
+   "Électrique",
+   "Chimique"
+  ],
+  "c": 2
+ }
+]

@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel philosophe grec fut le précepteur d'Alexandre le Grand ?",
+  "a": [
+   "Aristote",
+   "Platon",
+   "Socrate",
+   "Épicure"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a écrit « Les Confessions » et « Du contrat social » ?",
+  "a": [
+   "Voltaire",
+   "Diderot",
+   "Montesquieu",
+   "Jean-Jacques Rousseau"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la capitale de la Mongolie ?",
+  "a": [
+   "Astana",
+   "Tachkent",
+   "Oulan-Bator",
+   "Bichkek"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel écrivain a reçu le prix Nobel de littérature en 1957 ?",
+  "a": [
+   "Jean-Paul Sartre",
+   "Albert Camus",
+   "André Malraux",
+   "François Mauriac"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle unité mesure l'intensité d'un courant électrique ?",
+  "a": [
+   "Le volt",
+   "L'ampère",
+   "L'ohm",
+   "Le watt"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a composé « Tableaux d'une exposition » ?",
+  "a": [
+   "Moussorgski",
+   "Tchaïkovski",
+   "Rachmaninov",
+   "Borodine"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la plus grande ville de Turquie ?",
+  "a": [
+   "Ankara",
+   "Izmir",
+   "Antalya",
+   "Istanbul"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a décrit en 1953 la structure en double hélice de l'ADN ?",
+  "a": [
+   "Pasteur et Koch",
+   "Mendel et Darwin",
+   "Watson et Crick",
+   "Hubble et Hawking"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel poète a écrit « Alcools » ?",
+  "a": [
+   "Paul Éluard",
+   "Louis Aragon",
+   "Guillaume Apollinaire",
+   "Jacques Prévert"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le lac le plus profond du monde ?",
+  "a": [
+   "Le Tanganyika",
+   "Le Baïkal",
+   "Le lac Supérieur",
+   "Le Titicaca"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a réalisé « Les Quatre Cents Coups » ?",
+  "a": [
+   "François Truffaut",
+   "Jean-Luc Godard",
+   "Claude Chabrol",
+   "Éric Rohmer"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la capitale du Brésil ?",
+  "a": [
+   "Rio de Janeiro",
+   "São Paulo",
+   "Salvador",
+   "Brasilia"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a écrit « Le Capital » ?",
+  "a": [
+   "Adam Smith",
+   "Max Weber",
+   "John Keynes",
+   "Karl Marx"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la valeur approchée du nombre d'or ?",
+  "a": [
+   "1,414",
+   "3,141",
+   "1,618",
+   "2,718"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a écrit « Voyage au bout de la nuit » ?",
+  "a": [
+   "Marcel Proust",
+   "Louis-Ferdinand Céline",
+   "Georges Bernanos",
+   "André Gide"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la capitale de la Colombie ?",
+  "a": [
+   "Bogota",
+   "Medellín",
+   "Caracas",
+   "Quito"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a composé « Le Clavier bien tempéré » ?",
+  "a": [
+   "Jean-Sébastien Bach",
+   "Haendel",
+   "Vivaldi",
+   "Telemann"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a écrit « Le Deuxième Sexe » ?",
+  "a": [
+   "Marguerite Duras",
+   "Colette",
+   "Françoise Sagan",
+   "Simone de Beauvoir"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la capitale de la Corée du Sud ?",
+  "a": [
+   "Pyongyang",
+   "Busan",
+   "Séoul",
+   "Tokyo"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a découvert l'électron en 1897 ?",
+  "a": [
+   "Rutherford",
+   "J. J. Thomson",
+   "Bohr",
+   "Chadwick"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a écrit « Cent ans de solitude » ?",
+  "a": [
+   "Mario Vargas Llosa",
+   "Gabriel García Márquez",
+   "Jorge Luis Borges",
+   "Pablo Neruda"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la capitale de la Pologne ?",
+  "a": [
+   "Varsovie",
+   "Cracovie",
+   "Prague",
+   "Budapest"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a peint « La Persistance de la mémoire » avec ses montres molles ?",
+  "a": [
+   "René Magritte",
+   "Joan Miró",
+   "Max Ernst",
+   "Salvador Dalí"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la vitesse du son dans l'air à 20 °C, environ ?",
+  "a": [
+   "34 m/s",
+   "3 400 m/s",
+   "340 m/s",
+   "300 000 m/s"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a écrit « Le Meilleur des mondes » ?",
+  "a": [
+   "George Orwell",
+   "Ray Bradbury",
+   "Aldous Huxley",
+   "Isaac Asimov"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a réalisé « 2001, l'Odyssée de l'espace » ?",
+  "a": [
+   "Steven Spielberg",
+   "Stanley Kubrick",
+   "Ridley Scott",
+   "George Lucas"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le plus grand lac du monde par sa superficie ?",
+  "a": [
+   "La mer Caspienne",
+   "Le lac Supérieur",
+   "Le lac Victoria",
+   "Le Baïkal"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a écrit « Le Procès » ?",
+  "a": [
+   "Thomas Mann",
+   "Robert Musil",
+   "Hermann Hesse",
+   "Franz Kafka"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la valeur approchée de pi ?",
+  "a": [
+   "2,71828",
+   "1,41421",
+   "1,61803",
+   "3,14159"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a écrit « Le Tour du monde en quatre-vingts jours » ?",
+  "a": [
+   "Alexandre Dumas",
+   "Hergé",
+   "Jules Verne",
+   "H. G. Wells"
+  ],
+  "c": 2
+ }
+]

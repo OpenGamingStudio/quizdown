@@ -1,0 +1,322 @@
+[
+ {
+  "q": "Comment s'écrit 13 en binaire ?",
+  "a": [
+   "1011",
+   "1101",
+   "1110",
+   "1001"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que vaut 1010 en binaire ?",
+  "a": [
+   "8",
+   "12",
+   "5",
+   "10"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien de bits forment un octet ?",
+  "a": [
+   "4",
+   "16",
+   "8",
+   "32"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle unité vaut 1 024 octets (usage binaire) ?",
+  "a": [
+   "1 mégaoctet",
+   "1 kibioctet",
+   "1 gigaoctet",
+   "1 téraoctet"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien de valeurs un octet peut-il représenter ?",
+  "a": [
+   "128",
+   "256",
+   "255",
+   "512"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle norme de codage permet de représenter la plupart des caractères du monde ?",
+  "a": [
+   "Unicode",
+   "ASCII seul",
+   "JPEG",
+   "MP3"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que l'ASCII ?",
+  "a": [
+   "Un code d'images",
+   "Un code de sons",
+   "Un protocole réseau",
+   "Un code de caractères sur 7 bits"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'une porte logique ET ?",
+  "a": [
+   "Sortie vraie si une entrée est vraie",
+   "Sortie inverse de l'entrée",
+   "Sortie vraie si les deux entrées sont vraies",
+   "Sortie toujours fausse"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que vaut A OU B quand A=0 et B=1 ?",
+  "a": [
+   "0",
+   "2",
+   "1",
+   "Indéfini"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que vaut NON(1) ?",
+  "a": [
+   "1",
+   "0",
+   "2",
+   "-1"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle structure de donnée suit « dernier entré, premier sorti » ?",
+  "a": [
+   "La pile",
+   "La file",
+   "La liste triée",
+   "L'arbre"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle structure suit « premier entré, premier sorti » ?",
+  "a": [
+   "La pile",
+   "Le tableau trié",
+   "La matrice",
+   "La file"
+  ],
+  "c": 3
+ },
+ {
+  "q": "En Python, comment accède-t-on au dernier élément d'une liste L ?",
+  "a": [
+   "L[0]",
+   "L[last]",
+   "L(-1)",
+   "L[-1]"
+  ],
+  "c": 3
+ },
+ {
+  "q": "En Python, que renvoie len([4, 5, 6]) ?",
+  "a": [
+   "4",
+   "6",
+   "3",
+   "2"
+  ],
+  "c": 2
+ },
+ {
+  "q": "En Python, que fait L.append(3) ?",
+  "a": [
+   "Supprime 3",
+   "Ajoute 3 à la fin de la liste",
+   "Trie la liste",
+   "Remplace tout par 3"
+  ],
+  "c": 1
+ },
+ {
+  "q": "En Python, que renvoie range(3) ?",
+  "a": [
+   "0, 1, 2",
+   "1, 2, 3",
+   "0, 1, 2, 3",
+   "3"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un dictionnaire en Python ?",
+  "a": [
+   "Un ensemble de paires clé-valeur",
+   "Une liste triée",
+   "Un fichier",
+   "Un module"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la complexité d'une recherche linéaire dans une liste de n éléments ?",
+  "a": [
+   "O(1)",
+   "O(log n)",
+   "O(n²)",
+   "O(n)"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle recherche exige une liste triée ?",
+  "a": [
+   "La recherche séquentielle",
+   "Le tri par insertion",
+   "La recherche dichotomique",
+   "Le tri à bulles"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le principe du tri par sélection ?",
+  "a": [
+   "Échanger au hasard",
+   "Chercher le minimum et le placer au début",
+   "Inverser la liste",
+   "Couper en deux"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un algorithme glouton ?",
+  "a": [
+   "Il explore tout",
+   "Il fait à chaque étape le meilleur choix local",
+   "Il choisit au hasard",
+   "Il ne s'arrête jamais"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle commande Linux supprime un fichier ?",
+  "a": [
+   "rm",
+   "cp",
+   "mkdir",
+   "pwd"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle commande Linux liste les fichiers d'un dossier ?",
+  "a": [
+   "cd",
+   "rm",
+   "mv",
+   "ls"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle commande Linux change de répertoire ?",
+  "a": [
+   "ls",
+   "cp",
+   "cd",
+   "cat"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle architecture est à la base de la plupart des ordinateurs : séparation mémoire et unité de calcul ?",
+  "a": [
+   "Turing",
+   "Shannon",
+   "Von Neumann",
+   "Boole"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans le web, que fait le serveur lors d'une requête ?",
+  "a": [
+   "Il tape le texte",
+   "Il renvoie une réponse",
+   "Il imprime",
+   "Il éteint le client"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que le langage SQL ?",
+  "a": [
+   "Un langage d'interrogation de bases de données",
+   "Un langage de style",
+   "Un navigateur",
+   "Un protocole"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que fait SELECT en SQL ?",
+  "a": [
+   "Supprime une table",
+   "Crée un serveur",
+   "Chiffre un fichier",
+   "Choisit des données dans une table"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'une clé primaire ?",
+  "a": [
+   "Un mot de passe",
+   "Un format",
+   "Un doublon",
+   "Un identifiant unique d'un enregistrement"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'un réseau pair-à-pair ?",
+  "a": [
+   "Un seul serveur central",
+   "Un réseau sans machines",
+   "Chaque machine est à la fois client et serveur",
+   "Un réseau de satellites"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la différence entre chiffrement symétrique et asymétrique ?",
+  "a": [
+   "Aucune",
+   "Une seule clé contre deux clés",
+   "La taille du fichier",
+   "Le langage"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que le protocole HTTPS utilise pour sécuriser ?",
+  "a": [
+   "TLS",
+   "FTP",
+   "DHCP",
+   "IPv4"
+  ],
+  "c": 0
+ }
+]

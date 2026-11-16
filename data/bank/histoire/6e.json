@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Que veut dire « néolithique » ?",
+  "a": [
+   "Nouvel âge de la pierre",
+   "Âge du fer",
+   "Âge du bronze",
+   "Âge de glace"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qui caractérise la révolution néolithique ?",
+  "a": [
+   "L'agriculture et l'élevage",
+   "L'invention de l'imprimerie",
+   "La machine à vapeur",
+   "L'électricité"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel fleuve est le « don » de l'Égypte antique selon Hérodote ?",
+  "a": [
+   "Le Tigre",
+   "Le Tibre",
+   "Le Danube",
+   "Le Nil"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment appelle-t-on l'écriture des anciens Égyptiens ?",
+  "a": [
+   "Les hiéroglyphes",
+   "Le cunéiforme",
+   "L'alphabet latin",
+   "Le braille"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui permet de déchiffrer les hiéroglyphes en 1822 ?",
+  "a": [
+   "Champollion",
+   "Pasteur",
+   "Hérodote",
+   "Vercingétorix"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment s'appelle la pierre qui a aidé à déchiffrer les hiéroglyphes ?",
+  "a": [
+   "La pierre de Lascaux",
+   "La pierre de Carnac",
+   "La pierre de Troie",
+   "La pierre de Rosette"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel peuple de l'Antiquité est monothéiste et a pour texte sacré la Torah ?",
+  "a": [
+   "Les Grecs",
+   "Les Romains",
+   "Les Hébreux",
+   "Les Égyptiens"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelle-t-on une cité grecque indépendante ?",
+  "a": [
+   "Un empire",
+   "Un royaume",
+   "Une province",
+   "Une cité-État (polis)"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle cité grecque est le berceau de la démocratie ?",
+  "a": [
+   "Sparte",
+   "Troie",
+   "Rome",
+   "Athènes"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que veut dire « démocratie » en grec ancien ?",
+  "a": [
+   "Le pouvoir d'un seul",
+   "Le pouvoir des dieux",
+   "Le pouvoir du peuple",
+   "Le pouvoir des riches"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle colline d'Athènes porte le Parthénon ?",
+  "a": [
+   "Le Capitole",
+   "L'Acropole",
+   "Le Palatin",
+   "Le Vésuve"
+  ],
+  "c": 1
+ },
+ {
+  "q": "À quelle déesse le Parthénon est-il consacré ?",
+  "a": [
+   "Aphrodite",
+   "Athéna",
+   "Héra",
+   "Artémis"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quels jeux sont organisés tous les quatre ans à Olympie ?",
+  "a": [
+   "Les jeux du cirque",
+   "Les jeux floraux",
+   "Les jeux de gladiateurs",
+   "Les jeux Olympiques"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel poète grec est l'auteur présumé de l'Iliade et de l'Odyssée ?",
+  "a": [
+   "Homère",
+   "Virgile",
+   "Hérodote",
+   "Socrate"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Selon la légende, qui est le fondateur de Rome ?",
+  "a": [
+   "Alexandre",
+   "Romulus",
+   "Périclès",
+   "Hannibal"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle date la tradition retient-elle pour la fondation de Rome ?",
+  "a": [
+   "476",
+   "52 avant J.-C.",
+   "753 avant J.-C.",
+   "27 avant J.-C."
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel régime Rome connaît-elle après avoir chassé ses rois ?",
+  "a": [
+   "La démocratie athénienne",
+   "La République",
+   "La monarchie absolue",
+   "La théocratie"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui devient le premier empereur romain en 27 avant J.-C. ?",
+  "a": [
+   "Jules César",
+   "Néron",
+   "Constantin",
+   "Auguste"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment les Romains appelaient-ils la mer Méditerranée ?",
+  "a": [
+   "Mare nostrum (« notre mer »)",
+   "Mare Rubrum",
+   "Mare Gallicum",
+   "Mare Nigrum"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle langue parlaient les Romains ?",
+  "a": [
+   "Le grec",
+   "L'hébreu",
+   "Le gaulois",
+   "Le latin"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle religion devient religion officielle de l'Empire romain à la fin du IVe siècle ?",
+  "a": [
+   "Le polythéisme romain",
+   "Le judaïsme",
+   "Le bouddhisme",
+   "Le christianisme"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel empereur romain autorise le christianisme en 313 (édit de Milan) ?",
+  "a": [
+   "Néron",
+   "Auguste",
+   "Constantin",
+   "Hadrien"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelle-t-on un canal romain qui amène l'eau en ville ?",
+  "a": [
+   "Un aqueduc",
+   "Un viaduc",
+   "Un oléoduc",
+   "Une écluse"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel monument romain du sud de la France, près de Nîmes, est un aqueduc ?",
+  "a": [
+   "Le pont du Gard",
+   "Le pont Neuf",
+   "Le viaduc de Millau",
+   "Le pont de Normandie"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle ville est fondée par les Romains sous le nom de Lugdunum ?",
+  "a": [
+   "Paris",
+   "Lyon",
+   "Marseille",
+   "Bordeaux"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que désigne le mot « Antiquité » ?",
+  "a": [
+   "La période avant l'écriture",
+   "La période de l'écriture à la chute de Rome en 476",
+   "Le XIXe siècle",
+   "La période de 1500 à 1789"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui était Alexandre le Grand ?",
+  "a": [
+   "Roi de Macédoine, il conquiert l'Empire perse",
+   "Un empereur romain",
+   "Un pharaon",
+   "Un philosophe athénien"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel peuple de marins et de marchands a diffusé un alphabet en Méditerranée ?",
+  "a": [
+   "Les Phéniciens",
+   "Les Gaulois",
+   "Les Huns",
+   "Les Francs"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que le cunéiforme ?",
+  "a": [
+   "Une écriture égyptienne sur papyrus",
+   "Un alphabet romain",
+   "Une écriture de Mésopotamie sur argile",
+   "Une écriture chinoise"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle matière les Égyptiens utilisaient-ils pour écrire ?",
+  "a": [
+   "Le papier imprimé",
+   "Le parchemin de mouton uniquement",
+   "Le plastique",
+   "Le papyrus"
+  ],
+  "c": 3
+ }
+]

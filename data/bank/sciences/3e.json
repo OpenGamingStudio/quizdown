@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Que représente un gène ?",
+  "a": [
+   "Une portion d'ADN qui code un caractère",
+   "Un chromosome entier",
+   "Une protéine animale",
+   "Une cellule"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la forme de la molécule d'ADN ?",
+  "a": [
+   "Un cube",
+   "Une sphère",
+   "Un anneau plat",
+   "Une double hélice"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien de chromosomes un gamète humain contient-il ?",
+  "a": [
+   "46",
+   "44",
+   "23",
+   "92"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quels sont les chromosomes sexuels de la femme ?",
+  "a": [
+   "XY",
+   "XX",
+   "XXY",
+   "YY"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quels sont les chromosomes sexuels de l'homme ?",
+  "a": [
+   "XX",
+   "XY",
+   "YY",
+   "XXY"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un allèle ?",
+  "a": [
+   "Une version d'un gène",
+   "Un chromosome",
+   "Une cellule",
+   "Un organe"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que provoque une mutation ?",
+  "a": [
+   "La mort sûre de la cellule",
+   "Une division d'un organe",
+   "Un changement de milieu",
+   "Une modification de l'ADN"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a proposé la théorie de la sélection naturelle ?",
+  "a": [
+   "Louis Pasteur",
+   "Marie Curie",
+   "Charles Darwin",
+   "Georges Cuvier"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que la sélection naturelle ?",
+  "a": [
+   "Les humains choisissent les meilleurs animaux",
+   "Tous les individus survivent",
+   "Les individus les mieux adaptés se reproduisent davantage",
+   "Les mutations sont impossibles"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel indice atteste la parenté entre espèces ?",
+  "a": [
+   "Le nom commun",
+   "Les caractères homologues et l'ADN",
+   "La couleur de la peau uniquement",
+   "Le lieu d'habitation"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment appelle-t-on un arbre représentant la parenté entre espèces ?",
+  "a": [
+   "Un arbre phylogénétique",
+   "Un arbre généalogique royal",
+   "Un arbre de décision",
+   "Un arbre à pain"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quels êtres sont les plus proches parents de l'humain parmi ces animaux ?",
+  "a": [
+   "Les chiens",
+   "Les chevaux",
+   "Les dauphins",
+   "Les chimpanzés"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelles cellules produisent les anticorps ?",
+  "a": [
+   "Les globules rouges",
+   "Les plaquettes",
+   "Les cellules du foie",
+   "Des globules blancs (lymphocytes B)"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le rôle des anticorps ?",
+  "a": [
+   "Transporter l'oxygène",
+   "Coaguler le sang",
+   "Neutraliser des antigènes",
+   "Digérer les aliments"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le principe de la vaccination ?",
+  "a": [
+   "Détruire tous les microbes",
+   "Provoquer une mémoire immunitaire",
+   "Remplacer les globules blancs",
+   "Fabriquer des antibiotiques"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Contre quoi les antibiotiques sont-ils efficaces ?",
+  "a": [
+   "Les bactéries",
+   "Les virus",
+   "Les champignons seulement",
+   "Les parasites uniquement"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle barrière naturelle protège le corps des microbes ?",
+  "a": [
+   "La peau",
+   "Le sang",
+   "Les os",
+   "Les muscles"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que le microbiote intestinal ?",
+  "a": [
+   "Un organe",
+   "Une hormone",
+   "Un nutriment",
+   "L'ensemble des micro-organismes de l'intestin"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle hormone régule la glycémie en la diminuant ?",
+  "a": [
+   "L'adrénaline",
+   "La testostérone",
+   "L'insuline",
+   "La thyroxine"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel organe produit l'insuline ?",
+  "a": [
+   "Le foie",
+   "Le pancréas",
+   "Le rein",
+   "Le coeur"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle maladie est liée à un excès chronique de glucose dans le sang ?",
+  "a": [
+   "La grippe",
+   "Le diabète",
+   "Le rhume",
+   "La varicelle"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel gaz est un des principaux responsables de l'effet de serre renforcé ?",
+  "a": [
+   "Le dioxyde de carbone",
+   "Le dioxygène",
+   "L'hélium",
+   "Le néon"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle activité émet du méthane en quantité notable ?",
+  "a": [
+   "La randonnée",
+   "Le vélo",
+   "Le jardinage",
+   "L'élevage de ruminants"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que signifie le terme « développement durable » ?",
+  "a": [
+   "Construire sans limite",
+   "Utiliser tout le pétrole",
+   "Répondre aux besoins actuels sans compromettre l'avenir",
+   "Arrêter toute activité humaine"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle source d'énergie est renouvelable ?",
+  "a": [
+   "Le charbon",
+   "Le pétrole",
+   "L'énergie solaire",
+   "L'uranium"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'une espèce invasive ?",
+  "a": [
+   "Une espèce disparue",
+   "Une espèce introduite qui prolifère et nuit aux autres",
+   "Une espèce domestique",
+   "Une espèce rare protégée"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel risque est lié à l'écoute de sons trop forts ?",
+  "a": [
+   "Une perte auditive",
+   "Une myopie",
+   "Une carie",
+   "Une anémie"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel effet l'alcool a-t-il sur le cerveau ?",
+  "a": [
+   "Il améliore la vigilance",
+   "Il rend plus rapide",
+   "Il nettoie les neurones",
+   "Il ralentit les réactions"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle ère a vu disparaître les dinosaures non aviens ?",
+  "a": [
+   "Le Quaternaire",
+   "Le Cénozoïque récent",
+   "Le Paléozoïque ancien",
+   "Le Mésozoïque (fin du Crétacé)"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle datation utilise les éléments radioactifs ?",
+  "a": [
+   "La météorologie",
+   "La phrénologie",
+   "La radiochronologie",
+   "La cartographie"
+  ],
+  "c": 2
+ }
+]

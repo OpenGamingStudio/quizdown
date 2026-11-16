@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Quelle est la formule du travail d'une force constante F sur un déplacement AB (angle alpha) ?",
+  "a": [
+   "W = F x AB x sin(alpha)",
+   "W = F / AB",
+   "W = F x AB x cos(alpha)",
+   "W = F + AB"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est l'expression de l'énergie cinétique ?",
+  "a": [
+   "Ec = m x v",
+   "Ec = 1/2 x m x v",
+   "Ec = m x g x h",
+   "Ec = 1/2 x m x v²"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est l'expression de l'énergie potentielle de pesanteur ?",
+  "a": [
+   "Ep = m x g x z",
+   "Ep = 1/2 m g z",
+   "Ep = m x z / g",
+   "Ep = m x v²"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Un objet de 2 kg se déplace à 3 m/s. Quelle est son énergie cinétique ?",
+  "a": [
+   "6 J",
+   "9 J",
+   "18 J",
+   "3 J"
+  ],
+  "c": 1
+ },
+ {
+  "q": "L'énergie mécanique d'un système sans frottement...",
+  "a": [
+   "augmente toujours",
+   "se conserve",
+   "diminue toujours",
+   "vaut zéro"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Un objet de 5 kg est à 2 m de hauteur (g = 10 N/kg). Quelle est son énergie potentielle ?",
+  "a": [
+   "10 J",
+   "25 J",
+   "100 J",
+   "50 J"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Le théorème de l'énergie cinétique relie la variation d'énergie cinétique à...",
+  "a": [
+   "la température",
+   "la masse seulement",
+   "la fréquence",
+   "la somme des travaux des forces"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le travail du poids lors de la montée d'un objet ?",
+  "a": [
+   "Positif",
+   "Nul",
+   "Infini",
+   "Négatif"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est l'unité de la charge électrique ?",
+  "a": [
+   "Le volt",
+   "L'ampère",
+   "Le coulomb",
+   "Le farad"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle relation lie charge, intensité et durée ?",
+  "a": [
+   "Q = I / t",
+   "Q = I x t",
+   "Q = U x I",
+   "Q = t / I"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Un courant de 2 A traverse un fil pendant 10 s. Quelle charge a circulé ?",
+  "a": [
+   "5 C",
+   "0,2 C",
+   "20 C",
+   "12 C"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la relation entre l'énergie électrique, la puissance et la durée ?",
+  "a": [
+   "E = P / t",
+   "E = U / I",
+   "E = P + t",
+   "E = P x t"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que vaut 1 kWh en joules ?",
+  "a": [
+   "3,6 x 10⁶ J",
+   "3 600 J",
+   "1 000 J",
+   "6 x 10⁴ J"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la définition d'un acide selon Brønsted ?",
+  "a": [
+   "Une espèce capable de céder un proton H⁺",
+   "Une espèce capable de capter un proton",
+   "Une espèce qui capte un électron",
+   "Une espèce qui cède un électron"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la définition d'une base selon Brønsted ?",
+  "a": [
+   "Une espèce capable de céder un proton",
+   "Une espèce capable de capter un proton H⁺",
+   "Une espèce qui capte un électron",
+   "Une espèce qui cède un électron"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la définition d'un oxydant ?",
+  "a": [
+   "Une espèce capable de céder un ou plusieurs électrons",
+   "Une espèce capable de capter un ou plusieurs électrons",
+   "Une espèce qui capte un proton",
+   "Une espèce qui cède un proton"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la définition d'un réducteur ?",
+  "a": [
+   "Une espèce capable de capter un ou plusieurs électrons",
+   "Une espèce qui capte un proton",
+   "Une espèce capable de céder un ou plusieurs électrons",
+   "Une espèce qui cède un proton"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Lors d'une oxydation, une espèce...",
+  "a": [
+   "gagne des électrons",
+   "perd des protons",
+   "gagne des neutrons",
+   "perd des électrons"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la relation du pH ?",
+  "a": [
+   "pH = -log [H3O⁺]",
+   "pH = log [H3O⁺]",
+   "pH = [H3O⁺]",
+   "pH = 1 / [H3O⁺]"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le pH d'une solution de [H3O⁺] = 1,0 x 10⁻³ mol/L ?",
+  "a": [
+   "-3",
+   "3",
+   "11",
+   "0,001"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la concentration en H3O⁺ d'une solution de pH 5 ?",
+  "a": [
+   "5 mol/L",
+   "1,0 x 10⁵ mol/L",
+   "1,0 x 10⁻⁵ mol/L",
+   "0,5 mol/L"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le nom de l'alcane de formule CH₄ ?",
+  "a": [
+   "L'éthane",
+   "Le propane",
+   "Le méthane",
+   "Le butane"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le nom de l'alcane C₃H₈ ?",
+  "a": [
+   "Le butane",
+   "L'éthane",
+   "Le méthane",
+   "Le propane"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la formule brute générale des alcanes acycliques ?",
+  "a": [
+   "CₙH₂ₙ₊₂",
+   "CₙH₂ₙ",
+   "CₙHₙ",
+   "CₙH₂ₙ₋₂"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel groupe caractéristique définit un alcool ?",
+  "a": [
+   "-COOH",
+   "-OH",
+   "C=O",
+   "-NH₂"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel groupe caractéristique définit un acide carboxylique ?",
+  "a": [
+   "-OH",
+   "-COOH",
+   "-NH₂",
+   "C=O seul"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Dans un tableau d'avancement, l'avancement maximal est atteint quand...",
+  "a": [
+   "les produits disparaissent",
+   "la température est maximale",
+   "un réactif est entièrement consommé",
+   "les concentrations sont égales"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le nom de l'alcane à 5 atomes de carbone ?",
+  "a": [
+   "Le pentane",
+   "Le butane",
+   "L'hexane",
+   "Le propane"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est l'indice de réfraction d'un milieu où la lumière va à 2,0 x 10⁸ m/s (c = 3,0 x 10⁸) ?",
+  "a": [
+   "0,67",
+   "2",
+   "6",
+   "1,5"
+  ],
+  "c": 3
+ },
+ {
+  "q": "La loi de Descartes pour la réflexion dit que l'angle de réflexion est...",
+  "a": [
+   "égal à l'angle d'incidence",
+   "double de l'angle d'incidence",
+   "complémentaire de l'angle d'incidence",
+   "nul"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Dans le couple Cu²⁺/Cu, quel est le rôle de Cu²⁺ ?",
+  "a": [
+   "L'oxydant",
+   "Le réducteur",
+   "Un solvant",
+   "Un catalyseur"
+  ],
+  "c": 0
+ }
+]

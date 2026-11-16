@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Complète : « Yesterday I ___ to the cinema. »",
+  "a": [
+   "go",
+   "went",
+   "goed",
+   "going"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le prétérit de « eat » ?",
+  "a": [
+   "ate",
+   "eated",
+   "eaten",
+   "eats"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le prétérit de « buy » ?",
+  "a": [
+   "buyed",
+   "boughten",
+   "brought",
+   "bought"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le prétérit de « have » ?",
+  "a": [
+   "haved",
+   "has",
+   "had",
+   "haven"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le prétérit de « see » ?",
+  "a": [
+   "seed",
+   "saw",
+   "seen",
+   "sawed"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le prétérit de « write » ?",
+  "a": [
+   "wrote",
+   "writed",
+   "written",
+   "writen"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « She ___ her keys last night. »",
+  "a": [
+   "loosed",
+   "lose",
+   "losted",
+   "lost"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Complète : « We ___ football yesterday. »",
+  "a": [
+   "play",
+   "plaied",
+   "played",
+   "playing"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « He didn't ___ the answer. »",
+  "a": [
+   "knew",
+   "know",
+   "known",
+   "knows"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Complète : « ___ you at home last Sunday? »",
+  "a": [
+   "Were",
+   "Was",
+   "Did",
+   "Are"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « I ___ at school yesterday. »",
+  "a": [
+   "were",
+   "am",
+   "did",
+   "was"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Complète : « She is taller ___ me. »",
+  "a": [
+   "that",
+   "then",
+   "than",
+   "as than"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le comparatif de « good » ?",
+  "a": [
+   "gooder",
+   "better",
+   "more good",
+   "best"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le superlatif de « big » ?",
+  "a": [
+   "the biggest",
+   "the most big",
+   "the bigger",
+   "the bigest"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le comparatif de « beautiful » ?",
+  "a": [
+   "beautifuler",
+   "most beautiful",
+   "beautifuller",
+   "more beautiful"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Complète : « He is ___ than his brother. » (heavy)",
+  "a": [
+   "heavyer",
+   "more heavy",
+   "heavier",
+   "heaviest"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « I'm going to ___ a cake tomorrow. »",
+  "a": [
+   "making",
+   "make",
+   "made",
+   "makes"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Complète : « It ___ rain tomorrow. »",
+  "a": [
+   "will",
+   "does",
+   "is",
+   "has"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « You ___ wear a helmet. » (obligation)",
+  "a": [
+   "can",
+   "may be",
+   "would",
+   "must"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Complète : « You ___ run in the corridor. » (interdit)",
+  "a": [
+   "don't must",
+   "needn't",
+   "mustn't",
+   "haven't"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « I'm very ___ in music. »",
+  "a": [
+   "interesting",
+   "interested",
+   "interest",
+   "interests"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel mot signifie « someone » ?",
+  "a": [
+   "quelqu'un",
+   "personne",
+   "chaque",
+   "tout le monde"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « There isn't ___ milk left. »",
+  "a": [
+   "some",
+   "many",
+   "a",
+   "any"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Complète : « How ___ apples do you want? »",
+  "a": [
+   "much",
+   "lot",
+   "many",
+   "long"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « How ___ water is there? »",
+  "a": [
+   "many",
+   "much",
+   "long",
+   "old"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que signifie « actually » ?",
+  "a": [
+   "en fait",
+   "actuellement",
+   "actif",
+   "autrefois"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que signifie « library » ?",
+  "a": [
+   "librairie",
+   "liberté",
+   "livre",
+   "bibliothèque"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle fête se célèbre le 31 octobre dans les pays anglophones ?",
+  "a": [
+   "Thanksgiving",
+   "Easter",
+   "Halloween",
+   "Bonfire Night"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le nom de la monnaie du Royaume-Uni ?",
+  "a": [
+   "the euro",
+   "the pound",
+   "the dollar",
+   "the crown"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la capitale de l'Irlande ?",
+  "a": [
+   "Dublin",
+   "Belfast",
+   "Cork",
+   "Galway"
+  ],
+  "c": 0
+ }
+]

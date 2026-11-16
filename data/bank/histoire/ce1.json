@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Comment s'appelle le jour qui suit lundi ?",
+  "a": [
+   "Mercredi",
+   "Mardi",
+   "Dimanche",
+   "Jeudi"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien y a-t-il de jours dans une semaine ?",
+  "a": [
+   "7",
+   "5",
+   "6",
+   "10"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien y a-t-il de mois dans une année ?",
+  "a": [
+   "10",
+   "11",
+   "13",
+   "12"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le premier mois de l'année ?",
+  "a": [
+   "Septembre",
+   "Décembre",
+   "Janvier",
+   "Mars"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le dernier mois de l'année ?",
+  "a": [
+   "Décembre",
+   "Novembre",
+   "Janvier",
+   "Juin"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien y a-t-il de jours dans une semaine d'école, du lundi au vendredi ?",
+  "a": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que représente une frise chronologique ?",
+  "a": [
+   "Une carte de France",
+   "Un plan de classe",
+   "Des événements rangés dans l'ordre du temps",
+   "Un menu de cantine"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Autrefois, que faisait-on pour s'éclairer le soir avant l'électricité ?",
+  "a": [
+   "On allumait des bougies ou des lampes à huile",
+   "On allumait des néons",
+   "On utilisait des écrans",
+   "On branchait des ampoules"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un grand-parent ?",
+  "a": [
+   "Le père ou la mère de ton père ou de ta mère",
+   "Le frère de ton père",
+   "Ta cousine",
+   "Ton voisin"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Parmi ces objets, lequel est le plus ancien ?",
+  "a": [
+   "Le tracteur",
+   "Le smartphone",
+   "L'ordinateur",
+   "La charrue tirée par un cheval"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Autrefois, comment lavait-on le linge au lavoir ?",
+  "a": [
+   "Avec un lave-linge",
+   "Avec un sèche-linge",
+   "À la main",
+   "Avec un robot"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel mot désigne ce qui s'est passé avant aujourd'hui ?",
+  "a": [
+   "Le futur",
+   "Le présent",
+   "Le demain",
+   "Le passé"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel mot désigne ce qui se passera après aujourd'hui ?",
+  "a": [
+   "Le passé",
+   "Le présent",
+   "L'hier",
+   "Le futur"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien d'années y a-t-il dans un siècle ?",
+  "a": [
+   "10",
+   "1000",
+   "100",
+   "50"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien de jours y a-t-il dans une année ordinaire ?",
+  "a": [
+   "300",
+   "365",
+   "360",
+   "366"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel moyen de transport existait déjà il y a très longtemps ?",
+  "a": [
+   "L'avion",
+   "Le TGV",
+   "Le cheval",
+   "La fusée"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Autrefois, quel moyen de transport roulait sur des rails au charbon ?",
+  "a": [
+   "Le bus électrique",
+   "Le scooter",
+   "Le train à vapeur",
+   "Le tramway à batterie"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un musée ?",
+  "a": [
+   "Un lieu où l'on conserve et montre des objets du passé",
+   "Un magasin de jouets",
+   "Un stade",
+   "Une bibliothèque de bandes dessinées"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle saison vient après l'hiver ?",
+  "a": [
+   "L'été",
+   "L'automne",
+   "Encore l'hiver",
+   "Le printemps"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Avant le téléphone portable, comment pouvait-on écrire à quelqu'un qui habitait loin ?",
+  "a": [
+   "Par une lettre envoyée par la poste",
+   "Par un message vidéo",
+   "Par un SMS",
+   "Par un courriel"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Autrefois, d'où venait souvent l'eau des maisons à la campagne ?",
+  "a": [
+   "D'un puits ou d'une fontaine",
+   "D'un robinet mitigeur",
+   "D'une bouteille",
+   "D'un lave-vaisselle"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que fait un historien ?",
+  "a": [
+   "Il soigne les malades",
+   "Il construit des maisons",
+   "Il prévoit la météo",
+   "Il étudie le passé"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel jour vient juste avant dimanche ?",
+  "a": [
+   "Lundi",
+   "Vendredi",
+   "Samedi",
+   "Jeudi"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle fête a lieu chaque année le 25 décembre ?",
+  "a": [
+   "Pâques",
+   "Le 14 juillet",
+   "Le 1er mai",
+   "Noël"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment appelle-t-on les personnes de ta famille qui ont vécu il y a très longtemps ?",
+  "a": [
+   "Les ancêtres",
+   "Les voisins",
+   "Les cousins",
+   "Les élèves"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un anniversaire ?",
+  "a": [
+   "Le premier jour d'école",
+   "Un jour de congé",
+   "Le jour qui rappelle chaque année le jour de ta naissance",
+   "Le dernier jour du mois"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Autrefois, que faisait l'écolier pour écrire sur son cahier ?",
+  "a": [
+   "Il tapait sur un clavier",
+   "Il écrivait à la plume trempée dans l'encrier",
+   "Il utilisait un stylo laser",
+   "Il dictait à une tablette"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Autrefois, comment se chauffait-on souvent dans les maisons ?",
+  "a": [
+   "Avec une pompe à chaleur",
+   "Avec un chauffage solaire",
+   "Avec un feu de cheminée ou un poêle à bois",
+   "Avec un radiateur connecté"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans l'ordre du temps, qui est né le plus tôt ?",
+  "a": [
+   "Ton grand-père",
+   "Ton père",
+   "Ton arrière-grand-père",
+   "Toi"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la durée d'une heure ?",
+  "a": [
+   "100 minutes",
+   "60 minutes",
+   "30 minutes",
+   "24 minutes"
+  ],
+  "c": 1
+ }
+]

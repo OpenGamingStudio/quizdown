@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Choisis la bonne forme : « My sister ___ twelve years old. »",
+  "a": [
+   "are",
+   "is",
+   "has",
+   "have"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Choisis : « We ___ two cats. »",
+  "a": [
+   "have got",
+   "has got",
+   "are got",
+   "is got"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Choisis : « There ___ three books on the desk. »",
+  "a": [
+   "is",
+   "has",
+   "be",
+   "are"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Choisis : « There ___ a pen in my bag. »",
+  "a": [
+   "are",
+   "have",
+   "is",
+   "do"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le pluriel de « a woman » ?",
+  "a": [
+   "womans",
+   "women",
+   "womens",
+   "woman"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le pluriel de « a foot » ?",
+  "a": [
+   "feet",
+   "foots",
+   "feets",
+   "footes"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le pluriel de « a baby » ?",
+  "a": [
+   "babys",
+   "babyes",
+   "babyies",
+   "babies"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le pluriel de « a tooth » ?",
+  "a": [
+   "tooths",
+   "teeths",
+   "teeth",
+   "toothes"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « He ___ his homework every evening. »",
+  "a": [
+   "do",
+   "does",
+   "doing",
+   "is do"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Complète : « She ___ watch TV on Mondays. »",
+  "a": [
+   "doesn't",
+   "don't",
+   "isn't",
+   "not"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « Look! The children ___ in the garden. »",
+  "a": [
+   "play",
+   "plays",
+   "is playing",
+   "are playing"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Complète : « I usually ___ up at seven. »",
+  "a": [
+   "gets",
+   "am getting",
+   "get",
+   "getting"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le contraire de « fast » ?",
+  "a": [
+   "short",
+   "slow",
+   "late",
+   "low"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le contraire de « difficult » ?",
+  "a": [
+   "easy",
+   "hard",
+   "heavy",
+   "boring"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel mot désigne le frère de ma mère ?",
+  "a": [
+   "cousin",
+   "nephew",
+   "grandfather",
+   "uncle"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel mot désigne la fille de mon oncle ?",
+  "a": [
+   "niece",
+   "aunt",
+   "cousin",
+   "sister"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « This is ___ umbrella. »",
+  "a": [
+   "a",
+   "an",
+   "the an",
+   "some"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Complète : « Is this ___ bag? » (à toi)",
+  "a": [
+   "your",
+   "you",
+   "yours bag",
+   "you're"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « That is Tom's dog; ___ name is Rex. »",
+  "a": [
+   "it's",
+   "his's",
+   "their",
+   "its"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Complète : « Can you ___ the piano? »",
+  "a": [
+   "plays",
+   "playing",
+   "play",
+   "to play"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « I ___ swim, but I can run. »",
+  "a": [
+   "don't can",
+   "can't",
+   "can not to",
+   "no can"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel mot interroge sur le lieu ?",
+  "a": [
+   "Where",
+   "When",
+   "Who",
+   "Why"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel mot interroge sur la personne ?",
+  "a": [
+   "What",
+   "Which",
+   "Where",
+   "Who"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel mot interroge sur la raison ?",
+  "a": [
+   "How",
+   "Whose",
+   "Why",
+   "When"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment lit-on l'heure 3:15 ?",
+  "a": [
+   "a quarter to three",
+   "a quarter past three",
+   "half past three",
+   "three fifty"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel mois vient après « April » ?",
+  "a": [
+   "May",
+   "March",
+   "June",
+   "July"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel jour vient avant « Wednesday » ?",
+  "a": [
+   "Thursday",
+   "Monday",
+   "Friday",
+   "Tuesday"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que signifie « Thank you very much! » ?",
+  "a": [
+   "Bonne chance !",
+   "Merci beaucoup !",
+   "Pas de problème !",
+   "S'il vous plaît !"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que signifie « Happy birthday! » ?",
+  "a": [
+   "Joyeux Noël !",
+   "Joyeux anniversaire !",
+   "Bonne année !",
+   "Bonne chance !"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le nom du petit-déjeuner traditionnel britannique avec des oeufs et du bacon ?",
+  "a": [
+   "full English breakfast",
+   "afternoon tea",
+   "Sunday roast",
+   "fish and chips"
+  ],
+  "c": 0
+ }
+]

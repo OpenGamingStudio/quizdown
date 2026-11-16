@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Dans quelle ville peut-on voir la basilique Saint-Marc et ses mosaïques dorées ?",
+  "a": [
+   "Rome",
+   "Naples",
+   "Florence",
+   "Venise"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel peintre s'est représenté avec l'oreille bandée dans un célèbre autoportrait ?",
+  "a": [
+   "Claude Monet",
+   "Paul Cézanne",
+   "Vincent van Gogh",
+   "Pablo Picasso"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a peint la série des « Nymphéas » ?",
+  "a": [
+   "Auguste Renoir",
+   "Claude Monet",
+   "Paul Cézanne",
+   "Georges Seurat"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel musée parisien est installé dans une ancienne gare et expose des impressionnistes ?",
+  "a": [
+   "Le musée d'Orsay",
+   "Le Louvre",
+   "Le Petit Palais",
+   "Le musée Rodin"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a peint « Guernica » ?",
+  "a": [
+   "Pablo Picasso",
+   "Salvador Dalí",
+   "Henri Matisse",
+   "Joan Miró"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de cordes a un violoncelle ?",
+  "a": [
+   "6",
+   "3",
+   "5",
+   "4"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que veut dire « allegro » en musique ?",
+  "a": [
+   "Lent",
+   "Très doux",
+   "Rapide et joyeux",
+   "De plus en plus fort"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans quelle ville se trouve le Colisée ?",
+  "a": [
+   "Athènes",
+   "Rome",
+   "Florence",
+   "Venise"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Dans quelle ville se trouve le Parthénon ?",
+  "a": [
+   "Rome",
+   "Athènes",
+   "Istanbul",
+   "Le Caire"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment appelle-t-on les dessins et peintures de la Préhistoire faits dans des grottes, comme à Lascaux ?",
+  "a": [
+   "L'art rupestre",
+   "L'art gothique",
+   "L'art roman",
+   "L'art baroque"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle technique de peinture utilise de l'eau et donne des couleurs légères et transparentes ?",
+  "a": [
+   "Le fusain",
+   "La sculpture",
+   "L'aquarelle",
+   "La gravure"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a composé « Pierre et le Loup » ?",
+  "a": [
+   "Tchaïkovski",
+   "Chopin",
+   "Sergueï Prokofiev",
+   "Ravel"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel instrument de la famille des cuivres est le plus grave ?",
+  "a": [
+   "La trompette",
+   "Le tuba",
+   "Le cor",
+   "Le trombone"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a peint le plafond de la chapelle Sixtine ?",
+  "a": [
+   "Léonard de Vinci",
+   "Michel-Ange",
+   "Raphaël",
+   "Botticelli"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel peintre a réalisé « La Liberté guidant le peuple » ?",
+  "a": [
+   "Eugène Delacroix",
+   "Gustave Courbet",
+   "Édouard Manet",
+   "Claude Monet"
+  ],
+  "c": 0
+ },
+ {
+  "q": "À quelle famille d'instruments appartient le saxophone ?",
+  "a": [
+   "Les cuivres",
+   "Les cordes",
+   "Les percussions",
+   "Les bois"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a peint « La Cène » ?",
+  "a": [
+   "Michel-Ange",
+   "Rembrandt",
+   "Van Gogh",
+   "Léonard de Vinci"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que veut dire « a cappella » ?",
+  "a": [
+   "Chanter très fort",
+   "Chanter en cachette",
+   "Chanter sans instrument",
+   "Chanter à deux voix"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel outil le sculpteur utilise-t-il pour tailler la pierre ?",
+  "a": [
+   "Le pinceau",
+   "Le ciseau",
+   "Le crayon",
+   "Le fusain"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel artiste américain a reproduit des boîtes de soupe Campbell ?",
+  "a": [
+   "Andy Warhol",
+   "Jackson Pollock",
+   "Edward Hopper",
+   "Roy Lichtenstein"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a sculpté la statue de David (1501-1504) ?",
+  "a": [
+   "Michel-Ange",
+   "Rodin",
+   "Donatello",
+   "Bernin"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que fait un architecte ?",
+  "a": [
+   "Il soigne les malades",
+   "Il cuisine des plats",
+   "Il répare les voitures",
+   "Il dessine les plans des bâtiments"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel style d'architecture est caractérisé par des arcs brisés, des vitraux et des cathédrales très hautes ?",
+  "a": [
+   "Le roman",
+   "Le classique",
+   "Le gothique",
+   "Le moderne"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que signifie la nuance « piano » ?",
+  "a": [
+   "Fort",
+   "Doucement",
+   "Vite",
+   "Lentement"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a composé « Le Boléro » ?",
+  "a": [
+   "Mozart",
+   "Maurice Ravel",
+   "Bizet",
+   "Vivaldi"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel peintre est célèbre pour ses danseuses ?",
+  "a": [
+   "Edgar Degas",
+   "Paul Cézanne",
+   "Gustave Courbet",
+   "Vincent van Gogh"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment s'appelle celui qui écrit de la musique ?",
+  "a": [
+   "Un interprète",
+   "Un luthier",
+   "Un chef de chœur",
+   "Un compositeur"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel roi a fait construire le château de Versailles ?",
+  "a": [
+   "Louis XVI",
+   "François Ier",
+   "Louis XIV",
+   "Henri IV"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel instrument est le plus aigu de la famille des cordes frottées ?",
+  "a": [
+   "Le violoncelle",
+   "L'alto",
+   "Le violon",
+   "La contrebasse"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel pays est célèbre pour ses pyramides de Gizeh ?",
+  "a": [
+   "Le Mexique",
+   "L'Égypte",
+   "La Grèce",
+   "L'Italie"
+  ],
+  "c": 1
+ }
+]

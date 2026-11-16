@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Comment dit-on « Il y a un chat sur la table » ?",
+  "a": [
+   "There are a cat on the table",
+   "There is a cat on the table",
+   "It is a cat in the table",
+   "Has a cat on the table"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Complète : « I ___ ten years old. »",
+  "a": [
+   "am",
+   "is",
+   "are",
+   "have"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « She ___ a brother. »",
+  "a": [
+   "have",
+   "is",
+   "are",
+   "has"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Complète : « They ___ my friends. »",
+  "a": [
+   "is",
+   "am",
+   "are",
+   "has"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel mot désigne « la cuisine » (la pièce) ?",
+  "a": [
+   "chicken",
+   "kitchen",
+   "garden",
+   "bedroom"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel mot désigne « la chambre » ?",
+  "a": [
+   "bedroom",
+   "bathroom",
+   "kitchen",
+   "garage"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel mot désigne « la salle de bains » ?",
+  "a": [
+   "bedroom",
+   "living room",
+   "garden",
+   "bathroom"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment dit-on « Je n'aime pas le poisson » ?",
+  "a": [
+   "I not like fish",
+   "I doesn't like fish",
+   "I don't like fish",
+   "I like not fish"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que signifie « What time is it? » ?",
+  "a": [
+   "Quel temps fait-il ?",
+   "Quelle heure est-il ?",
+   "Quel jour sommes-nous ?",
+   "Quel âge as-tu ?"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que signifie « Where do you live? » ?",
+  "a": [
+   "Où habites-tu ?",
+   "Où vas-tu ?",
+   "Qui es-tu ?",
+   "Quand pars-tu ?"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment dit-on « mardi » en anglais ?",
+  "a": [
+   "Thursday",
+   "Wednesday",
+   "Monday",
+   "Tuesday"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment dit-on « jeudi » en anglais ?",
+  "a": [
+   "Tuesday",
+   "Thirsty",
+   "Thursday",
+   "Third day"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment dit-on « samedi » en anglais ?",
+  "a": [
+   "Sunday",
+   "Saturday",
+   "Friday",
+   "Monday"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment dit-on « janvier » en anglais ?",
+  "a": [
+   "January",
+   "June",
+   "July",
+   "August"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment dit-on « mars » en anglais ?",
+  "a": [
+   "May",
+   "Mars",
+   "Monday",
+   "March"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment dit-on « automne » en anglais ?",
+  "a": [
+   "spring",
+   "summer",
+   "autumn",
+   "winter"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment dit-on « le printemps » en anglais ?",
+  "a": [
+   "summer",
+   "spring",
+   "autumn",
+   "winter"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment dit-on « trente-neuf » ?",
+  "a": [
+   "thirty-nine",
+   "thirteen-nine",
+   "nine-thirty",
+   "three-nine"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment dit-on « le professeur » ?",
+  "a": [
+   "the doctor",
+   "the farmer",
+   "the baker",
+   "the teacher"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment dit-on « un chapeau » ?",
+  "a": [
+   "a hot",
+   "a hut",
+   "a hat",
+   "a head"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment dit-on « une chemise » ?",
+  "a": [
+   "a skirt",
+   "a shirt",
+   "a shoe",
+   "a sock"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment dit-on « une jupe » ?",
+  "a": [
+   "a skirt",
+   "a shirt",
+   "a scarf",
+   "a sweater"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment dit-on « des chaussures » ?",
+  "a": [
+   "socks",
+   "shorts",
+   "shirts",
+   "shoes"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que signifie « It's cold » ?",
+  "a": [
+   "Il fait chaud",
+   "Il fait beau",
+   "Il fait froid",
+   "Il fait nuit"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que signifie « It's hot » ?",
+  "a": [
+   "C'est un chapeau",
+   "Il fait chaud",
+   "Il fait froid",
+   "Il pleut"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que veut dire « Can I have some water, please? » ?",
+  "a": [
+   "Puis-je avoir de l'eau, s'il vous plaît ?",
+   "Je bois de l'eau",
+   "Où est l'eau ?",
+   "J'aime l'eau"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Dans « I can swim », que signifie « can » ?",
+  "a": [
+   "devoir",
+   "vouloir",
+   "aller",
+   "pouvoir / savoir (faire)"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment dit-on « Elle s'appelle Anna » ?",
+  "a": [
+   "His name is Anna",
+   "She name is Anna",
+   "Her name is Anna",
+   "Anna is call her"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la capitale de l'Angleterre ?",
+  "a": [
+   "Paris",
+   "London",
+   "Dublin",
+   "Edinburgh"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel animal est « a spider » ?",
+  "a": [
+   "une araignée",
+   "un serpent",
+   "un singe",
+   "un lapin"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le pluriel de « a cat » ?",
+  "a": [
+   "cates",
+   "cat's",
+   "caties",
+   "cats"
+  ],
+  "c": 3
+ }
+]

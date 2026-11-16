@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel organe permet d'échanger l'oxygène avec le sang ?",
+  "a": [
+   "Les poumons",
+   "L'estomac",
+   "Le foie",
+   "Les reins"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que transporte le sang dans le corps ?",
+  "a": [
+   "Seulement de l'eau",
+   "Du sel uniquement",
+   "Des os",
+   "De l'oxygène et des nutriments"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment appelle-t-on la transformation des aliments en nutriments ?",
+  "a": [
+   "La respiration",
+   "La circulation",
+   "La digestion",
+   "La germination"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Où se termine la digestion avec le rejet des déchets ?",
+  "a": [
+   "L'estomac",
+   "Le gros intestin et l'anus",
+   "La bouche",
+   "Les poumons"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment appelle-t-on le développement d'une graine qui commence à pousser ?",
+  "a": [
+   "La digestion",
+   "La germination",
+   "La fécondation",
+   "La migration"
+  ],
+  "c": 1
+ },
+ {
+  "q": "De quoi une graine a-t-elle besoin pour germer ?",
+  "a": [
+   "D'eau, d'air et de chaleur",
+   "De lumière intense seulement",
+   "De sel",
+   "De bruit"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui transporte le pollen d'une fleur à une autre ?",
+  "a": [
+   "Les poissons",
+   "Les nuages",
+   "Les cailloux",
+   "Les insectes comme les abeilles"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment appelle-t-on un animal qui se nourrit de viande et de végétaux ?",
+  "a": [
+   "Un herbivore",
+   "Un carnivore",
+   "Un omnivore",
+   "Un insectivore"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel animal est un omnivore ?",
+  "a": [
+   "Le lapin",
+   "Le lion",
+   "L'ours",
+   "Le crocodile"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment se déplace un poisson ?",
+  "a": [
+   "Il vole",
+   "Il nage",
+   "Il rampe",
+   "Il saute en galopant"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien de pattes a un insecte ?",
+  "a": [
+   "6",
+   "4",
+   "8",
+   "10"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de pattes a une araignée ?",
+  "a": [
+   "6",
+   "4",
+   "10",
+   "8"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel animal est un mammifère ?",
+  "a": [
+   "Le requin",
+   "Le thon",
+   "Le saumon",
+   "La baleine"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel animal est un oiseau qui ne vole pas ?",
+  "a": [
+   "Le moineau",
+   "L'aigle",
+   "Le manchot",
+   "Le pigeon"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que mangent les mammifères nouveau-nés ?",
+  "a": [
+   "Des insectes",
+   "Du lait de leur mère",
+   "Des graines",
+   "De la viande crue"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'une chaîne alimentaire ?",
+  "a": [
+   "Une suite d'êtres vivants qui se mangent",
+   "Une chaîne de vélo",
+   "Un collier de graines",
+   "Un cycle des saisons"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel être vivant est à la base d'une chaîne alimentaire ?",
+  "a": [
+   "Un végétal",
+   "Un loup",
+   "Un aigle",
+   "Un lion"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Pourquoi les plantes vertes ont-elles besoin de lumière ?",
+  "a": [
+   "Pour avoir chaud seulement",
+   "Pour respirer par les racines",
+   "Pour faire du bruit",
+   "Pour fabriquer leur matière"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'un volcan ?",
+  "a": [
+   "Un lac gelé",
+   "Un type de désert",
+   "Une montagne par où sort du magma",
+   "Une grotte d'eau"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelle-t-on le magma quand il sort d'un volcan ?",
+  "a": [
+   "Le sable",
+   "La lave",
+   "La cendre froide",
+   "La glace"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la forme de la Terre ?",
+  "a": [
+   "Plate",
+   "Presque une sphère",
+   "Un cube",
+   "Un cylindre"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle planète habitons-nous ?",
+  "a": [
+   "La Terre",
+   "Mars",
+   "Vénus",
+   "Jupiter"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la planète la plus proche du Soleil ?",
+  "a": [
+   "Mars",
+   "Jupiter",
+   "Neptune",
+   "Mercure"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans quel état est l'eau d'une rivière ?",
+  "a": [
+   "Solide",
+   "Gazeux",
+   "Liquide",
+   "Plasma"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment s'appelle le passage de l'état liquide à l'état gazeux ?",
+  "a": [
+   "La fusion",
+   "La solidification",
+   "L'évaporation",
+   "La condensation"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelle-t-on le passage de l'état solide à l'état liquide ?",
+  "a": [
+   "L'évaporation",
+   "La fusion",
+   "La condensation",
+   "La congélation"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel geste réduit les déchets ?",
+  "a": [
+   "Trier et recycler",
+   "Tout jeter dans la nature",
+   "Brûler le plastique",
+   "Gaspiller l'eau"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le rôle des dents incisives ?",
+  "a": [
+   "Écraser les aliments",
+   "Percer le sol",
+   "Souffler",
+   "Couper les aliments"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien de dents un adulte a-t-il environ quand elles sont toutes présentes ?",
+  "a": [
+   "20",
+   "12",
+   "50",
+   "32"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que faut-il pour bien récupérer la nuit ?",
+  "a": [
+   "Regarder des écrans toute la nuit",
+   "Ne jamais dormir",
+   "Dormir assez longtemps",
+   "Dormir 2 h seulement"
+  ],
+  "c": 2
+ }
+]

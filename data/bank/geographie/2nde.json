@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Qu'est-ce qu'un risque ?",
+  "a": [
+   "Un simple phénomène naturel sans conséquence",
+   "Une catastrophe déjà passée",
+   "Un impôt",
+   "La combinaison d'un aléa et d'une vulnérabilité"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'un aléa ?",
+  "a": [
+   "Une assurance",
+   "Un phénomène naturel ou technologique dangereux",
+   "Un plan de secours",
+   "Un type de climat"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle faille est associée aux séismes en Californie ?",
+  "a": [
+   "La faille de San Andreas",
+   "La faille de Corinthe",
+   "La faille de Tokyo",
+   "La faille de Gibraltar"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel volcan italien a détruit Pompéi en 79 ?",
+  "a": [
+   "Le Vésuve",
+   "L'Etna",
+   "Le Stromboli",
+   "Le Krakatoa"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment appelle-t-on les cyclones tropicaux de l'Atlantique Nord ?",
+  "a": [
+   "Les ouragans",
+   "Les typhons",
+   "Les moussons",
+   "Les tornades"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la mousson ?",
+  "a": [
+   "Un vent froid de montagne",
+   "Un vent saisonnier apportant de fortes pluies en Asie du Sud",
+   "Un courant marin glacé",
+   "Une tempête de sable"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel gaz à effet de serre est émis par l'élevage de ruminants et les rizières ?",
+  "a": [
+   "Le méthane",
+   "L'oxygène",
+   "L'hélium",
+   "L'argon"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel organisme international évalue les connaissances sur le changement climatique ?",
+  "a": [
+   "Le GIEC",
+   "L'OMC",
+   "L'OTAN",
+   "Le FMI"
+  ],
+  "c": 0
+ },
+ {
+  "q": "En quelle année l'accord de Paris sur le climat est-il adopté ?",
+  "a": [
+   "1992",
+   "1997",
+   "2009",
+   "2015"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel accord international de 1997 vise à limiter les émissions de gaz à effet de serre ?",
+  "a": [
+   "L'accord de Schengen",
+   "Le traité de Maastricht",
+   "La Charte de Paris",
+   "Le protocole de Kyoto"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que l'effet de serre ?",
+  "a": [
+   "Un phénomène provoqué uniquement par les serres agricoles",
+   "Un phénomène naturel qui retient la chaleur terrestre",
+   "Une pluie acide",
+   "La couche d'ozone elle-même"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel combustible est utilisé dans les centrales nucléaires ?",
+  "a": [
+   "L'uranium",
+   "Le charbon",
+   "Le gaz naturel",
+   "Le lithium"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'une énergie fossile ?",
+  "a": [
+   "Une énergie du vent",
+   "Une énergie du Soleil",
+   "Une énergie issue de matières organiques enfouies",
+   "Une énergie des marées"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que la transition énergétique ?",
+  "a": [
+   "Le passage des énergies fossiles à des énergies bas carbone",
+   "Le passage de l'électricité au charbon",
+   "La fermeture de toutes les usines",
+   "L'interdiction des transports"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la biodiversité ?",
+  "a": [
+   "Le nombre de villes",
+   "La densité de population",
+   "La diversité des espèces vivantes et des milieux",
+   "Le volume d'eau d'un lac"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que la déforestation ?",
+  "a": [
+   "La plantation d'arbres",
+   "La protection des parcs",
+   "La disparition de forêts à cause de l'activité humaine",
+   "La pousse naturelle des forêts"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel massif forestier d'Afrique est la deuxième forêt tropicale du monde ?",
+  "a": [
+   "Le bassin du Congo",
+   "Le Sahel",
+   "Le Kalahari",
+   "Le bassin du Zambèze"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle ville d'Afrique du Sud est le siège du gouvernement (capitale exécutive) ?",
+  "a": [
+   "Pretoria",
+   "Le Cap",
+   "Johannesburg",
+   "Durban"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel pays d'Afrique australe est une puissance économique régionale ?",
+  "a": [
+   "Le Botswana",
+   "L'Afrique du Sud",
+   "La Namibie",
+   "Le Malawi"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel fleuve forme la frontière entre la Zambie et le Zimbabwe, avec les chutes Victoria ?",
+  "a": [
+   "Le Nil",
+   "Le Zambèze",
+   "Le Congo",
+   "Le Niger"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que l'apartheid ?",
+  "a": [
+   "Un type de climat",
+   "Un régime de ségrégation raciale en Afrique du Sud",
+   "Un système économique",
+   "Un accord commercial"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel mot désigne la croissance de la population des villes dans les pays du Sud ?",
+  "a": [
+   "La désertification",
+   "L'urbanisation rapide",
+   "La déforestation",
+   "La glaciation"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que mesure l'empreinte écologique ?",
+  "a": [
+   "La pression d'un mode de vie sur les ressources",
+   "La surface d'un parc naturel",
+   "La taille d'une ville",
+   "Le nombre d'espèces vivantes"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que l'économie circulaire ?",
+  "a": [
+   "Un modèle qui réutilise et recycle pour réduire les déchets",
+   "Un système de transport en cercle",
+   "Une économie sans échanges",
+   "Une monnaie commune"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que sont les ODD (objectifs de développement durable) de l'ONU ?",
+  "a": [
+   "17 objectifs à atteindre d'ici 2030",
+   "Un traité de commerce",
+   "Un parti politique",
+   "Une armée de l'ONU"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle ville est une métropole littorale très peuplée d'Afrique de l'Ouest, capitale économique du Nigeria ?",
+  "a": [
+   "Abuja",
+   "Lagos",
+   "Dakar",
+   "Accra"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel désert côtier borde l'océan Atlantique en Namibie ?",
+  "a": [
+   "Le Namib",
+   "Le Sahara",
+   "Le Kalahari",
+   "Le Gobi"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la désertification ?",
+  "a": [
+   "L'extension des zones désertiques",
+   "La création d'oasis",
+   "La plantation de forêts",
+   "La fonte des glaces"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle mer est en voie d'assèchement à cause de l'irrigation excessive en Asie centrale ?",
+  "a": [
+   "La mer d'Aral",
+   "La mer Noire",
+   "La mer Rouge",
+   "La mer Baltique"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel fleuve sacré de l'Inde se jette dans le golfe du Bengale ?",
+  "a": [
+   "Le Gange",
+   "L'Indus",
+   "Le Mékong",
+   "Le Yangzi Jiang"
+  ],
+  "c": 0
+ }
+]

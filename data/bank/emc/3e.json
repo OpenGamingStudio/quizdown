@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Qu'est-ce que la laïcité selon la loi de 1905 ?",
+  "a": [
+   "La suppression des religions",
+   "Séparation des Églises et de l'État, liberté de conscience",
+   "Le financement d'une religion d'État",
+   "L'interdiction des fêtes religieuses"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la citoyenneté européenne ?",
+  "a": [
+   "Un statut avec des droits communs aux citoyens de l'UE",
+   "Un passeport mondial",
+   "Une nationalité unique remplaçant les autres",
+   "Un statut réservé aux élus"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel droit confère la citoyenneté européenne ?",
+  "a": [
+   "Voter à toutes les élections françaises",
+   "Être exempté d'impôt",
+   "Choisir sa nationalité librement",
+   "Voter aux élections européennes dans son pays de résidence"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelles sont les institutions principales de l'UE ?",
+  "a": [
+   "Assemblée nationale, Sénat, Conseil d'État",
+   "OTAN, ONU, OMS",
+   "Parlement européen, Conseil, Commission",
+   "Congrès, Sénat, Cour suprême"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui représente directement les citoyens de l'UE ?",
+  "a": [
+   "La Commission européenne",
+   "Le Parlement européen",
+   "Le Conseil de l'Europe",
+   "La Banque centrale européenne"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Tous les combien d'années élit-on le Parlement européen ?",
+  "a": [
+   "5 ans",
+   "4 ans",
+   "6 ans",
+   "7 ans"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que l'espace Schengen ?",
+  "a": [
+   "Une zone monétaire",
+   "Un traité militaire",
+   "Une zone de libre-échange mondiale",
+   "Un espace sans contrôle aux frontières intérieures"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que la Banque centrale européenne ?",
+  "a": [
+   "Un tribunal",
+   "L'institution qui gère l'euro",
+   "Une assemblée élue",
+   "Une armée"
+  ],
+  "c": 1
+ },
+ {
+  "q": "En quelle année l'euro est-il entré en circulation sous forme de pièces et billets ?",
+  "a": [
+   "1992",
+   "2002",
+   "1999",
+   "2010"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la Commission européenne ?",
+  "a": [
+   "Un tribunal",
+   "Une armée",
+   "Une banque",
+   "L'institution qui propose les lois de l'UE"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel traité de 1957 a fondé la Communauté économique européenne ?",
+  "a": [
+   "Le traité de Versailles",
+   "Le traité de Maastricht",
+   "Le traité de Lisbonne",
+   "Le traité de Rome"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quels principes l'UE défend-elle ?",
+  "a": [
+   "Monarchie, censure",
+   "Dictature",
+   "Démocratie, État de droit, droits de l'homme",
+   "Autarcie"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que la défense nationale ?",
+  "a": [
+   "Faire la police locale",
+   "Protéger le pays, la population et les intérêts",
+   "Gérer les impôts",
+   "Éduquer"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la Journée défense et citoyenneté (JDC) ?",
+  "a": [
+   "Une journée d'information sur la défense pour les jeunes",
+   "Un service militaire obligatoire d'un an",
+   "Une élection",
+   "Un examen"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la conscription ?",
+  "a": [
+   "Le service militaire obligatoire",
+   "Un vote",
+   "Un impôt",
+   "Un contrat de travail"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un engagement associatif ?",
+  "a": [
+   "Être élu",
+   "Être salarié",
+   "S'investir dans une association librement",
+   "Payer ses impôts"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle loi de 1901 encadre les associations ?",
+  "a": [
+   "La loi sur la presse",
+   "La loi sur la liberté d'association",
+   "La loi sur la laïcité",
+   "La loi sur l'école"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la liberté d'association ?",
+  "a": [
+   "Pouvoir créer ou rejoindre une association",
+   "Obliger à adhérer",
+   "Interdire les groupes",
+   "Réserver aux élus"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la liberté de manifestation ?",
+  "a": [
+   "Faire du désordre",
+   "Casser des biens",
+   "Aller où l'on veut",
+   "Se rassembler pour exprimer ses opinions, selon la loi"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que le droit d'accès aux données personnelles ?",
+  "a": [
+   "Pouvoir copier un site",
+   "Demander les données qu'un organisme détient sur soi",
+   "Un abonnement",
+   "Un impôt"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que dit le RGPD ?",
+  "a": [
+   "Il fixe le prix de l'énergie",
+   "Il protège les données personnelles des Européens",
+   "Il crée la monnaie unique",
+   "Il règle la défense"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'une monarchie constitutionnelle ?",
+  "a": [
+   "Un roi tout-puissant",
+   "Une république",
+   "Un régime militaire",
+   "Un roi dont les pouvoirs sont limités par la Constitution"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'un régime autoritaire ?",
+  "a": [
+   "Un pouvoir partagé",
+   "Un pouvoir local",
+   "Un pouvoir religieux seulement",
+   "Un pouvoir concentré, avec peu de libertés"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel texte est le plus haut dans la hiérarchie des normes en France ?",
+  "a": [
+   "Un décret",
+   "Une loi",
+   "La Constitution",
+   "Un arrêté municipal"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un décret ?",
+  "a": [
+   "Une loi du Parlement",
+   "Un acte du pouvoir exécutif",
+   "Un jugement",
+   "Un traité"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la neutralité du service public ?",
+  "a": [
+   "L'agent ne manifeste pas ses opinions envers les usagers",
+   "Le service est gratuit",
+   "Il n'y a pas de service",
+   "L'usager ne doit rien dire"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel mot désigne le fait de défendre l'intérêt général ?",
+  "a": [
+   "Individualisme",
+   "Corporatisme",
+   "Isolement",
+   "Civisme"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'une théorie du complot ?",
+  "a": [
+   "Un résultat scientifique",
+   "Un secret organisé imaginé partout, sans preuve",
+   "Un article de loi",
+   "Un sondage"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un biais de confirmation ?",
+  "a": [
+   "Vérifier toutes les sources",
+   "Chercher les infos qui confortent ce qu'on croit",
+   "Changer d'avis souvent",
+   "Ignorer les médias"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un algorithme de recommandation ?",
+  "a": [
+   "Un programme qui propose des contenus selon vos usages",
+   "Un article de loi",
+   "Un vote",
+   "Un satellite"
+  ],
+  "c": 0
+ }
+]

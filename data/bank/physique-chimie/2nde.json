@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Combien d'entités contient une mole ?",
+  "a": [
+   "6,02 x 10¹⁹",
+   "3 x 10⁸",
+   "1,6 x 10⁻¹⁹",
+   "6,02 x 10²³"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la masse molaire de l'eau H₂O (H = 1 ; O = 16 g/mol) ?",
+  "a": [
+   "18 g/mol",
+   "17 g/mol",
+   "16 g/mol",
+   "34 g/mol"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la masse molaire du dioxyde de carbone CO₂ (C = 12 ; O = 16 g/mol) ?",
+  "a": [
+   "28 g/mol",
+   "44 g/mol",
+   "32 g/mol",
+   "56 g/mol"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle quantité de matière représentent 36 g d'eau (M = 18 g/mol) ?",
+  "a": [
+   "0,5 mol",
+   "648 mol",
+   "2 mol",
+   "18 mol"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la masse de 0,5 mol de NaCl (M = 58,5 g/mol) ?",
+  "a": [
+   "117 g",
+   "58,5 g",
+   "29,25 g",
+   "0,5 g"
+  ],
+  "c": 2
+ },
+ {
+  "q": "On dissout 0,2 mol de soluté dans 0,5 L de solution. Quelle est la concentration ?",
+  "a": [
+   "0,1 mol/L",
+   "0,4 mol/L",
+   "2,5 mol/L",
+   "0,7 mol/L"
+  ],
+  "c": 1
+ },
+ {
+  "q": "On dilue une solution d'un facteur 10. La concentration est...",
+  "a": [
+   "multipliée par 10",
+   "inchangée",
+   "divisée par 10",
+   "divisée par 100"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle formule relie la quantité de matière n, la masse m et M ?",
+  "a": [
+   "n = m x M",
+   "n = M - m",
+   "n = m / M",
+   "n = m + M"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien d'électrons un atome neutre de carbone (Z = 6) possède-t-il ?",
+  "a": [
+   "12",
+   "8",
+   "4",
+   "6"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le nombre de nucléons d'un atome de carbone 12 ?",
+  "a": [
+   "12",
+   "6",
+   "18",
+   "24"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de neutrons contient le noyau 14 6 C (A = 14 ; Z = 6) ?",
+  "a": [
+   "6",
+   "8",
+   "14",
+   "20"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Deux isotopes ont...",
+  "a": [
+   "le même nombre de neutrons",
+   "le même nombre de protons et un nombre différent de neutrons",
+   "des charges différentes",
+   "le même nombre de nucléons mais pas de protons"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la configuration électronique de l'oxygène (Z = 8) ?",
+  "a": [
+   "1s² 2s² 2p⁴",
+   "1s² 2s² 2p⁶",
+   "1s² 2s⁴",
+   "1s² 2p⁶"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien d'électrons de valence a un atome de chlore (Z = 17) ?",
+  "a": [
+   "17",
+   "1",
+   "8",
+   "7"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien de liaisons covalentes forme un atome d'oxygène généralement ?",
+  "a": [
+   "2",
+   "1",
+   "4",
+   "6"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de doublets liants y a-t-il dans la molécule de dihydrogène H₂ ?",
+  "a": [
+   "2",
+   "1",
+   "0",
+   "4"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Dans le tableau périodique, les éléments d'une même colonne ont...",
+  "a": [
+   "le même nombre de protons",
+   "la même masse",
+   "le même nombre d'électrons de valence",
+   "le même nombre de neutrons"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est l'expression de la concentration massique d'une espèce (masse m dans un volume V) ?",
+  "a": [
+   "t = m / V",
+   "t = m x V",
+   "t = V / m",
+   "t = m + V"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la résistance équivalente de deux résistances de 10 ohms en série ?",
+  "a": [
+   "20 ohms",
+   "5 ohms",
+   "10 ohms",
+   "100 ohms"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien d'électrons possède l'ion Na⁺ (Z = 11) ?",
+  "a": [
+   "10",
+   "11",
+   "12",
+   "9"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de doublets non liants l'atome d'oxygène porte-t-il dans la molécule H₂O ?",
+  "a": [
+   "2",
+   "1",
+   "4",
+   "0"
+  ],
+  "c": 0
+ },
+ {
+  "q": "L'ion Mg²⁺ est formé à partir de l'atome Mg (Z = 12). Combien d'électrons l'atome a-t-il perdus ?",
+  "a": [
+   "2",
+   "12",
+   "10",
+   "1"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Selon le principe d'inertie, un objet soumis à des forces qui se compensent...",
+  "a": [
+   "accélère",
+   "ralentit",
+   "tourne",
+   "reste immobile ou en mouvement rectiligne uniforme"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Un livre est immobile sur une table : quelles forces s'exercent sur lui ?",
+  "a": [
+   "Son poids et la réaction de la table, qui se compensent",
+   "Seulement son poids",
+   "Seulement la réaction de la table",
+   "Aucune force"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la relation entre fréquence et période ?",
+  "a": [
+   "f = T",
+   "f = 1 / T",
+   "f = T²",
+   "f = T / 2"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Une onde a une période de 0,02 s. Quelle est sa fréquence ?",
+  "a": [
+   "0,02 Hz",
+   "5 Hz",
+   "50 Hz",
+   "500 Hz"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est l'aspect du spectre d'émission d'une lampe à vapeur de sodium (gaz à basse pression) ?",
+  "a": [
+   "Des raies colorées sur fond noir",
+   "Un fond coloré continu uniquement",
+   "Des raies noires sur fond coloré",
+   "Aucune lumière"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle loi de Snell-Descartes décrit la réfraction ?",
+  "a": [
+   "n1 cos(i1) = n2 cos(i2)",
+   "i1 + i2 = 90 degrés",
+   "n1 + i1 = n2 + i2",
+   "n1 sin(i1) = n2 sin(i2)"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que vaut l'indice de réfraction du vide ?",
+  "a": [
+   "1",
+   "0",
+   "1,33",
+   "1,5"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la définition de l'indice de réfraction n d'un milieu ?",
+  "a": [
+   "n = v / c",
+   "n = c / v",
+   "n = c x v",
+   "n = c - v"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle couleur correspond à la longueur d'onde la plus courte du spectre visible ?",
+  "a": [
+   "Rouge",
+   "Vert",
+   "Violet",
+   "Jaune"
+  ],
+  "c": 2
+ }
+]

@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Comment appelle-t-on le passage direct de l'état solide à l'état gazeux ?",
+  "a": [
+   "La sublimation",
+   "La fusion",
+   "La vaporisation",
+   "La solidification"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment appelle-t-on le passage direct de l'état gazeux à l'état liquide ?",
+  "a": [
+   "La fusion",
+   "La vaporisation",
+   "La liquéfaction (condensation)",
+   "La sublimation"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Lors d'un changement d'état, la masse d'un corps...",
+  "a": [
+   "augmente",
+   "diminue",
+   "double",
+   "se conserve"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Lors d'un changement d'état, le volume d'une même masse...",
+  "a": [
+   "peut changer",
+   "ne change jamais",
+   "est toujours nul",
+   "est toujours identique"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel mélange est hétérogène ?",
+  "a": [
+   "De l'eau salée",
+   "De l'eau et de l'huile",
+   "Du sirop dilué",
+   "De l'air filtré"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel instrument de laboratoire sert à mesurer un volume de liquide ?",
+  "a": [
+   "Une éprouvette graduée",
+   "Un thermomètre",
+   "Une balance",
+   "Un entonnoir"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment sépare-t-on l'eau et l'huile ?",
+  "a": [
+   "Par filtration au papier",
+   "Par évaporation du sel",
+   "Par aimantation",
+   "Par décantation"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment obtient-on de l'eau pure à partir d'eau salée ?",
+  "a": [
+   "Par distillation",
+   "Par tamisage",
+   "Par aimant",
+   "Par simple filtration"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que signifie dissoudre du sucre dans l'eau ?",
+  "a": [
+   "Le sucre disparaît totalement",
+   "Le sucre se répartit dans l'eau et devient invisible",
+   "Le sucre devient de l'eau",
+   "Le sucre se transforme en gaz"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Dans une solution, le liquide qui dissout est le...",
+  "a": [
+   "soluté",
+   "solvant",
+   "filtrat",
+   "dépôt"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Dans l'eau sucrée, le sucre est le...",
+  "a": [
+   "solvant",
+   "précipité",
+   "soluté",
+   "filtre"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la valeur approximative de la vitesse de la lumière dans le vide ?",
+  "a": [
+   "300 km/s",
+   "30 000 km/s",
+   "340 m/s",
+   "300 000 km/s"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Un objet est visible quand...",
+  "a": [
+   "il envoie de la lumière vers notre œil",
+   "il est noir",
+   "il est seulement chaud",
+   "il est lourd"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment se propage la lumière dans un milieu transparent et homogène ?",
+  "a": [
+   "En courbe",
+   "En ligne droite",
+   "En cercle",
+   "En spirale"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel objet est une source primaire de lumière ?",
+  "a": [
+   "La Lune",
+   "Un miroir",
+   "Le Soleil",
+   "Un mur blanc"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Pourquoi voit-on la Lune ?",
+  "a": [
+   "Elle produit sa propre lumière",
+   "Elle réfléchit la lumière de la Terre",
+   "Elle est chaude",
+   "Elle diffuse la lumière du Soleil"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la forme de l'ombre portée d'un objet opaque sur un écran ?",
+  "a": [
+   "Elle ressemble à la silhouette de l'objet",
+   "Elle est toujours ronde",
+   "Elle est colorée",
+   "Elle n'existe pas"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le rôle d'un interrupteur dans un circuit ?",
+  "a": [
+   "Ouvrir ou fermer le circuit",
+   "Produire de l'électricité",
+   "Mesurer le courant",
+   "Chauffer le fil"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Une lampe est montée sur une pile, circuit fermé : elle...",
+  "a": [
+   "brille",
+   "reste éteinte",
+   "explose",
+   "devient une pile"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le rôle d'une pile dans un circuit électrique ?",
+  "a": [
+   "Fournir de l'énergie électrique",
+   "Mesurer la tension",
+   "Isoler le circuit",
+   "Couper le courant"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le sens conventionnel du courant dans un circuit ?",
+  "a": [
+   "Du pôle - vers le pôle +",
+   "Il n'a pas de sens",
+   "Du pôle + vers le pôle - à l'extérieur de la pile",
+   "Il change à chaque seconde"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle sorte de tension fournit une pile plate ?",
+  "a": [
+   "230 V",
+   "0,5 V",
+   "1 000 V",
+   "4,5 V"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la tension du secteur domestique en France ?",
+  "a": [
+   "230 V",
+   "12 V",
+   "1,5 V",
+   "4,5 V"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Un objet qui change de position au cours du temps est...",
+  "a": [
+   "immobile",
+   "en mouvement",
+   "éteint",
+   "en équilibre seulement"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Une trajectoire rectiligne est...",
+  "a": [
+   "un cercle",
+   "une ligne droite",
+   "une courbe",
+   "un point"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est l'unité de vitesse la plus courante dans la vie quotidienne en France ?",
+  "a": [
+   "Le kilomètre",
+   "Le kilogramme par heure",
+   "Le kilomètre par heure",
+   "Le litre par heure"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la forme d'énergie d'un objet en mouvement ?",
+  "a": [
+   "L'énergie nucléaire",
+   "L'énergie chimique",
+   "L'énergie cinétique",
+   "L'énergie sonore"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Une voiture qui roule à 90 km/h pendant 2 h parcourt...",
+  "a": [
+   "45 km",
+   "92 km",
+   "90 km",
+   "180 km"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel gaz représente environ 21 % de l'air ?",
+  "a": [
+   "Le dioxygène",
+   "Le diazote",
+   "Le dioxyde de carbone",
+   "L'argon"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la masse d'un litre d'air environ ?",
+  "a": [
+   "Environ 1,2 g",
+   "Rien : l'air n'a pas de masse",
+   "Environ 1 kg",
+   "Environ 120 g"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la température normale du corps humain en bonne santé ?",
+  "a": [
+   "Environ 37 °C",
+   "Environ 20 °C",
+   "Environ 50 °C",
+   "Environ 10 °C"
+  ],
+  "c": 0
+ }
+]

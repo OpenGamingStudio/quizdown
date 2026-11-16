@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Comment définit-on la mondialisation ?",
+  "a": [
+   "La fermeture des frontières",
+   "Un recul du commerce",
+   "La disparition des États",
+   "L'intensification des flux de biens, de personnes et d'idées"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle organisation régule le commerce mondial depuis 1995 ?",
+  "a": [
+   "L'OTAN",
+   "L'UNESCO",
+   "L'OMC",
+   "L'OMS"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quels sont les pôles de la Triade ?",
+  "a": [
+   "Afrique, Asie, Océanie",
+   "Europe, Afrique, Amérique du Sud",
+   "Amérique du Nord, Europe, Asie orientale",
+   "Russie, Inde, Brésil"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un hub dans les transports ?",
+  "a": [
+   "Un carrefour où convergent et se redistribuent les flux",
+   "Un type de train",
+   "Un petit port de pêche",
+   "Une taxe douanière"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'une interface dans la mondialisation ?",
+  "a": [
+   "Un désert",
+   "Une forêt",
+   "Un espace de contact et d'échanges entre territoires",
+   "Un champ"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un paradis fiscal ?",
+  "a": [
+   "Un lieu de vacances",
+   "Un territoire à fiscalité très faible, attirant des capitaux",
+   "Une zone industrielle",
+   "Un parc national"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'une zone franche ?",
+  "a": [
+   "Un territoire sans habitants",
+   "Un espace aux taxes allégées pour attirer les entreprises",
+   "Un quartier historique",
+   "Une réserve naturelle"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle région est appelée Silicon Valley ?",
+  "a": [
+   "Un quartier de Londres",
+   "Une zone industrielle de Chine",
+   "Une région californienne de hautes technologies",
+   "Une île du Pacifique"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que la littoralisation ?",
+  "a": [
+   "La disparition des côtes",
+   "La concentration des hommes et activités sur les côtes",
+   "Le départ vers l'intérieur des terres",
+   "La montée des eaux"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'une conurbation ?",
+  "a": [
+   "Un ensemble de villes voisines qui se rejoignent",
+   "Une ville fantôme",
+   "Un quartier historique",
+   "Un village isolé"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la déprise agricole ?",
+  "a": [
+   "L'abandon de terres cultivées",
+   "L'achat de terres par l'État",
+   "La hausse du prix du blé",
+   "L'extension des cultures sous serre"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que l'ALENA (devenu ACEUM) ?",
+  "a": [
+   "Un traité de défense",
+   "Une organisation scientifique",
+   "Une monnaie",
+   "Un accord de libre-échange nord-américain"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que l'ASEAN ?",
+  "a": [
+   "Une organisation de l'Afrique",
+   "Une organisation de coopération des pays d'Asie du Sud-Est",
+   "Un traité atlantique",
+   "Une banque européenne"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle ville est le siège de la Commission européenne ?",
+  "a": [
+   "Strasbourg",
+   "Luxembourg",
+   "Bruxelles",
+   "Paris"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que la dorsale européenne ?",
+  "a": [
+   "Une chaîne de montagnes",
+   "Un espace densément peuplé et puissant de Londres à Milan",
+   "Un fleuve européen",
+   "Un pays d'Europe"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la politique agricole commune (PAC) ?",
+  "a": [
+   "Une loi française sur l'élevage",
+   "Une politique de l'UE de soutien à l'agriculture",
+   "Un accord mondial sur le blé",
+   "Un traité de l'ONU"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un territoire ultramarin ?",
+  "a": [
+   "Un territoire en altitude",
+   "Un territoire français situé hors d'Europe, outre-mer",
+   "Un territoire du Sahara",
+   "Un territoire étranger"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'une ZEE (zone économique exclusive) ?",
+  "a": [
+   "Espace maritime d'un État, jusqu'à 200 milles marins",
+   "Une zone franche terrestre",
+   "Un parc national",
+   "Une région de l'UE"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel rang la France occupe-t-elle pour l'étendue de sa ZEE ?",
+  "a": [
+   "Le deuxième rang mondial",
+   "Le premier rang mondial",
+   "Le cinquième rang mondial",
+   "Le dixième rang mondial"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel aménagement a transformé la vallée du Rhône pour l'hydroélectricité et la navigation ?",
+  "a": [
+   "Le canal de Suez",
+   "Le canal de Panama",
+   "Les barrages de la Compagnie nationale du Rhône",
+   "Le tunnel sous la Manche"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel pays est le premier producteur agricole de l'UE ?",
+  "a": [
+   "La France",
+   "La Finlande",
+   "Le Portugal",
+   "Malte"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un pôle de compétitivité ?",
+  "a": [
+   "Un stade",
+   "Un regroupement d'entreprises et de laboratoires",
+   "Un marché local",
+   "Une école primaire"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que l'agriculture biologique ?",
+  "a": [
+   "Une agriculture sous serre en hiver",
+   "Une agriculture sans eau",
+   "Une agriculture avec OGM obligatoire",
+   "Une agriculture sans pesticides ni engrais de synthèse"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que la zone euro ?",
+  "a": [
+   "L'ensemble des pays de l'UE ayant adopté l'euro",
+   "Un traité militaire",
+   "Un espace de libre circulation sans visa",
+   "Un parc naturel"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que le Mercosur ?",
+  "a": [
+   "Un traité de défense",
+   "Un marché commun de pays d'Amérique du Sud",
+   "Une organisation africaine",
+   "Un accord asiatique"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle technopole de la Côte d'Azur est un grand parc d'activités technologiques ?",
+  "a": [
+   "Sophia Antipolis",
+   "Fos-sur-Mer",
+   "Cadarache",
+   "Lacq"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que le tourisme de masse ?",
+  "a": [
+   "Un tourisme à grande échelle, très fréquenté",
+   "Un tourisme de montagne seul",
+   "Un tourisme en camping-car uniquement",
+   "Un tourisme sans transport"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un flux migratoire ?",
+  "a": [
+   "Un mouvement de personnes d'un espace vers un autre",
+   "Un courant marin",
+   "Un vent",
+   "Une rivière"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle ville est considérée comme ville globale, avec New York et Tokyo ?",
+  "a": [
+   "Londres",
+   "Madrid",
+   "Vienne",
+   "Lisbonne"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle mer relie l'Europe à l'Afrique du Nord ?",
+  "a": [
+   "La Méditerranée",
+   "La mer Baltique",
+   "La mer Blanche",
+   "La mer du Nord"
+  ],
+  "c": 0
+ }
+]

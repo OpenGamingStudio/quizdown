@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel peintre fauve a réalisé « La Danse » en 1910 ?",
+  "a": [
+   "Henri Matisse",
+   "André Derain",
+   "Raoul Dufy",
+   "Maurice de Vlaminck"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a peint « Les Demoiselles d'Avignon » en 1907 ?",
+  "a": [
+   "Henri Matisse",
+   "Georges Braque",
+   "André Derain",
+   "Pablo Picasso"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a peint « Un bar aux Folies-Bergère » ?",
+  "a": [
+   "Edgar Degas",
+   "Auguste Renoir",
+   "Édouard Manet",
+   "Claude Monet"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a composé la « Symphonie fantastique » ?",
+  "a": [
+   "Franz Liszt",
+   "Hector Berlioz",
+   "Richard Wagner",
+   "Felix Mendelssohn"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel mouvement artistique a fondé Kasimir Malevitch ?",
+  "a": [
+   "Le constructivisme",
+   "Le suprématisme",
+   "Le futurisme",
+   "Le néoplasticisme"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a peint « Nu descendant un escalier » ?",
+  "a": [
+   "Marcel Duchamp",
+   "Pablo Picasso",
+   "Fernand Léger",
+   "Francis Picabia"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel architecte américain a conçu la maison de la Cascade (Fallingwater) ?",
+  "a": [
+   "Mies van der Rohe",
+   "Louis Sullivan",
+   "Philip Johnson",
+   "Frank Lloyd Wright"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel mouvement néerlandais, à la suite de Mondrian, privilégie lignes droites et couleurs primaires ?",
+  "a": [
+   "Cobra",
+   "Dada",
+   "De Stijl",
+   "Fluxus"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a composé « Le Sacre du printemps » ?",
+  "a": [
+   "Maurice Ravel",
+   "Claude Debussy",
+   "Igor Stravinsky",
+   "Sergueï Prokofiev"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a fondé la troupe des Ballets russes ?",
+  "a": [
+   "Vaslav Nijinski",
+   "Serge de Diaghilev",
+   "Igor Stravinsky",
+   "George Balanchine"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel compositeur américain est l'auteur de la pièce silencieuse « 4'33'' » ?",
+  "a": [
+   "John Cage",
+   "Philip Glass",
+   "Steve Reich",
+   "Charles Ives"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel peintre a peint de nombreuses fois la montagne Sainte-Victoire ?",
+  "a": [
+   "Claude Monet",
+   "Paul Gauguin",
+   "Vincent van Gogh",
+   "Paul Cézanne"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a réalisé « Le Cuirassé Potemkine » ?",
+  "a": [
+   "Fritz Lang",
+   "Dziga Vertov",
+   "Andreï Tarkovski",
+   "Sergueï Eisenstein"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a réalisé « La Règle du jeu » ?",
+  "a": [
+   "Marcel Carné",
+   "Jean Vigo",
+   "Jean Renoir",
+   "René Clair"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel photographe est associé à la notion de « moment décisif » ?",
+  "a": [
+   "Robert Doisneau",
+   "Henri Cartier-Bresson",
+   "Man Ray",
+   "Brassaï"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel architecte canadien-américain a conçu le musée Guggenheim de Bilbao ?",
+  "a": [
+   "Frank Gehry",
+   "Zaha Hadid",
+   "Renzo Piano",
+   "Norman Foster"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel compositeur est l'auteur de « Daphnis et Chloé » ?",
+  "a": [
+   "Maurice Ravel",
+   "Claude Debussy",
+   "Erik Satie",
+   "Francis Poulenc"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel compositeur est l'auteur des Préludes pour piano dont « La Cathédrale engloutie » ?",
+  "a": [
+   "Maurice Ravel",
+   "Gabriel Fauré",
+   "Claude Debussy",
+   "Erik Satie"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Pour quelle exposition internationale Picasso a-t-il réalisé « Guernica » en 1937 ?",
+  "a": [
+   "L'Exposition de Londres",
+   "L'Exposition de New York",
+   "L'Exposition de Paris",
+   "L'Exposition de Madrid"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel peintre américain est l'auteur de « Nighthawks » ?",
+  "a": [
+   "Andrew Wyeth",
+   "Edward Hopper",
+   "Jackson Pollock",
+   "Mark Rothko"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel artiste est célèbre pour son bleu IKB ?",
+  "a": [
+   "Pierre Soulages",
+   "Yves Klein",
+   "Joan Miró",
+   "Henri Matisse"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel artiste a emballé le Pont-Neuf en 1985 ?",
+  "a": [
+   "Christo",
+   "Daniel Buren",
+   "Richard Serra",
+   "Jean Tinguely"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle architecte britannique d'origine irakienne a conçu des bâtiments aux formes fluides ?",
+  "a": [
+   "Kazuyo Sejima",
+   "Denise Scott Brown",
+   "Eileen Gray",
+   "Zaha Hadid"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a composé « Quatuor pour la fin du temps » ?",
+  "a": [
+   "Pierre Boulez",
+   "Henri Dutilleux",
+   "Olivier Messiaen",
+   "Arthur Honegger"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel mouvement est associé à Mark Rothko ?",
+  "a": [
+   "Le pop art",
+   "Le surréalisme",
+   "L'expressionnisme abstrait",
+   "Le cubisme"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel peintre baroque a réalisé « La Mort de la Vierge » ?",
+  "a": [
+   "Rubens",
+   "Le Caravage",
+   "Rembrandt",
+   "Le Greco"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a composé « Peer Gynt » ?",
+  "a": [
+   "Edvard Grieg",
+   "Jean Sibelius",
+   "Carl Nielsen",
+   "Antonín Dvořák"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel sculpteur roumain a réalisé « Le Baiser » en pierre en 1907-1908 ?",
+  "a": [
+   "Alberto Giacometti",
+   "Henry Moore",
+   "Auguste Rodin",
+   "Constantin Brancusi"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel architecte a conçu l'Institut du monde arabe à Paris ?",
+  "a": [
+   "Dominique Perrault",
+   "Paul Andreu",
+   "Christian de Portzamparc",
+   "Jean Nouvel"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle école d'art et d'architecture allemande a été fondée par Walter Gropius en 1919 ?",
+  "a": [
+   "Le Werkbund",
+   "Dada",
+   "Le Bauhaus",
+   "De Stijl"
+  ],
+  "c": 2
+ }
+]

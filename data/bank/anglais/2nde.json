@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Complète : « The news ___ surprising. »",
+  "a": [
+   "is",
+   "are",
+   "were",
+   "have been"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « She ___ in Paris for five years before moving. »",
+  "a": [
+   "had lived",
+   "has lived",
+   "lives",
+   "was live"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « By next year, I ___ my studies. »",
+  "a": [
+   "will finish",
+   "have finished",
+   "finished",
+   "will have finished"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Complète : « He is used to ___ early. »",
+  "a": [
+   "get up",
+   "got up",
+   "getting up",
+   "gets up"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « I look forward to ___ you. »",
+  "a": [
+   "see",
+   "seeing",
+   "saw",
+   "seen"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Complète : « Unless you hurry, you ___ the train. »",
+  "a": [
+   "will miss",
+   "won't miss",
+   "would miss",
+   "missed"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « He told me ___ the door. » (de fermer)",
+  "a": [
+   "closing",
+   "close",
+   "to close",
+   "that close"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « She asked me ___ I was doing. »",
+  "a": [
+   "that",
+   "which",
+   "what",
+   "if what"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « He asked if I ___ coming. »",
+  "a": [
+   "am",
+   "was",
+   "will be",
+   "were being"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Complète : « The thief ___ by the police yesterday. »",
+  "a": [
+   "was arrested",
+   "arrested",
+   "has arrested",
+   "is arrested"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « Look at those clouds! It ___ rain. »",
+  "a": [
+   "will to",
+   "is going",
+   "is going to",
+   "does"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « It's the best film I ___ seen. »",
+  "a": [
+   "ever",
+   "did ever",
+   "have ever",
+   "had been"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « He is the man ___ car was stolen. »",
+  "a": [
+   "who",
+   "whose",
+   "which",
+   "whom's"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Complète : « She hardly ___ speaks. » (ne parle presque jamais)",
+  "a": [
+   "ever",
+   "never",
+   "not",
+   "no"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Complète : « I'd ___ stay at home than go out. »",
+  "a": [
+   "better",
+   "sooner than",
+   "more",
+   "rather"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Complète : « You ___ have told me! » (reproche)",
+  "a": [
+   "must",
+   "can",
+   "should",
+   "will"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Complète : « It's high time we ___ . »",
+  "a": [
+   "leave",
+   "left",
+   "will leave",
+   "are leaving"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Complète : « I'd like you ___ me with this. »",
+  "a": [
+   "help",
+   "to help",
+   "helping",
+   "that help"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que signifie le faux ami « to assist » ?",
+  "a": [
+   "assister (à un événement)",
+   "assurer",
+   "aider",
+   "assimiler"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que signifie le faux ami « to deceive » ?",
+  "a": [
+   "décevoir",
+   "recevoir",
+   "tromper",
+   "décider"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que signifie le faux ami « to bear » (verbe) ?",
+  "a": [
+   "barrer",
+   "supporter",
+   "porter un ours",
+   "bâtir"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que signifie « a gap year » ?",
+  "a": [
+   "une année sabbatique avant les études",
+   "une année de retard",
+   "une année scolaire",
+   "un diplôme"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que signifie « to put off » ?",
+  "a": [
+   "allumer",
+   "éteindre",
+   "mettre",
+   "reporter"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que signifie « to give up » ?",
+  "a": [
+   "donner",
+   "augmenter",
+   "abandonner",
+   "se lever"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que signifie « to look for » ?",
+  "a": [
+   "regarder",
+   "chercher",
+   "ressembler",
+   "s'occuper de"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que signifie « to take after » ?",
+  "a": [
+   "ressembler à (un parent)",
+   "poursuivre",
+   "emporter",
+   "décoller"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que signifie « to carry on » ?",
+  "a": [
+   "transporter",
+   "porter",
+   "bavarder",
+   "continuer"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans quel pays se trouve la ville de Sydney ?",
+  "a": [
+   "New Zealand",
+   "Canada",
+   "Australia",
+   "South Africa"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la capitale du Canada ?",
+  "a": [
+   "Toronto",
+   "Ottawa",
+   "Vancouver",
+   "Montreal"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Dans quel palais siège le Parlement britannique ?",
+  "a": [
+   "Buckingham Palace",
+   "the Palace of Westminster",
+   "Windsor Castle",
+   "Kensington Palace"
+  ],
+  "c": 1
+ }
+]
