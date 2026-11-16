@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Quel est le symbole de l'ion sodium ?",
+  "a": [
+   "Na⁺",
+   "Na⁻",
+   "Na²⁺",
+   "N⁺"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le symbole de l'ion chlorure ?",
+  "a": [
+   "Cl⁺",
+   "Cl⁻",
+   "Cl²⁻",
+   "C⁻"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la formule de l'ion cuivre II ?",
+  "a": [
+   "Cu²⁻",
+   "Cu⁺",
+   "Cu²⁺",
+   "Cu₂"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la formule de l'ion hydroxyde ?",
+  "a": [
+   "H⁺",
+   "HO⁺",
+   "OH⁻",
+   "O²⁻"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Un atome qui perd un électron devient un ion...",
+  "a": [
+   "négatif",
+   "neutre",
+   "radioactif",
+   "positif"
+  ],
+  "c": 3
+ },
+ {
+  "q": "La formule du chlorure de sodium solide est...",
+  "a": [
+   "NaCl",
+   "Na₂Cl",
+   "NaCl₂",
+   "ClNa₂"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le poids d'un objet de masse 5 kg sur Terre (g = 10 N/kg) ?",
+  "a": [
+   "0,5 N",
+   "50 N",
+   "5 N",
+   "15 N"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la masse d'un objet de poids 20 N sur Terre (g = 10 N/kg) ?",
+  "a": [
+   "200 kg",
+   "10 kg",
+   "2 kg",
+   "30 kg"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle grandeur reste la même sur la Terre et sur la Lune pour un objet ?",
+  "a": [
+   "Le poids",
+   "La force de pesanteur",
+   "La vitesse de chute",
+   "La masse"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Sur la Lune, le poids d'un objet est environ...",
+  "a": [
+   "six fois plus faible que sur Terre",
+   "six fois plus fort",
+   "identique",
+   "nul"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle force maintient la Lune en orbite autour de la Terre ?",
+  "a": [
+   "Le magnétisme",
+   "L'attraction gravitationnelle",
+   "La force électrique",
+   "Les frottements"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la formule de l'ion fer III ?",
+  "a": [
+   "Fe³⁺",
+   "Fe³⁻",
+   "Fe³",
+   "Fe⁺"
+  ],
+  "c": 0
+ },
+ {
+  "q": "L'énergie cinétique d'un objet dépend de...",
+  "a": [
+   "sa couleur",
+   "sa température seulement",
+   "sa hauteur seulement",
+   "sa masse et de sa vitesse"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans l'expression de l'énergie cinétique, si la vitesse double, l'énergie cinétique est multipliée par...",
+  "a": [
+   "4",
+   "2",
+   "8",
+   "1"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est l'unité d'énergie du Système international ?",
+  "a": [
+   "Le watt",
+   "Le joule",
+   "Le newton",
+   "Le volt"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est l'unité de puissance ?",
+  "a": [
+   "Le joule",
+   "L'ampère",
+   "Le watt",
+   "Le newton"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Une lampe de 60 W fonctionne pendant 2 h. Quelle énergie consomme-t-elle ?",
+  "a": [
+   "30 Wh",
+   "62 Wh",
+   "60 Wh",
+   "120 Wh"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle formule donne la puissance électrique ?",
+  "a": [
+   "P = U x I",
+   "P = U / I",
+   "P = U + I",
+   "P = R x I"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la puissance d'un appareil sous 230 V traversé par 2 A ?",
+  "a": [
+   "115 W",
+   "460 W",
+   "232 W",
+   "4,6 W"
+  ],
+  "c": 1
+ },
+ {
+  "q": "À quoi sert la prise de terre d'une installation électrique ?",
+  "a": [
+   "Évacuer un courant de fuite pour protéger les personnes",
+   "Augmenter la tension",
+   "Produire de l'énergie",
+   "Éviter que l'appareil chauffe"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel dispositif protège une installation contre une surintensité ?",
+  "a": [
+   "Un interrupteur",
+   "Une pile",
+   "Un disjoncteur",
+   "Un voltmètre"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel produit permet de mesurer approximativement le pH d'une solution ?",
+  "a": [
+   "Le papier pH",
+   "Un voltmètre",
+   "Une boussole",
+   "Une balance"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle solution a le pH le plus acide ?",
+  "a": [
+   "pH 2",
+   "pH 6",
+   "pH 8",
+   "pH 12"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel gaz se forme lors de l'action de l'acide chlorhydrique sur le fer ?",
+  "a": [
+   "Le dioxygène",
+   "Le dihydrogène",
+   "Le dioxyde de carbone",
+   "Le diazote"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel test identifie les ions fer II ?",
+  "a": [
+   "Précipité bleu avec la soude",
+   "Précipité blanc avec la soude",
+   "Précipité vert avec la soude",
+   "Solution rouge avec la soude"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel test identifie les ions cuivre II ?",
+  "a": [
+   "Précipité vert avec la soude",
+   "Précipité rouille avec la soude",
+   "Précipité bleu avec la soude",
+   "Précipité blanc avec la soude"
+  ],
+  "c": 2
+ },
+ {
+  "q": "On entend le tonnerre 3 s après l'éclair (son à 340 m/s). À quelle distance est la foudre ?",
+  "a": [
+   "1 020 m",
+   "113 m",
+   "340 m",
+   "3 400 m"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Un son plus aigu a une fréquence...",
+  "a": [
+   "plus élevée",
+   "plus faible",
+   "nulle",
+   "identique à un grave"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est l'unité de fréquence ?",
+  "a": [
+   "Le hertz",
+   "Le décibel",
+   "Le watt",
+   "Le mètre"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle propriété de l'onde sonore détermine le niveau sonore ?",
+  "a": [
+   "Sa fréquence",
+   "Sa couleur",
+   "Sa vitesse dans le vide",
+   "Son amplitude"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Le son se propage-t-il dans le vide ?",
+  "a": [
+   "Non",
+   "Oui, plus vite",
+   "Oui, aussi vite que la lumière",
+   "Oui, plus lentement"
+  ],
+  "c": 0
+ }
+]

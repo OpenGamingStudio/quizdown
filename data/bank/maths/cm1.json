@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Combien font 24 x 5 ?",
+  "a": [
+   "110",
+   "120",
+   "100",
+   "125"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien font 305 x 4 ?",
+  "a": [
+   "1 200",
+   "1 020",
+   "1 220",
+   "1 420"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien font 5 000 - 1 342 ?",
+  "a": [
+   "3 742",
+   "4 658",
+   "3 668",
+   "3 658"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la valeur du chiffre 7 dans 3 726 ?",
+  "a": [
+   "700",
+   "70",
+   "7 000",
+   "7"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle fraction représente la moitié ?",
+  "a": [
+   "1/4",
+   "1/2",
+   "2/1",
+   "1/3"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle fraction est égale à 2/4 ?",
+  "a": [
+   "1/4",
+   "2/8",
+   "1/2",
+   "3/4"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien font 1/4 + 2/4 ?",
+  "a": [
+   "3/8",
+   "2/8",
+   "1/2",
+   "3/4"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien font 0,5 + 0,25 ?",
+  "a": [
+   "0,30",
+   "0,525",
+   "0,7",
+   "0,75"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Parmi 3,04 ; 0,34 ; 3,4 et 3,039, quel nombre est le plus grand ?",
+  "a": [
+   "3,04",
+   "0,34",
+   "3,4",
+   "3,039"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien font 3,5 x 10 ?",
+  "a": [
+   "3,50",
+   "35",
+   "350",
+   "0,35"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment écrit-on 7/10 en nombre décimal ?",
+  "a": [
+   "7,10",
+   "0,07",
+   "0,7",
+   "70"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien de centimètres dans 2,5 m ?",
+  "a": [
+   "25",
+   "2 500",
+   "205",
+   "250"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien de grammes dans 3 kg et 250 g ?",
+  "a": [
+   "3 250",
+   "325",
+   "3 025",
+   "32 500"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le quotient entier de 47 divisé par 5 ?",
+  "a": [
+   "10",
+   "9",
+   "8",
+   "7"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le reste de la division de 47 par 5 ?",
+  "a": [
+   "7",
+   "9",
+   "2",
+   "0"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est l'aire d'un rectangle de 8 cm sur 5 cm ?",
+  "a": [
+   "26 cm²",
+   "13 cm²",
+   "40 cm",
+   "40 cm²"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est l'aire d'un carré de côté 6 cm ?",
+  "a": [
+   "36 cm²",
+   "24 cm²",
+   "12 cm²",
+   "36 cm"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le périmètre d'un carré de côté 9 cm ?",
+  "a": [
+   "18 cm",
+   "36 cm",
+   "81 cm",
+   "27 cm"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien d'axes de symétrie un carré a-t-il ?",
+  "a": [
+   "2",
+   "4",
+   "1",
+   "8"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Deux droites qui se coupent en formant un angle droit sont...",
+  "a": [
+   "parallèles",
+   "confondues",
+   "perpendiculaires",
+   "symétriques"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Deux droites qui ne se coupent jamais dans un plan sont...",
+  "a": [
+   "perpendiculaires",
+   "sécantes",
+   "obliques",
+   "parallèles"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien de minutes y a-t-il dans 2 h 15 min ?",
+  "a": [
+   "135",
+   "215",
+   "125",
+   "145"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien d'heures y a-t-il dans 3 jours ?",
+  "a": [
+   "72",
+   "60",
+   "36",
+   "90"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Un livre coûte 4,50 euros. Combien coûtent 4 livres ?",
+  "a": [
+   "16 euros",
+   "17,50 euros",
+   "20 euros",
+   "18 euros"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien font 6 x 9 x 0 ?",
+  "a": [
+   "54",
+   "9",
+   "0",
+   "6"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel nombre est un multiple de 7 ?",
+  "a": [
+   "47",
+   "52",
+   "58",
+   "42"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien de sommets a une pyramide à base carrée ?",
+  "a": [
+   "5",
+   "4",
+   "6",
+   "8"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de faces a un prisme droit à base triangulaire ?",
+  "a": [
+   "3",
+   "5",
+   "4",
+   "6"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Le chiffre des dizaines de mille dans 53 218 est...",
+  "a": [
+   "3",
+   "2",
+   "5",
+   "1"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment écrit-on 1/100 en nombre décimal ?",
+  "a": [
+   "0,1",
+   "0,001",
+   "0,01",
+   "1,00"
+  ],
+  "c": 2
+ }
+]

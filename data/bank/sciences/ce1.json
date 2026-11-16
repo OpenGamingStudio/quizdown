@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quelle partie de la plante contient les graines ?",
+  "a": [
+   "La racine",
+   "Le fruit",
+   "La tige",
+   "Les feuilles"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel organe pompe le sang dans le corps ?",
+  "a": [
+   "Le foie",
+   "Les poumons",
+   "L'estomac",
+   "Le coeur"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel organe reçoit les aliments après l'oesophage ?",
+  "a": [
+   "Le cerveau",
+   "Le coeur",
+   "Le poumon",
+   "L'estomac"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment appelle-t-on un animal qui mange uniquement de la viande ?",
+  "a": [
+   "Un herbivore",
+   "Un carnivore",
+   "Un végétarien",
+   "Un insecte"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment appelle-t-on un animal qui mange uniquement des végétaux ?",
+  "a": [
+   "Un carnivore",
+   "Un herbivore",
+   "Un prédateur",
+   "Un rapace"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel animal est un herbivore ?",
+  "a": [
+   "La vache",
+   "Le lion",
+   "Le loup",
+   "Le requin"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel animal est un carnivore ?",
+  "a": [
+   "Le lapin",
+   "Le cheval",
+   "La girafe",
+   "Le renard"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment naît un poussin ?",
+  "a": [
+   "Il sort du ventre de sa mère",
+   "Il sort d'une graine",
+   "Il sort d'un oeuf",
+   "Il sort d'un nid vide sans oeuf"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel animal naît dans le ventre de sa mère ?",
+  "a": [
+   "La poule",
+   "Le canard",
+   "Le chien",
+   "La tortue"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que devient la fleur d'un pommier après la pollinisation ?",
+  "a": [
+   "Une racine",
+   "Un fruit",
+   "Une feuille",
+   "Un tronc"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le rôle de la tige d'une plante ?",
+  "a": [
+   "Soutenir la plante",
+   "Absorber la lumière uniquement",
+   "Fabriquer le miel",
+   "Produire des oeufs"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Dans quel état est l'eau d'un glaçon ?",
+  "a": [
+   "Liquide",
+   "Gazeux",
+   "Invisible",
+   "Solide"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans quel état est la vapeur d'eau ?",
+  "a": [
+   "Solide",
+   "Liquide",
+   "Pâteux",
+   "Gazeux"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que se passe-t-il quand un glaçon fond ?",
+  "a": [
+   "Il devient gaz",
+   "Il devient plus dur",
+   "Il devient liquide",
+   "Il disparaît sans eau"
+  ],
+  "c": 2
+ },
+ {
+  "q": "À quelle température l'eau gèle-t-elle environ ?",
+  "a": [
+   "10 °C",
+   "0 °C",
+   "50 °C",
+   "100 °C"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que fait le Soleil pour la Terre ?",
+  "a": [
+   "Il l'éclaire et la chauffe",
+   "Il tourne autour de lui",
+   "Il la fait grossir",
+   "Il fabrique la Lune"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Autour de quoi la Terre tourne-t-elle en un an ?",
+  "a": [
+   "La Lune",
+   "Le Soleil",
+   "Mars",
+   "Jupiter"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien de temps la Terre met-elle pour tourner sur elle-même ?",
+  "a": [
+   "Un mois",
+   "Un an",
+   "Une heure",
+   "Un jour (24 h)"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le satellite naturel de la Terre ?",
+  "a": [
+   "Mars",
+   "Vénus",
+   "La Lune",
+   "Le Soleil"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qui cause le jour et la nuit ?",
+  "a": [
+   "Les nuages",
+   "La rotation de la Terre sur elle-même",
+   "La Lune qui cache le Soleil chaque nuit",
+   "Le vent"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel groupe d'aliments donne de l'énergie comme les pâtes et le pain ?",
+  "a": [
+   "Les fruits seulement",
+   "Les féculents",
+   "Les bonbons",
+   "Le sel"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel aliment est un légume ?",
+  "a": [
+   "La carotte",
+   "La pomme",
+   "La banane",
+   "Le fromage"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Pourquoi faut-il manger des fruits et légumes ?",
+  "a": [
+   "Pour avoir plus de dents",
+   "Pour dormir moins",
+   "Pour grandir en un jour",
+   "Pour être en bonne santé"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel animal est un insecte ?",
+  "a": [
+   "L'escargot",
+   "Le ver de terre",
+   "La fourmi",
+   "L'araignée"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le rôle du squelette ?",
+  "a": [
+   "Digérer",
+   "Respirer",
+   "Soutenir le corps",
+   "Pomper le sang"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelle-t-on les os de la tête ?",
+  "a": [
+   "Le thorax",
+   "Le crâne",
+   "Le bassin",
+   "La colonne"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel animal vit dans l'eau et respire avec des branchies ?",
+  "a": [
+   "Le poisson",
+   "Le chat",
+   "L'oiseau",
+   "Le lapin"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que devient un oeuf de papillon ?",
+  "a": [
+   "Un papillon directement",
+   "Un têtard",
+   "Un poussin",
+   "Une chenille"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel animal hiberne en hiver ?",
+  "a": [
+   "Le chat",
+   "Le chien",
+   "Le pigeon",
+   "Le hérisson"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Pourquoi les feuilles sont-elles vertes ?",
+  "a": [
+   "Elles sont peintes",
+   "Elles boivent de la peinture",
+   "Elles contiennent de la chlorophylle",
+   "Elles sont mortes"
+  ],
+  "c": 2
+ }
+]

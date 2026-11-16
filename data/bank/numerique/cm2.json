@@ -1,0 +1,322 @@
+[
+ {
+  "q": "Comment s'appelle la partie de l'ordinateur qui effectue les calculs ?",
+  "a": [
+   "Le processeur",
+   "L'écran",
+   "Le clavier",
+   "L'enceinte"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel composant garde les fichiers même éteint ?",
+  "a": [
+   "La RAM seule",
+   "L'écran",
+   "La souris",
+   "Le disque de stockage"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que la mémoire vive (RAM) ?",
+  "a": [
+   "Un disque dur permanent",
+   "Un écran",
+   "Une mémoire temporaire de travail",
+   "Un câble"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'une adresse web ?",
+  "a": [
+   "Un numéro de téléphone",
+   "Une adresse qui indique où trouver une page",
+   "Un code PIN",
+   "Un mot de passe"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que signifie « https » dans une adresse ?",
+  "a": [
+   "Une page de jeux",
+   "Une connexion sécurisée",
+   "Un code secret",
+   "Un virus"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un moteur de recherche ?",
+  "a": [
+   "Un site qui aide à trouver des pages",
+   "Un navigateur",
+   "Un virus",
+   "Un écran"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un virus informatique ?",
+  "a": [
+   "Un câble cassé",
+   "Un écran",
+   "Un fichier image",
+   "Un programme malveillant"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que faut-il faire pour éviter les virus ?",
+  "a": [
+   "Cliquer sur toutes les pubs",
+   "Désactiver l'antivirus",
+   "Ne pas ouvrir de fichiers douteux",
+   "Utiliser le même mot de passe partout"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel bon réflexe avec les mises à jour ?",
+  "a": [
+   "Les ignorer toujours",
+   "Les supprimer",
+   "Les faire régulièrement",
+   "Les bloquer"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'une sauvegarde ?",
+  "a": [
+   "Un virus",
+   "Une copie de fichiers à garder en sécurité",
+   "Un jeu",
+   "Une imprimante"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Pourquoi vérifier une source d'information en ligne ?",
+  "a": [
+   "Pour savoir si elle est fiable",
+   "Pour la rendre plus longue",
+   "Pour l'effacer",
+   "Pour changer la couleur"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment appelle-t-on une fausse information diffusée en ligne ?",
+  "a": [
+   "Un fichier compressé",
+   "Un logiciel",
+   "Une infox",
+   "Une icône"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que faut-il faire avant de publier une photo d'un camarade ?",
+  "a": [
+   "Rien",
+   "La retoucher en secret",
+   "La poster partout",
+   "Lui demander son accord"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que le droit à l'image ?",
+  "a": [
+   "Le droit de copier toutes les images",
+   "Le droit d'imprimer",
+   "Le droit de contrôler l'usage de son image",
+   "Le droit d'ouvrir un site"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans un programme, qu'est-ce qu'une variable ?",
+  "a": [
+   "Un câble",
+   "Un espace qui stocke une valeur",
+   "Un pixel",
+   "Une erreur"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Dans Scratch, que fait « si ... alors » ?",
+  "a": [
+   "Il exécute des blocs seulement si la condition est vraie",
+   "Il répète toujours",
+   "Il arrête le jeu",
+   "Il supprime le lutin"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'une condition ?",
+  "a": [
+   "Un test vrai ou faux",
+   "Une boucle",
+   "Une image",
+   "Un fichier"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un bug ?",
+  "a": [
+   "Un insecte",
+   "Un virus matériel",
+   "Une mise à jour",
+   "Une erreur dans un programme"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que fait-on pour corriger un bug ?",
+  "a": [
+   "On l'ignore",
+   "On éteint l'ordinateur",
+   "On le cherche et on le répare",
+   "On supprime l'écran"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans Scratch, quel bloc fait réagir le programme à un clic sur le drapeau vert ?",
+  "a": [
+   "Répéter indéfiniment",
+   "Quand le drapeau vert est cliqué",
+   "Avancer de 10 pas",
+   "Dire bonjour"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle unité mesure la taille d'un fichier ?",
+  "a": [
+   "Le litre",
+   "L'octet",
+   "Le mètre",
+   "Le watt"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien de bits contient un octet ?",
+  "a": [
+   "8",
+   "4",
+   "16",
+   "2"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel format est une image ?",
+  "a": [
+   "MP3",
+   "DOCX",
+   "ZIP",
+   "JPEG"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel format est un son ?",
+  "a": [
+   "JPEG",
+   "TXT",
+   "MP3",
+   "HTML"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un réseau social ?",
+  "a": [
+   "Un jeu de cartes",
+   "Une imprimante",
+   "Un service pour échanger avec d'autres personnes en ligne",
+   "Un câble"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un lien hypertexte ?",
+  "a": [
+   "Un élément cliquable qui mène vers une autre page",
+   "Un câble réseau",
+   "Un virus",
+   "Un mot de passe"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un pseudo ?",
+  "a": [
+   "Un nom d'emprunt pour ne pas donner son vrai nom",
+   "Un virus",
+   "Un fichier",
+   "Un mot de passe"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que veut dire « se déconnecter » ?",
+  "a": [
+   "Éteindre l'écran uniquement",
+   "Supprimer son compte",
+   "Changer de mot de passe",
+   "Quitter son compte"
+  ],
+  "c": 3
+ },
+ {
+  "q": "À quoi sert la CNIL ?",
+  "a": [
+   "Fabriquer des ordinateurs",
+   "Vendre des logiciels",
+   "Créer des jeux",
+   "Protéger les données personnelles"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que signifie « wifi » ?",
+  "a": [
+   "Un type de câble",
+   "Un jeu",
+   "Une connexion sans fil à un réseau",
+   "Un navigateur"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un robot programmable ?",
+  "a": [
+   "Un virus",
+   "Une machine qui suit des instructions",
+   "Un fichier",
+   "Un écran"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'une séquence d'instructions ?",
+  "a": [
+   "Des instructions exécutées l'une après l'autre",
+   "Des instructions au hasard",
+   "Un seul bloc",
+   "Une image"
+  ],
+  "c": 0
+ }
+]

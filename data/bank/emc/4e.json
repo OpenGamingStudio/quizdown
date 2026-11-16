@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Quelles sont les principales libertés proclamées en 1789 ?",
+  "a": [
+   "Travail, famille, patrie",
+   "Liberté, propriété, sûreté, résistance à l'oppression",
+   "Égalité des revenus",
+   "Monarchie héréditaire"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la souveraineté nationale ?",
+  "a": [
+   "Le pouvoir appartient à la nation",
+   "Le pouvoir appartient au roi",
+   "Le pouvoir appartient à l'armée",
+   "Le pouvoir appartient à l'Église"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la démocratie ?",
+  "a": [
+   "Un régime où un seul gouverne",
+   "Un régime militaire",
+   "Un régime religieux",
+   "Un régime où le pouvoir vient du peuple"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que la démocratie représentative ?",
+  "a": [
+   "Tout le monde vote chaque loi",
+   "Le roi décide",
+   "Les citoyens élisent des représentants",
+   "Les juges décident seuls"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que la démocratie directe ?",
+  "a": [
+   "Les juges gouvernent",
+   "Les citoyens décident directement par référendum",
+   "Le roi gouverne",
+   "Un sénat nommé gouverne"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un référendum ?",
+  "a": [
+   "Un vote où les citoyens répondent à une question",
+   "Une loi du maire",
+   "Une sanction",
+   "Un sondage privé"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui peut dissoudre l'Assemblée nationale ?",
+  "a": [
+   "Le Premier ministre seul",
+   "Le Sénat",
+   "Le Conseil constitutionnel",
+   "Le président de la République"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que la cohabitation ?",
+  "a": [
+   "Deux présidents",
+   "Un gouvernement sans Premier ministre",
+   "Président et majorité parlementaire de camps opposés",
+   "Une alliance militaire"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui nomme les ministres ?",
+  "a": [
+   "Le Sénat",
+   "Les électeurs",
+   "Le président, sur proposition du Premier ministre",
+   "Les juges"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle fonction a la Cour de cassation ?",
+  "a": [
+   "Vérifier l'application du droit par les tribunaux",
+   "Voter les lois",
+   "Contrôler les comptes publics",
+   "Nommer le président"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle juridiction juge les crimes ?",
+  "a": [
+   "Le tribunal de police",
+   "Le conseil de prud'hommes",
+   "Le tribunal de commerce",
+   "La cour d'assises (cour criminelle)"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle juridiction juge les délits ?",
+  "a": [
+   "La cour d'assises",
+   "Le Conseil d'État",
+   "Le tribunal correctionnel",
+   "Le Sénat"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle juridiction juge les contraventions ?",
+  "a": [
+   "La cour d'assises",
+   "Le tribunal de police",
+   "La Cour de cassation",
+   "Le Conseil d'État"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle juridiction juge les mineurs ?",
+  "a": [
+   "Le tribunal pour enfants",
+   "La cour d'assises seule",
+   "Le Conseil d'État",
+   "La prud'homale"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la majorité pénale en France ?",
+  "a": [
+   "13 ans",
+   "16 ans",
+   "21 ans",
+   "18 ans"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que garantit le droit à un procès équitable ?",
+  "a": [
+   "Que le juge soit toujours indulgent",
+   "Que le prévenu soit toujours gagnant",
+   "Que chacun soit jugé de façon impartiale",
+   "Que le procès soit secret"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que le droit d'asile ?",
+  "a": [
+   "Le droit de voyager",
+   "La protection accordée à une personne persécutée",
+   "Le droit d'emprunter",
+   "Le droit de travailler"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un réfugié ?",
+  "a": [
+   "Une personne qui fuit des persécutions",
+   "Un touriste",
+   "Un étudiant",
+   "Un voyageur d'affaires"
+  ],
+  "c": 0
+ },
+ {
+  "q": "En quelle année la peine de mort a-t-elle été abolie en France ?",
+  "a": [
+   "1789",
+   "1905",
+   "1958",
+   "1981"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel ministre a défendu l'abolition de la peine de mort en 1981 ?",
+  "a": [
+   "Simone Veil",
+   "Victor Schoelcher",
+   "Robert Badinter",
+   "Jean Jaurès"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que garantit la loi Veil de 1975 ?",
+  "a": [
+   "Le droit de vote des femmes",
+   "Le droit à l'interruption volontaire de grossesse",
+   "L'abolition de la peine de mort",
+   "L'égalité salariale"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la parité en politique ?",
+  "a": [
+   "Un impôt",
+   "Un vote par procuration",
+   "Un score électoral",
+   "Une égale représentation des femmes et des hommes"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'un crime contre l'humanité ?",
+  "a": [
+   "Un vol",
+   "Une fraude fiscale",
+   "Une contravention",
+   "Un crime très grave contre des civils, imprescriptible"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que la Shoah ?",
+  "a": [
+   "La guerre de 1914",
+   "La Révolution",
+   "Le génocide des Juifs d'Europe par les nazis",
+   "Une loi de 1905"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel jour commémore-t-on la Shoah ?",
+  "a": [
+   "Le 14 juillet",
+   "Le 27 janvier (libération d'Auschwitz)",
+   "Le 8 mai",
+   "Le 11 novembre"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le rôle de la mémoire collective ?",
+  "a": [
+   "Transmettre l'histoire pour éviter de répéter les erreurs",
+   "Effacer l'histoire",
+   "Choisir un seul point de vue",
+   "Faire de la propagande"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un syndicat ?",
+  "a": [
+   "Une entreprise",
+   "Un parti",
+   "Un tribunal",
+   "Une organisation qui défend les droits des salariés"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que le droit de grève ?",
+  "a": [
+   "Le droit de ne pas être payé",
+   "Le droit de casser",
+   "Cesser collectivement le travail pour défendre ses intérêts",
+   "Le droit de licencier"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que la liberté d'entreprendre ?",
+  "a": [
+   "Le droit de licencier sans règle",
+   "Le droit de ne pas payer",
+   "Le droit de créer une activité économique",
+   "Le droit de grève"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que signifie l'égalité devant l'impôt ?",
+  "a": [
+   "Tous paient la même somme",
+   "Seuls les riches paient",
+   "Personne ne paie",
+   "Chacun contribue selon ses facultés"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment s'appelle un site d'info collaboratif en ligne ?",
+  "a": [
+   "Une application bancaire",
+   "Un pare-feu",
+   "Une carte mémoire",
+   "Un wiki (exemple Wikipédia)"
+  ],
+  "c": 3
+ }
+]

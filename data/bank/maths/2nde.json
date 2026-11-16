@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel est l'ensemble des solutions de l'inéquation 2x - 4 > 6 ?",
+  "a": [
+   "[5 ; +infini[",
+   "]-infini ; 5[",
+   "]1 ; +infini[",
+   "]5 ; +infini["
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel intervalle correspond à -2 < x <= 3 ?",
+  "a": [
+   "]-2 ; 3]",
+   "[-2 ; 3[",
+   "[-2 ; 3]",
+   "]-2 ; 3["
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel ensemble de nombres contient 1/3 mais pas racine de 2 ?",
+  "a": [
+   "Les entiers",
+   "Les rationnels",
+   "Les entiers naturels",
+   "Les irrationnels"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le coefficient directeur de la droite passant par A(1 ; 2) et B(3 ; 8) ?",
+  "a": [
+   "2",
+   "3",
+   "4",
+   "6"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la distance AB entre A(0 ; 0) et B(3 ; 4) dans un repère orthonormé ?",
+  "a": [
+   "5",
+   "7",
+   "3,5",
+   "25"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelles sont les coordonnées du milieu de [AB] avec A(2 ; 4) et B(6 ; 10) ?",
+  "a": [
+   "(8 ; 14)",
+   "(4 ; 6)",
+   "(2 ; 3)",
+   "(4 ; 7)"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelles sont les coordonnées du vecteur AB avec A(1 ; 2) et B(4 ; 6) ?",
+  "a": [
+   "(5 ; 8)",
+   "(-3 ; -4)",
+   "(3 ; 4)",
+   "(4 ; 3)"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Si u(2 ; -1) et v(3 ; 4), quelles sont les coordonnées de u + v ?",
+  "a": [
+   "(6 ; -4)",
+   "(1 ; -5)",
+   "(5 ; 5)",
+   "(5 ; 3)"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Deux vecteurs u(2 ; 3) et v(4 ; 6) sont...",
+  "a": [
+   "colinéaires",
+   "orthogonaux",
+   "opposés",
+   "égaux"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la résolution de x² = 25 dans R ?",
+  "a": [
+   "5 seulement",
+   "5 et -5",
+   "-5 seulement",
+   "25 et -25"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est l'ensemble de définition de f(x) = 1/(x - 2) ?",
+  "a": [
+   "R privé de -2",
+   "R privé de 0",
+   "R privé de 2",
+   "R"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le sens de variation de la fonction carré sur [0 ; +infini[ ?",
+  "a": [
+   "Décroissante",
+   "Constante",
+   "Croissante",
+   "Croissante puis décroissante"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le sens de variation de la fonction inverse sur ]0 ; +infini[ ?",
+  "a": [
+   "Croissante",
+   "Constante",
+   "Croissante puis décroissante",
+   "Décroissante"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la valeur absolue de -7,5 ?",
+  "a": [
+   "7,5",
+   "-7,5",
+   "0,75",
+   "-0,75"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la forme développée de (2x - 1)² ?",
+  "a": [
+   "4x² + 1",
+   "4x² - 4x + 1",
+   "2x² - 4x + 1",
+   "4x² - 2x + 1"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la solution de l'équation (3x - 6)(x + 1) = 0 ?",
+  "a": [
+   "-2 et 1",
+   "6 et -1",
+   "2 et -1",
+   "2 et 1"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Une quantité augmente de 20 % puis diminue de 20 %. Quel est son coefficient multiplicateur global ?",
+  "a": [
+   "1",
+   "1,04",
+   "0,8",
+   "0,96"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Un prix passe de 50 euros à 65 euros. Quel est le taux d'évolution ?",
+  "a": [
+   "30 %",
+   "15 %",
+   "13 %",
+   "23 %"
+  ],
+  "c": 0
+ },
+ {
+  "q": "On lance deux dés équilibrés à 6 faces. Combien y a-t-il d'issues possibles ?",
+  "a": [
+   "12",
+   "36",
+   "6",
+   "21"
+  ],
+  "c": 1
+ },
+ {
+  "q": "On lance un dé équilibré à 6 faces. Probabilité d'obtenir un nombre pair ?",
+  "a": [
+   "1/3",
+   "1/2",
+   "1/6",
+   "2/3"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Pour deux événements A et B, que vaut P(A union B) ?",
+  "a": [
+   "P(A) + P(B)",
+   "P(A) x P(B)",
+   "P(A) + P(B) - P(A inter B)",
+   "P(A) - P(B)"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la médiane de la série 3, 5, 6, 8, 10 ?",
+  "a": [
+   "5",
+   "8",
+   "6",
+   "7,2"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la moyenne de la série 3, 5, 6, 8, 10 ?",
+  "a": [
+   "6",
+   "8",
+   "5,6",
+   "6,4"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Le premier quartile d'une série est la valeur sous laquelle se trouvent environ...",
+  "a": [
+   "25 % des données",
+   "50 % des données",
+   "75 % des données",
+   "10 % des données"
+  ],
+  "c": 0
+ },
+ {
+  "q": "La fonction f(x) = -2x + 5 est...",
+  "a": [
+   "croissante",
+   "décroissante",
+   "constante",
+   "périodique"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est l'équation réduite de la droite de coefficient directeur 2 passant par (0 ; -3) ?",
+  "a": [
+   "y = -3x + 2",
+   "y = 2x + 3",
+   "y = 2x - 3",
+   "y = x - 6"
+  ],
+  "c": 2
+ },
+ {
+  "q": "La parabole d'équation y = x² admet pour axe de symétrie...",
+  "a": [
+   "l'axe des abscisses",
+   "la droite y = x",
+   "aucun axe",
+   "l'axe des ordonnées"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien d'élèves sur 200 représente 35 % ?",
+  "a": [
+   "70",
+   "35",
+   "65",
+   "7"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la valeur de racine de 12 simplifiée ?",
+  "a": [
+   "3 racine de 2",
+   "2 racine de 3",
+   "6",
+   "4 racine de 3"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la solution de l'inéquation -3x > 9 ?",
+  "a": [
+   "x > -3",
+   "x > 3",
+   "x < -3",
+   "x < 3"
+  ],
+  "c": 2
+ }
+]

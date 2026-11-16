@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Que signifie SNT ?",
+  "a": [
+   "Sciences numériques et technologie",
+   "Système national de télécom",
+   "Sciences nouvelles et techniques",
+   "Service numérique territorial"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un réseau local (LAN) ?",
+  "a": [
+   "Le réseau mondial",
+   "Un réseau de satellites",
+   "Un réseau social",
+   "Un réseau limité à un site restreint"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel protocole attribue automatiquement une adresse IP ?",
+  "a": [
+   "SMTP",
+   "HTTP",
+   "DHCP",
+   "SSH"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le rôle d'un serveur web ?",
+  "a": [
+   "Imprimer des documents",
+   "Envoyer des pages à un navigateur",
+   "Protéger contre les virus",
+   "Stocker uniquement des photos"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que le protocole TCP/IP ?",
+  "a": [
+   "Un navigateur",
+   "L'ensemble des règles pour échanger des données sur Internet",
+   "Un langage de programmation",
+   "Un réseau social"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'une requête HTTP ?",
+  "a": [
+   "Une demande envoyée à un serveur web",
+   "Un virus",
+   "Un fichier",
+   "Une imprimante"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel code HTTP signifie « page non trouvée » ?",
+  "a": [
+   "200",
+   "500",
+   "301",
+   "404"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que signifie le code HTTP 200 ?",
+  "a": [
+   "Page introuvable",
+   "Erreur du serveur",
+   "La requête a réussi",
+   "Redirection"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que la géolocalisation ?",
+  "a": [
+   "Mesurer la température",
+   "Trouver un mot de passe",
+   "Déterminer la position d'un appareil",
+   "Compresser une image"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel système permet de se géolocaliser par satellites ?",
+  "a": [
+   "Le Bluetooth",
+   "Le GPS",
+   "Le NFC",
+   "L'USB"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'une donnée structurée ?",
+  "a": [
+   "Une donnée organisée en champs comme dans un tableau",
+   "Une image floue",
+   "Un son",
+   "Un virus"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que le format CSV ?",
+  "a": [
+   "Un format d'image",
+   "Un format vidéo",
+   "Un chiffrement",
+   "Un format texte aux valeurs séparées par des virgules"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que le JSON ?",
+  "a": [
+   "Un langage de style",
+   "Un navigateur",
+   "Un virus",
+   "Un format de données textuelles structurées"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans un tableur, que fait la fonction SOMME ?",
+  "a": [
+   "Multiplie des cellules",
+   "Trie des cellules",
+   "Additionne des cellules",
+   "Supprime des cellules"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un capteur dans un smartphone ?",
+  "a": [
+   "Un écran",
+   "Un composant qui mesure comme l'accéléromètre",
+   "Un chargeur",
+   "Un clavier"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le modèle économique de nombreux réseaux sociaux gratuits ?",
+  "a": [
+   "La vente de câbles",
+   "L'abonnement obligatoire",
+   "La publicité ciblée grâce aux données",
+   "Les amendes"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un algorithme de recommandation ?",
+  "a": [
+   "Il propose des contenus selon les goûts supposés",
+   "Il bloque tous les contenus",
+   "Il supprime les comptes",
+   "Il répare les bugs"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'une bulle de filtres ?",
+  "a": [
+   "Un filtre à eau",
+   "Un virus",
+   "Un réseau local",
+   "Un enfermement dans des contenus similaires"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que signifie « photo numérique » ?",
+  "a": [
+   "Une photo argentique",
+   "Une peinture",
+   "Une image codée en pixels",
+   "Un film"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien de couleurs primaires lumineuses de base (RVB) ?",
+  "a": [
+   "2",
+   "3",
+   "4",
+   "7"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel format d'image garde la meilleure qualité sans perte ?",
+  "a": [
+   "JPEG",
+   "PNG",
+   "MP3",
+   "Aucun"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la résolution d'une image ?",
+  "a": [
+   "Le nombre de pixels",
+   "La couleur dominante",
+   "La date",
+   "Le poids du fichier"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la compression avec perte ?",
+  "a": [
+   "Réduire sans rien perdre",
+   "Chiffrer un fichier",
+   "Dupliquer",
+   "Réduire la taille en supprimant certaines informations"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans une page web, que fait la balise <a> ?",
+  "a": [
+   "Crée un titre",
+   "Insère une image",
+   "Crée un lien",
+   "Crée un tableau"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans une page web, que fait la balise <img> ?",
+  "a": [
+   "Crée un lien",
+   "Insère une vidéo",
+   "Insère une image",
+   "Crée un style"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le rôle d'un robot d'indexation d'un moteur de recherche ?",
+  "a": [
+   "Parcourir le web pour répertorier les pages",
+   "Supprimer les pages",
+   "Chiffrer les sites",
+   "Créer les mots de passe"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que signifie « cookie traceur » ?",
+  "a": [
+   "Un fichier qui suit la navigation",
+   "Un virus mortel",
+   "Un câble",
+   "Un format"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel projet de cartographie est libre et construit par ses contributeurs ?",
+  "a": [
+   "Street View",
+   "Waze Pro",
+   "OpenStreetMap",
+   "Google Earth"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un mot de passe haché ?",
+  "a": [
+   "Écrit en clair",
+   "Copié dans un mail",
+   "Envoyé à tout le monde",
+   "Transformé en empreinte par une fonction de hachage"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que fait une attaque par force brute ?",
+  "a": [
+   "Elle essaie toutes les combinaisons possibles",
+   "Elle vole le serveur physique",
+   "Elle envoie un courriel",
+   "Elle casse l'écran"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de satellites faut-il au minimum pour calculer une position GPS en 3D ?",
+  "a": [
+   "2",
+   "6",
+   "24",
+   "4"
+  ],
+  "c": 3
+ }
+]

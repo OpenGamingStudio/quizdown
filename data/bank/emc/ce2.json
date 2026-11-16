@@ -1,0 +1,322 @@
+[
+ {
+  "q": "Que veut dire le mot « laïcité » ?",
+  "a": [
+   "Interdire toute religion",
+   "L'État respecte toutes les croyances et n'en favorise aucune",
+   "Imposer une religion",
+   "Fêter Noël"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment s'appelle l'objet où l'on dépose son bulletin de vote ?",
+  "a": [
+   "L'urne",
+   "Le tiroir",
+   "La caisse",
+   "Le panier"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que célèbre le 11 novembre ?",
+  "a": [
+   "La prise de la Bastille",
+   "La fête du travail",
+   "Noël",
+   "La fin de la guerre de 1914-1918"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que célèbre le 14 juillet ?",
+  "a": [
+   "La fin de la guerre de 1939-1945",
+   "L'armistice de 1918",
+   "La fête nationale (Bastille et Fête de la Fédération)",
+   "La fête de la musique"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel texte de 1789 proclame les droits de tous ?",
+  "a": [
+   "Le Code civil",
+   "La Déclaration des droits de l'homme et du citoyen",
+   "La Charte des Nations",
+   "Le règlement de l'école"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui était Victor Schoelcher ?",
+  "a": [
+   "Celui qui a fait abolir l'esclavage en 1848",
+   "Un roi de France",
+   "Un explorateur",
+   "Un chanteur"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de temps dure le mandat du président de la République ?",
+  "a": [
+   "3 ans",
+   "7 ans",
+   "10 ans",
+   "5 ans"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le rôle d'un conseil d'élèves ?",
+  "a": [
+   "Noter les élèves",
+   "Écrire les programmes",
+   "Discuter et régler les problèmes de la vie de classe",
+   "Punir les élèves"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que doit-on faire d'un objet trouvé dans la cour ?",
+  "a": [
+   "Le garder",
+   "Le jeter",
+   "Le cacher",
+   "Le rapporter à un adulte"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Où se trouve le Parlement (Assemblée nationale) ?",
+  "a": [
+   "À Paris",
+   "À Lyon",
+   "À Marseille",
+   "À Strasbourg"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment s'appellent les élus de l'Assemblée nationale ?",
+  "a": [
+   "Les maires",
+   "Les conseillers de l'école",
+   "Les juges",
+   "Les députés"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment s'appellent les élus du conseil municipal ?",
+  "a": [
+   "Les députés",
+   "Les sénateurs",
+   "Les conseillers municipaux",
+   "Les ministres"
+  ],
+  "c": 2
+ },
+ {
+  "q": "À quoi sert le code de la route ?",
+  "a": [
+   "À gagner des courses",
+   "À fixer le prix des voitures",
+   "À choisir ses vacances",
+   "À assurer la sécurité de tous sur la route"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que la Marseillaise ?",
+  "a": [
+   "L'hymne national de la France",
+   "Une chanson de Noël",
+   "Un plat de Marseille",
+   "Un journal"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le rôle d'un juge ?",
+  "a": [
+   "Faire des lois",
+   "Soigner",
+   "Enseigner",
+   "Appliquer la loi et rendre la justice"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que dit la présomption d'innocence ?",
+  "a": [
+   "Tout accusé est coupable",
+   "Seuls les adultes sont innocents",
+   "On est innocent tant que la culpabilité n'est pas prouvée",
+   "Le juge décide sans preuve"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel symbole de la République voit-on dans une mairie ?",
+  "a": [
+   "Un trône",
+   "Une couronne de roi",
+   "Un blason de roi",
+   "Le buste de Marianne"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que veut dire « discrimination » ?",
+  "a": [
+   "Traiter quelqu'un moins bien à cause de ce qu'il est",
+   "Aider tout le monde",
+   "Faire un jeu",
+   "Ranger une classe"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que le racisme ?",
+  "a": [
+   "Respecter les différences",
+   "Aimer le sport",
+   "Une règle de jeu",
+   "Rejeter quelqu'un à cause de son origine"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que doit-on faire face à une insulte raciste ?",
+  "a": [
+   "En rire",
+   "La répéter",
+   "La signaler à un adulte",
+   "Ne rien dire jamais"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que dit la loi à propos du racisme ?",
+  "a": [
+   "C'est autorisé",
+   "C'est interdit et puni",
+   "C'est conseillé",
+   "Ce n'est jamais puni"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la différence entre un droit et un devoir ?",
+  "a": [
+   "Le droit protège, le devoir est une obligation",
+   "Ils sont identiques",
+   "Le droit est une punition",
+   "Le devoir est un cadeau"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Citer un devoir de l'élève :",
+  "a": [
+   "Se moquer",
+   "Arriver en retard exprès",
+   "Casser le matériel",
+   "Respecter les autres"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que signifie « être solidaire » ?",
+  "a": [
+   "Garder tout pour soi",
+   "Se disputer",
+   "Aider ceux qui en ont besoin",
+   "Rester indifférent"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que fait une association ?",
+  "a": [
+   "Elle vote les lois",
+   "Elle réunit des personnes autour d'un but commun",
+   "Elle juge les voleurs",
+   "Elle fabrique des voitures"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que fait un délégué de classe ?",
+  "a": [
+   "Il représente sa classe",
+   "Il punit les élèves",
+   "Il corrige les cahiers",
+   "Il dirige l'école"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment choisit-on un délégué de classe ?",
+  "a": [
+   "Par tirage au sort uniquement",
+   "Par la force",
+   "Par le plus âgé",
+   "Par un vote"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le rôle des pompiers ?",
+  "a": [
+   "Juger",
+   "Enseigner",
+   "Secourir et éteindre les incendies",
+   "Voter les lois"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Pourquoi respecte-t-on la propriété des autres ?",
+  "a": [
+   "Pour rien",
+   "Parce que ce qui appartient à autrui n'est pas à nous",
+   "Parce que c'est drôle",
+   "Parce que c'est obligatoire seulement le lundi"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que veut dire « respecter l'environnement » ?",
+  "a": [
+   "Protéger la nature",
+   "Gaspiller l'énergie",
+   "Jeter ses déchets",
+   "Couper tous les arbres"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel geste permet d'économiser de l'énergie ?",
+  "a": [
+   "Laisser tout allumé",
+   "Ouvrir la fenêtre en hiver avec le chauffage",
+   "Laisser le frigo ouvert",
+   "Éteindre la lumière en sortant"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que signifie « être poli » sur Internet ?",
+  "a": [
+   "Insulter",
+   "Se moquer",
+   "Écrire gentiment comme dans la vie",
+   "Révéler les secrets des autres"
+  ],
+  "c": 2
+ }
+]

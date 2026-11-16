@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Qu'est-ce que la souveraineté populaire selon Rousseau ?",
+  "a": [
+   "Le roi est source du pouvoir",
+   "Le peuple est source de tout pouvoir légitime",
+   "L'Église dirige",
+   "Le juge dirige"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a écrit Du contrat social ?",
+  "a": [
+   "Jean-Jacques Rousseau",
+   "Montesquieu",
+   "Voltaire",
+   "Diderot"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a écrit De l'esprit des lois ?",
+  "a": [
+   "Rousseau",
+   "Locke",
+   "Hobbes",
+   "Montesquieu"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que le contrat social ?",
+  "a": [
+   "Un contrat de travail",
+   "Un contrat de mariage",
+   "Un accord fondant l'ordre politique sur le consentement",
+   "Un traité commercial"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que défend le libéralisme politique ?",
+  "a": [
+   "Le pouvoir absolu",
+   "Les libertés individuelles et la limitation du pouvoir",
+   "L'économie planifiée uniquement",
+   "La censure"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que l'égalité des chances ?",
+  "a": [
+   "Donner à chacun les mêmes possibilités de réussir",
+   "Garantir les mêmes résultats",
+   "Supprimer l'école",
+   "Favoriser les héritiers"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la justice sociale ?",
+  "a": [
+   "La loi du plus fort",
+   "La justice pénale",
+   "L'égalité parfaite des revenus",
+   "Une répartition équitable des droits et des ressources"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'une action positive (discrimination positive) ?",
+  "a": [
+   "Un traitement défavorable",
+   "Une loi pénale",
+   "Un traitement favorable pour corriger une inégalité",
+   "Un impôt"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que la bioéthique ?",
+  "a": [
+   "La biologie seule",
+   "La réflexion sur les enjeux éthiques des sciences du vivant",
+   "Un sport",
+   "Une loi sur les impôts"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel comité donne des avis sur les questions de bioéthique en France ?",
+  "a": [
+   "Le Comité consultatif national d'éthique (CCNE)",
+   "Le Sénat",
+   "Le Conseil d'État",
+   "La CNIL"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel principe protège le corps humain en droit français ?",
+  "a": [
+   "La libre vente d'organes",
+   "Le brevet sur le corps",
+   "La liberté de tout expérimenter",
+   "L'indisponibilité et l'inviolabilité du corps humain"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que le consentement éclairé ?",
+  "a": [
+   "Un accord forcé",
+   "Un silence",
+   "Un accord libre donné après information claire",
+   "Un oui sans explication"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que le droit d'ingérence humanitaire ?",
+  "a": [
+   "Un droit d'envahir",
+   "L'idée d'intervenir pour protéger des populations en danger",
+   "Un droit de commerce",
+   "Un traité de paix"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la responsabilité de protéger (ONU) ?",
+  "a": [
+   "Un principe de protection contre les crimes de masse",
+   "Un impôt",
+   "Une alliance",
+   "Un tribunal"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la Cour pénale internationale ?",
+  "a": [
+   "Un tribunal civil français",
+   "Une banque",
+   "Un parlement",
+   "Une juridiction qui juge les crimes les plus graves"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Où siège la Cour pénale internationale ?",
+  "a": [
+   "Genève",
+   "Bruxelles",
+   "La Haye",
+   "New York"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que le Conseil de sécurité de l'ONU ?",
+  "a": [
+   "Un tribunal",
+   "L'organe chargé du maintien de la paix et de la sécurité",
+   "Un parlement mondial",
+   "Une banque"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien de membres permanents a le Conseil de sécurité ?",
+  "a": [
+   "5",
+   "7",
+   "10",
+   "15"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que l'OTAN ?",
+  "a": [
+   "Une monnaie",
+   "Un parti",
+   "Une ONG",
+   "Une alliance militaire défensive"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que la cohésion nationale ?",
+  "a": [
+   "L'uniformité",
+   "La censure",
+   "L'unité des citoyens malgré leurs différences",
+   "Le vote obligatoire"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un lobby ?",
+  "a": [
+   "Un parti",
+   "Un groupe qui cherche à influencer les décisions publiques",
+   "Un syndicat",
+   "Un tribunal"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la transparence de la vie publique ?",
+  "a": [
+   "Informer sur le patrimoine et les intérêts des élus",
+   "Le secret",
+   "Un impôt",
+   "Une peine"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle autorité contrôle la transparence de la vie publique ?",
+  "a": [
+   "La CNIL",
+   "L'ARCOM",
+   "La Cour de cassation",
+   "La HATVP"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que la Cour des comptes ?",
+  "a": [
+   "Un tribunal pénal",
+   "Une banque",
+   "Une institution qui contrôle l'usage de l'argent public",
+   "Un ministère"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que la citoyenneté numérique ?",
+  "a": [
+   "Avoir une adresse mail",
+   "Exercer ses droits et devoirs en ligne",
+   "Vendre en ligne",
+   "Programmer"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que garantit le droit à l'oubli numérique ?",
+  "a": [
+   "Pouvoir demander l'effacement de données personnelles",
+   "Pouvoir effacer ses dettes",
+   "Supprimer toute une loi",
+   "Cacher un crime"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que l'objection de conscience ?",
+  "a": [
+   "Obéir sans réfléchir",
+   "Une peine",
+   "Refuser d'accomplir un acte contraire à ses convictions",
+   "Un vote"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que l'engagement politique ?",
+  "a": [
+   "Éviter le vote",
+   "Ne payer aucun impôt",
+   "Participer à la vie publique par le vote ou un mandat",
+   "Quitter le pays"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel article de la Constitution consacre la laïcité ?",
+  "a": [
+   "L'article 16",
+   "L'article 1er",
+   "L'article 20",
+   "L'article 49"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel philosophe a écrit Le Léviathan ?",
+  "a": [
+   "Thomas Hobbes",
+   "John Locke",
+   "Rousseau",
+   "Montesquieu"
+  ],
+  "c": 0
+ }
+]

@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Dans quel pays est née la Renaissance ?",
+  "a": [
+   "En France",
+   "En Allemagne",
+   "En Italie",
+   "En Espagne"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a construit la coupole de la cathédrale de Florence ?",
+  "a": [
+   "Michel-Ange",
+   "Brunelleschi",
+   "Léonard de Vinci",
+   "Raphaël"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a peint « Le Printemps » (La Primavera) vers 1480 ?",
+  "a": [
+   "Botticelli",
+   "Raphaël",
+   "Titien",
+   "Giorgione"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a peint « Les Époux Arnolfini » ?",
+  "a": [
+   "Rembrandt",
+   "Vermeer",
+   "Dürer",
+   "Jan van Eyck"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle période musicale désigne la musique de Bach et de Vivaldi, aux XVIIe et XVIIIe siècles ?",
+  "a": [
+   "Le romantisme",
+   "Le jazz",
+   "Le classicisme",
+   "Le baroque"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment s'appelle la technique de Caravage qui oppose fortement ombre et lumière ?",
+  "a": [
+   "Le sfumato",
+   "Le pointillisme",
+   "Le clair-obscur",
+   "Le collage"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel style architectural est celui de Versailles ?",
+  "a": [
+   "Le gothique",
+   "Le classicisme",
+   "Le roman",
+   "L'Art nouveau"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que signifie la clé de sol, au début d'une portée ?",
+  "a": [
+   "Elle indique la place de la note sol",
+   "Elle indique le tempo",
+   "Elle indique la nuance",
+   "Elle indique le titre"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de musiciens compte un quatuor ?",
+  "a": [
+   "4",
+   "2",
+   "3",
+   "5"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a peint « Le Sacre de Napoléon » ?",
+  "a": [
+   "Eugène Delacroix",
+   "Théodore Géricault",
+   "Ingres",
+   "Jacques-Louis David"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel signe musical baisse une note d'un demi-ton ?",
+  "a": [
+   "Le dièse",
+   "Le bécarre",
+   "Le bémol",
+   "Le point"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel signe musical élève une note d'un demi-ton ?",
+  "a": [
+   "Le bémol",
+   "Le dièse",
+   "Le bécarre",
+   "Le soupir"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a composé « Le Barbier de Séville », un opéra ?",
+  "a": [
+   "Verdi",
+   "Rossini",
+   "Puccini",
+   "Bellini"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la voix masculine la plus grave ?",
+  "a": [
+   "La basse",
+   "Le ténor",
+   "Le baryton",
+   "Le contre-ténor"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la voix féminine la plus aiguë ?",
+  "a": [
+   "L'alto",
+   "La mezzo-soprano",
+   "Le contralto",
+   "La soprano"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que sont « Les Très Riches Heures du duc de Berry » ?",
+  "a": [
+   "Une statue",
+   "Un opéra",
+   "Un manuscrit enluminé",
+   "Un château"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a peint « L'École d'Athènes » au Vatican ?",
+  "a": [
+   "Michel-Ange",
+   "Léonard de Vinci",
+   "Raphaël",
+   "Titien"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle ville française est célèbre pour sa cathédrale gothique aux vitraux bleus ?",
+  "a": [
+   "Nîmes",
+   "Chartres",
+   "Lyon",
+   "Bordeaux"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un triptyque ?",
+  "a": [
+   "Une œuvre composée de trois panneaux",
+   "Une œuvre à trois couleurs",
+   "Un instrument à trois cordes",
+   "Un opéra en trois actes"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel artiste de la Renaissance a dessiné l'Homme de Vitruve ?",
+  "a": [
+   "Michel-Ange",
+   "Dürer",
+   "Raphaël",
+   "Léonard de Vinci"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a peint « Les Ménines » ?",
+  "a": [
+   "Goya",
+   "Murillo",
+   "Le Greco",
+   "Vélasquez"
+  ],
+  "c": 3
+ },
+ {
+  "q": "À quel siècle François Ier a-t-il développé la Renaissance en France ?",
+  "a": [
+   "Au XIVe siècle",
+   "Au XVIIIe siècle",
+   "Au XVIe siècle",
+   "Au XIXe siècle"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel château de la Loire possède un célèbre escalier à double révolution ?",
+  "a": [
+   "Chenonceau",
+   "Chambord",
+   "Azay-le-Rideau",
+   "Amboise"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment s'appelle la forme musicale où plusieurs voix reprennent un thème l'une après l'autre ?",
+  "a": [
+   "La fugue",
+   "La valse",
+   "Le menuet",
+   "La ballade"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a composé « La Passion selon saint Matthieu » ?",
+  "a": [
+   "Jean-Sébastien Bach",
+   "Haendel",
+   "Mozart",
+   "Haydn"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a sculpté « Les Bourgeois de Calais » ?",
+  "a": [
+   "Camille Claudel",
+   "Aristide Maillol",
+   "Antoine Bourdelle",
+   "Auguste Rodin"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel peintre flamand du XVIIe siècle a peint « La Descente de croix » à Anvers ?",
+  "a": [
+   "Rembrandt",
+   "Vermeer",
+   "Rubens",
+   "Bruegel"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel instrument à clavier est typique de la musique baroque ?",
+  "a": [
+   "Le synthétiseur",
+   "Le clavecin",
+   "L'accordéon",
+   "Le piano électrique"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment s'appelle le mouvement de pensée de la Renaissance qui place l'être humain au centre ?",
+  "a": [
+   "L'humanisme",
+   "Le cubisme",
+   "Le gothique",
+   "Le baroque"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel mouvement a succédé à la Renaissance en peinture, avec des effets dramatiques et du mouvement ?",
+  "a": [
+   "Le baroque",
+   "Le gothique",
+   "Le cubisme",
+   "L'impressionnisme"
+  ],
+  "c": 0
+ }
+]

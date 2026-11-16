@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel régime est instauré en Allemagne en 1919 après la chute de l'Empire ?",
+  "a": [
+   "Le Troisième Reich",
+   "La RDA",
+   "Le Second Empire",
+   "La République de Weimar"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel dirigeant fasciste prend le pouvoir en Italie en 1922 ?",
+  "a": [
+   "Francisco Franco",
+   "Adolf Hitler",
+   "Antonio Salazar",
+   "Benito Mussolini"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel événement de février 1933 sert de prétexte à Hitler pour réprimer ses opposants ?",
+  "a": [
+   "Le putsch de la Brasserie",
+   "La nuit de Cristal",
+   "Le traité de Versailles",
+   "L'incendie du Reichstag"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle nuit de novembre 1938 voit un pogrom massif contre les Juifs d'Allemagne ?",
+  "a": [
+   "La nuit de Cristal",
+   "La nuit des Longs Couteaux",
+   "La nuit du 4 août",
+   "La nuit de Walpurgis"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelles lois de 1935 retirent la citoyenneté aux Juifs allemands ?",
+  "a": [
+   "Les lois de Weimar",
+   "Les lois de Nuremberg",
+   "Les lois de Vichy",
+   "Les lois de Versailles"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel pacte est signé en août 1939 entre l'Allemagne et l'URSS ?",
+  "a": [
+   "Le pacte de Varsovie",
+   "Le pacte Briand-Kellogg",
+   "Le pacte germano-soviétique",
+   "Le pacte atlantique"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle conférence de janvier 1942 organise la « solution finale » ?",
+  "a": [
+   "La conférence de Yalta",
+   "La conférence de Wannsee",
+   "La conférence de Munich",
+   "La conférence de Potsdam"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle ville japonaise est frappée par la seconde bombe atomique le 9 août 1945 ?",
+  "a": [
+   "Nagasaki",
+   "Hiroshima",
+   "Kyoto",
+   "Tokyo"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel procès juge les dirigeants nazis à partir de novembre 1945 ?",
+  "a": [
+   "Le procès de Riom",
+   "Le procès de Nuremberg",
+   "Le procès de Tokyo",
+   "Le procès de Moscou"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle conférence de février 1945 réunit Roosevelt, Churchill et Staline ?",
+  "a": [
+   "Munich",
+   "Potsdam",
+   "Yalta",
+   "Téhéran"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel plan américain de 1947 aide à reconstruire l'Europe ?",
+  "a": [
+   "Le plan Schuman",
+   "Le plan Dawes",
+   "Le plan Marshall",
+   "Le plan Young"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle organisation militaire occidentale est créée en 1949 ?",
+  "a": [
+   "Le pacte de Varsovie",
+   "L'ONU",
+   "L'Union européenne",
+   "L'OTAN"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment l'Ouest ravitaille-t-il Berlin-Ouest pendant le blocus de 1948-1949 ?",
+  "a": [
+   "Par un pont aérien",
+   "Par des convois routiers",
+   "Par le métro",
+   "Par un canal"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle crise d'octobre 1962 manque de déclencher une guerre nucléaire ?",
+  "a": [
+   "La crise des missiles de Cuba",
+   "La crise de Suez",
+   "La crise de Berlin de 1948",
+   "La guerre du Golfe"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel dirigeant cubain prend le pouvoir en 1959 ?",
+  "a": [
+   "Fidel Castro",
+   "Che Guevara",
+   "Fulgencio Batista",
+   "Hugo Chávez"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle guerre oppose le Nord et le Sud de la péninsule coréenne de 1950 à 1953 ?",
+  "a": [
+   "La guerre du Viêt Nam",
+   "La guerre de Corée",
+   "La guerre d'Indochine",
+   "La guerre du Golfe"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle conférence de 1955 réunit les pays d'Asie et d'Afrique, précurseur du non-alignement ?",
+  "a": [
+   "La conférence de Yalta",
+   "La conférence de Bandung",
+   "La conférence de Berlin",
+   "La conférence de Bretton Woods"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel dirigeant soviétique lance la perestroïka et la glasnost ?",
+  "a": [
+   "Leonid Brejnev",
+   "Nikita Khrouchtchev",
+   "Mikhaïl Gorbatchev",
+   "Vladimir Poutine"
+  ],
+  "c": 2
+ },
+ {
+  "q": "En quelle année l'URSS disparaît-elle ?",
+  "a": [
+   "1989",
+   "1985",
+   "1991",
+   "1979"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel traité de 2007 fait suite au rejet du projet de Constitution européenne en 2005 ?",
+  "a": [
+   "Le traité de Lisbonne",
+   "Le traité de Maastricht",
+   "Le traité de Nice",
+   "Le traité d'Amsterdam"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle monnaie unique est mise en circulation sous forme de pièces et billets en 2002 ?",
+  "a": [
+   "L'écu",
+   "Le franc européen",
+   "Le mark européen",
+   "L'euro"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle colonie britannique d'Afrique noire est la première à devenir indépendante, en 1957 ?",
+  "a": [
+   "Le Ghana",
+   "Le Kenya",
+   "Le Nigeria",
+   "La Tanzanie"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel dirigeant sud-africain est libéré en 1990 après 27 ans de prison ?",
+  "a": [
+   "Nelson Mandela",
+   "Desmond Tutu",
+   "Jomo Kenyatta",
+   "Patrice Lumumba"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel régime est aboli en Afrique du Sud au début des années 1990 ?",
+  "a": [
+   "Le franquisme",
+   "L'apartheid",
+   "Le stalinisme",
+   "Le colonialisme belge"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel attentat du 11 septembre 2001 frappe les États-Unis ?",
+  "a": [
+   "La prise de Saïgon",
+   "La crise de Suez",
+   "Les attentats contre le World Trade Center et le Pentagone",
+   "La guerre du Golfe"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle guerre éclate en 1991 après l'invasion du Koweït par l'Irak ?",
+  "a": [
+   "La guerre de Corée",
+   "La guerre du Golfe",
+   "La guerre du Kosovo",
+   "La guerre d'Irak de 2003"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle réforme économique de 1978 lance l'ouverture de la Chine sous Deng Xiaoping ?",
+  "a": [
+   "La Révolution culturelle",
+   "Le Grand Bond en avant",
+   "La Longue Marche",
+   "Les « quatre modernisations » (ouverture économique)"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle mémoire est liée au 8 mai 1945 en France ?",
+  "a": [
+   "La fin de la guerre d'Algérie",
+   "La victoire sur le nazisme",
+   "La prise de la Bastille",
+   "L'armistice de 1918"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle défaite militaire de 1954 met fin à la guerre d'Indochine ?",
+  "a": [
+   "Diên Biên Phu",
+   "Dunkerque",
+   "Verdun",
+   "Sedan"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle guerre voit s'opposer le Nord et le Sud du Viêt Nam avec l'intervention américaine jusqu'en 1973 ?",
+  "a": [
+   "La guerre de Corée",
+   "La guerre d'Algérie",
+   "La guerre du Golfe",
+   "La guerre du Viêt Nam"
+  ],
+  "c": 3
+ }
+]

@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quelle est la masse volumique de l'eau liquide en g/cm³ ?",
+  "a": [
+   "10",
+   "0,1",
+   "1 000",
+   "1"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Un objet de masse 200 g a un volume de 50 cm³. Quelle est sa masse volumique ?",
+  "a": [
+   "4 g/cm³",
+   "0,25 g/cm³",
+   "10 000 g/cm³",
+   "150 g/cm³"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Un objet flotte dans l'eau si sa masse volumique est...",
+  "a": [
+   "supérieure à celle de l'eau",
+   "inférieure à celle de l'eau",
+   "égale à zéro",
+   "toujours élevée"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la masse de 50 cm³ d'un liquide de masse volumique 0,8 g/cm³ ?",
+  "a": [
+   "62,5 g",
+   "40 g",
+   "50,8 g",
+   "4 g"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Dans un mélange eau-sel, le sel est le...",
+  "a": [
+   "solvant",
+   "dépôt",
+   "soluté",
+   "filtrat"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Une solution saturée est une solution dans laquelle...",
+  "a": [
+   "il n'y a pas de soluté",
+   "le solvant est évaporé",
+   "on ne peut plus dissoudre le soluté",
+   "tout est solide"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Lors d'un changement d'état, la température d'un corps pur...",
+  "a": [
+   "augmente toujours",
+   "diminue toujours",
+   "reste constante pendant le changement",
+   "vaut toujours 0 °C"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Un corps pur a-t-il une température de changement d'état fixe ?",
+  "a": [
+   "Non, jamais",
+   "Seulement l'été",
+   "Seulement pour l'eau",
+   "Oui, à pression donnée"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment sépare-t-on de l'alcool et de l'eau (liquides miscibles) ?",
+  "a": [
+   "Par distillation",
+   "Par filtration",
+   "Par décantation",
+   "Par tamisage"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Dans quel état la matière se comprime-t-elle le plus facilement ?",
+  "a": [
+   "À l'état gazeux",
+   "À l'état solide",
+   "À l'état liquide",
+   "Dans aucun état"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Dans un circuit en série, si une lampe grille...",
+  "a": [
+   "les autres brillent plus",
+   "toutes les autres s'éteignent",
+   "rien ne change",
+   "les autres clignotent"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Dans un circuit en dérivation, si une lampe branche grille...",
+  "a": [
+   "tout s'éteint",
+   "toutes brillent moins",
+   "les autres branches continuent à fonctionner",
+   "le générateur explose"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel appareil mesure la tension électrique ?",
+  "a": [
+   "Un ampèremètre",
+   "Un ohmmètre",
+   "Un thermomètre",
+   "Un voltmètre"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel appareil mesure l'intensité du courant ?",
+  "a": [
+   "Un ampèremètre",
+   "Un voltmètre",
+   "Un baromètre",
+   "Un chronomètre"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment branche-t-on un voltmètre ?",
+  "a": [
+   "En série dans le circuit",
+   "En dérivation aux bornes du dipôle",
+   "Sans circuit",
+   "Seulement sur une pile"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est l'unité de tension électrique ?",
+  "a": [
+   "L'ampère",
+   "Le watt",
+   "Le volt",
+   "Le joule"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est l'unité d'intensité du courant ?",
+  "a": [
+   "Le volt",
+   "Le watt",
+   "Le newton",
+   "L'ampère"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans un circuit en série, l'intensité du courant est...",
+  "a": [
+   "la même en tout point",
+   "nulle",
+   "plus grande près de la pile",
+   "différente dans chaque dipôle"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Une pile de 4,5 V alimente un circuit. Quelle est la tension aux bornes de la pile ?",
+  "a": [
+   "0 V",
+   "4,5 V environ",
+   "230 V",
+   "45 V"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Un court-circuit se produit quand...",
+  "a": [
+   "on ouvre l'interrupteur",
+   "la lampe est neuve",
+   "un fil relie directement les bornes du générateur",
+   "on ajoute une résistance"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Pourquoi voit-on la Lune sous forme de phases ?",
+  "a": [
+   "La Terre fait de l'ombre à chaque fois",
+   "Elle change de taille",
+   "Elle s'éteint",
+   "On voit une partie différente de la face éclairée"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la durée approximative entre deux pleines lunes ?",
+  "a": [
+   "Environ un mois",
+   "Environ une semaine",
+   "Environ un an",
+   "Environ un jour"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Une éclipse de Soleil se produit quand...",
+  "a": [
+   "la Lune passe entre le Soleil et la Terre",
+   "la Terre passe entre le Soleil et la Lune",
+   "le Soleil s'éteint",
+   "la Lune est pleine"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Une éclipse de Lune se produit quand...",
+  "a": [
+   "la Lune passe entre le Soleil et la Terre",
+   "le Soleil disparaît",
+   "la Lune change de couleur",
+   "la Terre passe entre le Soleil et la Lune"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la vitesse approximative du son dans l'air ?",
+  "a": [
+   "300 000 km/s",
+   "34 m/s",
+   "340 m/s",
+   "3 400 m/s"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Un objet à 36 km/h roule à combien en m/s ?",
+  "a": [
+   "36 m/s",
+   "3,6 m/s",
+   "100 m/s",
+   "10 m/s"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle distance parcourt un cycliste à 20 km/h pendant 30 minutes ?",
+  "a": [
+   "10 km",
+   "20 km",
+   "40 km",
+   "600 m"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle forme d'énergie possède un objet situé en hauteur ?",
+  "a": [
+   "L'énergie nucléaire",
+   "L'énergie de position (potentielle)",
+   "L'énergie sonore",
+   "Aucune"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle conversion d'énergie réalise une lampe à incandescence ?",
+  "a": [
+   "Chimique en électrique",
+   "Mécanique en chimique",
+   "Électrique en lumineuse et thermique",
+   "Nucléaire en sonore"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle conversion réalise un panneau photovoltaïque ?",
+  "a": [
+   "Électrique en lumineuse",
+   "Thermique en chimique",
+   "Mécanique en lumineuse",
+   "Lumineuse en électrique"
+  ],
+  "c": 3
+ }
+]

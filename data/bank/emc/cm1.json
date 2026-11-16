@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Qu'est-ce qu'un symbole de la République ?",
+  "a": [
+   "Un objet à acheter",
+   "Un jeu de société",
+   "Une loi",
+   "Un emblème qui représente les valeurs de la France"
+  ],
+  "c": 3
+ },
+ {
+  "q": "En quelle année a été votée la loi de séparation des Églises et de l'État ?",
+  "a": [
+   "1905",
+   "1789",
+   "1958",
+   "1991"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que garantit la laïcité à chaque personne ?",
+  "a": [
+   "L'obligation de pratiquer une religion",
+   "L'interdiction de croire",
+   "Le droit d'imposer sa religion",
+   "La liberté de croire ou de ne pas croire"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui siège au Sénat ?",
+  "a": [
+   "Les députés",
+   "Les maires",
+   "Les sénateurs",
+   "Les juges"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans quel palais siège le Sénat ?",
+  "a": [
+   "Le Louvre",
+   "Le Palais de justice",
+   "Le château de Versailles",
+   "Le palais du Luxembourg"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a écrit la Marseillaise (paroles et musique) en 1792 ?",
+  "a": [
+   "Rouget de Lisle",
+   "Victor Hugo",
+   "Molière",
+   "Voltaire"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que choisissent les électeurs aux élections municipales ?",
+  "a": [
+   "Le Premier ministre",
+   "Les conseillers municipaux",
+   "Les juges",
+   "Le préfet"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la Constitution actuelle de la France ?",
+  "a": [
+   "Celle de 1789",
+   "Celle de 1848",
+   "Celle de la Ve République (1958)",
+   "Celle de 1905"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui élit le président de la République ?",
+  "a": [
+   "Les députés seuls",
+   "Les citoyens, au suffrage universel direct",
+   "Les juges",
+   "Le maire"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel âge faut-il avoir pour voter en France ?",
+  "a": [
+   "18 ans",
+   "16 ans",
+   "21 ans",
+   "14 ans"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui nomme le Premier ministre ?",
+  "a": [
+   "Le maire",
+   "Les juges",
+   "Les députés",
+   "Le président de la République"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui prépare un projet de loi ?",
+  "a": [
+   "Le maire",
+   "Le tribunal",
+   "Le gouvernement",
+   "Le préfet"
+  ],
+  "c": 2
+ },
+ {
+  "q": "De quelles assemblées le Parlement se compose-t-il ?",
+  "a": [
+   "Conseil d'État et Sénat",
+   "Assemblée nationale et Sénat",
+   "Mairie et Préfecture",
+   "Assemblée et Conseil de l'Europe"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel service est assuré par la commune ?",
+  "a": [
+   "La gestion de l'école primaire",
+   "Le vote des lois",
+   "La justice pénale",
+   "L'armée"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Dans quel bâtiment travaille le maire ?",
+  "a": [
+   "Le tribunal",
+   "La préfecture",
+   "L'Élysée",
+   "La mairie"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui travaille à l'Élysée ?",
+  "a": [
+   "Le maire",
+   "Le préfet",
+   "Le président de la République",
+   "Le directeur de l'école"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a le droit de vote à un référendum national ?",
+  "a": [
+   "Seulement les députés",
+   "Les électeurs inscrits",
+   "Les enfants",
+   "Les étrangers de passage"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que signifie « suffrage universel » ?",
+  "a": [
+   "Tous les citoyens adultes peuvent voter",
+   "Seuls les riches votent",
+   "Seuls les hommes votent",
+   "Le vote est obligatoire à l'étranger"
+  ],
+  "c": 0
+ },
+ {
+  "q": "En quelle année les femmes ont-elles pu voter pour la première fois en France ?",
+  "a": [
+   "1789",
+   "1905",
+   "1981",
+   "1944-1945"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que veut dire « égalité entre les filles et les garçons » ?",
+  "a": [
+   "Mêmes vêtements",
+   "Mêmes métiers imposés",
+   "Mêmes droits et mêmes chances",
+   "Mêmes jeux obligatoires"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel texte protège les droits des enfants dans le monde ?",
+  "a": [
+   "Le Code de la route",
+   "La Convention internationale des droits de l'enfant",
+   "La Constitution de 1958",
+   "La Charte de la commune"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel organisme international veille à la paix dans le monde ?",
+  "a": [
+   "L'ONU",
+   "L'OMS",
+   "L'UNESCO",
+   "La FIFA"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que fait l'Organisation mondiale de la santé (OMS) ?",
+  "a": [
+   "Elle organise les JO",
+   "Elle juge les pays",
+   "Elle vote les lois françaises",
+   "Elle agit pour la santé dans le monde"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'un citoyen ?",
+  "a": [
+   "Un touriste",
+   "Un animal",
+   "Membre d'une nation, avec des droits et des devoirs",
+   "Un enfant seulement"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que veut dire « respecter la loi » ?",
+  "a": [
+   "Faire ce qu'on veut",
+   "Faire ce que la loi demande",
+   "Ne l'appliquer qu'aux autres",
+   "L'ignorer"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui fait respecter la loi dans la rue ?",
+  "a": [
+   "La police et la gendarmerie",
+   "Le facteur",
+   "Le boulanger",
+   "Le maire seul"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'une loi ?",
+  "a": [
+   "Un conseil du maire",
+   "Une règle commune votée par le Parlement",
+   "Une habitude",
+   "Un jeu"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que fait un avocat ?",
+  "a": [
+   "Il juge",
+   "Il arrête les voleurs",
+   "Il défend une personne devant la justice",
+   "Il fait les lois"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que signifie « faire preuve d'esprit critique » ?",
+  "a": [
+   "Croire tout ce qu'on lit",
+   "Vérifier avant de croire",
+   "Critiquer tout",
+   "Ne rien lire"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment vérifier une information sur Internet ?",
+  "a": [
+   "Croiser plusieurs sources fiables",
+   "Faire confiance au premier site",
+   "Croire les rumeurs",
+   "Regarder le nombre de likes"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que faut-il protéger quand on utilise Internet ?",
+  "a": [
+   "Son écran uniquement",
+   "Son mot de passe en le partageant",
+   "Son pseudo en le disant à tous",
+   "Ses informations personnelles"
+  ],
+  "c": 3
+ }
+]

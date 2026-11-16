@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel est le discriminant de x² - 5x + 6 ?",
+  "a": [
+   "25",
+   "-1",
+   "1",
+   "49"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelles sont les racines de x² - 5x + 6 ?",
+  "a": [
+   "-2 et -3",
+   "2 et 3",
+   "1 et 6",
+   "-2 et 3"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le nombre de racines de x² + x + 1 ?",
+  "a": [
+   "1",
+   "2",
+   "0",
+   "3"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la somme des racines de x² - 7x + 10 ?",
+  "a": [
+   "-7",
+   "10",
+   "3",
+   "7"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la forme canonique de x² - 4x + 7 ?",
+  "a": [
+   "(x - 2)² + 3",
+   "(x - 2)² + 7",
+   "(x + 2)² + 3",
+   "(x - 4)² + 7"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la dérivée de f(x) = x³ ?",
+  "a": [
+   "x²",
+   "3x²",
+   "3x",
+   "x⁴/4"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la dérivée de f(x) = 5x² - 3x + 1 ?",
+  "a": [
+   "5x - 3",
+   "10x + 1",
+   "10x - 3",
+   "10x² - 3"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la dérivée de f(x) = 1/x ?",
+  "a": [
+   "1/x²",
+   "ln x",
+   "-1/x",
+   "-1/x²"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la dérivée de f(x) = racine de x ?",
+  "a": [
+   "2 racine de x",
+   "1/racine de x",
+   "x/2",
+   "1/(2 racine de x)"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la dérivée de f(x) = e^x ?",
+  "a": [
+   "e^x",
+   "x e^(x-1)",
+   "e^x / x",
+   "1"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la dérivée de f(x) = (2x + 1)³ ?",
+  "a": [
+   "3(2x + 1)²",
+   "6(2x + 1)²",
+   "(2x + 1)²",
+   "2(2x + 1)²"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Si f'(x) > 0 sur un intervalle, alors f est sur cet intervalle...",
+  "a": [
+   "strictement décroissante",
+   "constante",
+   "strictement croissante",
+   "nulle"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est l'équation de la tangente à f(x) = x² au point d'abscisse 1 ?",
+  "a": [
+   "y = 2x + 1",
+   "y = x",
+   "y = x² - 1",
+   "y = 2x - 1"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la dérivée de u x v ?",
+  "a": [
+   "u'v + uv'",
+   "u'v'",
+   "u'v - uv'",
+   "uv' - u'v"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Une suite arithmétique a pour premier terme 3 et raison 4. Que vaut u₅ avec u₀ = 3 ?",
+  "a": [
+   "19",
+   "23",
+   "27",
+   "243"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Une suite géométrique a pour premier terme u₀ = 2 et raison 3. Que vaut u₃ ?",
+  "a": [
+   "18",
+   "54",
+   "162",
+   "27"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la somme 1 + 2 + 3 + ... + 100 ?",
+  "a": [
+   "5 000",
+   "10 100",
+   "5 050",
+   "4 950"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la somme 1 + 2 + 4 + 8 + 16 ?",
+  "a": [
+   "32",
+   "30",
+   "31",
+   "62"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Une suite (uₙ) vérifie uₙ₊₁ = uₙ + 5. C'est une suite...",
+  "a": [
+   "géométrique de raison 5",
+   "constante",
+   "arithmétique de raison 5",
+   "arithmétique de raison uₙ"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la valeur de cos(pi/3) ?",
+  "a": [
+   "racine de 3 / 2",
+   "racine de 2 / 2",
+   "1",
+   "1/2"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la valeur de sin(pi/6) ?",
+  "a": [
+   "1/2",
+   "racine de 3 / 2",
+   "1",
+   "0"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la mesure en radians de 180 degrés ?",
+  "a": [
+   "pi/2",
+   "pi",
+   "2 pi",
+   "pi/4"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la valeur de cos(pi) ?",
+  "a": [
+   "0",
+   "-1",
+   "1",
+   "-1/2"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la valeur de cos au carré x + sin au carré x ?",
+  "a": [
+   "0",
+   "2",
+   "1",
+   "cos(2x)"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Si A et B sont deux événements, P(A sachant B) =",
+  "a": [
+   "P(A) x P(B)",
+   "P(A inter B) / P(A)",
+   "P(A union B) / P(B)",
+   "P(A inter B) / P(B)"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Deux événements indépendants A et B vérifient...",
+  "a": [
+   "P(A inter B) = P(A) x P(B)",
+   "P(A inter B) = 0",
+   "P(A union B) = P(A) + P(B)",
+   "P(A) = P(B)"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le produit scalaire des vecteurs (2 ; 3) et (4 ; -1) ?",
+  "a": [
+   "11",
+   "5",
+   "8",
+   "-3"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Deux vecteurs non nuls sont orthogonaux si leur produit scalaire vaut...",
+  "a": [
+   "1",
+   "-1",
+   "0",
+   "leur norme"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Une variable aléatoire X prend 0 avec probabilité 0,4 et 10 avec probabilité 0,6. Que vaut son espérance ?",
+  "a": [
+   "5",
+   "4",
+   "10",
+   "6"
+  ],
+  "c": 3
+ },
+ {
+  "q": "X suit une loi binomiale de paramètres n = 10 et p = 0,5. Quelle est son espérance ?",
+  "a": [
+   "5",
+   "10",
+   "0,5",
+   "2,5"
+  ],
+  "c": 0
+ }
+]

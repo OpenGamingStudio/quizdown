@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Quel est le principe de la laïcité à l'école ?",
+  "a": [
+   "Interdiction de parler de religion",
+   "Enseignants neutres et liberté de conscience des élèves",
+   "Obligation d'une religion",
+   "Une seule religion enseignée"
+  ],
+  "c": 1
+ },
+ {
+  "q": "En quelle année la IIIe République a-t-elle été proclamée ?",
+  "a": [
+   "1870",
+   "1789",
+   "1958",
+   "1945"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que signifient les lettres « RF » sur les documents officiels ?",
+  "a": [
+   "Région de France",
+   "République française",
+   "Radio France",
+   "Règle fédérale"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le rôle d'un ministre ?",
+  "a": [
+   "Juger les délits",
+   "Voter les lois",
+   "Diriger un domaine de l'action du gouvernement",
+   "Diriger une commune"
+  ],
+  "c": 2
+ },
+ {
+  "q": "À quoi sert la Constitution ?",
+  "a": [
+   "Elle fixe les prix",
+   "Elle organise les pouvoirs de l'État et protège les droits",
+   "Elle juge les crimes",
+   "Elle règle la circulation"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quels sont les trois pouvoirs séparés ?",
+  "a": [
+   "Législatif, exécutif, judiciaire",
+   "Royal, civil, religieux",
+   "Local, régional, mondial",
+   "Social, culturel, sportif"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui exerce le pouvoir législatif ?",
+  "a": [
+   "Le président seul",
+   "Les juges",
+   "La police",
+   "Le Parlement"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui exerce le pouvoir exécutif ?",
+  "a": [
+   "Les juges",
+   "Le Sénat seul",
+   "Le président et le gouvernement",
+   "Les maires uniquement"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui exerce le pouvoir judiciaire ?",
+  "a": [
+   "Le Parlement",
+   "Les juges et les tribunaux",
+   "Le gouvernement",
+   "Les préfets"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a théorisé la séparation des pouvoirs ?",
+  "a": [
+   "Montesquieu",
+   "Napoléon",
+   "Louis XIV",
+   "Pasteur"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de temps dure le mandat d'un député ?",
+  "a": [
+   "3 ans",
+   "7 ans",
+   "10 ans",
+   "5 ans"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien de temps dure le mandat d'un sénateur ?",
+  "a": [
+   "5 ans",
+   "3 ans",
+   "6 ans",
+   "9 ans"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui dirige un département ?",
+  "a": [
+   "Le maire",
+   "Le recteur",
+   "Le sénateur",
+   "Le président du conseil départemental"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelles sont les collectivités territoriales françaises ?",
+  "a": [
+   "Commune, département, région",
+   "Hameau, ville, pays",
+   "Quartier, canton, État",
+   "Mairie, préfecture, ministère"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le drapeau de l'Union européenne ?",
+  "a": [
+   "Étoiles blanches sur fond rouge",
+   "Une étoile jaune sur fond bleu",
+   "Un cercle vert",
+   "Douze étoiles dorées sur fond bleu"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est l'hymne de l'Union européenne ?",
+  "a": [
+   "La Marseillaise",
+   "Les Quatre Saisons",
+   "L'Ode à la joie de Beethoven",
+   "La Symphonie fantastique"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la monnaie de nombreux pays de l'Union européenne ?",
+  "a": [
+   "Le franc",
+   "L'euro",
+   "Le dollar",
+   "La livre"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la date de la Journée de l'Europe ?",
+  "a": [
+   "Le 9 mai",
+   "Le 14 juillet",
+   "Le 1er janvier",
+   "Le 11 novembre"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le siège du Parlement européen (séances plénières) ?",
+  "a": [
+   "Londres",
+   "Rome",
+   "Madrid",
+   "Strasbourg"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle organisation de l'ONU est consacrée à l'enfance ?",
+  "a": [
+   "L'OMS",
+   "La FAO",
+   "L'UNICEF",
+   "L'OTAN"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel droit de l'enfant est protégé par la convention de 1989 ?",
+  "a": [
+   "Voter à 10 ans",
+   "Être protégé contre la violence",
+   "Conduire",
+   "Choisir son école sans règle"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la liberté d'expression ?",
+  "a": [
+   "Dire et écrire ses opinions dans le respect de la loi",
+   "Insulter librement",
+   "Mentir sans limite",
+   "Se taire"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que dit la loi sur l'injure et la diffamation ?",
+  "a": [
+   "Elles sont autorisées",
+   "Elles sont encouragées",
+   "Elles sont ignorées",
+   "Elles sont punies par la loi"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'une « fake news » ?",
+  "a": [
+   "Une nouvelle sportive",
+   "Un journal officiel",
+   "Une fausse information",
+   "Un sondage"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est un mot de passe solide ?",
+  "a": [
+   "Mon prénom",
+   "1234",
+   "Ma date de naissance",
+   "Long, avec lettres, chiffres et symboles"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Pourquoi faut-il respecter le droit à l'image ?",
+  "a": [
+   "Chacun décide si sa photo est publiée",
+   "Les photos n'ont pas de propriétaire",
+   "Tout est libre sur Internet",
+   "Seuls les adultes ont une image"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Pourquoi ne faut-il pas donner son adresse à un inconnu en ligne ?",
+  "a": [
+   "Parce que c'est poli",
+   "Pour protéger sa vie privée et sa sécurité",
+   "Pour gagner des points",
+   "Parce que c'est interdit aux adultes"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel numéro joindre pour le cyberharcèlement ?",
+  "a": [
+   "Le 3615",
+   "Le 112",
+   "Le 3018",
+   "Le 3000"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un bénévole ?",
+  "a": [
+   "Un employé",
+   "Une personne qui aide sans être payée",
+   "Un juge",
+   "Un policier"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que permet le don du sang ?",
+  "a": [
+   "Sauver des vies",
+   "Payer des impôts",
+   "Voter",
+   "Se soigner seul"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que fait le service de l'état civil de la mairie ?",
+  "a": [
+   "Il juge les voleurs",
+   "Il enregistre naissances, mariages et décès",
+   "Il vote les lois",
+   "Il fixe les impôts"
+  ],
+  "c": 1
+ }
+]

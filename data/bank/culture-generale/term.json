@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Qui a écrit « L'Être et le Néant » ?",
+  "a": [
+   "Jean-Paul Sartre",
+   "Maurice Merleau-Ponty",
+   "Albert Camus",
+   "Simone de Beauvoir"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel philosophe a formulé l'impératif catégorique ?",
+  "a": [
+   "Hegel",
+   "Spinoza",
+   "Nietzsche",
+   "Emmanuel Kant"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a écrit « Les Mots et les Choses » ?",
+  "a": [
+   "Jacques Derrida",
+   "Gilles Deleuze",
+   "Michel Foucault",
+   "Roland Barthes"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel physicien est célèbre pour une expérience de pensée avec un chat ?",
+  "a": [
+   "Albert Einstein",
+   "Erwin Schrödinger",
+   "Niels Bohr",
+   "Paul Dirac"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel logicien a démontré les théorèmes d'incomplétude ?",
+  "a": [
+   "Alan Turing",
+   "Kurt Gödel",
+   "David Hilbert",
+   "Bertrand Russell"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a composé l'opéra « Tosca » ?",
+  "a": [
+   "Giacomo Puccini",
+   "Giuseppe Verdi",
+   "Gioachino Rossini",
+   "Gaetano Donizetti"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a écrit l'« Éthique » (1677) ?",
+  "a": [
+   "Leibniz",
+   "Descartes",
+   "Locke",
+   "Spinoza"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a écrit « Mrs Dalloway » ?",
+  "a": [
+   "Jane Austen",
+   "Emily Brontë",
+   "Virginia Woolf",
+   "Katherine Mansfield"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a écrit « Rhinocéros » ?",
+  "a": [
+   "Samuel Beckett",
+   "Jean Genet",
+   "Eugène Ionesco",
+   "Arthur Adamov"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a écrit « En attendant Godot » ?",
+  "a": [
+   "Eugène Ionesco",
+   "Samuel Beckett",
+   "Jean Anouilh",
+   "Albert Camus"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a écrit la « Phénoménologie de l'esprit » ?",
+  "a": [
+   "Hegel",
+   "Kant",
+   "Schelling",
+   "Fichte"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la capitale de l'Ouzbékistan ?",
+  "a": [
+   "Samarcande",
+   "Bakou",
+   "Douchanbé",
+   "Tachkent"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a écrit « De la démocratie en Amérique » ?",
+  "a": [
+   "Montesquieu",
+   "Benjamin Constant",
+   "Raymond Aron",
+   "Alexis de Tocqueville"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a écrit « La Condition humaine » ?",
+  "a": [
+   "Albert Camus",
+   "Jean Giono",
+   "André Malraux",
+   "Antoine de Saint-Exupéry"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a imaginé la machine théorique de calcul qui porte son nom ?",
+  "a": [
+   "John von Neumann",
+   "Alan Turing",
+   "Charles Babbage",
+   "Claude Shannon"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a réalisé « À bout de souffle » ?",
+  "a": [
+   "Jean-Luc Godard",
+   "François Truffaut",
+   "Alain Resnais",
+   "Jacques Demy"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a écrit l'« Éthique à Nicomaque » ?",
+  "a": [
+   "Aristote",
+   "Platon",
+   "Cicéron",
+   "Épictète"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a composé l'oratorio « Le Messie » ?",
+  "a": [
+   "Bach",
+   "Vivaldi",
+   "Purcell",
+   "Haendel"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a écrit les « Pensées » ?",
+  "a": [
+   "La Rochefoucauld",
+   "La Bruyère",
+   "Blaise Pascal",
+   "Montaigne"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a écrit « Si c'est un homme » ?",
+  "a": [
+   "Elie Wiesel",
+   "Primo Levi",
+   "Imre Kertész",
+   "Jorge Semprún"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle discipline Sigmund Freud a-t-il fondée ?",
+  "a": [
+   "La sociologie",
+   "La psychanalyse",
+   "La phénoménologie",
+   "La psychologie cognitive"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a écrit les « Essais » ?",
+  "a": [
+   "Montaigne",
+   "Pascal",
+   "Rabelais",
+   "Ronsard"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a écrit « Le Cimetière marin » ?",
+  "a": [
+   "Stéphane Mallarmé",
+   "Paul Claudel",
+   "Saint-John Perse",
+   "Paul Valéry"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel mathématicien grec a écrit les « Éléments » ?",
+  "a": [
+   "Archimède",
+   "Pythagore",
+   "Euclide",
+   "Thalès"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la capitale de l'Éthiopie ?",
+  "a": [
+   "Nairobi",
+   "Khartoum",
+   "Addis-Abeba",
+   "Asmara"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a écrit « Le Vieil Homme et la Mer » ?",
+  "a": [
+   "John Steinbeck",
+   "Ernest Hemingway",
+   "William Faulkner",
+   "Francis Scott Fitzgerald"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel architecte a conçu la pyramide du Louvre ?",
+  "a": [
+   "Ieoh Ming Pei",
+   "Frank Gehry",
+   "Renzo Piano",
+   "Jean Nouvel"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a écrit « Léviathan » ?",
+  "a": [
+   "John Locke",
+   "David Hume",
+   "Francis Bacon",
+   "Thomas Hobbes"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a écrit « Les Particules élémentaires » ?",
+  "a": [
+   "Annie Ernaux",
+   "Patrick Modiano",
+   "Jean Echenoz",
+   "Michel Houellebecq"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a écrit « Les Chants de Maldoror » ?",
+  "a": [
+   "Arthur Rimbaud",
+   "Guillaume Apollinaire",
+   "Lautréamont",
+   "Gérard de Nerval"
+  ],
+  "c": 2
+ }
+]

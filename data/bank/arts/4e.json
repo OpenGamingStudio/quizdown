@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel peintre allemand a peint « Le Voyageur contemplant une mer de nuages » ?",
+  "a": [
+   "Delacroix",
+   "Turner",
+   "Caspar David Friedrich",
+   "Goya"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a peint « Les Glaneuses » ?",
+  "a": [
+   "Gustave Courbet",
+   "Jean-François Millet",
+   "Claude Monet",
+   "Camille Corot"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel peintre a réalisé « Un enterrement à Ornans » et est chef de file du réalisme ?",
+  "a": [
+   "Gustave Courbet",
+   "Édouard Manet",
+   "Eugène Delacroix",
+   "Théodore Rousseau"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel compositeur polonais est célèbre pour sa musique romantique pour piano ?",
+  "a": [
+   "Franz Liszt",
+   "Robert Schumann",
+   "Johannes Brahms",
+   "Frédéric Chopin"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a conçu l'Opéra de Paris, dit « Palais Garnier » ?",
+  "a": [
+   "Gustave Eiffel",
+   "Haussmann",
+   "Viollet-le-Duc",
+   "Charles Garnier"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a peint « Olympia » (1863) ?",
+  "a": [
+   "Auguste Renoir",
+   "Edgar Degas",
+   "Édouard Manet",
+   "Paul Cézanne"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel sculpteur est l'auteur de « La Porte de l'Enfer » ?",
+  "a": [
+   "Camille Claudel",
+   "Auguste Rodin",
+   "Antoine Bourdelle",
+   "Aristide Maillol"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a peint « Un dimanche après-midi à l'île de la Grande Jatte » ?",
+  "a": [
+   "Georges Seurat",
+   "Claude Monet",
+   "Paul Signac",
+   "Camille Pissarro"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment s'appelle la technique picturale de Seurat, faite de petites touches de couleur pure ?",
+  "a": [
+   "Le pointillisme",
+   "Le cubisme",
+   "Le fauvisme",
+   "Le collage"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment appelle-t-on la période musicale de Mozart et de Haydn, à la fin du XVIIIe siècle ?",
+  "a": [
+   "Le romantisme",
+   "Le baroque",
+   "La musique contemporaine",
+   "Le classicisme"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a peint « Les Joueurs de cartes » ?",
+  "a": [
+   "Claude Monet",
+   "Edgar Degas",
+   "Paul Cézanne",
+   "Vincent van Gogh"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel mouvement du début du XIXe siècle, représenté par Delacroix, met en avant les sentiments et l'imagination ?",
+  "a": [
+   "Le classicisme",
+   "Le réalisme",
+   "Le romantisme",
+   "Le cubisme"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel mouvement est lié à Matisse et Derain, aux couleurs pures et violentes ?",
+  "a": [
+   "Le cubisme",
+   "Le fauvisme",
+   "L'impressionnisme",
+   "Le réalisme"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a composé les « Gymnopédies » ?",
+  "a": [
+   "Erik Satie",
+   "Claude Debussy",
+   "Maurice Ravel",
+   "Gabriel Fauré"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a peint « Le Déjeuner des canotiers » ?",
+  "a": [
+   "Édouard Manet",
+   "Edgar Degas",
+   "Gustave Caillebotte",
+   "Auguste Renoir"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a inventé le daguerréotype, un des premiers procédés de photographie ?",
+  "a": [
+   "Étienne-Jules Marey",
+   "Nadar",
+   "Louis Lumière",
+   "Louis Daguerre"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quels frères ont inventé le cinématographe et projeté leurs premiers films en 1895 ?",
+  "a": [
+   "Les frères Pathé",
+   "Les frères Goncourt",
+   "Les frères Lumière",
+   "Les frères Wright"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Pendant sa « période bleue », quel peintre a surtout utilisé des tons bleus ?",
+  "a": [
+   "Henri Matisse",
+   "Pablo Picasso",
+   "Paul Gauguin",
+   "Claude Monet"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel mouvement est associé à « Le Cri » de Munch ?",
+  "a": [
+   "L'expressionnisme",
+   "L'impressionnisme",
+   "Le fauvisme",
+   "Le néoclassicisme"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a peint « Les Fusillades du 3 mai 1808 » ?",
+  "a": [
+   "Vélasquez",
+   "Le Greco",
+   "Murillo",
+   "Francisco de Goya"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a composé le lied « Le Roi des aulnes » ?",
+  "a": [
+   "Robert Schumann",
+   "Johannes Brahms",
+   "Felix Mendelssohn",
+   "Franz Schubert"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a présenté en 1917 un urinoir intitulé « Fontaine » ?",
+  "a": [
+   "Pablo Picasso",
+   "Salvador Dalí",
+   "Marcel Duchamp",
+   "Man Ray"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a dessiné les entrées de métro parisiennes de style Art nouveau ?",
+  "a": [
+   "Charles Garnier",
+   "Hector Guimard",
+   "Gustave Eiffel",
+   "Le Corbusier"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a composé « La Mer », une œuvre pour orchestre ?",
+  "a": [
+   "Claude Debussy",
+   "Maurice Ravel",
+   "Gabriel Fauré",
+   "Camille Saint-Saëns"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel peintre a quitté la France pour Tahiti et y a peint des scènes polynésiennes ?",
+  "a": [
+   "Paul Gauguin",
+   "Claude Monet",
+   "Paul Cézanne",
+   "Henri Matisse"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a composé « Le Beau Danube bleu » ?",
+  "a": [
+   "Mozart",
+   "Schubert",
+   "Haydn",
+   "Johann Strauss fils"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment appelle-t-on une œuvre pour un instrument soliste accompagné par un orchestre ?",
+  "a": [
+   "Une sonate",
+   "Un quatuor",
+   "Un concerto",
+   "Un opéra"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que signifie « adagio » ?",
+  "a": [
+   "Très vite",
+   "Lentement",
+   "De plus en plus fort",
+   "Doucement"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel peintre a réalisé une série sur la cathédrale de Rouen à différentes heures du jour ?",
+  "a": [
+   "Auguste Renoir",
+   "Claude Monet",
+   "Edgar Degas",
+   "Georges Seurat"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel mouvement a été lancé par une exposition de 1874 chez le photographe Nadar ?",
+  "a": [
+   "L'impressionnisme",
+   "Le cubisme",
+   "Le surréalisme",
+   "Le baroque"
+  ],
+  "c": 0
+ }
+]

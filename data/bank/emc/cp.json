@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Que dis-tu quand tu arrives à l'école le matin ?",
+  "a": [
+   "Rien du tout",
+   "Bonjour",
+   "Tais-toi",
+   "Donne-moi ça"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel mot magique dit-on pour demander poliment ?",
+  "a": [
+   "S'il te plaît",
+   "Tout de suite",
+   "Vite",
+   "Donne"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que dit-on quand quelqu'un nous donne un cadeau ?",
+  "a": [
+   "Je m'en fiche",
+   "C'est nul",
+   "Rien",
+   "Merci"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que fais-tu si tu bouscules un camarade sans le vouloir ?",
+  "a": [
+   "Je rigole",
+   "Je pars",
+   "Je m'excuse",
+   "Je crie"
+  ],
+  "c": 2
+ },
+ {
+  "q": "En classe, que fais-tu pour parler ?",
+  "a": [
+   "Je crie",
+   "Je lève le doigt",
+   "Je me lève et je cours",
+   "Je jette ma gomme"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Dans la cour, que fais-tu si un camarade est triste ?",
+  "a": [
+   "Je vais lui parler gentiment",
+   "Je me moque de lui",
+   "Je l'ignore",
+   "Je le pousse"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que fais-tu quand la maîtresse parle ?",
+  "a": [
+   "Je bavarde fort",
+   "Je joue",
+   "Je dors toujours",
+   "J'écoute"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que doit-on faire des déchets ?",
+  "a": [
+   "Les jeter par terre",
+   "Les cacher sous la table",
+   "Les mettre à la poubelle",
+   "Les laisser dans la cour"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que fait-on avant de passer à table ?",
+  "a": [
+   "On joue dans la boue",
+   "On se lave les mains",
+   "On crie",
+   "On court"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que fais-tu quand tu te blesses à l'école ?",
+  "a": [
+   "Je cache ma blessure",
+   "Je pars seul de l'école",
+   "Je ne dis rien",
+   "Je préviens un adulte"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quand peut-on traverser au feu piéton ?",
+  "a": [
+   "Quand le bonhomme est rouge",
+   "Toujours",
+   "Jamais",
+   "Quand le bonhomme est vert"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que doit-on faire avec les affaires des autres ?",
+  "a": [
+   "Les casser",
+   "Les cacher",
+   "Les respecter",
+   "Les prendre"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que fait-on quand on fait la queue à la cantine ?",
+  "a": [
+   "On passe devant",
+   "On attend son tour",
+   "On pousse",
+   "On crie"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que fait-on pour que la classe reste propre ?",
+  "a": [
+   "On range ses affaires",
+   "On jette des papiers",
+   "On renverse l'eau",
+   "On casse les crayons"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le drapeau de la France ?",
+  "a": [
+   "Vert, blanc, rouge",
+   "Rouge, jaune, noir",
+   "Bleu, jaune, rouge",
+   "Bleu, blanc, rouge"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel jour fête-t-on la fête nationale en France ?",
+  "a": [
+   "Le 1er janvier",
+   "Le 25 décembre",
+   "Le 14 juillet",
+   "Le 8 mai"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment s'appelle l'hymne national français ?",
+  "a": [
+   "L'Ode à la joie",
+   "La Marseillaise",
+   "Le chant des partisans",
+   "Frère Jacques"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la devise de la France ?",
+  "a": [
+   "Liberté, Égalité, Fraternité",
+   "Travail, Famille, Patrie",
+   "Unité, Force, Paix",
+   "Paix, Amour, Joie"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui peut jouer avec tout le monde dans la cour ?",
+  "a": [
+   "Seulement les garçons",
+   "Seulement les filles",
+   "Seulement les grands",
+   "Les filles et les garçons"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Est-ce gentil de se moquer d'un camarade ?",
+  "a": [
+   "Oui, c'est drôle",
+   "Oui, s'il est petit",
+   "Non, c'est du mal",
+   "Seulement s'il est nouveau"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que fais-tu si un camarade se fait embêter ?",
+  "a": [
+   "Je me moque",
+   "Je préviens un adulte",
+   "Je ne dis rien à personne",
+   "Je l'embête aussi"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Les enfants ont-ils des droits ?",
+  "a": [
+   "Oui, comme aller à l'école",
+   "Non, aucun",
+   "Seulement les grands",
+   "Seulement les garçons"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel droit permet d'apprendre à lire et à écrire ?",
+  "a": [
+   "Le droit de dormir en classe",
+   "Le droit de jouer toute la journée",
+   "Le droit de se disputer",
+   "Le droit d'aller à l'école"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui prend soin de toi à la maison ?",
+  "a": [
+   "Seulement les voisins",
+   "Personne",
+   "Tes parents ou les adultes de ta famille",
+   "Seulement tes jouets"
+  ],
+  "c": 2
+ },
+ {
+  "q": "À quoi servent les règles de l'école ?",
+  "a": [
+   "À embêter les enfants",
+   "À bien vivre ensemble",
+   "À rien",
+   "À faire du bruit"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que faire si tu es perdu dans un magasin ?",
+  "a": [
+   "Demander de l'aide à un vendeur",
+   "Partir avec un inconnu",
+   "Sortir seul",
+   "Se cacher"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel numéro appelle-t-on pour les pompiers ?",
+  "a": [
+   "15",
+   "12",
+   "20",
+   "18"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel numéro appelle-t-on pour la police ?",
+  "a": [
+   "18",
+   "14",
+   "17",
+   "19"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le numéro du SAMU (urgence médicale) ?",
+  "a": [
+   "17",
+   "15",
+   "18",
+   "13"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que veut dire partager ?",
+  "a": [
+   "Donner une part aux autres",
+   "Tout garder",
+   "Cacher",
+   "Casser en deux"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que fait-on pour économiser l'eau ?",
+  "a": [
+   "On laisse couler l'eau",
+   "On arrose la cour",
+   "On remplit la baignoire pour rien",
+   "On ferme le robinet quand on se brosse les dents"
+  ],
+  "c": 3
+ }
+]

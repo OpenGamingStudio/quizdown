@@ -1,0 +1,322 @@
+[
+ {
+  "q": "Que représente Marianne ?",
+  "a": [
+   "Une reine",
+   "La République française",
+   "Une actrice",
+   "Une enseignante"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a le droit d'être respecté à l'école ?",
+  "a": [
+   "Tous les élèves et les adultes",
+   "Seulement le directeur",
+   "Seulement les plus grands",
+   "Seulement les meilleurs élèves"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que veut dire « égalité » ?",
+  "a": [
+   "Tous sont identiques",
+   "Les plus forts commandent",
+   "Chacun fait ce qu'il veut",
+   "Tous ont les mêmes droits"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que veut dire « liberté » ?",
+  "a": [
+   "Faire tout ce qu'on veut",
+   "Obéir sans discuter",
+   "Pouvoir agir sans nuire aux autres",
+   "Ne rien faire"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que veut dire « fraternité » ?",
+  "a": [
+   "Se battre",
+   "S'entraider comme des frères et soeurs",
+   "Rester seul",
+   "Se moquer"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que fait-on pour faire de l'école un lieu où l'on vit bien ?",
+  "a": [
+   "On respecte le règlement",
+   "On ignore les règles",
+   "On crie dans les couloirs",
+   "On arrive en retard exprès"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que fait-on quand on est en désaccord avec un camarade ?",
+  "a": [
+   "On se bat",
+   "On crie",
+   "On part en boudant",
+   "On en parle calmement"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que doit faire un élève après une dispute ?",
+  "a": [
+   "Faire comme si de rien n'était",
+   "Se venger",
+   "S'excuser et réparer",
+   "Dire du mal"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'une règle ?",
+  "a": [
+   "Un jeu",
+   "Ce qu'on doit respecter pour bien vivre ensemble",
+   "Un conseil sans importance",
+   "Un outil à ne jamais utiliser"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que le harcèlement ?",
+  "a": [
+   "Faire du mal à quelqu'un de façon répétée",
+   "Une dispute unique",
+   "Un jeu entre amis",
+   "Un cours de sport"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que dois-tu faire si tu es victime de harcèlement ?",
+  "a": [
+   "Rester seul",
+   "Se venger",
+   "Dire que tout va bien",
+   "En parler à un adulte"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel numéro peut appeler un enfant maltraité ?",
+  "a": [
+   "Le 118",
+   "Le 120",
+   "Le 119",
+   "Le 110"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle date est la journée des droits de l'enfant ?",
+  "a": [
+   "Le 14 juillet",
+   "Le 20 novembre",
+   "Le 1er mai",
+   "Le 8 mai"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel droit a tout enfant ?",
+  "a": [
+   "Être soigné quand il est malade",
+   "Ne jamais aller à l'école",
+   "Ne jamais ranger sa chambre",
+   "Choisir toutes les règles"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la politesse ?",
+  "a": [
+   "Un jeu",
+   "Une obligation seulement à l'école",
+   "Une façon de se moquer",
+   "Des gestes et des mots pour respecter les autres"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que fais-tu pour respecter la nature ?",
+  "a": [
+   "Je casse les branches",
+   "Je cueille toutes les fleurs",
+   "Je ne jette pas mes déchets dans la nature",
+   "Je laisse mon pique-nique"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que veut dire « trier ses déchets » ?",
+  "a": [
+   "Les enterrer",
+   "Les séparer selon leur matière",
+   "Les brûler",
+   "Les mélanger"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Dans quelle poubelle jette-t-on généralement le verre ?",
+  "a": [
+   "Le conteneur à verre",
+   "La poubelle à papier",
+   "Le compost",
+   "Le jardin"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui dirige une commune ?",
+  "a": [
+   "Le président de la République",
+   "Le directeur de l'école",
+   "Le préfet de police",
+   "Le maire"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui dirige l'école ?",
+  "a": [
+   "Le maire",
+   "Le président",
+   "Le directeur ou la directrice",
+   "Le facteur"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel lieu public permet d'emprunter des livres gratuitement ?",
+  "a": [
+   "La poste",
+   "La boulangerie",
+   "Le garage",
+   "La bibliothèque"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Pourquoi vote-t-on ?",
+  "a": [
+   "Pour choisir ses représentants",
+   "Pour jouer",
+   "Pour payer",
+   "Pour punir"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que fait-on pour respecter le silence d'une bibliothèque ?",
+  "a": [
+   "On chante",
+   "On court",
+   "On crie",
+   "On parle doucement"
+  ],
+  "c": 3
+ },
+ {
+  "q": "À quel âge devient-on majeur en France ?",
+  "a": [
+   "10 ans",
+   "12 ans",
+   "18 ans",
+   "21 ans"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Les filles et les garçons ont-ils les mêmes droits ?",
+  "a": [
+   "Non, les garçons en ont plus",
+   "Oui",
+   "Non, les filles en ont plus",
+   "Cela dépend de l'âge seulement"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Pourquoi faut-il porter un casque à vélo ?",
+  "a": [
+   "Pour se protéger la tête",
+   "Pour avoir chaud",
+   "Pour être plus grand",
+   "Pour aller plus vite"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Pourquoi faut-il attacher sa ceinture en voiture ?",
+  "a": [
+   "Pour mieux dormir",
+   "Pour rouler plus vite",
+   "Pour faire plaisir",
+   "Pour être protégé en cas de choc"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'un secret qu'on ne doit pas garder ?",
+  "a": [
+   "Un cadeau",
+   "Une blague",
+   "Un secret qui te fait peur ou du mal",
+   "Un jeu"
+  ],
+  "c": 2
+ },
+ {
+  "q": "À qui peut-on demander de l'aide à l'école ?",
+  "a": [
+   "À personne",
+   "À un adulte de l'école",
+   "À un inconnu dans la rue",
+   "À un animal"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui doit respecter les règles ?",
+  "a": [
+   "Tout le monde",
+   "Seulement les enfants",
+   "Seulement les adultes",
+   "Seulement les nouveaux"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que fait-on pour accueillir un nouvel élève ?",
+  "a": [
+   "On l'ignore",
+   "On se moque de son accent",
+   "On le pousse",
+   "On est gentil et on l'invite à jouer"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que veut dire « tolérance » ?",
+  "a": [
+   "Se moquer",
+   "Ne rien faire",
+   "Accepter les différences",
+   "Imposer ses idées"
+  ],
+  "c": 2
+ }
+]

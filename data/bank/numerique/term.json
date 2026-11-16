@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Qu'est-ce qu'un algorithme récursif ?",
+  "a": [
+   "Un algorithme qui s'appelle lui-même",
+   "Un algorithme qui ne s'arrête jamais",
+   "Un algorithme sans variables",
+   "Un algorithme de tri seulement"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que calcule factorielle(3) ?",
+  "a": [
+   "3",
+   "9",
+   "27",
+   "6"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la complexité du tri rapide en moyenne ?",
+  "a": [
+   "O(n)",
+   "O(log n)",
+   "O(n log n)",
+   "O(1)"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle structure est organisée en nœuds avec une racine ?",
+  "a": [
+   "La pile",
+   "L'arbre",
+   "Le tableau",
+   "La file"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un graphe ?",
+  "a": [
+   "Un diagramme circulaire",
+   "Un ensemble de sommets reliés par des arêtes",
+   "Un tableau",
+   "Une image"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel algorithme trouve le plus court chemin dans un graphe pondéré à poids positifs ?",
+  "a": [
+   "Dijkstra",
+   "Dichotomie",
+   "Tri fusion",
+   "Gloutonne"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que l'apprentissage automatique ?",
+  "a": [
+   "Un robot aspirateur",
+   "Un écran tactile",
+   "Un langage de balisage",
+   "Un programme qui s'améliore avec des données"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'un réseau de neurones artificiels ?",
+  "a": [
+   "Un cerveau électronique conscient",
+   "Un réseau physique",
+   "Un modèle mathématique inspiré du cerveau",
+   "Un logiciel de photo"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un biais algorithmique ?",
+  "a": [
+   "Un bug de ventilation",
+   "Un virus",
+   "Un résultat injuste dû aux données ou à la conception",
+   "Un format"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un processus dans un système d'exploitation ?",
+  "a": [
+   "Un fichier",
+   "Un programme en cours d'exécution",
+   "Un câble",
+   "Un mot de passe"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un interblocage (deadlock) ?",
+  "a": [
+   "Des processus qui s'attendent mutuellement indéfiniment",
+   "Un virus",
+   "Un écran figé",
+   "Une panne réseau"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que le routage ?",
+  "a": [
+   "Choisir une couleur",
+   "Écrire un programme",
+   "Compresser une vidéo",
+   "Choisir le chemin des paquets sur un réseau"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que le protocole BGP relie ?",
+  "a": [
+   "Les écrans",
+   "Les pixels",
+   "Les mots de passe",
+   "Les grands réseaux d'Internet"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'une jointure en SQL ?",
+  "a": [
+   "Une suppression",
+   "Un tri",
+   "Une combinaison de données de plusieurs tables",
+   "Un chiffrement"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que vaut en SQL COUNT(*) ?",
+  "a": [
+   "La somme des valeurs",
+   "Le nombre de lignes",
+   "La moyenne",
+   "Le maximum"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'une transaction en base de données ?",
+  "a": [
+   "Un ensemble d'opérations exécuté entièrement ou pas du tout",
+   "Un achat bancaire seul",
+   "Un type de table",
+   "Un mot de passe"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que le chiffrement RSA ?",
+  "a": [
+   "Un chiffrement asymétrique",
+   "Un chiffrement symétrique",
+   "Un format d'image",
+   "Un protocole réseau"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel principe de sécurité garantit que seules les personnes autorisées lisent un message ?",
+  "a": [
+   "L'intégrité",
+   "La disponibilité",
+   "La traçabilité",
+   "La confidentialité"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel principe garantit qu'un message n'a pas été modifié ?",
+  "a": [
+   "La confidentialité",
+   "La disponibilité",
+   "L'intégrité",
+   "L'anonymat"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'une fonction de hachage ?",
+  "a": [
+   "Une fonction réversible",
+   "Une fonction produisant une empreinte de taille fixe",
+   "Un chiffrement symétrique",
+   "Un tri"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'une blockchain ?",
+  "a": [
+   "Un virus",
+   "Un registre distribué de blocs chaînés",
+   "Un navigateur",
+   "Un langage"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la complexité d'un algorithme ?",
+  "a": [
+   "Une mesure de son coût en temps ou en mémoire",
+   "Son nombre de lignes",
+   "Sa difficulté de lecture",
+   "Son prix de vente"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un système embarqué ?",
+  "a": [
+   "Un serveur de data center",
+   "Un réseau social",
+   "Un format",
+   "Un système informatique intégré à un objet"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'un SGBD ?",
+  "a": [
+   "Un système de graphes binaires distribués",
+   "Un jeu",
+   "Un système de gestion de bases de données",
+   "Un navigateur"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel paradigme organise un programme en objets avec attributs et méthodes ?",
+  "a": [
+   "La programmation fonctionnelle seule",
+   "Le calcul binaire",
+   "La programmation orientée objet",
+   "Le réseau"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'une classe en POO ?",
+  "a": [
+   "Un objet précis",
+   "Un modèle pour créer des objets",
+   "Une fonction seule",
+   "Une variable globale"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un test unitaire ?",
+  "a": [
+   "Un test d'une petite partie du code",
+   "Un test du réseau entier",
+   "Une sauvegarde",
+   "Une licence"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un bit quantique appelé qubit ?",
+  "a": [
+   "Un bit classique plus gros",
+   "Un câble quantique",
+   "Un logiciel",
+   "Une unité pouvant être en superposition d'états"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est l'idée principale de la machine de Turing ?",
+  "a": [
+   "Une machine à écrire",
+   "Un réseau",
+   "Un écran",
+   "Un modèle théorique de calcul"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'un arbre binaire de recherche ?",
+  "a": [
+   "Valeurs plus petites à gauche, plus grandes à droite",
+   "Chaque nœud a exactement trois fils",
+   "Un arbre sans racine",
+   "Un tableau trié en colonnes"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Parmi ces tris, lequel est quadratique dans le pire des cas ?",
+  "a": [
+   "Le tri fusion",
+   "Le tri par tas",
+   "La recherche dichotomique",
+   "Le tri par insertion"
+  ],
+  "c": 3
+ }
+]

@@ -1,0 +1,302 @@
+[
+ {
+  "q": "En quelle année la Révolution française commence-t-elle ?",
+  "a": [
+   "1789",
+   "1492",
+   "1815",
+   "1914"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel document de 1789 proclame que les hommes naissent libres et égaux en droits ?",
+  "a": [
+   "La Déclaration des droits de l'homme et du citoyen",
+   "Le Code civil",
+   "L'édit de Nantes",
+   "La Constitution de 1958"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel roi est guillotiné en janvier 1793 ?",
+  "a": [
+   "Louis XIV",
+   "Louis XVIII",
+   "Charles X",
+   "Louis XVI"
+  ],
+  "c": 3
+ },
+ {
+  "q": "En quelle année Napoléon Bonaparte devient-il empereur ?",
+  "a": [
+   "1789",
+   "1804",
+   "1815",
+   "1848"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle bataille marque la défaite finale de Napoléon en 1815 ?",
+  "a": [
+   "Austerlitz",
+   "Verdun",
+   "Valmy",
+   "Waterloo"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel code de lois rédigé sous Napoléon est toujours à la base du droit civil français ?",
+  "a": [
+   "Le Code de la route",
+   "L'édit de Nantes",
+   "La Magna Carta",
+   "Le Code civil"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel ministre de l'Instruction publique rend l'école primaire gratuite, laïque et obligatoire (années 1880) ?",
+  "a": [
+   "Jules Ferry",
+   "Victor Hugo",
+   "Napoléon III",
+   "Georges Clemenceau"
+  ],
+  "c": 0
+ },
+ {
+  "q": "En quelle année l'école devient-elle gratuite en France sous Jules Ferry ?",
+  "a": [
+   "1789",
+   "1905",
+   "1881",
+   "1945"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle révolution du XIXe siècle voit apparaître les usines et la machine à vapeur ?",
+  "a": [
+   "La révolution industrielle",
+   "La révolution agricole du Néolithique",
+   "La Révolution française",
+   "La Renaissance"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel combustible alimente les machines à vapeur du XIXe siècle ?",
+  "a": [
+   "Le charbon",
+   "Le pétrole raffiné",
+   "L'uranium",
+   "Le gaz de schiste"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle année marque le début de la Première Guerre mondiale ?",
+  "a": [
+   "1905",
+   "1914",
+   "1939",
+   "1870"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle année marque la fin de la Première Guerre mondiale ?",
+  "a": [
+   "1914",
+   "1945",
+   "1939",
+   "1918"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment appelle-t-on la guerre de position avec des tranchées de 1914-1918 ?",
+  "a": [
+   "La guerre éclair",
+   "La guerre des tranchées",
+   "La guerre froide",
+   "La guerre de Cent Ans"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle bataille de 1916 est l'une des plus longues et meurtrières de la Première Guerre mondiale ?",
+  "a": [
+   "Waterloo",
+   "Verdun",
+   "Austerlitz",
+   "Azincourt"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment appelle-t-on les soldats français de la Première Guerre mondiale ?",
+  "a": [
+   "Les chevaliers",
+   "Les gladiateurs",
+   "Les poilus",
+   "Les mousquetaires"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle année marque le début de la Seconde Guerre mondiale en Europe ?",
+  "a": [
+   "1939",
+   "1914",
+   "1945",
+   "1933"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel jour célèbre-t-on la victoire des Alliés en Europe ?",
+  "a": [
+   "Le 11 novembre 1918",
+   "Le 14 juillet 1789",
+   "Le 8 mai 1945",
+   "Le 6 juin 1944"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel général lance l'appel du 18 juin 1940 depuis Londres ?",
+  "a": [
+   "Philippe Pétain",
+   "Napoléon Bonaparte",
+   "Charles de Gaulle",
+   "Georges Clemenceau"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelle-t-on les Français qui ont lutté contre l'occupation allemande ?",
+  "a": [
+   "Les poilus",
+   "Les gladiateurs",
+   "Les croisés",
+   "Les résistants"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment appelle-t-on le génocide des Juifs d'Europe pendant la Seconde Guerre mondiale ?",
+  "a": [
+   "La Réforme",
+   "La Shoah",
+   "La Révolution",
+   "La Commune"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle date correspond au débarquement des Alliés en Normandie ?",
+  "a": [
+   "14 juillet 1789",
+   "11 novembre 1918",
+   "1er septembre 1939",
+   "6 juin 1944"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment appelle-t-on le régime dirigé par le maréchal Pétain de 1940 à 1944 ?",
+  "a": [
+   "L'État français (régime de Vichy)",
+   "La IIIe République",
+   "Le Second Empire",
+   "La Convention"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel président de la République a fondé la Ve République en 1958 ?",
+  "a": [
+   "Georges Pompidou",
+   "Charles de Gaulle",
+   "François Mitterrand",
+   "Jacques Chirac"
+  ],
+  "c": 1
+ },
+ {
+  "q": "En quelle année le suffrage universel masculin est-il instauré en France (définitivement) ?",
+  "a": [
+   "1789",
+   "1848",
+   "1881",
+   "1944"
+  ],
+  "c": 1
+ },
+ {
+  "q": "En quelle année les femmes françaises votent-elles pour la première fois ?",
+  "a": [
+   "1789",
+   "1881",
+   "1945",
+   "1918"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle reine de France est guillotinée en 1793 ?",
+  "a": [
+   "Catherine de Médicis",
+   "Aliénor d'Aquitaine",
+   "Marie-Antoinette",
+   "Anne d'Autriche"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelles sont les trois couleurs du drapeau français ?",
+  "a": [
+   "Vert, blanc, rouge",
+   "Bleu, blanc, rouge",
+   "Bleu, jaune, rouge",
+   "Noir, blanc, rouge"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la devise de la République française ?",
+  "a": [
+   "Honneur et Patrie",
+   "Liberté, Égalité, Fraternité",
+   "Dieu et mon droit",
+   "Travail, Famille, Patrie"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel chant est l'hymne national français ?",
+  "a": [
+   "Le Chant des partisans",
+   "L'Hymne à la joie",
+   "Le Chant du départ",
+   "La Marseillaise"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel homme politique, surnommé « le Tigre », dirige la France à la fin de la Première Guerre mondiale ?",
+  "a": [
+   "Georges Clemenceau",
+   "Jules Ferry",
+   "Napoléon III",
+   "Léon Blum"
+  ],
+  "c": 0
+ }
+]

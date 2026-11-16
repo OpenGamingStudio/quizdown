@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Combien font 3/5 + 1/5 ?",
+  "a": [
+   "4/10",
+   "4/5",
+   "3/10",
+   "2/5"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien font 12,5 x 4 ?",
+  "a": [
+   "48",
+   "52",
+   "50",
+   "46"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien font 2,4 + 3,76 ?",
+  "a": [
+   "5,16",
+   "6,10",
+   "6,6",
+   "6,16"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien font 10 - 3,25 ?",
+  "a": [
+   "7,25",
+   "6,25",
+   "7,75",
+   "6,75"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien font 125 x 8 ?",
+  "a": [
+   "1 200",
+   "900",
+   "1 000",
+   "800"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle fraction égale 0,25 ?",
+  "a": [
+   "1/2",
+   "1/4",
+   "2/5",
+   "1/25"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle fraction égale 0,5 ?",
+  "a": [
+   "1/5",
+   "5/10 000",
+   "1/2",
+   "2/1"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le quotient de 135 par 5 ?",
+  "a": [
+   "25",
+   "35",
+   "23",
+   "27"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le quotient de 7,2 divisé par 2 ?",
+  "a": [
+   "3,6",
+   "3,1",
+   "3,4",
+   "3,8"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est l'aire d'un triangle rectangle de côtés de l'angle droit 6 cm et 4 cm ?",
+  "a": [
+   "24 cm²",
+   "12 cm²",
+   "10 cm²",
+   "20 cm²"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien de diagonales un carré possède-t-il ?",
+  "a": [
+   "1",
+   "2",
+   "4",
+   "0"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le rayon d'un cercle de diamètre 14 cm ?",
+  "a": [
+   "28 cm",
+   "14 cm",
+   "7 cm",
+   "3,5 cm"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien de litres y a-t-il dans 3 500 mL ?",
+  "a": [
+   "35",
+   "0,35",
+   "350",
+   "3,5"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien de mL y a-t-il dans 2 L ?",
+  "a": [
+   "2 000",
+   "200",
+   "20",
+   "20 000"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de cm² y a-t-il dans 1 dm² ?",
+  "a": [
+   "10",
+   "100",
+   "1 000",
+   "1"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel volume a un cube de 2 cm d'arête ?",
+  "a": [
+   "6 cm³",
+   "4 cm³",
+   "8 cm³",
+   "12 cm³"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Un cycliste roule à 15 km/h. Quelle distance parcourt-il en 2 h ?",
+  "a": [
+   "17 km",
+   "7,5 km",
+   "30 km",
+   "60 km"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Pour 4 personnes, une recette demande 200 g de farine. Combien pour 8 personnes ?",
+  "a": [
+   "800 g",
+   "250 g",
+   "300 g",
+   "400 g"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Si 3 stylos coûtent 6 euros, combien coûtent 5 stylos (même prix) ?",
+  "a": [
+   "10 euros",
+   "11 euros",
+   "15 euros",
+   "9 euros"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel pourcentage correspond à la fraction 1/2 ?",
+  "a": [
+   "20 %",
+   "50 %",
+   "12 %",
+   "5 %"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien font 10 % de 80 ?",
+  "a": [
+   "10",
+   "0,8",
+   "8",
+   "18"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien font 25 % de 200 ?",
+  "a": [
+   "25",
+   "100",
+   "20",
+   "50"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le nombre de secondes dans 3 minutes ?",
+  "a": [
+   "180",
+   "60",
+   "300",
+   "360"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de côtés a un octogone ?",
+  "a": [
+   "6",
+   "8",
+   "10",
+   "12"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la somme des angles d'un triangle ?",
+  "a": [
+   "90 degrés",
+   "360 degrés",
+   "180 degrés",
+   "100 degrés"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Un angle de 90 degrés est un angle...",
+  "a": [
+   "aigu",
+   "obtus",
+   "droit",
+   "plat"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Un angle de 120 degrés est un angle...",
+  "a": [
+   "aigu",
+   "droit",
+   "obtus",
+   "plat"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la moyenne de 4, 6 et 8 ?",
+  "a": [
+   "8",
+   "5",
+   "18",
+   "6"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Parmi 0,9 ; 0,89 ; 0,099 et 0,899, quel est le plus grand ?",
+  "a": [
+   "0,9",
+   "0,89",
+   "0,099",
+   "0,899"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel nombre vaut 4 x 10² ?",
+  "a": [
+   "40",
+   "400",
+   "4 100",
+   "8"
+  ],
+  "c": 1
+ }
+]

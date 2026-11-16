@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Comment s'appelle la cellule reproductrice mâle ?",
+  "a": [
+   "Le spermatozoïde",
+   "L'ovule",
+   "Le zygote",
+   "L'embryon"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment s'appelle la cellule reproductrice femelle ?",
+  "a": [
+   "Le spermatozoïde",
+   "Le zygote",
+   "Le follicule",
+   "L'ovule"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le nom de la rencontre d'un spermatozoïde et d'un ovule ?",
+  "a": [
+   "La digestion",
+   "La puberté",
+   "La fécondation",
+   "La nidation"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelle-t-on la cellule issue de la fécondation ?",
+  "a": [
+   "Le gamète",
+   "Le zygote",
+   "Le fœtus",
+   "Le follicule"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel changement marque la puberté chez la fille ?",
+  "a": [
+   "La chute de cheveux",
+   "Les premières règles",
+   "La mue de la voix seulement",
+   "L'arrêt de croissance"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel organe produit les spermatozoïdes ?",
+  "a": [
+   "Les testicules",
+   "Les ovaires",
+   "La prostate",
+   "L'utérus"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel organe produit les ovules ?",
+  "a": [
+   "Les testicules",
+   "Les trompes",
+   "L'utérus",
+   "Les ovaires"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Où se déroule normalement la grossesse ?",
+  "a": [
+   "Dans les trompes",
+   "Dans l'ovaire",
+   "Dans l'utérus",
+   "Dans le vagin"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le rôle de la contraception ?",
+  "a": [
+   "Guérir une infection",
+   "Faire grandir",
+   "Éviter une grossesse",
+   "Stimuler la puberté"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel moyen protège aussi contre les infections sexuellement transmissibles ?",
+  "a": [
+   "La pilule",
+   "Le préservatif",
+   "Le stérilet",
+   "Aucun"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un neurone ?",
+  "a": [
+   "Une cellule du système nerveux",
+   "Un os",
+   "Un muscle",
+   "Un globule rouge"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel organe traite les informations venant des sens ?",
+  "a": [
+   "Le foie",
+   "Le rein",
+   "Le poumon",
+   "Le cerveau"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que transmet le nerf ?",
+  "a": [
+   "Du sang",
+   "De l'air",
+   "Des aliments",
+   "Des messages nerveux"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est un exemple de réflexe ?",
+  "a": [
+   "Écrire une lettre",
+   "Apprendre une leçon",
+   "Retirer la main d'une plaque chaude",
+   "Faire du vélo"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Où se trouvent les récepteurs de la lumière dans l'oeil ?",
+  "a": [
+   "Le cristallin",
+   "La rétine",
+   "La cornée",
+   "L'iris"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la couche externe rigide de la Terre ?",
+  "a": [
+   "La lithosphère",
+   "Le noyau",
+   "Le manteau inférieur",
+   "L'atmosphère"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment s'appellent les grandes pièces de la lithosphère ?",
+  "a": [
+   "Les plaques tectoniques",
+   "Les failles seulement",
+   "Les fosses",
+   "Les continents uniquement"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Où se produisent beaucoup de séismes et volcans ?",
+  "a": [
+   "Au centre des plaques",
+   "Dans les déserts",
+   "Au pôle seulement",
+   "Aux limites des plaques"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que le foyer d'un séisme ?",
+  "a": [
+   "Le point à la surface",
+   "Un volcan",
+   "Le lieu en profondeur où la roche se rompt",
+   "Un hôpital"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un épicentre ?",
+  "a": [
+   "Le point le plus profond",
+   "Le point de la surface au-dessus du foyer",
+   "Un volcan éteint",
+   "Une onde"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel instrument mesure la magnitude d'un séisme ?",
+  "a": [
+   "Le thermomètre",
+   "Le sismographe",
+   "Le baromètre",
+   "Le pluviomètre"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle échelle sert à indiquer la magnitude ?",
+  "a": [
+   "L'échelle de Richter",
+   "L'échelle de Beaufort",
+   "L'échelle de Kelvin",
+   "L'échelle de pH"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle couche de la Terre est liquide ?",
+  "a": [
+   "Le noyau interne",
+   "La croûte",
+   "Le manteau solide",
+   "Le noyau externe"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel scientifique a proposé la dérive des continents ?",
+  "a": [
+   "Isaac Newton",
+   "Louis Pasteur",
+   "Alfred Wegener",
+   "Charles Darwin"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel volcan a enseveli la ville de Pompéi ?",
+  "a": [
+   "L'Etna",
+   "Le Piton de la Fournaise",
+   "Le Vésuve",
+   "La Soufrière"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la couche la plus fine de la Terre ?",
+  "a": [
+   "Le manteau",
+   "La croûte",
+   "Le noyau externe",
+   "Le noyau interne"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la durée moyenne d'une grossesse humaine ?",
+  "a": [
+   "Environ 3 mois",
+   "Environ 6 mois",
+   "Environ 12 mois",
+   "Environ 9 mois"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le rôle du placenta ?",
+  "a": [
+   "Produire les ovules",
+   "Fabriquer le lait",
+   "Assurer les échanges entre la mère et le fœtus",
+   "Protéger le cerveau"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelles ondes sismiques arrivent en premier à une station ?",
+  "a": [
+   "Les ondes S",
+   "Les ondes P",
+   "Les ondes radio",
+   "Les ondes sonores de l'air"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle partie colorée de l'oeil règle la taille de la pupille ?",
+  "a": [
+   "L'iris",
+   "La rétine",
+   "La cornée",
+   "Le cristallin"
+  ],
+  "c": 0
+ }
+]

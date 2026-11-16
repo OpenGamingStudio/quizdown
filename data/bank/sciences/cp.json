@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel organe sert à respirer ?",
+  "a": [
+   "Les poumons",
+   "Le coeur",
+   "L'estomac",
+   "Le cerveau"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de sens avons-nous classiquement ?",
+  "a": [
+   "3",
+   "7",
+   "10",
+   "5"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel sens utilises-tu avec ta langue pour reconnaître le sucré ?",
+  "a": [
+   "L'odorat",
+   "L'ouïe",
+   "Le goût",
+   "Le toucher"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Avec quel organe sens-tu les odeurs ?",
+  "a": [
+   "L'oreille",
+   "Le nez",
+   "L'oeil",
+   "La main"
+  ],
+  "c": 1
+ },
+ {
+  "q": "De quoi une plante a-t-elle besoin pour pousser ?",
+  "a": [
+   "De sucre et de sel",
+   "D'eau et de lumière",
+   "De bruit",
+   "De chaleur seulement la nuit"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que fait une graine mise en terre humide ?",
+  "a": [
+   "Elle germe",
+   "Elle fond",
+   "Elle s'envole",
+   "Elle devient une pierre"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment s'appelle le petit du chat ?",
+  "a": [
+   "Le poussin",
+   "Le veau",
+   "L'agneau",
+   "Le chaton"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment s'appelle le petit de la poule ?",
+  "a": [
+   "Le caneton",
+   "Le chaton",
+   "Le poussin",
+   "Le faon"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel animal pond des oeufs ?",
+  "a": [
+   "La vache",
+   "La chèvre",
+   "La poule",
+   "La brebis"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel animal a des plumes ?",
+  "a": [
+   "Le poisson",
+   "L'oiseau",
+   "Le chien",
+   "La grenouille"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel animal a des écailles ?",
+  "a": [
+   "Le poisson",
+   "Le lapin",
+   "Le cheval",
+   "Le mouton"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel animal a des poils ?",
+  "a": [
+   "Le canard",
+   "Le serpent",
+   "Le saumon",
+   "Le chien"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que faut-il faire pour garder des dents en bonne santé ?",
+  "a": [
+   "Manger beaucoup de bonbons",
+   "Ne jamais les laver",
+   "Boire du soda",
+   "Les brosser"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que doit-on faire avant de manger ?",
+  "a": [
+   "Courir",
+   "Dormir",
+   "Se laver les mains",
+   "Jouer au ballon"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel aliment vient d'une vache ?",
+  "a": [
+   "Le miel",
+   "Le lait",
+   "L'oeuf",
+   "Le riz"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel aliment fabrique l'abeille ?",
+  "a": [
+   "Le miel",
+   "Le lait",
+   "Le beurre",
+   "Le fromage"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle partie du corps permet de penser ?",
+  "a": [
+   "Le cerveau",
+   "Le genou",
+   "Le pied",
+   "Le coude"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle partie du corps est entre la main et le coude ?",
+  "a": [
+   "La cheville",
+   "Le genou",
+   "Le cou",
+   "L'avant-bras"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans quelle partie de la plante l'eau est-elle absorbée ?",
+  "a": [
+   "Les fleurs",
+   "Les feuilles",
+   "Les racines",
+   "Les fruits"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que devient une chenille ?",
+  "a": [
+   "Une abeille",
+   "Un papillon",
+   "Une mouche",
+   "Un escargot"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que devient un têtard ?",
+  "a": [
+   "Un poisson",
+   "Une grenouille",
+   "Un lézard",
+   "Un serpent"
+  ],
+  "c": 1
+ },
+ {
+  "q": "À quel moment de la journée dort-on normalement ?",
+  "a": [
+   "La nuit",
+   "Le midi",
+   "Le matin",
+   "L'après-midi"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle saison vient après l'hiver ?",
+  "a": [
+   "L'été",
+   "L'automne",
+   "L'hiver encore",
+   "Le printemps"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle saison est la plus chaude en France ?",
+  "a": [
+   "L'hiver",
+   "L'automne",
+   "L'été",
+   "Le printemps"
+  ],
+  "c": 2
+ },
+ {
+  "q": "En quelle saison les feuilles de nombreux arbres tombent-elles ?",
+  "a": [
+   "Le printemps",
+   "L'été",
+   "L'automne",
+   "Aucune saison"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que boit-on pour bien s'hydrater ?",
+  "a": [
+   "Du sirop pur",
+   "De l'eau",
+   "Du café",
+   "De la colle"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien de pattes a un chien ?",
+  "a": [
+   "4",
+   "2",
+   "6",
+   "8"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de pattes a un oiseau ?",
+  "a": [
+   "4",
+   "6",
+   "8",
+   "2"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel objet permet de voir quand il fait nuit dehors ?",
+  "a": [
+   "Un livre",
+   "Un crayon",
+   "Un sac",
+   "Une lampe"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel organe bat dans la poitrine ?",
+  "a": [
+   "Le foie",
+   "Le pied",
+   "Le coeur",
+   "Le nez"
+  ],
+  "c": 2
+ }
+]

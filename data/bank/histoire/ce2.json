@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quelle période commence avec l'invention de l'écriture ?",
+  "a": [
+   "L'Histoire",
+   "La Préhistoire",
+   "Le Moyen Âge",
+   "L'Antiquité romaine"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment appelle-t-on la période avant l'invention de l'écriture ?",
+  "a": [
+   "L'Antiquité",
+   "Le Moyen Âge",
+   "Les Temps modernes",
+   "La Préhistoire"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien d'années y a-t-il dans un millénaire ?",
+  "a": [
+   "100",
+   "1000",
+   "10",
+   "10000"
+  ],
+  "c": 1
+ },
+ {
+  "q": "En quel siècle sommes-nous depuis l'an 2001 ?",
+  "a": [
+   "Le XXIe siècle",
+   "Le XXe siècle",
+   "Le XIXe siècle",
+   "Le XXIIe siècle"
+  ],
+  "c": 0
+ },
+ {
+  "q": "De quelles années fait partie l'an 1789 ?",
+  "a": [
+   "Du XVIIe siècle",
+   "Du XIXe siècle",
+   "Du XVIIIe siècle",
+   "Du XVIe siècle"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le nom du roi qui a fait construire le château de Versailles ?",
+  "a": [
+   "Louis XVI",
+   "Charlemagne",
+   "Napoléon",
+   "Louis XIV"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle femme a mené des armées pour libérer Orléans en 1429 ?",
+  "a": [
+   "Jeanne d'Arc",
+   "Marie Curie",
+   "Aliénor d'Aquitaine",
+   "Catherine de Médicis"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel peuple vivait en Gaule avant l'arrivée des Romains ?",
+  "a": [
+   "Les Vikings",
+   "Les Gaulois",
+   "Les Égyptiens",
+   "Les Mongols"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel chef gaulois a résisté à Jules César ?",
+  "a": [
+   "Vercingétorix",
+   "Clovis",
+   "Astérix",
+   "Brennus le Franc"
+  ],
+  "c": 0
+ },
+ {
+  "q": "À quoi servait le feu pour les hommes préhistoriques ?",
+  "a": [
+   "Se chauffer et cuire les aliments",
+   "Faire fonctionner des machines",
+   "Produire de l'électricité",
+   "Faire rouler des chars"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Dans quelle grotte célèbre de Dordogne trouve-t-on des peintures préhistoriques ?",
+  "a": [
+   "Versailles",
+   "Chambord",
+   "Lascaux",
+   "Carnac"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que construisait-on au Moyen Âge pour se protéger des attaques ?",
+  "a": [
+   "Des gratte-ciel",
+   "Des châteaux forts",
+   "Des pyramides",
+   "Des stades"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment appelle-t-on l'homme qui combattait à cheval au Moyen Âge ?",
+  "a": [
+   "Un gladiateur",
+   "Un pharaon",
+   "Un astronaute",
+   "Un chevalier"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel monument de Paris a été construit pour l'Exposition universelle de 1889 ?",
+  "a": [
+   "La tour Eiffel",
+   "Notre-Dame",
+   "L'Arc de triomphe de l'Étoile",
+   "Le Louvre"
+  ],
+  "c": 0
+ },
+ {
+  "q": "À quelle date a lieu la fête nationale française ?",
+  "a": [
+   "Le 11 novembre",
+   "Le 14 juillet",
+   "Le 8 mai",
+   "Le 1er janvier"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel événement célèbre-t-on le 11 novembre ?",
+  "a": [
+   "La prise de la Bastille",
+   "La naissance de Napoléon",
+   "La fin de la Première Guerre mondiale",
+   "La fin du Moyen Âge"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le nom de l'empereur qui a été sacré en 1804 ?",
+  "a": [
+   "Louis XIV",
+   "Napoléon Ier",
+   "Charlemagne",
+   "Clovis"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Dans quelle ville se trouve le Colisée, construit par les Romains ?",
+  "a": [
+   "Athènes",
+   "Paris",
+   "Rome",
+   "Le Caire"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelait-on les combattants qui s'affrontaient dans les arènes romaines ?",
+  "a": [
+   "Des chevaliers",
+   "Des mousquetaires",
+   "Des gladiateurs",
+   "Des pharaons"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel peuple a construit les pyramides ?",
+  "a": [
+   "Les Gaulois",
+   "Les Vikings",
+   "Les Romains",
+   "Les Égyptiens"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel était le titre des rois d'Égypte ?",
+  "a": [
+   "Empereur",
+   "Pharaon",
+   "Sultan",
+   "Tsar"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'une source historique ?",
+  "a": [
+   "Une rivière",
+   "Un livre de contes inventés",
+   "Un document ou un objet qui renseigne sur le passé",
+   "Un jeu vidéo"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle scientifique a découvert le radium avec son mari Pierre ?",
+  "a": [
+   "Marie Curie",
+   "Louis Pasteur",
+   "Jeanne d'Arc",
+   "Simone Veil"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel savant a inventé un vaccin contre la rage ?",
+  "a": [
+   "Isaac Newton",
+   "Albert Einstein",
+   "Louis Pasteur",
+   "Léonard de Vinci"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Autrefois, à l'école de Jules Ferry, que portaient souvent les élèves ?",
+  "a": [
+   "Une blouse",
+   "Un jean troué",
+   "Un survêtement",
+   "Un maillot de foot"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle grande invention d'Auguste et Louis Lumière date de 1895 ?",
+  "a": [
+   "La télévision",
+   "Le téléphone",
+   "Le cinématographe",
+   "La radio"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le moyen de transport inventé par les frères Montgolfier en 1783 ?",
+  "a": [
+   "La montgolfière",
+   "L'avion",
+   "La voiture",
+   "Le train"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel mot désigne une personne qui vit à la même époque que toi ?",
+  "a": [
+   "Un ancêtre",
+   "Un chevalier",
+   "Un contemporain",
+   "Un Gaulois"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que fait-on d'une frise chronologique ?",
+  "a": [
+   "On y place les événements dans l'ordre où ils se sont passés",
+   "On y dessine un paysage",
+   "On y compte des billes",
+   "On y trace une route"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment appelle-t-on la personne qui fouille le sol pour retrouver des traces du passé ?",
+  "a": [
+   "Un archéologue",
+   "Un météorologue",
+   "Un boulanger",
+   "Un astronome"
+  ],
+  "c": 0
+ }
+]

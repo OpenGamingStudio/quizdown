@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Combien font 7 x 8 ?",
+  "a": [
+   "56",
+   "54",
+   "63",
+   "48"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien font 9 x 6 ?",
+  "a": [
+   "56",
+   "54",
+   "63",
+   "45"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien font 346 + 258 ?",
+  "a": [
+   "594",
+   "504",
+   "604",
+   "614"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien font 700 - 250 ?",
+  "a": [
+   "550",
+   "950",
+   "450",
+   "350"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien font 8 x 8 ?",
+  "a": [
+   "56",
+   "72",
+   "88",
+   "64"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans 5 273, quel est le chiffre des milliers ?",
+  "a": [
+   "5",
+   "2",
+   "7",
+   "3"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment écrit-on en chiffres « trois mille quatre cent cinq » ?",
+  "a": [
+   "3 450",
+   "34 005",
+   "3 405",
+   "3 045"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien de mètres y a-t-il dans 1 kilomètre ?",
+  "a": [
+   "100",
+   "10",
+   "10 000",
+   "1 000"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien de grammes y a-t-il dans 1 kilogramme ?",
+  "a": [
+   "100",
+   "10",
+   "10 000",
+   "1 000"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la moitié de 120 ?",
+  "a": [
+   "60",
+   "50",
+   "600",
+   "12"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le double de 250 ?",
+  "a": [
+   "450",
+   "500",
+   "520",
+   "50"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien font 6 x 7 ?",
+  "a": [
+   "36",
+   "42",
+   "48",
+   "13"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien font 4 x 25 ?",
+  "a": [
+   "29",
+   "75",
+   "100",
+   "125"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien de centimes y a-t-il dans 1 euro ?",
+  "a": [
+   "10",
+   "50",
+   "1 000",
+   "100"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le périmètre d'un carré de côté 5 cm ?",
+  "a": [
+   "20 cm",
+   "10 cm",
+   "25 cm",
+   "15 cm"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le périmètre d'un rectangle de 6 cm sur 4 cm ?",
+  "a": [
+   "10 cm",
+   "20 cm",
+   "24 cm",
+   "16 cm"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien d'angles droits un rectangle possède-t-il ?",
+  "a": [
+   "2",
+   "0",
+   "4",
+   "3"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien de côtés égaux a un triangle équilatéral ?",
+  "a": [
+   "2",
+   "0",
+   "1",
+   "3"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Parmi 4 051, 4 015, 1 450 et 4 005, quel nombre est le plus grand ?",
+  "a": [
+   "4 051",
+   "4 015",
+   "1 450",
+   "4 005"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de minutes y a-t-il dans une demi-heure ?",
+  "a": [
+   "15",
+   "30",
+   "60",
+   "20"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien de minutes y a-t-il entre 8 h 15 et 9 h 00 ?",
+  "a": [
+   "15",
+   "55",
+   "45",
+   "75"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien de semaines environ y a-t-il dans une année ?",
+  "a": [
+   "12",
+   "30",
+   "100",
+   "52"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien font 5 x 9 ?",
+  "a": [
+   "45",
+   "40",
+   "54",
+   "14"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien font 1 000 - 1 ?",
+  "a": [
+   "900",
+   "999",
+   "1 001",
+   "990"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien font 63 - 28 ?",
+  "a": [
+   "45",
+   "41",
+   "35",
+   "25"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien de litres y a-t-il dans 3 bouteilles de 2 litres ?",
+  "a": [
+   "5",
+   "8",
+   "32",
+   "6"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel nombre complète : 8 x ... = 72 ?",
+  "a": [
+   "8",
+   "7",
+   "10",
+   "9"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le chiffre des centaines dans 3 862 ?",
+  "a": [
+   "8",
+   "3",
+   "6",
+   "2"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de faces rectangulaires a un pavé droit (tout rectangle) ?",
+  "a": [
+   "4",
+   "6",
+   "8",
+   "12"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien de mois y a-t-il dans une année ?",
+  "a": [
+   "10",
+   "11",
+   "12",
+   "52"
+  ],
+  "c": 2
+ }
+]

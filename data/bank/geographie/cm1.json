@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quelle est la capitale de l'Italie ?",
+  "a": [
+   "Milan",
+   "Rome",
+   "Naples",
+   "Venise"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la capitale de l'Espagne ?",
+  "a": [
+   "Barcelone",
+   "Séville",
+   "Madrid",
+   "Valence"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la capitale de l'Allemagne ?",
+  "a": [
+   "Munich",
+   "Hambourg",
+   "Berlin",
+   "Francfort"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel fleuve français, long d'environ 1000 km, se jette dans l'Atlantique près de Saint-Nazaire ?",
+  "a": [
+   "La Loire",
+   "La Seine",
+   "Le Rhône",
+   "La Garonne"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel fleuve forme une partie de la frontière entre la France et l'Allemagne ?",
+  "a": [
+   "La Seine",
+   "La Loire",
+   "La Meuse",
+   "Le Rhin"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien de régions la France métropolitaine compte-t-elle ?",
+  "a": [
+   "22",
+   "13",
+   "18",
+   "9"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Dans quelle région se trouve la ville de Marseille ?",
+  "a": [
+   "Bretagne",
+   "Normandie",
+   "Provence-Alpes-Côte d'Azur",
+   "Hauts-de-France"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle région a pour capitale régionale Rennes ?",
+  "a": [
+   "La Normandie",
+   "Les Pays de la Loire",
+   "La Bretagne",
+   "La Nouvelle-Aquitaine"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le nom d'un département d'outre-mer dans l'océan Indien ?",
+  "a": [
+   "La Guadeloupe",
+   "La Martinique",
+   "La Réunion",
+   "La Guyane"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel département d'outre-mer est en Amérique du Sud ?",
+  "a": [
+   "La Guyane",
+   "La Réunion",
+   "Mayotte",
+   "La Martinique"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelles étendues d'eau bordent la Guadeloupe et la Martinique ?",
+  "a": [
+   "L'océan Indien",
+   "L'océan Atlantique et la mer des Caraïbes",
+   "L'océan Pacifique",
+   "La Méditerranée"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le nom de l'île française de Méditerranée ?",
+  "a": [
+   "La Sicile",
+   "La Sardaigne",
+   "La Corse",
+   "Malte"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que signifie « habiter en ville » ?",
+  "a": [
+   "Vivre dans une ferme",
+   "Vivre en haute montagne",
+   "Vivre sur un bateau",
+   "Vivre dans un espace urbain dense"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment appelle-t-on un espace où se trouvent des champs et des fermes ?",
+  "a": [
+   "Un espace urbain",
+   "Un espace polaire",
+   "Un espace rural",
+   "Un espace désertique"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un quartier ?",
+  "a": [
+   "Une partie d'une ville",
+   "Un pays",
+   "Un continent",
+   "Un fleuve"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment appelle-t-on l'ensemble de la ville et des villages proches qui en dépendent ?",
+  "a": [
+   "Une chaîne de montagnes",
+   "Une frontière",
+   "Une aire urbaine",
+   "Un continent"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel mode de transport est le plus utilisé pour relier Paris à Marseille à grande vitesse ?",
+  "a": [
+   "Le TGV",
+   "Le tramway",
+   "Le bateau",
+   "La mobylette"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la plus grande île de France métropolitaine ?",
+  "a": [
+   "La Corse",
+   "Oléron",
+   "Ré",
+   "Belle-Île"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le nom de la plus grande forêt tropicale du monde ?",
+  "a": [
+   "La forêt de Fontainebleau",
+   "La taïga",
+   "La forêt noire",
+   "L'Amazonie"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le plus grand désert chaud du monde ?",
+  "a": [
+   "Le Gobi",
+   "Le Sahara",
+   "Le Kalahari",
+   "Le désert d'Atacama"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Sur quel continent se trouve la forêt amazonienne ?",
+  "a": [
+   "L'Amérique du Sud",
+   "L'Afrique",
+   "L'Asie",
+   "L'Océanie"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la chaîne de montagnes la plus haute du monde ?",
+  "a": [
+   "Les Alpes",
+   "Les Andes",
+   "L'Himalaya",
+   "Les Rocheuses"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel fleuve traverse l'Égypte ?",
+  "a": [
+   "Le Danube",
+   "Le Nil",
+   "Le Rhin",
+   "L'Amazone"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le continent le plus peuplé ?",
+  "a": [
+   "L'Europe",
+   "L'Amérique du Nord",
+   "L'Afrique",
+   "L'Asie"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la capitale du Portugal ?",
+  "a": [
+   "Porto",
+   "Lisbonne",
+   "Madrid",
+   "Faro"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel geste est bon pour la planète ?",
+  "a": [
+   "Laisser couler l'eau",
+   "Trier ses déchets",
+   "Jeter ses déchets dans la nature",
+   "Laisser la lumière allumée"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que fait-on avec le tri sélectif ?",
+  "a": [
+   "On les brûle sans filtre",
+   "On recycle les déchets",
+   "On les enterre n'importe où",
+   "On les jette en mer"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle source d'énergie est renouvelable ?",
+  "a": [
+   "Le charbon",
+   "Le pétrole",
+   "Le vent",
+   "Le gaz naturel"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelle-t-on la ligne qui sépare deux pays ?",
+  "a": [
+   "Une frontière",
+   "Un littoral",
+   "Une plaine",
+   "Un fleuve"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la mer entre la France et le Royaume-Uni ?",
+  "a": [
+   "La mer Baltique",
+   "La Manche",
+   "La mer Rouge",
+   "La mer Noire"
+  ],
+  "c": 1
+ }
+]

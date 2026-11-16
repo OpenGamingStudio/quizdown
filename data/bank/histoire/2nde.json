@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel penseur athénien est condamné à boire la ciguë en 399 avant J.-C. ?",
+  "a": [
+   "Platon",
+   "Aristote",
+   "Périclès",
+   "Socrate"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel stratège domine la vie politique athénienne au Ve siècle avant J.-C. ?",
+  "a": [
+   "Clisthène",
+   "Périclès",
+   "Solon",
+   "Alexandre"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel dirigeant athénien met en place les bases de la démocratie en 508-507 avant J.-C. ?",
+  "a": [
+   "Clisthène",
+   "Périclès",
+   "Solon",
+   "Pisistrate"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui n'avait pas la citoyenneté à Athènes ?",
+  "a": [
+   "Les femmes, les esclaves et les étrangers",
+   "Les hommes libres nés de parents athéniens",
+   "Les hommes de plus de 18 ans nés de père athénien",
+   "Les magistrats"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment s'appelle l'assemblée des citoyens à Athènes ?",
+  "a": [
+   "Le Sénat",
+   "La Boulè",
+   "Le Forum",
+   "L'Ecclésia"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel texte de l'Empire romain accorde la citoyenneté à tous les hommes libres en 212 ?",
+  "a": [
+   "L'édit de Nantes",
+   "L'édit de Caracalla",
+   "L'édit de Milan",
+   "La loi des Douze Tables"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel empereur romain met en place la tétrarchie à la fin du IIIe siècle ?",
+  "a": [
+   "Dioclétien",
+   "Constantin",
+   "Auguste",
+   "Néron"
+  ],
+  "c": 0
+ },
+ {
+  "q": "En quelle année l'Empire romain est-il partagé en deux parties à la mort de Théodose ?",
+  "a": [
+   "395",
+   "313",
+   "476",
+   "27 avant J.-C."
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel empereur byzantin fait construire Sainte-Sophie au VIe siècle ?",
+  "a": [
+   "Justinien",
+   "Constantin",
+   "Charlemagne",
+   "Néron"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle ville est prise par les croisés en 1099 ?",
+  "a": [
+   "Constantinople",
+   "Rome",
+   "Alexandrie",
+   "Jérusalem"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle ville andalouse est un centre culturel majeur du califat omeyyade ?",
+  "a": [
+   "Séville",
+   "Cordoue",
+   "Madrid",
+   "Barcelone"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel humaniste néerlandais écrit « L'Éloge de la folie » ?",
+  "a": [
+   "Rabelais",
+   "Érasme",
+   "Machiavel",
+   "Montaigne"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel humaniste français est l'auteur de « Pantagruel » (1532) ?",
+  "a": [
+   "Rabelais",
+   "Érasme",
+   "Montaigne",
+   "Machiavel"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel moine allemand lance la Réforme protestante en 1517 ?",
+  "a": [
+   "Martin Luther",
+   "Jean Calvin",
+   "Érasme",
+   "Zwingli"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel navigateur génois traverse l'Atlantique en 1492 sous pavillon espagnol ?",
+  "a": [
+   "Vasco de Gama",
+   "Magellan",
+   "Christophe Colomb",
+   "Amerigo Vespucci"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel navigateur portugais atteint l'Inde par mer en 1498 ?",
+  "a": [
+   "Christophe Colomb",
+   "Bartolomeu Dias",
+   "Vasco de Gama",
+   "Magellan"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel traité de 1494 partage le monde entre l'Espagne et le Portugal ?",
+  "a": [
+   "Le traité de Vienne",
+   "Le traité de Westphalie",
+   "Le traité de Paris",
+   "Le traité de Tordesillas"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel conquérant espagnol renverse l'Empire aztèque en 1521 ?",
+  "a": [
+   "Francisco Pizarro",
+   "Christophe Colomb",
+   "Hernán Cortés",
+   "Magellan"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel conquérant espagnol s'empare de l'Empire inca à partir de 1532 ?",
+  "a": [
+   "Francisco Pizarro",
+   "Hernán Cortés",
+   "Christophe Colomb",
+   "Magellan"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel astronome publie « Des révolutions des orbes célestes » (1543) avec le modèle héliocentrique ?",
+  "a": [
+   "Galilée",
+   "Copernic",
+   "Newton",
+   "Ptolémée"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel savant italien observe les satellites de Jupiter avec une lunette en 1610 ?",
+  "a": [
+   "Copernic",
+   "Galilée",
+   "Kepler",
+   "Newton"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle déclaration américaine est proclamée le 4 juillet 1776 ?",
+  "a": [
+   "La Déclaration des droits de l'homme",
+   "La Déclaration d'indépendance",
+   "La Constitution de 1958",
+   "La Magna Carta"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui est le premier président des États-Unis ?",
+  "a": [
+   "Thomas Jefferson",
+   "Abraham Lincoln",
+   "Benjamin Franklin",
+   "George Washington"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel ordre des États généraux se proclame Assemblée nationale en juin 1789 ?",
+  "a": [
+   "Le tiers état",
+   "La noblesse",
+   "Le clergé",
+   "Le Parlement"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel événement de juin 1789 voit les députés jurer de donner une constitution à la France ?",
+  "a": [
+   "La nuit du 4 août",
+   "La fête de la Fédération",
+   "La prise des Tuileries",
+   "Le serment du Jeu de paume"
+  ],
+  "c": 3
+ },
+ {
+  "q": "En quelle année Louis XVI tente-t-il de fuir (fuite à Varennes) ?",
+  "a": [
+   "1789",
+   "1791",
+   "1793",
+   "1799"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle assemblée, élue en septembre 1792, juge Louis XVI ?",
+  "a": [
+   "La Convention",
+   "La Constituante",
+   "La Législative",
+   "Le Directoire"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel accord de 1801 entre Bonaparte et le pape rétablit la paix religieuse ?",
+  "a": [
+   "Le Concordat",
+   "L'édit de Nantes",
+   "La séparation de 1905",
+   "La Charte de 1814"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel congrès réorganise l'Europe après la chute de Napoléon (1814-1815) ?",
+  "a": [
+   "Le congrès de Vienne",
+   "Le congrès de Berlin",
+   "La conférence de Yalta",
+   "Le traité de Versailles"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle colonie française devient indépendante en 1804 sous le nom d'Haïti après une révolte d'esclaves ?",
+  "a": [
+   "Saint-Domingue",
+   "La Martinique",
+   "La Guadeloupe",
+   "La Réunion"
+  ],
+  "c": 0
+ }
+]

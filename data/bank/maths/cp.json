@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Combien font 4 + 3 ?",
+  "a": [
+   "7",
+   "6",
+   "8",
+   "5"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien font 10 - 4 ?",
+  "a": [
+   "5",
+   "6",
+   "7",
+   "14"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel nombre vient juste après 39 ?",
+  "a": [
+   "38",
+   "49",
+   "40",
+   "30"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel nombre vient juste avant 70 ?",
+  "a": [
+   "71",
+   "60",
+   "68",
+   "69"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien font 5 + 5 ?",
+  "a": [
+   "10",
+   "55",
+   "9",
+   "11"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien y a-t-il de dizaines dans 30 ?",
+  "a": [
+   "30",
+   "3",
+   "0",
+   "10"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel nombre s'écrit « quinze » ?",
+  "a": [
+   "50",
+   "51",
+   "15",
+   "5"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien font 8 + 2 ?",
+  "a": [
+   "6",
+   "16",
+   "9",
+   "10"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Parmi 87, 78, 68 et 79, quel nombre est le plus grand ?",
+  "a": [
+   "87",
+   "78",
+   "68",
+   "79"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Parmi 32, 23, 29 et 31, quel nombre est le plus petit ?",
+  "a": [
+   "32",
+   "23",
+   "29",
+   "31"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien de côtés a un triangle ?",
+  "a": [
+   "4",
+   "5",
+   "3",
+   "2"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien de côtés a un carré ?",
+  "a": [
+   "3",
+   "6",
+   "4",
+   "2"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien de sommets a un rectangle ?",
+  "a": [
+   "2",
+   "3",
+   "4",
+   "6"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle forme a une pièce de monnaie ?",
+  "a": [
+   "Un carré",
+   "Un triangle",
+   "Un rectangle",
+   "Un disque"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien font 6 + 6 ?",
+  "a": [
+   "12",
+   "11",
+   "10",
+   "13"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien font 9 - 9 ?",
+  "a": [
+   "9",
+   "0",
+   "1",
+   "18"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le double de 5 ?",
+  "a": [
+   "7",
+   "25",
+   "10",
+   "55"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le double de 4 ?",
+  "a": [
+   "2",
+   "8",
+   "16",
+   "6"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la moitié de 10 ?",
+  "a": [
+   "2",
+   "20",
+   "5",
+   "1"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien de jours y a-t-il dans une semaine ?",
+  "a": [
+   "5",
+   "6",
+   "10",
+   "7"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien font 20 + 10 ?",
+  "a": [
+   "30",
+   "21",
+   "10",
+   "40"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le chiffre des unités dans 46 ?",
+  "a": [
+   "4",
+   "6",
+   "46",
+   "10"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel nombre est entre 14 et 16 ?",
+  "a": [
+   "13",
+   "17",
+   "15",
+   "10"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien font 3 + 3 + 3 ?",
+  "a": [
+   "6",
+   "12",
+   "33",
+   "9"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Pour continuer 2, 4, 6, 8, quel est le nombre suivant ?",
+  "a": [
+   "10",
+   "9",
+   "12",
+   "11"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de doigts y a-t-il sur deux mains ?",
+  "a": [
+   "5",
+   "10",
+   "8",
+   "20"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien font 12 - 2 ?",
+  "a": [
+   "14",
+   "11",
+   "10",
+   "9"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien font 1 + 1 + 1 + 1 ?",
+  "a": [
+   "3",
+   "5",
+   "11",
+   "4"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Un paquet de 10 crayons et 3 crayons seuls : combien de crayons ?",
+  "a": [
+   "103",
+   "10",
+   "7",
+   "13"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien de dizaines y a-t-il dans 70 ?",
+  "a": [
+   "7",
+   "70",
+   "0",
+   "10"
+  ],
+  "c": 0
+ }
+]

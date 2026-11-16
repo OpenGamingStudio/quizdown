@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel philosophe des Lumières écrit « De l'esprit des lois » ?",
+  "a": [
+   "Rousseau",
+   "Montesquieu",
+   "Voltaire",
+   "Diderot"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel philosophe des Lumières a écrit « Du contrat social » ?",
+  "a": [
+   "Montesquieu",
+   "Voltaire",
+   "Jean-Jacques Rousseau",
+   "Louis XIV"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel penseur est l'auteur du « Traité sur la tolérance » (1763) ?",
+  "a": [
+   "Rousseau",
+   "Voltaire",
+   "Montesquieu",
+   "Descartes"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel ouvrage collectif dirigé par Diderot et d'Alembert rassemble les savoirs du siècle ?",
+  "a": [
+   "Le Code civil",
+   "Les Essais",
+   "L'Encyclopédie",
+   "Le Discours de la méthode"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel principe défendu par Montesquieu sépare le pouvoir législatif, exécutif et judiciaire ?",
+  "a": [
+   "Le droit divin",
+   "Le mercantilisme",
+   "La séparation des pouvoirs",
+   "L'absolutisme"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel roi de France règne de 1643 à 1715 ?",
+  "a": [
+   "Louis XV",
+   "Louis XIV",
+   "Louis XVI",
+   "Henri IV"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment appelle-t-on le régime de Louis XIV, où le roi détient tous les pouvoirs ?",
+  "a": [
+   "La monarchie absolue",
+   "La république",
+   "La monarchie constitutionnelle",
+   "L'oligarchie"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que désigne le commerce triangulaire ?",
+  "a": [
+   "Le commerce entre Paris, Lyon et Marseille",
+   "Le commerce entre l'Europe, l'Afrique et l'Amérique",
+   "Le commerce de la soie",
+   "Le commerce par la mer Baltique"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle ville française est un grand port de la traite négrière au XVIIIe siècle ?",
+  "a": [
+   "Strasbourg",
+   "Nantes",
+   "Lille",
+   "Dijon"
+  ],
+  "c": 1
+ },
+ {
+  "q": "En quelle année la Convention abolit-elle l'esclavage ?",
+  "a": [
+   "1794",
+   "1789",
+   "1804",
+   "1848"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel roi de France convoque les États généraux en mai 1789 ?",
+  "a": [
+   "Louis XVI",
+   "Louis XIV",
+   "Louis XV",
+   "Charles X"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que signifie la prise de la Bastille le 14 juillet 1789 ?",
+  "a": [
+   "Un symbole de la fin de l'arbitraire royal",
+   "Le début de la guerre de Cent Ans",
+   "La fin de la Première Guerre mondiale",
+   "Le sacre de Napoléon"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle nuit de 1789 voit l'abolition des privilèges ?",
+  "a": [
+   "La nuit du 4 août",
+   "La nuit du 14 juillet",
+   "La nuit du 11 novembre",
+   "La nuit du 1er mai"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel événement de 1792 proclame la Ire République ?",
+  "a": [
+   "Le sacre de Napoléon",
+   "La bataille de Waterloo",
+   "Le Concordat",
+   "L'abolition de la monarchie"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle bataille de 1792 voit la victoire des soldats de la Révolution ?",
+  "a": [
+   "Waterloo",
+   "Austerlitz",
+   "Valmy",
+   "Verdun"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que la Terreur (1793-1794) ?",
+  "a": [
+   "Une guerre contre l'Angleterre",
+   "Une épidémie",
+   "Un sacre royal",
+   "Répression violente par le gouvernement révolutionnaire"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel chef politique est lié à la Terreur ?",
+  "a": [
+   "Napoléon",
+   "Louis XVI",
+   "Voltaire",
+   "Robespierre"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel général devient Premier consul en 1799 ?",
+  "a": [
+   "Robespierre",
+   "La Fayette",
+   "Napoléon Bonaparte",
+   "Louis XVIII"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle campagne de 1812 est un désastre pour l'armée de Napoléon ?",
+  "a": [
+   "La campagne de Russie",
+   "La campagne d'Italie",
+   "La campagne d'Égypte",
+   "La campagne de Belgique"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle bataille de 1805 est une grande victoire de Napoléon ?",
+  "a": [
+   "Waterloo",
+   "Trafalgar",
+   "Austerlitz",
+   "Valmy"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Où Napoléon meurt-il en exil en 1821 ?",
+  "a": [
+   "À l'île d'Elbe",
+   "À Paris",
+   "À Sainte-Hélène",
+   "À Moscou"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle révolution de 1830 chasse Charles X ?",
+  "a": [
+   "La Commune",
+   "Les Trois Glorieuses",
+   "Mai 1968",
+   "La Terreur"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle révolution de 1848 proclame la IIe République ?",
+  "a": [
+   "La révolution de février 1848",
+   "La Commune",
+   "La Terreur",
+   "La Fronde"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui est le premier président de la République française, élu en 1848 ?",
+  "a": [
+   "Adolphe Thiers",
+   "Louis-Napoléon Bonaparte",
+   "Jules Grévy",
+   "Charles de Gaulle"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel régime s'installe en 1852 avec Napoléon III ?",
+  "a": [
+   "La Restauration",
+   "Le Second Empire",
+   "La IIIe République",
+   "Le Consulat"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle date marque la proclamation de la IIIe République ?",
+  "a": [
+   "4 septembre 1870",
+   "14 juillet 1789",
+   "11 novembre 1918",
+   "22 septembre 1792"
+  ],
+  "c": 0
+ },
+ {
+  "q": "En quelle année l'esclavage est-il définitivement aboli dans les colonies françaises ?",
+  "a": [
+   "1794",
+   "1789",
+   "1905",
+   "1848"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel écrivain publie « Les Misérables » en 1862 ?",
+  "a": [
+   "Victor Hugo",
+   "Émile Zola",
+   "Honoré de Balzac",
+   "Gustave Flaubert"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la révolution industrielle ?",
+  "a": [
+   "Le passage à la production en usine avec des machines",
+   "La Révolution de 1789",
+   "Le passage à l'agriculture",
+   "Une guerre mondiale"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel pays est le berceau de la révolution industrielle ?",
+  "a": [
+   "La Russie",
+   "L'Italie",
+   "Le Japon",
+   "Le Royaume-Uni"
+  ],
+  "c": 3
+ }
+]

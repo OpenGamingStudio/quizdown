@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Quelle est la deuxième loi de Newton ?",
+  "a": [
+   "La somme des forces est égale à m x a",
+   "La somme des forces est nulle",
+   "F = m / a",
+   "F = a / m"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Un objet de masse 2 kg subit une force résultante de 10 N. Quelle est son accélération ?",
+  "a": [
+   "20 m/s²",
+   "5 m/s²",
+   "0,2 m/s²",
+   "12 m/s²"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la trajectoire d'un projectile lancé horizontalement dans le champ de pesanteur sans frottements ?",
+  "a": [
+   "Une droite",
+   "Un cercle",
+   "Une parabole",
+   "Une hyperbole"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la troisième loi de Kepler ?",
+  "a": [
+   "La vitesse d'une planète est constante",
+   "Les orbites sont des cercles",
+   "T²/a³ est le même pour toutes les planètes du Soleil",
+   "F = m x a"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la forme de l'orbite d'une planète selon Kepler ?",
+  "a": [
+   "Un cercle parfait centré sur le Soleil",
+   "Une parabole",
+   "Une droite",
+   "Une ellipse dont le Soleil occupe un foyer"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est l'expression de la force de gravitation entre deux masses ?",
+  "a": [
+   "F = G x m1 x m2 / d²",
+   "F = G x m1 x m2 x d",
+   "F = G x m / d",
+   "F = m x a"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la vitesse d'un satellite en orbite circulaire de rayon r autour d'une planète de masse M ?",
+  "a": [
+   "v = G M r",
+   "v = racine de (G M / r)",
+   "v = G M / r",
+   "v = racine de (G r / M)"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Un satellite géostationnaire a une période orbitale de...",
+  "a": [
+   "environ 90 minutes",
+   "environ 1 an",
+   "environ 24 h",
+   "environ 12 mois"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la relation entre la longueur d'onde, la célérité et la fréquence ?",
+  "a": [
+   "lambda = c x f",
+   "lambda = f / c",
+   "lambda = c + f",
+   "lambda = c / f"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Pour une onde de fréquence 500 Hz et de célérité 340 m/s, quelle est la longueur d'onde ?",
+  "a": [
+   "0,68 m",
+   "170 000 m",
+   "1,47 m",
+   "0,5 m"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel phénomène est mis en évidence par la diffraction d'une onde par une fente fine ?",
+  "a": [
+   "L'absorption totale",
+   "La réfraction",
+   "L'étalement de l'onde derrière la fente",
+   "La réflexion totale"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Des interférences constructives se produisent quand les ondes arrivent...",
+  "a": [
+   "en opposition de phase",
+   "avec des fréquences très différentes",
+   "sans amplitude",
+   "en phase"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est l'effet Doppler ?",
+  "a": [
+   "Variation de fréquence perçue due au mouvement relatif",
+   "Le changement de couleur par l'absorption",
+   "La déviation par un prisme",
+   "La diffraction par un obstacle"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la constante de temps d'un circuit RC ?",
+  "a": [
+   "tau = R / C",
+   "tau = R x C",
+   "tau = C / R",
+   "tau = R + C"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est l'unité de capacité d'un condensateur ?",
+  "a": [
+   "Le henry",
+   "Le farad",
+   "Le coulomb",
+   "L'ohm"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la relation de charge d'un condensateur ?",
+  "a": [
+   "q = C / u",
+   "q = u / C",
+   "q = C x u",
+   "q = C + u"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Au bout de 5 constantes de temps, un condensateur est chargé à environ...",
+  "a": [
+   "50 % de sa charge finale",
+   "10 % de sa charge finale",
+   "63 % de sa charge finale",
+   "99 % de sa charge finale"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment appelle-t-on la grandeur qui exprime l'énergie thermique nécessaire pour élever de 1 K la température d'un système ?",
+  "a": [
+   "La température",
+   "La capacité thermique",
+   "La conductivité électrique",
+   "La puissance"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la loi de la désintégration radioactive ?",
+  "a": [
+   "N(t) = N0 + lambda t",
+   "N(t) = N0 / t",
+   "N(t) = N0 x e^(-lambda t)",
+   "N(t) = N0 x lambda t"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la demi-vie d'un échantillon radioactif ?",
+  "a": [
+   "La durée totale de désintégration",
+   "La moitié de la masse initiale",
+   "La durée de la fission",
+   "Durée pour que la moitié des noyaux se désintègre"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien reste-t-il de noyaux après 3 demi-vies pour N0 = 800 ?",
+  "a": [
+   "100",
+   "400",
+   "200",
+   "266"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel rayonnement correspond à l'émission d'un noyau d'hélium ?",
+  "a": [
+   "Bêta moins",
+   "Alpha",
+   "Gamma",
+   "Bêta plus"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Lors d'une fission nucléaire, un noyau lourd...",
+  "a": [
+   "fusionne avec un autre",
+   "perd son nuage électronique",
+   "se brise en noyaux plus légers",
+   "se transforme en molécule"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la relation d'équivalence masse-énergie ?",
+  "a": [
+   "E = m c",
+   "E = 1/2 m c²",
+   "E = m c²",
+   "E = m g h"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Une solution de pH 2 contient combien de fois plus d'ions H3O⁺ qu'une de pH 4 ?",
+  "a": [
+   "2",
+   "10",
+   "0,01",
+   "100"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle relation donne le pH d'une solution tampon (acide HA, base A⁻) ?",
+  "a": [
+   "pH = pKa + log([A⁻]/[HA])",
+   "pH = pKa - log([A⁻]/[HA])",
+   "pH = pKa x [A⁻]/[HA]",
+   "pH = [A⁻] - [HA]"
+  ],
+  "c": 0
+ },
+ {
+  "q": "À l'équivalence d'un titrage, les réactifs sont...",
+  "a": [
+   "en excès pour le titrant",
+   "introduits dans les proportions stoechiométriques",
+   "tous consommés sans produits",
+   "dans un rapport 1 à 1 toujours"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un catalyseur ?",
+  "a": [
+   "Une espèce qui est consommée pour produire de l'énergie",
+   "Une espèce qui ralentit la réaction",
+   "Une espèce qui accélère une réaction sans être consommée",
+   "Une espèce inerte du solvant"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Une augmentation de température fait en général...",
+  "a": [
+   "diminuer la vitesse",
+   "ne rien changer à la vitesse",
+   "arrêter la réaction",
+   "augmenter la vitesse d'une réaction"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans un titrage colorimétrique, comment repère-t-on l'équivalence ?",
+  "a": [
+   "Par un changement de couleur persistant",
+   "Par une ébullition du mélange",
+   "Par la disparition totale du solvant",
+   "Par la formation systématique d'un gaz"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Pour un couple acide/base, si pH < pKa, quelle espèce prédomine ?",
+  "a": [
+   "L'acide HA",
+   "La base A⁻",
+   "Les deux en quantités égales",
+   "Aucune des deux"
+  ],
+  "c": 0
+ }
+]

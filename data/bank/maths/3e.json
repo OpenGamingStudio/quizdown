@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Quel est le PGCD de 12 et 18 ?",
+  "a": [
+   "3",
+   "6",
+   "36",
+   "2"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le PGCD de 48 et 36 ?",
+  "a": [
+   "6",
+   "24",
+   "12",
+   "144"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la décomposition en facteurs premiers de 60 ?",
+  "a": [
+   "2 x 3 x 10",
+   "6 x 10",
+   "2³ x 3 x 5",
+   "2² x 3 x 5"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Les nombres 15 et 28 sont-ils premiers entre eux ?",
+  "a": [
+   "Non, leur PGCD est 3",
+   "Non, leur PGCD est 5",
+   "Non, ils sont pairs",
+   "Oui, leur PGCD est 1"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Développer (x + 3)² donne...",
+  "a": [
+   "x² + 6x + 9",
+   "x² + 9",
+   "x² + 3x + 9",
+   "x² + 6x + 6"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Développer (x - 4)(x + 4) donne...",
+  "a": [
+   "x² + 16",
+   "x² - 16",
+   "x² - 8x + 16",
+   "x² - 4"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Factoriser x² - 9 donne...",
+  "a": [
+   "(x - 3)²",
+   "(x - 9)(x + 1)",
+   "(x - 3)(x + 3)",
+   "(x + 3)²"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Factoriser 6x + 12 donne...",
+  "a": [
+   "6(x + 12)",
+   "x(6 + 12)",
+   "2(3x + 12)",
+   "6(x + 2)"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Résoudre 3x - 5 = 10 : x vaut...",
+  "a": [
+   "5",
+   "15",
+   "3",
+   "1,67"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Résoudre (x - 2)(x + 5) = 0 : les solutions sont...",
+  "a": [
+   "2 et -5",
+   "-2 et 5",
+   "2 et 5",
+   "-2 et -5"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la solution du système x + y = 7 et x - y = 1 ?",
+  "a": [
+   "x = 3 et y = 4",
+   "x = 4 et y = 3",
+   "x = 5 et y = 2",
+   "x = 6 et y = 1"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien vaut la racine carrée de 81 ?",
+  "a": [
+   "8",
+   "81/2",
+   "9",
+   "27"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien vaut racine de 50 écrit sous la forme a racine de 2 ?",
+  "a": [
+   "25 racine de 2",
+   "2 racine de 5",
+   "10 racine de 2",
+   "5 racine de 2"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la valeur de f(3) si f(x) = 2x - 1 ?",
+  "a": [
+   "5",
+   "6",
+   "7",
+   "3"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Si f(x) = x², quelle est l'image de -4 ?",
+  "a": [
+   "-16",
+   "16",
+   "8",
+   "-8"
+  ],
+  "c": 1
+ },
+ {
+  "q": "La fonction affine f(x) = 3x + 2 a pour coefficient directeur...",
+  "a": [
+   "2",
+   "5",
+   "3",
+   "1,5"
+  ],
+  "c": 2
+ },
+ {
+  "q": "La fonction affine f(x) = 3x + 2 a pour ordonnée à l'origine...",
+  "a": [
+   "3",
+   "5",
+   "0",
+   "2"
+  ],
+  "c": 3
+ },
+ {
+  "q": "La représentation graphique d'une fonction linéaire est...",
+  "a": [
+   "une droite passant par l'origine",
+   "une parabole",
+   "une droite horizontale",
+   "une hyperbole"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Dans un triangle ABC, M est sur [AB], N sur [AC] avec (MN) parallèle à (BC). Quelle égalité est vraie ?",
+  "a": [
+   "AM/MB = AN/AB",
+   "AM/AB = AN/AC",
+   "AM/AN = BC/MN",
+   "AM x AB = AN x AC"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Dans un triangle rectangle, si l'angle vaut 30 degrés et l'hypoténuse 10, le côté opposé mesure...",
+  "a": [
+   "10",
+   "3",
+   "5",
+   "6"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans un triangle ABC rectangle en A, que vaut sin de l'angle B ?",
+  "a": [
+   "AB/BC",
+   "AC/AB",
+   "AB/AC",
+   "AC/BC"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans un triangle rectangle, tangente d'un angle aigu =",
+  "a": [
+   "côté opposé / côté adjacent",
+   "côté adjacent / côté opposé",
+   "côté opposé / hypoténuse",
+   "hypoténuse / côté adjacent"
+  ],
+  "c": 0
+ },
+ {
+  "q": "On tire une carte dans un jeu de 32 cartes. Quelle est la probabilité de tirer un as ?",
+  "a": [
+   "1/4",
+   "1/8",
+   "1/32",
+   "4/8"
+  ],
+  "c": 1
+ },
+ {
+  "q": "On lance deux fois une pièce équilibrée. Probabilité d'obtenir deux fois face ?",
+  "a": [
+   "1/2",
+   "1/3",
+   "1/4",
+   "2/3"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le volume d'une boule de rayon 3 cm (valeur exacte) ?",
+  "a": [
+   "12π cm³",
+   "27π cm³",
+   "36π cm³",
+   "9π cm³"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Une homothétie de rapport 2 multiplie les longueurs par...",
+  "a": [
+   "4",
+   "1/2",
+   "8",
+   "2"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Une homothétie de rapport 2 multiplie les aires par...",
+  "a": [
+   "4",
+   "2",
+   "8",
+   "1/4"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est l'écriture scientifique de 0,00032 ?",
+  "a": [
+   "3,2 x 10⁻³",
+   "3,2 x 10⁻⁴",
+   "32 x 10⁻⁵",
+   "3,2 x 10⁴"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la médiane de 2, 4, 4, 8, 10, 12 ?",
+  "a": [
+   "4",
+   "7",
+   "6",
+   "8"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien vaut l'angle au centre qui intercepte un demi-cercle ?",
+  "a": [
+   "90 degrés",
+   "360 degrés",
+   "120 degrés",
+   "180 degrés"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien font 2 puissance 10 ?",
+  "a": [
+   "1 024",
+   "1 000",
+   "2 048",
+   "512"
+  ],
+  "c": 0
+ }
+]

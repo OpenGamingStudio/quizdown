@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel océan est le premier pour le trafic maritime de marchandises (Asie-Amérique) ?",
+  "a": [
+   "L'Arctique",
+   "L'océan Austral",
+   "La mer Baltique",
+   "Le Pacifique"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel océan relie l'Europe et l'Amérique du Nord, l'un des axes majeurs du commerce mondial ?",
+  "a": [
+   "L'océan Indien",
+   "L'océan Arctique",
+   "La mer Rouge",
+   "L'Atlantique Nord"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'un détroit stratégique ?",
+  "a": [
+   "Un lac",
+   "Un désert",
+   "Une montagne",
+   "Un passage maritime étroit très fréquenté et surveillé"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel détroit est vital pour le transport du pétrole du golfe Persique ?",
+  "a": [
+   "Le détroit d'Ormuz",
+   "Le détroit de Gibraltar",
+   "Le détroit de Béring",
+   "Le détroit de Magellan"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel détroit relie la mer Rouge à l'océan Indien, sur la route de Suez ?",
+  "a": [
+   "Bab-el-Mandeb",
+   "Ormuz",
+   "Gibraltar",
+   "Malacca"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le principal enjeu de la Convention de Montego Bay (1982) ?",
+  "a": [
+   "La monnaie européenne",
+   "Le commerce du blé",
+   "Le droit de la mer et les ZEE",
+   "La protection du ciel"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que la haute mer ?",
+  "a": [
+   "Un lac",
+   "Un espace maritime situé au-delà des ZEE, libre d'accès",
+   "Une mer intérieure",
+   "Une zone côtière d'un pays"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la limite des eaux territoriales d'un État ?",
+  "a": [
+   "200 milles marins",
+   "12 milles marins",
+   "50 milles marins",
+   "1 mille marin"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la piraterie maritime ?",
+  "a": [
+   "Une pêche réglementée",
+   "Des actes de violence en mer contre des navires",
+   "Une fête maritime",
+   "Une régate"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle ressource marine est surexploitée dans de nombreuses zones ?",
+  "a": [
+   "Le sable du désert",
+   "Le charbon",
+   "Les poissons",
+   "Le blé"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que le tourisme de croisière ?",
+  "a": [
+   "Un tourisme en train",
+   "Un tourisme en montagne",
+   "Un tourisme en grands navires visitant plusieurs escales",
+   "Un tourisme à vélo"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel organe de l'UE réunit les chefs d'État et de gouvernement ?",
+  "a": [
+   "Le Conseil européen",
+   "Le Parlement européen",
+   "La Commission",
+   "La Cour de justice"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle institution européenne gère l'euro ?",
+  "a": [
+   "Le Parlement européen",
+   "La Cour des comptes européenne",
+   "Le Conseil de l'Europe",
+   "La Banque centrale européenne"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel espace de coopération réunit en Europe des États au-delà de l'UE, créé en 1949 ?",
+  "a": [
+   "Le Conseil de l'Europe",
+   "L'Union européenne",
+   "La Commission",
+   "Le Mercosur"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel pays d'Asie du Sud est un leader des services informatiques, avec Bangalore ?",
+  "a": [
+   "L'Inde",
+   "Le Pakistan",
+   "Le Bangladesh",
+   "Le Sri Lanka"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le projet chinois de nouvelles routes de la soie ?",
+  "a": [
+   "Le Marché commun",
+   "La Belt and Road Initiative",
+   "L'ALENA",
+   "Le Pacte atlantique"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la puissance d'un État en géographie ?",
+  "a": [
+   "Sa superficie seulement",
+   "Sa capacité d'influence (économie, armée, culture)",
+   "Son nombre d'habitants seulement",
+   "Son nombre de frontières"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que le soft power ?",
+  "a": [
+   "La force militaire",
+   "Un logiciel libre",
+   "La capacité d'influence par la culture et les idées",
+   "Un embargo"
+  ],
+  "c": 2
+ },
+ {
+  "q": "À l'origine, quels pays composent les BRICS ?",
+  "a": [
+   "Brésil, Russie, Inde, Chine, Afrique du Sud",
+   "Un groupe de pays producteurs de pétrole",
+   "Une alliance militaire de l'Atlantique",
+   "Un traité européen"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un pays émergent ?",
+  "a": [
+   "Un pays qui disparaît",
+   "Un pays sans économie",
+   "Un pays très ancien",
+   "Un pays à forte croissance qui rattrape les pays développés"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'une dépendance énergétique ?",
+  "a": [
+   "Une production d'énergie exportée",
+   "Un barrage",
+   "Un parc éolien",
+   "Le fait de devoir importer une grande part de son énergie"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel risque naturel menace beaucoup de petits États insulaires du Pacifique ?",
+  "a": [
+   "La montée du niveau de la mer",
+   "Les avalanches",
+   "Les glaciers",
+   "Les volcans de neige"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle ressource est au cœur de tensions géopolitiques au Moyen-Orient ?",
+  "a": [
+   "Le pétrole et le gaz",
+   "Le blé tendre",
+   "Le sel de mer",
+   "Le bois"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que l'Anthropocène ?",
+  "a": [
+   "Une glaciation",
+   "Période géologique marquée par l'impact humain",
+   "Une ère du Moyen Âge",
+   "Un climat tropical"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que regroupe l'OPEP ?",
+  "a": [
+   "Des pays exportateurs de pétrole",
+   "Des pays émergents d'Asie",
+   "Des pays de l'Union européenne",
+   "Des pays de l'Atlantique Nord"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle route maritime s'ouvre grâce à la fonte de la banquise arctique ?",
+  "a": [
+   "Le passage du Nord-Est",
+   "Le cap Horn",
+   "Le canal de Suez",
+   "Le canal de Panama"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle cité-État d'Asie du Sud-Est contrôle l'entrée du détroit de Malacca ?",
+  "a": [
+   "Singapour",
+   "Brunei",
+   "Macao",
+   "Hong Kong"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle organisation internationale regroupe 193 États dans le monde et vise la paix ?",
+  "a": [
+   "L'OTAN",
+   "L'ONU",
+   "L'OMC",
+   "L'UE"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel pays d'Amérique du Sud est un grand exportateur de soja et de minerai de fer ?",
+  "a": [
+   "L'Équateur",
+   "Le Paraguay",
+   "L'Uruguay",
+   "Le Brésil"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle ville est le siège de l'OMC ?",
+  "a": [
+   "New York",
+   "Paris",
+   "Bruxelles",
+   "Genève"
+  ],
+  "c": 3
+ }
+]

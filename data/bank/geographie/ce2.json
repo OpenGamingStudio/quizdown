@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel est le plus grand océan du monde ?",
+  "a": [
+   "L'océan Pacifique",
+   "L'océan Atlantique",
+   "L'océan Indien",
+   "L'océan Arctique"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le plus petit continent par sa superficie ?",
+  "a": [
+   "L'Europe",
+   "L'Antarctique",
+   "L'Amérique du Sud",
+   "L'Océanie"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Sur quel continent se trouve la France ?",
+  "a": [
+   "L'Asie",
+   "L'Europe",
+   "L'Afrique",
+   "L'Amérique"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le plus grand continent par sa superficie ?",
+  "a": [
+   "L'Asie",
+   "L'Afrique",
+   "L'Europe",
+   "L'Amérique du Sud"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel continent est le plus froid et couvert de glace ?",
+  "a": [
+   "L'Europe",
+   "L'Asie",
+   "L'Antarctique",
+   "L'Océanie"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle mer baigne le sud de la France ?",
+  "a": [
+   "La mer du Nord",
+   "La mer Baltique",
+   "La mer Noire",
+   "La mer Méditerranée"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel océan borde l'ouest de la France ?",
+  "a": [
+   "L'océan Atlantique",
+   "L'océan Indien",
+   "L'océan Pacifique",
+   "L'océan Arctique"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la plus haute montagne de France ?",
+  "a": [
+   "Le Puy de Dôme",
+   "Le mont Blanc",
+   "Le mont Ventoux",
+   "Le Pic du Midi"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel fleuve traverse Paris ?",
+  "a": [
+   "La Seine",
+   "La Loire",
+   "Le Rhône",
+   "La Garonne"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel fleuve traverse Lyon avec la Saône ?",
+  "a": [
+   "Le Rhône",
+   "La Seine",
+   "La Loire",
+   "La Meuse"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel fleuve traverse Bordeaux ?",
+  "a": [
+   "La Seine",
+   "Le Rhin",
+   "La Garonne",
+   "La Marne"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le plus long fleuve de France ?",
+  "a": [
+   "La Seine",
+   "La Loire",
+   "Le Rhône",
+   "La Garonne"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle chaîne de montagnes sépare la France de l'Espagne ?",
+  "a": [
+   "Les Alpes",
+   "Le Jura",
+   "Les Vosges",
+   "Les Pyrénées"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle chaîne de montagnes est à la frontière de la France et de l'Italie ?",
+  "a": [
+   "Les Alpes",
+   "Les Pyrénées",
+   "Le Massif central",
+   "Les Vosges"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de pays frontaliers a la France métropolitaine ?",
+  "a": [
+   "4",
+   "8",
+   "5",
+   "12"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel pays est au sud-ouest de la France ?",
+  "a": [
+   "L'Allemagne",
+   "La Belgique",
+   "L'Espagne",
+   "La Suisse"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel pays est au nord-est de la France, avec Bruxelles pour capitale ?",
+  "a": [
+   "La Suisse",
+   "La Belgique",
+   "L'Italie",
+   "Le Portugal"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel massif montagneux couvre une grande partie du centre de la France ?",
+  "a": [
+   "Le Massif central",
+   "Les Alpes",
+   "Les Pyrénées",
+   "Le Jura"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Dans quelle ville se trouve la tour Eiffel ?",
+  "a": [
+   "Lyon",
+   "Lille",
+   "Paris",
+   "Strasbourg"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle grande ville française est un port sur la Méditerranée ?",
+  "a": [
+   "Lille",
+   "Strasbourg",
+   "Dijon",
+   "Marseille"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment appelle-t-on les habitants de la campagne qui cultivent la terre ?",
+  "a": [
+   "Des marins",
+   "Des agriculteurs",
+   "Des mineurs",
+   "Des pilotes"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment appelle-t-on une grande ville entourée de ses banlieues ?",
+  "a": [
+   "Un hameau",
+   "Un village",
+   "Une agglomération",
+   "Une ferme"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel moyen de transport est le plus rapide pour traverser un océan ?",
+  "a": [
+   "L'avion",
+   "Le train",
+   "La voiture",
+   "Le vélo"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que représente la légende d'une carte ?",
+  "a": [
+   "Le titre du livre",
+   "Un conte pour enfants",
+   "L'explication des signes et des couleurs",
+   "L'échelle uniquement"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que représente l'échelle d'une carte ?",
+  "a": [
+   "Le rapport entre distances sur la carte et dans la réalité",
+   "La date de la carte",
+   "Le nom du dessinateur",
+   "La hauteur d'une montagne"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Où se trouve l'équateur ?",
+  "a": [
+   "Au pôle Nord",
+   "Au pôle Sud",
+   "Au milieu de la Terre, entre les pôles",
+   "En Europe"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le nom du pôle situé tout au nord de la Terre ?",
+  "a": [
+   "Le pôle Nord",
+   "Le pôle Sud",
+   "L'équateur",
+   "Le tropique"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la saison la plus chaude en France ?",
+  "a": [
+   "L'hiver",
+   "L'automne",
+   "L'été",
+   "Le printemps"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un littoral ?",
+  "a": [
+   "Le bord de mer",
+   "Le sommet d'une montagne",
+   "Le centre d'une ville",
+   "Un lac"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment s'appelle une région de très hautes montagnes toujours enneigées ?",
+  "a": [
+   "La plaine",
+   "Le littoral",
+   "La haute montagne",
+   "Le désert"
+  ],
+  "c": 2
+ }
+]

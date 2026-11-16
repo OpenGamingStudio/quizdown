@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Qui a peint « La Création d'Adam » ?",
+  "a": [
+   "Michel-Ange",
+   "Raphaël",
+   "Titien",
+   "Léonard de Vinci"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a peint « Les Ambassadeurs » ?",
+  "a": [
+   "Albrecht Dürer",
+   "Lucas Cranach",
+   "Jan van Eyck",
+   "Hans Holbein le Jeune"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel ordre architectural grec est le plus orné, avec des chapiteaux à feuilles d'acanthe ?",
+  "a": [
+   "Le dorique",
+   "L'ionique",
+   "Le corinthien",
+   "Le toscan"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel architecte a restauré Notre-Dame de Paris au XIXe siècle ?",
+  "a": [
+   "Haussmann",
+   "Viollet-le-Duc",
+   "Charles Garnier",
+   "Gustave Eiffel"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel mouvement le tableau « Le Serment des Horaces » de David illustre-t-il ?",
+  "a": [
+   "Le romantisme",
+   "Le néoclassicisme",
+   "Le baroque",
+   "Le réalisme"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a peint « La Grande Odalisque » ?",
+  "a": [
+   "Jean-Auguste-Dominique Ingres",
+   "Eugène Delacroix",
+   "Jacques-Louis David",
+   "Gustave Courbet"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a peint « Le Jardin des délices » ?",
+  "a": [
+   "Pieter Bruegel l'Ancien",
+   "Albrecht Dürer",
+   "Jan van Eyck",
+   "Jérôme Bosch"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a peint « La Mort de Marat » ?",
+  "a": [
+   "Eugène Delacroix",
+   "Jean-Honoré Fragonard",
+   "Jacques-Louis David",
+   "Nicolas Poussin"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a composé « L'Art de la fugue » ?",
+  "a": [
+   "Haendel",
+   "Vivaldi",
+   "Jean-Sébastien Bach",
+   "Telemann"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a composé l'opéra « Pelléas et Mélisande » ?",
+  "a": [
+   "Maurice Ravel",
+   "Claude Debussy",
+   "Gabriel Fauré",
+   "Camille Saint-Saëns"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a composé « La Traviata » ?",
+  "a": [
+   "Giuseppe Verdi",
+   "Giacomo Puccini",
+   "Gioachino Rossini",
+   "Richard Wagner"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel compositeur allemand est l'auteur de « L'Anneau du Nibelung » ?",
+  "a": [
+   "Johannes Brahms",
+   "Richard Strauss",
+   "Felix Mendelssohn",
+   "Richard Wagner"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a peint « La Leçon d'anatomie du docteur Tulp » ?",
+  "a": [
+   "Vermeer",
+   "Frans Hals",
+   "Rubens",
+   "Rembrandt"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel sculpteur florentin a réalisé vers 1440 un « David » en bronze, premier nu en ronde-bosse depuis l'Antiquité ?",
+  "a": [
+   "Michel-Ange",
+   "Verrocchio",
+   "Ghiberti",
+   "Donatello"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a conçu la coupole de la basilique Saint-Pierre de Rome ?",
+  "a": [
+   "Brunelleschi",
+   "Michel-Ange",
+   "Palladio",
+   "Alberti"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel peintre baroque français a réalisé « Les Bergers d'Arcadie » ?",
+  "a": [
+   "Claude Lorrain",
+   "Georges de La Tour",
+   "Nicolas Poussin",
+   "Charles Le Brun"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a peint « Le Bain turc » ?",
+  "a": [
+   "Ingres",
+   "Delacroix",
+   "Géricault",
+   "Corot"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un leitmotiv dans l'opéra wagnérien ?",
+  "a": [
+   "Un air chanté par le chœur",
+   "Une pause silencieuse",
+   "Une danse finale",
+   "Un thème musical associé à un personnage ou une idée"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel facteur de clavecins italien a inventé le piano vers 1700 ?",
+  "a": [
+   "Antonio Stradivari",
+   "Adolphe Sax",
+   "Bartolomeo Cristofori",
+   "Gottfried Silbermann"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel cinéaste a réalisé « Metropolis » (1927) ?",
+  "a": [
+   "Friedrich Murnau",
+   "Fritz Lang",
+   "Robert Wiene",
+   "Sergueï Eisenstein"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que signifie « ostinato » en musique ?",
+  "a": [
+   "Un passage très rapide",
+   "Un motif répété avec obstination",
+   "Un silence de plusieurs mesures",
+   "Un chant sans paroles"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel architecte danois a conçu l'Opéra de Sydney ?",
+  "a": [
+   "Jørn Utzon",
+   "Frank Gehry",
+   "Norman Foster",
+   "Renzo Piano"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle ville abrite la Cité interdite ?",
+  "a": [
+   "Shanghai",
+   "Tokyo",
+   "Séoul",
+   "Pékin"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a peint « La Laitière » ?",
+  "a": [
+   "Rembrandt",
+   "Jan Steen",
+   "Johannes Vermeer",
+   "Pieter de Hooch"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle technique d'impression utilise une pierre calcaire ?",
+  "a": [
+   "La xylographie",
+   "La sérigraphie",
+   "La lithographie",
+   "L'eau-forte"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel sculpteur baroque a réalisé « L'Extase de sainte Thérèse » ?",
+  "a": [
+   "Michel-Ange",
+   "Le Bernin",
+   "Canova",
+   "Donatello"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a conçu la galerie des Glaces du château de Versailles ?",
+  "a": [
+   "Jules Hardouin-Mansart",
+   "Louis Le Vau",
+   "Gustave Eiffel",
+   "André Le Nôtre"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a dessiné les jardins du château de Versailles ?",
+  "a": [
+   "Jules Hardouin-Mansart",
+   "Louis Le Vau",
+   "Charles Le Brun",
+   "André Le Nôtre"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel peintre a décoré la galerie des Glaces de Versailles ?",
+  "a": [
+   "Nicolas Poussin",
+   "Claude Lorrain",
+   "Hyacinthe Rigaud",
+   "Charles Le Brun"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel poète a inspiré Debussy pour son « Prélude à l'après-midi d'un faune » ?",
+  "a": [
+   "Charles Baudelaire",
+   "Paul Verlaine",
+   "Stéphane Mallarmé",
+   "Arthur Rimbaud"
+  ],
+  "c": 2
+ }
+]

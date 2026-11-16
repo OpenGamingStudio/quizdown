@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Comment dit-on « s'il te plaît » en anglais ?",
+  "a": [
+   "sorry",
+   "please",
+   "thanks",
+   "hello"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment dit-on « pardon / désolé » en anglais ?",
+  "a": [
+   "sorry",
+   "please",
+   "yes",
+   "goodbye"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel nombre est « six » ?",
+  "a": [
+   "5",
+   "7",
+   "16",
+   "6"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel nombre est « seven » ?",
+  "a": [
+   "6",
+   "17",
+   "7",
+   "8"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel nombre est « eight » ?",
+  "a": [
+   "18",
+   "8",
+   "80",
+   "9"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel nombre est « nine » ?",
+  "a": [
+   "9",
+   "19",
+   "8",
+   "90"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel nombre est « twelve » ?",
+  "a": [
+   "2",
+   "20",
+   "21",
+   "12"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel nombre est « twenty » ?",
+  "a": [
+   "2",
+   "12",
+   "20",
+   "200"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment dit-on « lapin » en anglais ?",
+  "a": [
+   "rat",
+   "rabbit",
+   "duck",
+   "frog"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment dit-on « canard » en anglais ?",
+  "a": [
+   "duck",
+   "dog",
+   "cow",
+   "cat"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment dit-on « mouton » en anglais ?",
+  "a": [
+   "ship",
+   "shoe",
+   "pig",
+   "sheep"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment dit-on « cochon » en anglais ?",
+  "a": [
+   "pink",
+   "dog",
+   "pig",
+   "goat"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment dit-on « grenouille » en anglais ?",
+  "a": [
+   "fish",
+   "frog",
+   "fox",
+   "dog"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment dit-on « éléphant » en anglais ?",
+  "a": [
+   "elephant",
+   "monkey",
+   "tiger",
+   "lion"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment dit-on « singe » en anglais ?",
+  "a": [
+   "donkey",
+   "lion",
+   "snake",
+   "monkey"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment dit-on « serpent » en anglais ?",
+  "a": [
+   "spider",
+   "sheep",
+   "snake",
+   "fish"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment dit-on « violet » en anglais ?",
+  "a": [
+   "pink",
+   "purple",
+   "brown",
+   "black"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment dit-on « marron » (la couleur) en anglais ?",
+  "a": [
+   "brown",
+   "black",
+   "grey",
+   "orange"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment dit-on « gris » en anglais ?",
+  "a": [
+   "green",
+   "gold",
+   "black",
+   "grey"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que veut dire « My name is Lucy » ?",
+  "a": [
+   "J'ai Lucy ans",
+   "Lucy est ma mère",
+   "Je m'appelle Lucy",
+   "J'aime Lucy"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que veut dire « I am seven » ?",
+  "a": [
+   "J'ai sept frères",
+   "J'ai sept ans",
+   "Je suis le septième",
+   "Je suis sept"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment demande-t-on « Comment tu t'appelles ? » ?",
+  "a": [
+   "What's your name?",
+   "How old are you?",
+   "Where are you?",
+   "Who are you from?"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment demande-t-on « Quel âge as-tu ? » ?",
+  "a": [
+   "What's your name?",
+   "How are you?",
+   "Where are you?",
+   "How old are you?"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que veut dire « Stand up! » ?",
+  "a": [
+   "Assieds-toi !",
+   "Ferme la porte !",
+   "Lève-toi !",
+   "Écoute !"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que veut dire « Sit down! » ?",
+  "a": [
+   "Lève-toi !",
+   "Assieds-toi !",
+   "Écris !",
+   "Regarde !"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que veut dire « Open your book » ?",
+  "a": [
+   "Ouvre ton livre",
+   "Ferme ton livre",
+   "Lis ton livre",
+   "Perds ton livre"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment dit-on « mère / maman » en anglais ?",
+  "a": [
+   "brother",
+   "father",
+   "sister",
+   "mother"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment dit-on « frère » en anglais ?",
+  "a": [
+   "mother",
+   "father",
+   "brother",
+   "sister"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment dit-on « père / papa » en anglais ?",
+  "a": [
+   "farmer",
+   "father",
+   "mother",
+   "brother"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment dit-on « soeur » en anglais ?",
+  "a": [
+   "sister",
+   "mister",
+   "mother",
+   "sitter"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment dit-on « pomme » en anglais ?",
+  "a": [
+   "orange",
+   "banana",
+   "cherry",
+   "apple"
+  ],
+  "c": 3
+ }
+]

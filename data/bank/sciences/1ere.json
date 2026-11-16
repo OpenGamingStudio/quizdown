@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Quelle phase du cycle cellulaire précède la mitose ?",
+  "a": [
+   "L'interphase",
+   "La métaphase",
+   "L'anaphase",
+   "La télophase"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que se passe-t-il pendant la réplication de l'ADN ?",
+  "a": [
+   "La molécule est détruite",
+   "La molécule devient une protéine",
+   "La molécule sort du noyau",
+   "La molécule est copiée"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la nature de la réplication de l'ADN ?",
+  "a": [
+   "Conservative totale",
+   "Dispersive",
+   "Semi-conservative",
+   "Aléatoire"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle étape suit la transcription dans l'expression d'un gène ?",
+  "a": [
+   "La réplication",
+   "La traduction",
+   "La mutation",
+   "La fécondation"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Où se déroule la traduction ?",
+  "a": [
+   "Dans le noyau",
+   "Aux ribosomes",
+   "Dans la mitochondrie seulement",
+   "Dans la membrane nucléaire"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle molécule est copiée à partir d'un gène lors de la transcription ?",
+  "a": [
+   "L'ARN messager",
+   "L'ARN ribosomique seul",
+   "L'ADN entier",
+   "Une protéine"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le rôle d'un codon ?",
+  "a": [
+   "Réparer l'ADN",
+   "Transporter l'oxygène",
+   "Dupliquer un chromosome",
+   "Coder un acide aminé"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien de nucléotides forment un codon ?",
+  "a": [
+   "2",
+   "4",
+   "3",
+   "6"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'une mutation ponctuelle ?",
+  "a": [
+   "La perte d'un chromosome entier",
+   "La fusion de deux gènes",
+   "Le changement d'un nucléotide",
+   "La division d'une cellule"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que produit la méiose ?",
+  "a": [
+   "Des cellules identiques diploïdes",
+   "Des cellules haploïdes",
+   "Des cellules tumorales",
+   "Des enzymes"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle étape de la méiose crée un brassage génétique grâce aux crossing-over ?",
+  "a": [
+   "La prophase I",
+   "L'interphase",
+   "La télophase II",
+   "La cytodiérèse"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que le brassage interchromosomique ?",
+  "a": [
+   "La fusion de chromosomes",
+   "La mutation d'un gène",
+   "La copie d'un ADN",
+   "La répartition aléatoire des chromosomes lors de la méiose"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel mécanisme évolutif est lié au hasard dans de petites populations ?",
+  "a": [
+   "La sélection naturelle seule",
+   "La photosynthèse",
+   "La mutation absente",
+   "La dérive génétique"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que la spéciation ?",
+  "a": [
+   "La disparition d'un gène",
+   "Une division cellulaire",
+   "La formation de nouvelles espèces",
+   "Une fécondation"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel facteur favorise la spéciation ?",
+  "a": [
+   "Le brassage permanent",
+   "L'isolement reproducteur",
+   "La mitose",
+   "La photosynthèse"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle molécule est la monnaie énergétique de la cellule ?",
+  "a": [
+   "L'ATP",
+   "L'ADN",
+   "Le glucose seul",
+   "L'ARN"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Où se déroule la glycolyse ?",
+  "a": [
+   "Dans le cytoplasme",
+   "Dans le noyau",
+   "Dans la membrane de la mitochondrie",
+   "Dans le chloroplaste"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel gaz les mitochondries consomment-elles ?",
+  "a": [
+   "Le diazote",
+   "L'hydrogène",
+   "Le néon",
+   "Le dioxygène"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le produit final d'une fermentation lactique ?",
+  "a": [
+   "L'éthanol",
+   "Le dioxygène",
+   "L'acide lactique",
+   "Le glucose"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle fermentation produit de l'éthanol ?",
+  "a": [
+   "La fermentation lactique",
+   "La fermentation alcoolique",
+   "La respiration",
+   "La photosynthèse"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel pigment capte la lumière dans les chloroplastes ?",
+  "a": [
+   "L'hémoglobine",
+   "La chlorophylle",
+   "La mélanine",
+   "La kératine"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est un exemple d'énergie géothermique ?",
+  "a": [
+   "Utiliser la chaleur du sous-sol",
+   "Utiliser le vent",
+   "Utiliser le Soleil direct",
+   "Utiliser les marées"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la source principale de chaleur interne de la Terre ?",
+  "a": [
+   "La combustion du pétrole",
+   "Les marées",
+   "La photosynthèse",
+   "La désintégration d'éléments radioactifs"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le gradient géothermique moyen dans la croûte ?",
+  "a": [
+   "Environ 1 °C par kilomètre",
+   "Environ 300 °C par kilomètre",
+   "Environ 30 °C par kilomètre",
+   "Aucun"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel organite contient l'essentiel de l'ADN d'une cellule eucaryote ?",
+  "a": [
+   "Le ribosome",
+   "Le noyau",
+   "Le lysosome",
+   "La vacuole"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel mécanisme transfère la chaleur dans le manteau ?",
+  "a": [
+   "La photosynthèse",
+   "La convection",
+   "L'évaporation",
+   "La condensation"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le rôle de l'ozone stratosphérique ?",
+  "a": [
+   "Absorber les UV",
+   "Piéger la chaleur seulement",
+   "Produire de l'oxygène",
+   "Fabriquer des nuages"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle cellule transporte l'oxygène dans le sang ?",
+  "a": [
+   "Le globule blanc",
+   "La plaquette",
+   "Le lymphocyte",
+   "Le globule rouge"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le rôle de l'ARN polymérase ?",
+  "a": [
+   "Dupliquer les chromosomes",
+   "Synthétiser l'ARN à partir d'une matrice d'ADN",
+   "Digérer les protéines",
+   "Transporter le dioxygène"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un allèle dominant ?",
+  "a": [
+   "Un allèle plus grand",
+   "Un allèle qui disparaît",
+   "Un allèle qui s'exprime même en un seul exemplaire",
+   "Un allèle muté"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que désigne le terme « génome » ?",
+  "a": [
+   "Un seul gène",
+   "L'ensemble du matériel génétique d'un organisme",
+   "Un type de protéine",
+   "Une cellule"
+  ],
+  "c": 1
+ }
+]

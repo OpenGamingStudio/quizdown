@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Comment appelle-t-on les parties du globe habitées de façon permanente ?",
+  "a": [
+   "L'écoumène",
+   "La lithosphère",
+   "L'atmosphère",
+   "La biosphère"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la zone la plus peuplée du monde ?",
+  "a": [
+   "L'Asie de l'Est et du Sud",
+   "L'Amazonie",
+   "Le Sahara",
+   "L'Antarctique"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle métropole africaine, située sur le Nil, compte plus de 9 millions d'habitants ?",
+  "a": [
+   "Le Caire",
+   "Nairobi",
+   "Tunis",
+   "Dakar"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la densité de population ?",
+  "a": [
+   "Le nombre d'habitants par km²",
+   "Le nombre de naissances par an",
+   "La superficie d'un pays",
+   "Le nombre de villes d'un pays"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment appelle-t-on une grande ville qui exerce une forte influence sur un vaste territoire ?",
+  "a": [
+   "Une métropole",
+   "Un hameau",
+   "Un village",
+   "Un bourg"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que l'étalement urbain ?",
+  "a": [
+   "La densification du centre-ville",
+   "La disparition des villes",
+   "Le départ de tous les habitants vers l'étranger",
+   "L'extension de la ville sur les espaces ruraux"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel type d'habitat caractérise les centres-villes ?",
+  "a": [
+   "De grandes fermes isolées",
+   "Des villages de montagne",
+   "Des immeubles denses",
+   "Des igloos"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel mot désigne l'espace entre la ville et la campagne qui s'urbanise ?",
+  "a": [
+   "Le littoral",
+   "La toundra",
+   "Le désert",
+   "La périurbanisation (espace périurbain)"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'un espace à faible densité ?",
+  "a": [
+   "Une grande métropole",
+   "Une zone industrielle dense",
+   "Un centre commercial",
+   "Un espace où il y a peu d'habitants au km²"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est un exemple d'espace à faible densité de population ?",
+  "a": [
+   "La région parisienne",
+   "Le Bangladesh",
+   "Le Sahara",
+   "Tokyo"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel risque menace de nombreux littoraux avec le changement climatique ?",
+  "a": [
+   "La disparition des océans",
+   "La montée du niveau de la mer",
+   "L'assèchement des fleuves de montagne",
+   "La fonte du sol de la plaine"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'une mégapole ?",
+  "a": [
+   "Un village de 10 maisons",
+   "Une ville de plus de 10 millions d'habitants",
+   "Un port de pêche",
+   "Un parc national"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle ville du Japon est l'une des plus grandes agglomérations du monde ?",
+  "a": [
+   "Kyoto",
+   "Sapporo",
+   "Nagoya",
+   "Tokyo"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel pays possède de grandes villes comme Mumbai et Delhi ?",
+  "a": [
+   "L'Inde",
+   "Le Brésil",
+   "L'Égypte",
+   "L'Italie"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelles sont les zones où la nature limite le peuplement ?",
+  "a": [
+   "Les plaines fertiles",
+   "Les déserts et les régions polaires",
+   "Les littoraux",
+   "Les vallées fluviales"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel mot désigne les déplacements de population d'un pays vers un autre ?",
+  "a": [
+   "Les marées",
+   "Les rotations",
+   "Les migrations",
+   "Les saisons"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment s'appelle le déplacement quotidien entre le domicile et le travail ?",
+  "a": [
+   "Les migrations de retraite",
+   "Les migrations pendulaires",
+   "Les exodes ruraux",
+   "Les transhumances"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que l'exode rural ?",
+  "a": [
+   "Le départ de la ville vers la mer",
+   "L'arrivée de touristes",
+   "La construction de villages",
+   "Le départ des habitants de la campagne vers la ville"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'un bidonville ?",
+  "a": [
+   "Un quartier historique",
+   "Un quartier d'habitat précaire sans services de base",
+   "Un parc résidentiel",
+   "Un village touristique"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel principe est celui du développement durable ?",
+  "a": [
+   "Produire le plus possible",
+   "Cesser toute activité",
+   "Consommer sans limite",
+   "Répondre aux besoins actuels sans nuire au futur"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quels sont les trois piliers du développement durable ?",
+  "a": [
+   "Politique, militaire, religieux",
+   "Sportif, culturel, touristique",
+   "Agricole, industriel, urbain",
+   "Économique, social, environnemental"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est un effet de la pollution des villes ?",
+  "a": [
+   "La baisse des températures mondiales",
+   "La diminution du bruit",
+   "La dégradation de la qualité de l'air",
+   "L'augmentation des forêts"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelle-t-on un lieu du littoral aménagé pour accueillir les touristes l'été ?",
+  "a": [
+   "Une station balnéaire",
+   "Une station de ski",
+   "Une zone industrielle",
+   "Un port de pêche"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel geste favorise le développement durable en ville ?",
+  "a": [
+   "Utiliser les transports en commun",
+   "Prendre la voiture seul pour chaque trajet",
+   "Multiplier les emballages",
+   "Jeter dans la nature"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'une oasis ?",
+  "a": [
+   "Une forêt de pins",
+   "Un lieu avec de l'eau et de la végétation dans le désert",
+   "Un glacier",
+   "Un lac salé de montagne"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel nom porte la forêt qui s'étend au nord de la Russie et du Canada ?",
+  "a": [
+   "La savane",
+   "La taïga",
+   "La jungle",
+   "La steppe"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel mot désigne la région au climat froid, sans arbres, près des pôles ?",
+  "a": [
+   "La toundra",
+   "La savane",
+   "La jungle",
+   "Le maquis"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel continent compte les plus grands déserts froids, aux pôles ?",
+  "a": [
+   "L'Antarctique",
+   "L'Europe",
+   "L'Afrique",
+   "L'Asie"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle ville brésilienne accueille la statue du Christ Rédempteur ?",
+  "a": [
+   "Rio de Janeiro",
+   "Brasilia",
+   "São Paulo",
+   "Salvador"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel moyen de transport souterrain existe dans les grandes villes ?",
+  "a": [
+   "Le métro",
+   "Le téléphérique",
+   "Le ferry",
+   "Le TGV"
+  ],
+  "c": 0
+ }
+]

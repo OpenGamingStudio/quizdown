@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel critère sert à classer les êtres vivants selon leurs attributs partagés ?",
+  "a": [
+   "Les caractères communs",
+   "La couleur seulement",
+   "Le lieu de vente",
+   "La taille uniquement"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment appelle-t-on les animaux avec une colonne vertébrale ?",
+  "a": [
+   "Les insectes",
+   "Les mollusques",
+   "Les crustacés",
+   "Les vertébrés"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel groupe regroupe les animaux à plumes, bec et ailes ?",
+  "a": [
+   "Les mammifères",
+   "Les reptiles",
+   "Les oiseaux",
+   "Les amphibiens"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel caractère est propre aux mammifères ?",
+  "a": [
+   "Ils ont des plumes",
+   "Ils ont des mamelles et allaitent",
+   "Ils ont des écailles",
+   "Ils pondent tous des oeufs"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel groupe comprend grenouille et salamandre ?",
+  "a": [
+   "Les reptiles",
+   "Les amphibiens",
+   "Les poissons",
+   "Les mammifères"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est l'unité de base de tout être vivant ?",
+  "a": [
+   "La cellule",
+   "L'organe",
+   "Le tissu",
+   "L'atome"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel animal est un arthropode ?",
+  "a": [
+   "La baleine",
+   "Le poulpe",
+   "Le ver de terre",
+   "Le crabe"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment appelle-t-on les animaux sans colonne vertébrale ?",
+  "a": [
+   "Les vertébrés",
+   "Les mammifères",
+   "Les invertébrés",
+   "Les reptiles"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel groupe d'animaux comprend l'escargot et la moule ?",
+  "a": [
+   "Les insectes",
+   "Les mollusques",
+   "Les poissons",
+   "Les amphibiens"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un régime alimentaire végétarien exclut ?",
+  "a": [
+   "Les légumes",
+   "La chair animale",
+   "Les fruits",
+   "Les céréales"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment une plante verte fabrique-t-elle sa matière ?",
+  "a": [
+   "Par photosynthèse",
+   "Par digestion",
+   "Par fermentation",
+   "Par respiration seulement"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quels éléments puise une plante pour la photosynthèse ?",
+  "a": [
+   "Viande et sucre",
+   "Pétrole et sel",
+   "Seulement de l'eau",
+   "Eau, minéraux, dioxyde de carbone et lumière"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel organe d'une plante fabrique surtout sa matière organique ?",
+  "a": [
+   "Les racines",
+   "Les fleurs",
+   "Les graines",
+   "Les feuilles"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est un exemple d'adaptation de la répartition des êtres vivants à un milieu ?",
+  "a": [
+   "Un poisson dans une forêt sèche",
+   "Un ours polaire en savane",
+   "Le cactus dans un désert",
+   "Un palmier au pôle Nord"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel animal est un reptile ?",
+  "a": [
+   "La grenouille",
+   "Le dauphin",
+   "Le requin",
+   "Le lézard"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel élément n'est pas un être vivant ?",
+  "a": [
+   "Un caillou",
+   "Un champignon",
+   "Une bactérie",
+   "Un chêne"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un fossile ?",
+  "a": [
+   "Un reste d'être vivant ancien conservé dans une roche",
+   "Un minéral brillant",
+   "Un animal vivant très rare",
+   "Une roche volcanique"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel être vivant est un producteur dans un écosystème ?",
+  "a": [
+   "Un lapin",
+   "Un renard",
+   "Un champignon",
+   "Une plante verte"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel instrument permet d'observer des cellules ?",
+  "a": [
+   "Le thermomètre",
+   "Le sismographe",
+   "Le baromètre",
+   "Le microscope"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle structure de la cellule contient l'information génétique ?",
+  "a": [
+   "La membrane",
+   "Le cytoplasme",
+   "Le noyau",
+   "La vacuole"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelle-t-on la suite naissance, croissance, reproduction, mort ?",
+  "a": [
+   "La chaîne alimentaire",
+   "Le cycle de vie",
+   "L'érosion",
+   "La migration"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment appelle-t-on les êtres qui fabriquent leur matière organique à partir de matière minérale ?",
+  "a": [
+   "Les producteurs",
+   "Les consommateurs",
+   "Les parasites",
+   "Les décomposeurs"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel organisme est un consommateur primaire ?",
+  "a": [
+   "Un chêne",
+   "Un loup",
+   "Un champignon",
+   "Un herbivore"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le nom de l'ensemble des êtres vivants d'un milieu ?",
+  "a": [
+   "Le biotope",
+   "La lithosphère",
+   "La biocénose",
+   "La météo"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le biotope d'une mare ?",
+  "a": [
+   "Les grenouilles",
+   "Les nénuphars",
+   "Eau, sol et conditions physiques de la mare",
+   "Les libellules"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel facteur peut modifier la répartition des animaux dans un milieu ?",
+  "a": [
+   "La couleur d'un nom",
+   "La température",
+   "Le nom de la région",
+   "L'heure de lecture"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle action humaine réduit la biodiversité ?",
+  "a": [
+   "La destruction des habitats",
+   "La plantation de haies",
+   "La création de réserves",
+   "La protection des zones humides"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le rôle d'un parc naturel ?",
+  "a": [
+   "Construire des routes",
+   "Chasser librement",
+   "Exploiter les forêts sans limite",
+   "Protéger des milieux et des espèces"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel être vivant est un champignon ?",
+  "a": [
+   "Le chêne",
+   "La mousse",
+   "La fougère",
+   "Le cèpe"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle science étudie les êtres vivants ?",
+  "a": [
+   "La géologie",
+   "L'astronomie",
+   "La biologie",
+   "La chimie"
+  ],
+  "c": 2
+ }
+]

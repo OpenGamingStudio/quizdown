@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel est le nom de la fonction qui apporte l'oxygène au sang ?",
+  "a": [
+   "La respiration",
+   "La digestion",
+   "L'excrétion",
+   "La reproduction"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel organe filtre le sang et produit l'urine ?",
+  "a": [
+   "Le foie",
+   "La rate",
+   "Le pancréas",
+   "Les reins"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans quel organe l'absorption des nutriments se fait-elle surtout ?",
+  "a": [
+   "L'estomac",
+   "Le gros intestin",
+   "L'intestin grêle",
+   "L'oesophage"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quels vaisseaux ramènent le sang au coeur ?",
+  "a": [
+   "Les artères",
+   "Les veines",
+   "Les bronches",
+   "Les tendons"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quels éléments assurent le mouvement du squelette ?",
+  "a": [
+   "Les nerfs seulement",
+   "Les muscles",
+   "Les poumons",
+   "Les reins"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment s'appelle l'endroit où deux os se rejoignent ?",
+  "a": [
+   "L'articulation",
+   "Le tendon",
+   "Le muscle",
+   "La côte"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment appelle-t-on les êtres vivants qui fabriquent leur propre matière avec la lumière ?",
+  "a": [
+   "Les champignons",
+   "Les herbivores",
+   "Les décomposeurs",
+   "Les végétaux chlorophylliens"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel gaz les plantes vertes rejettent-elles à la lumière ?",
+  "a": [
+   "Le dioxyde de carbone",
+   "L'azote",
+   "Le dioxygène",
+   "Le méthane"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le rôle des décomposeurs dans la nature ?",
+  "a": [
+   "Fabriquer du dioxygène",
+   "Chasser les herbivores",
+   "Transformer la matière morte",
+   "Polliniser les fleurs"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel être vivant est un décomposeur ?",
+  "a": [
+   "Le lapin",
+   "Le champignon",
+   "Le chêne",
+   "Le moineau"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un régime alimentaire ?",
+  "a": [
+   "Ce que mange un être vivant",
+   "Un régime de bananes",
+   "Un type de climat",
+   "Un métier"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la place d'un lion dans une chaîne alimentaire ?",
+  "a": [
+   "Producteur",
+   "Décomposeur",
+   "Proie principale",
+   "Prédateur"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans quel ordre les stades de vie d'un papillon se succèdent-ils ?",
+  "a": [
+   "Chenille, oeuf, papillon, chrysalide",
+   "Papillon, oeuf, chenille, chrysalide",
+   "Chrysalide, oeuf, papillon, chenille",
+   "Oeuf, chenille, chrysalide, papillon"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel organe d'une plante à fleurs se transforme en fruit ?",
+  "a": [
+   "La racine",
+   "La feuille",
+   "La fleur",
+   "La tige"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelle-t-on une pousse obtenue à partir d'un morceau de tige ?",
+  "a": [
+   "Une graine",
+   "Une bouture",
+   "Un bourgeon animal",
+   "Une spore"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment s'appelle un animal qui met au monde des petits vivants ?",
+  "a": [
+   "Vivipare",
+   "Ovipare",
+   "Végétarien",
+   "Sédentaire"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment s'appelle un animal qui pond des oeufs ?",
+  "a": [
+   "Ovipare",
+   "Vivipare",
+   "Herbivore",
+   "Carnivore"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est l'unité de la température la plus utilisée en France ?",
+  "a": [
+   "Le mètre",
+   "Le litre",
+   "Le gramme",
+   "Le degré Celsius"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel mouvement de la Terre explique les saisons ?",
+  "a": [
+   "Sa rotation sur elle-même seulement",
+   "Le vent solaire",
+   "Sa révolution autour du Soleil, axe incliné",
+   "Les marées"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien y a-t-il de planètes dans le système solaire ?",
+  "a": [
+   "9",
+   "8",
+   "7",
+   "12"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la plus grosse planète du système solaire ?",
+  "a": [
+   "Saturne",
+   "Jupiter",
+   "Terre",
+   "Mars"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle planète est surnommée la planète rouge ?",
+  "a": [
+   "Mars",
+   "Vénus",
+   "Mercure",
+   "Neptune"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le nom de notre étoile ?",
+  "a": [
+   "La Lune",
+   "Sirius",
+   "Vénus",
+   "Le Soleil"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans quel état est l'eau d'un nuage ?",
+  "a": [
+   "Gaz invisible seulement",
+   "Solide compact",
+   "De minuscules gouttelettes liquides ou cristaux",
+   "Vapeur chaude pure"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment s'appelle le passage de la vapeur d'eau à l'état liquide ?",
+  "a": [
+   "La fusion",
+   "La solidification",
+   "La condensation",
+   "La sublimation"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel appareil produit de l'électricité grâce au vent ?",
+  "a": [
+   "L'éolienne",
+   "Le barrage",
+   "Le panneau solaire",
+   "La centrale à charbon"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle énergie est fossile ?",
+  "a": [
+   "Le charbon",
+   "Le vent",
+   "Le Soleil",
+   "L'eau des barrages"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que signifie recycler ?",
+  "a": [
+   "Brûler un déchet",
+   "Enterrer un déchet",
+   "Jeter un déchet",
+   "Réutiliser la matière d'un déchet"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Pourquoi ne voit-on plus le Soleil la nuit ?",
+  "a": [
+   "Le Soleil s'éteint",
+   "La Lune le cache toujours",
+   "Il se cache derrière un nuage",
+   "Notre côté de la Terre est tourné à l'opposé"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel organe du corps est protégé par la boîte crânienne ?",
+  "a": [
+   "Le coeur",
+   "Les poumons",
+   "Le cerveau",
+   "L'estomac"
+  ],
+  "c": 2
+ }
+]

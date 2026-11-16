@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Combien de joueurs une équipe de football aligne-t-elle sur le terrain ?",
+  "a": [
+   "9",
+   "7",
+   "15",
+   "11"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien de joueurs une équipe de basket-ball a-t-elle sur le terrain ?",
+  "a": [
+   "6",
+   "7",
+   "5",
+   "11"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien de joueurs une équipe de volley-ball a-t-elle sur le terrain ?",
+  "a": [
+   "5",
+   "6",
+   "7",
+   "9"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien de joueurs une équipe de handball a-t-elle sur le terrain, gardien compris ?",
+  "a": [
+   "7",
+   "5",
+   "6",
+   "11"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de joueurs une équipe de rugby à XV a-t-elle sur le terrain ?",
+  "a": [
+   "15",
+   "11",
+   "13",
+   "7"
+  ],
+  "c": 0
+ },
+ {
+  "q": "À quelle hauteur est placé le panier de basket-ball ?",
+  "a": [
+   "2,43 m",
+   "2,50 m",
+   "3,50 m",
+   "3,05 m"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle nage se pratique sur le ventre, en alternant le mouvement des bras ?",
+  "a": [
+   "La brasse",
+   "Le dos crawlé",
+   "Le crawl",
+   "Le papillon"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien d'anneaux compte le symbole olympique ?",
+  "a": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment s'appelle l'objet que se transmettent les coureurs d'un relais ?",
+  "a": [
+   "Le bâton de départ",
+   "Le témoin",
+   "Le jalon",
+   "Le fanion"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Dans quoi retombe le sauteur à la longueur ?",
+  "a": [
+   "Dans une fosse de sable",
+   "Sur un tapis de mousse",
+   "Dans l'eau",
+   "Sur de l'herbe"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Pourquoi s'échauffe-t-on avant un effort ?",
+  "a": [
+   "Pour se fatiguer",
+   "Pour gagner du temps",
+   "Pour avoir plus soif",
+   "Pour préparer le corps et éviter les blessures"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que faut-il faire pendant un effort long et par temps chaud ?",
+  "a": [
+   "Ne rien boire",
+   "Boire uniquement du soda",
+   "Boire de l'eau régulièrement",
+   "Manger un gros repas"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Avec quel objet joue-t-on au badminton ?",
+  "a": [
+   "Une balle de mousse",
+   "Un ballon",
+   "Un volant",
+   "Un palet"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment s'appelle le sol sur lequel on pratique le judo ?",
+  "a": [
+   "Le praticable",
+   "Le tatami",
+   "Le parquet",
+   "La piste"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quels outils sert-on pour la course d'orientation ?",
+  "a": [
+   "Une carte et une boussole",
+   "Un chronomètre uniquement",
+   "Un GPS de voiture",
+   "Un mètre ruban"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que signifie un carton rouge au football ?",
+  "a": [
+   "Le joueur est averti",
+   "Le jeu s'arrête une minute",
+   "Le joueur change de poste",
+   "Le joueur est exclu"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment appelle-t-on le fait de faire rebondir le ballon avec une main au basket-ball ?",
+  "a": [
+   "Tirer",
+   "Smasher",
+   "Servir",
+   "Dribbler"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Lequel de ces sports est un sport collectif ?",
+  "a": [
+   "Le judo",
+   "La natation",
+   "Le handball",
+   "Le saut en hauteur"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que fait ton cœur pendant un effort ?",
+  "a": [
+   "Il s'arrête",
+   "Il bat plus vite",
+   "Il bat plus lentement",
+   "Il ne change pas"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Tous les combien d'années ont lieu les Jeux olympiques d'été ?",
+  "a": [
+   "4 ans",
+   "2 ans",
+   "3 ans",
+   "5 ans"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Dans quelle ville française se sont déroulés les Jeux olympiques d'été de 2024 ?",
+  "a": [
+   "Paris",
+   "Lyon",
+   "Marseille",
+   "Nice"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Sur quelle distance court-on un marathon ?",
+  "a": [
+   "21,097 km",
+   "10 km",
+   "50 km",
+   "42,195 km"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la longueur d'un tour de piste d'un stade d'athlétisme classique ?",
+  "a": [
+   "200 m",
+   "500 m",
+   "400 m",
+   "1 000 m"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Le Tour de France est une grande course de quel sport ?",
+  "a": [
+   "L'athlétisme",
+   "Le cyclisme",
+   "La natation",
+   "Le ski"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Sur quelle surface se joue le tournoi de tennis de Roland-Garros ?",
+  "a": [
+   "Le gazon",
+   "La terre battue",
+   "Le bois",
+   "Le béton"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Avec quelle partie du corps joue-t-on principalement au handball ?",
+  "a": [
+   "Les mains",
+   "Les pieds",
+   "La tête",
+   "Les genoux"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment appelle-t-on l'exercice de se laisser flotter sur le dos, bras et jambes écartés ?",
+  "a": [
+   "Le papillon",
+   "La planche à voile",
+   "Le plongeon",
+   "L'étoile de mer"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel sport se joue avec un filet, en renvoyant le ballon sans le laisser toucher le sol ?",
+  "a": [
+   "Le basket-ball",
+   "Le rugby",
+   "Le volley-ball",
+   "Le handball"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel accessoire est obligatoire pour jouer au tennis de table ?",
+  "a": [
+   "Un bâton",
+   "Une crosse",
+   "Une raquette",
+   "Une canne"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que doit-on faire à la fin d'un effort intense ?",
+  "a": [
+   "S'asseoir sans bouger",
+   "S'étirer doucement et boire",
+   "Courir encore plus vite",
+   "Manger beaucoup de bonbons"
+  ],
+  "c": 1
+ }
+]

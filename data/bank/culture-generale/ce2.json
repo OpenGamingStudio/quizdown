@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel est le plus grand animal terrestre ?",
+  "a": [
+   "La girafe",
+   "Le rhinocéros",
+   "L'hippopotame",
+   "L'éléphant d'Afrique"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien de pattes a une araignée ?",
+  "a": [
+   "6",
+   "10",
+   "8",
+   "4"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel organe pompe le sang dans notre corps ?",
+  "a": [
+   "Les poumons",
+   "Le cœur",
+   "L'estomac",
+   "Le foie"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a écrit « Le Petit Prince » ?",
+  "a": [
+   "Antoine de Saint-Exupéry",
+   "Jules Verne",
+   "Victor Hugo",
+   "Hergé"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de dents de lait a un enfant ?",
+  "a": [
+   "20",
+   "32",
+   "28",
+   "24"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel animal est un mammifère marin ?",
+  "a": [
+   "Le requin",
+   "Le thon",
+   "La méduse",
+   "Le dauphin"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel insecte fabrique le miel ?",
+  "a": [
+   "La guêpe",
+   "La fourmi",
+   "L'abeille",
+   "La mouche"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien de couleurs compte l'arc-en-ciel (version traditionnelle) ?",
+  "a": [
+   "5",
+   "7",
+   "6",
+   "8"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le plus grand océan du monde ?",
+  "a": [
+   "L'océan Atlantique",
+   "L'océan Pacifique",
+   "L'océan Indien",
+   "L'océan Arctique"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel sens utilise-t-on avec le nez ?",
+  "a": [
+   "L'odorat",
+   "Le goût",
+   "L'ouïe",
+   "Le toucher"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment s'appelle le bébé de la grenouille ?",
+  "a": [
+   "Le chaton",
+   "Le poussin",
+   "Le faon",
+   "Le têtard"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel arbre donne des glands ?",
+  "a": [
+   "Le pin",
+   "Le bouleau",
+   "Le chêne",
+   "Le sapin"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien de mois y a-t-il dans une année ?",
+  "a": [
+   "10",
+   "11",
+   "12",
+   "13"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle saison vient juste après l'hiver ?",
+  "a": [
+   "L'été",
+   "Le printemps",
+   "L'automne",
+   "L'hiver"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est l'animal terrestre le plus rapide ?",
+  "a": [
+   "Le guépard",
+   "Le lion",
+   "Le cheval",
+   "Le lièvre"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que mange surtout le panda géant ?",
+  "a": [
+   "De la viande",
+   "Du poisson",
+   "Des fruits de mer",
+   "Du bambou"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel oiseau ne vole pas et vit en Antarctique ?",
+  "a": [
+   "L'aigle",
+   "Le perroquet",
+   "La mouette",
+   "Le manchot"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel animal peut changer de couleur pour se camoufler ?",
+  "a": [
+   "L'escargot",
+   "La tortue",
+   "Le caméléon",
+   "Le hérisson"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel astre nous éclaire pendant la journée ?",
+  "a": [
+   "La Lune",
+   "Le Soleil",
+   "Mars",
+   "Une étoile filante"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel instrument de musique a des touches blanches et noires ?",
+  "a": [
+   "Le piano",
+   "La flûte",
+   "Le violon",
+   "La trompette"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment s'appelle le petit de la vache ?",
+  "a": [
+   "Le veau",
+   "L'agneau",
+   "Le chevreau",
+   "Le poulain"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel animal a une trompe ?",
+  "a": [
+   "Le lion",
+   "Le crocodile",
+   "Le loup",
+   "L'éléphant"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel fruit est jaune et allongé ?",
+  "a": [
+   "La pomme",
+   "La cerise",
+   "La banane",
+   "La fraise"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Parmi ces animaux, lequel pond des œufs ?",
+  "a": [
+   "La vache",
+   "La brebis",
+   "La poule",
+   "La chèvre"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel animal dort la tête en bas ?",
+  "a": [
+   "Le chat",
+   "La chauve-souris",
+   "L'ours",
+   "Le cheval"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien de roues a un vélo ?",
+  "a": [
+   "2",
+   "3",
+   "4",
+   "1"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment s'appelle la ville où se trouve la tour Eiffel ?",
+  "a": [
+   "Lyon",
+   "Marseille",
+   "Lille",
+   "Paris"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que devient une chenille ?",
+  "a": [
+   "Une libellule",
+   "Une abeille",
+   "Un papillon",
+   "Une coccinelle"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la couleur du lait de vache ?",
+  "a": [
+   "Jaune",
+   "Rose",
+   "Blanche",
+   "Bleue"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est l'animal qui produit de la laine ?",
+  "a": [
+   "Le cheval",
+   "Le mouton",
+   "Le cochon",
+   "Le chat"
+  ],
+  "c": 1
+ }
+]

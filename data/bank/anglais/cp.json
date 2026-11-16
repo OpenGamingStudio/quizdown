@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Comment dit-on « rouge » en anglais ?",
+  "a": [
+   "blue",
+   "red",
+   "green",
+   "yellow"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment dit-on « bleu » en anglais ?",
+  "a": [
+   "blue",
+   "red",
+   "black",
+   "white"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment dit-on « vert » en anglais ?",
+  "a": [
+   "grey",
+   "pink",
+   "brown",
+   "green"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment dit-on « jaune » en anglais ?",
+  "a": [
+   "orange",
+   "purple",
+   "yellow",
+   "white"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment dit-on « noir » en anglais ?",
+  "a": [
+   "white",
+   "black",
+   "brown",
+   "blue"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment dit-on « blanc » en anglais ?",
+  "a": [
+   "white",
+   "black",
+   "pink",
+   "grey"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment dit-on « bonjour » en anglais ?",
+  "a": [
+   "goodbye",
+   "sorry",
+   "please",
+   "hello"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment dit-on « au revoir » en anglais ?",
+  "a": [
+   "hello",
+   "thank you",
+   "goodbye",
+   "yes"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment dit-on « merci » en anglais ?",
+  "a": [
+   "please",
+   "thank you",
+   "sorry",
+   "hello"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment dit-on « oui » en anglais ?",
+  "a": [
+   "yes",
+   "no",
+   "hello",
+   "bye"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment dit-on « non » en anglais ?",
+  "a": [
+   "yes",
+   "red",
+   "one",
+   "no"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel nombre est « one » ?",
+  "a": [
+   "2",
+   "3",
+   "1",
+   "10"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel nombre est « two » ?",
+  "a": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel nombre est « three » ?",
+  "a": [
+   "3",
+   "2",
+   "5",
+   "8"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel nombre est « four » ?",
+  "a": [
+   "5",
+   "14",
+   "6",
+   "4"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel nombre est « five » ?",
+  "a": [
+   "4",
+   "6",
+   "5",
+   "9"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel nombre est « ten » ?",
+  "a": [
+   "7",
+   "10",
+   "8",
+   "1"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment dit-on « chat » en anglais ?",
+  "a": [
+   "cat",
+   "dog",
+   "bird",
+   "fish"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment dit-on « chien » en anglais ?",
+  "a": [
+   "cat",
+   "pig",
+   "cow",
+   "dog"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment dit-on « oiseau » en anglais ?",
+  "a": [
+   "fish",
+   "horse",
+   "bird",
+   "duck"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment dit-on « poisson » en anglais ?",
+  "a": [
+   "frog",
+   "fish",
+   "mouse",
+   "bird"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment dit-on « cheval » en anglais ?",
+  "a": [
+   "horse",
+   "cow",
+   "sheep",
+   "pig"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment dit-on « vache » en anglais ?",
+  "a": [
+   "cat",
+   "horse",
+   "dog",
+   "cow"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment dit-on « souris » en anglais ?",
+  "a": [
+   "house",
+   "rabbit",
+   "mouse",
+   "duck"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que veut dire « Hi! » ?",
+  "a": [
+   "Au revoir !",
+   "Salut !",
+   "Merci !",
+   "Pardon !"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que veut dire « Good morning » ?",
+  "a": [
+   "Bonjour (le matin)",
+   "Bonne nuit",
+   "Bon appétit",
+   "Bon anniversaire"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que veut dire « Good night » ?",
+  "a": [
+   "Bonjour",
+   "Bonne chance",
+   "Bonsoir",
+   "Bonne nuit"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que répondre à « How are you ? » ?",
+  "a": [
+   "My name is Tom",
+   "I'm seven",
+   "I'm fine, thank you",
+   "It's red"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment dit-on « rose » (la couleur) en anglais ?",
+  "a": [
+   "purple",
+   "pink",
+   "brown",
+   "orange"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment dit-on « orange » (la couleur) en anglais ?",
+  "a": [
+   "orange",
+   "yellow",
+   "red",
+   "pink"
+  ],
+  "c": 0
+ }
+]

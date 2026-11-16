@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Combien vaut 2 puissance 5 ?",
+  "a": [
+   "10",
+   "25",
+   "32",
+   "64"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien vaut (-2) puissance 3 ?",
+  "a": [
+   "8",
+   "-6",
+   "6",
+   "-8"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien vaut 10 puissance -2 ?",
+  "a": [
+   "0,01",
+   "-100",
+   "0,02",
+   "-20"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien vaut 5 puissance 0 ?",
+  "a": [
+   "0",
+   "1",
+   "5",
+   "-5"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien vaut 3 puissance 2 x 3 puissance 4 ?",
+  "a": [
+   "3 puissance 8",
+   "9 puissance 6",
+   "3 puissance 6",
+   "6 puissance 6"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est l'écriture scientifique de 4 500 ?",
+  "a": [
+   "45 x 10²",
+   "0,45 x 10⁴",
+   "4,5 x 10²",
+   "4,5 x 10³"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien font 2/5 divisé par 4/5 ?",
+  "a": [
+   "1/2",
+   "8/25",
+   "2",
+   "8/5"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien font 3/4 + 5/6 ?",
+  "a": [
+   "19/12",
+   "8/10",
+   "8/12",
+   "4/5"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Réduire l'expression 3x + 5x - 2x donne...",
+  "a": [
+   "8x",
+   "6x",
+   "10x",
+   "0x"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Développer 3(x + 4) donne...",
+  "a": [
+   "3x + 4",
+   "x + 12",
+   "3x + 12",
+   "3x + 7"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Développer (x + 2)(x + 3) donne...",
+  "a": [
+   "x² + 6",
+   "x² + 5x + 5",
+   "2x + 5",
+   "x² + 5x + 6"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Résoudre 2x + 3 = 11 : x vaut...",
+  "a": [
+   "4",
+   "7",
+   "5",
+   "14"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Résoudre 5x = 35 : x vaut...",
+  "a": [
+   "30",
+   "7",
+   "40",
+   "175"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Résoudre x - 8 = -3 : x vaut...",
+  "a": [
+   "-11",
+   "5",
+   "-5",
+   "11"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Dans un triangle rectangle, les côtés de l'angle droit mesurent 3 et 4. Combien mesure l'hypoténuse ?",
+  "a": [
+   "7",
+   "6",
+   "5",
+   "25"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans un triangle rectangle, l'hypoténuse mesure 13 et un côté 5. Combien mesure l'autre côté ?",
+  "a": [
+   "8",
+   "18",
+   "12",
+   "144"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Un triangle de côtés 6, 8 et 10 est...",
+  "a": [
+   "équilatéral",
+   "rectangle",
+   "isocèle",
+   "acutangle quelconque"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Un triangle de côtés 5, 6 et 8 est-il rectangle ?",
+  "a": [
+   "Oui, car 5 + 6 est supérieur à 8",
+   "Non, car 25 + 36 est différent de 64",
+   "Oui, car 25 + 36 égale 64",
+   "Non, car 5 + 6 est inférieur à 8"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle égalité est vraie dans un triangle ABC rectangle en A ?",
+  "a": [
+   "AB² = BC² + AC²",
+   "AC = AB + BC",
+   "BC² = AB² + AC²",
+   "BC = AB + AC"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Le cosinus d'un angle aigu dans un triangle rectangle est égal à...",
+  "a": [
+   "côté opposé / hypoténuse",
+   "côté opposé / côté adjacent",
+   "hypoténuse / côté adjacent",
+   "côté adjacent / hypoténuse"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Si on multiplie les deux membres d'une égalité par un même nombre non nul...",
+  "a": [
+   "l'égalité reste vraie",
+   "l'égalité devient fausse",
+   "elle devient une inégalité",
+   "le résultat vaut 0"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le volume d'un cylindre de rayon 1 cm et de hauteur 5 cm (valeur exacte) ?",
+  "a": [
+   "5π cm³",
+   "10π cm³",
+   "π cm³",
+   "25π cm³"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le volume d'une pyramide de base 12 cm² et de hauteur 6 cm ?",
+  "a": [
+   "72 cm³",
+   "24 cm³",
+   "36 cm³",
+   "18 cm³"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la valeur de 3x - 2 pour x = -4 ?",
+  "a": [
+   "-14",
+   "10",
+   "-10",
+   "14"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Un prix augmente de 10 % : par combien le multiplie-t-on ?",
+  "a": [
+   "1,01",
+   "0,9",
+   "1,9",
+   "1,1"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Résoudre 3x + 7 = 2x - 1 : x vaut...",
+  "a": [
+   "-8",
+   "8",
+   "6",
+   "-6"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est l'étendue de la série 4, 9, 2, 12, 7 ?",
+  "a": [
+   "8",
+   "10",
+   "12",
+   "5"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la moyenne de 2, 4, 6, 8 ?",
+  "a": [
+   "4",
+   "6",
+   "5",
+   "20"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est l'opposé de l'inverse de 2 ?",
+  "a": [
+   "-2",
+   "1/2",
+   "2",
+   "-1/2"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Une voiture roule à 90 km/h. Quelle distance parcourt-elle en 20 minutes ?",
+  "a": [
+   "18 km",
+   "30 km",
+   "45 km",
+   "60 km"
+  ],
+  "c": 1
+ }
+]

@@ -4,10 +4,13 @@
   "license": "MIT",
   "scripts": {
     "build": "tailwindcss -i src/input.css -o style.css --minify",
-    "dev": "tailwindcss -i src/input.css -o style.css --watch"
+    "dev": "tailwindcss -i src/input.css -o style.css --watch",
+    "test": "vitest run"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.0",
-    "tailwindcss": "^4.1.0"
-  }
+    "tailwindcss": "^4.1.0",
+    "vitest": "^2.1.0"
+  },
+  "version": "2.2.0"
 }

@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Qui a écrit « Les Trois Mousquetaires » ?",
+  "a": [
+   "Victor Hugo",
+   "Eugène Sue",
+   "Alexandre Dumas",
+   "Paul Féval"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a écrit « À la recherche du temps perdu » ?",
+  "a": [
+   "Gustave Flaubert",
+   "Marcel Proust",
+   "André Gide",
+   "Stendhal"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a découvert la radioactivité en 1896 ?",
+  "a": [
+   "Henri Becquerel",
+   "Pierre Curie",
+   "Ernest Rutherford",
+   "Wilhelm Röntgen"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la capitale de la Nouvelle-Zélande ?",
+  "a": [
+   "Auckland",
+   "Christchurch",
+   "Canberra",
+   "Wellington"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel savant grec donne son nom au théorème sur le carré de l'hypoténuse ?",
+  "a": [
+   "Thalès",
+   "Euclide",
+   "Archimède",
+   "Pythagore"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la vitesse de la lumière dans le vide, environ ?",
+  "a": [
+   "30 000 km/s",
+   "3 000 000 km/s",
+   "300 000 km/s",
+   "150 000 km/s"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a écrit « Madame Bovary » ?",
+  "a": [
+   "Émile Zola",
+   "Gustave Flaubert",
+   "Balzac",
+   "Maupassant"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la capitale du Pérou ?",
+  "a": [
+   "Lima",
+   "Quito",
+   "Bogota",
+   "La Paz"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a écrit « L'Avare » ?",
+  "a": [
+   "Molière",
+   "Racine",
+   "Corneille",
+   "Marivaux"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel organe produit l'insuline ?",
+  "a": [
+   "Le foie",
+   "Le rein",
+   "La rate",
+   "Le pancréas"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a composé l'opéra « La Flûte enchantée » ?",
+  "a": [
+   "Verdi",
+   "Rossini",
+   "Mozart",
+   "Wagner"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a réalisé le film « Psychose » ?",
+  "a": [
+   "Stanley Kubrick",
+   "Alfred Hitchcock",
+   "Orson Welles",
+   "Billy Wilder"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a découvert le radium avec son mari Pierre ?",
+  "a": [
+   "Rosalind Franklin",
+   "Marie Curie",
+   "Lise Meitner",
+   "Irène Joliot-Curie"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le pH d'une solution neutre à 25 °C ?",
+  "a": [
+   "7",
+   "0",
+   "10",
+   "14"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la capitale de la Suisse ?",
+  "a": [
+   "Zurich",
+   "Genève",
+   "Bâle",
+   "Berne"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a réalisé « Le Voyage dans la Lune » en 1902 ?",
+  "a": [
+   "Les frères Lumière",
+   "Charlie Chaplin",
+   "Georges Méliès",
+   "Jean Renoir"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel groupe a chanté « Yesterday » ?",
+  "a": [
+   "Les Rolling Stones",
+   "Queen",
+   "Les Beatles",
+   "Pink Floyd"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a écrit « Guerre et Paix » ?",
+  "a": [
+   "Dostoïevski",
+   "Léon Tolstoï",
+   "Tchekhov",
+   "Pouchkine"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le plus grand lac d'Afrique ?",
+  "a": [
+   "Le lac Victoria",
+   "Le lac Tanganyika",
+   "Le lac Tchad",
+   "Le lac Malawi"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le symbole chimique de l'or ?",
+  "a": [
+   "Ag",
+   "Or",
+   "Go",
+   "Au"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a peint « Le Cri » ?",
+  "a": [
+   "Gustav Klimt",
+   "Egon Schiele",
+   "Vincent van Gogh",
+   "Edvard Munch"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle mer a le point émergé le plus bas de la Terre sur ses rives ?",
+  "a": [
+   "La mer Rouge",
+   "La mer Caspienne",
+   "La mer Morte",
+   "La mer Noire"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le plus grand pays d'Afrique par sa superficie ?",
+  "a": [
+   "Le Soudan",
+   "L'Algérie",
+   "La République démocratique du Congo",
+   "La Libye"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel astronome a observé les quatre grosses lunes de Jupiter avec une lunette en 1610 ?",
+  "a": [
+   "Galilée",
+   "Copernic",
+   "Kepler",
+   "Newton"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui est considéré comme l'auteur de « L'Odyssée » ?",
+  "a": [
+   "Homère",
+   "Virgile",
+   "Sophocle",
+   "Hésiode"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle ville est surnommée « la Ville éternelle » ?",
+  "a": [
+   "Athènes",
+   "Jérusalem",
+   "Florence",
+   "Rome"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel détroit sépare l'Asie de l'Amérique du Nord ?",
+  "a": [
+   "Le détroit de Gibraltar",
+   "Le détroit de Magellan",
+   "Le détroit de Béring",
+   "Le détroit d'Ormuz"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelles cellules du sang transportent l'oxygène ?",
+  "a": [
+   "Les globules blancs",
+   "Les globules rouges",
+   "Les plaquettes",
+   "Les neurones"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a écrit « Le Horla » ?",
+  "a": [
+   "Alphonse Daudet",
+   "Guy de Maupassant",
+   "Prosper Mérimée",
+   "Théophile Gautier"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la capitale de l'Égypte ?",
+  "a": [
+   "Le Caire",
+   "Alexandrie",
+   "Louxor",
+   "Assouan"
+  ],
+  "c": 0
+ }
+]

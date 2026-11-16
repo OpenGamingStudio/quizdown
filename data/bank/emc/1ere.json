@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Quelle est la différence entre liberté et licence ?",
+  "a": [
+   "Aucune",
+   "La liberté s'exerce dans le respect des droits d'autrui",
+   "La licence est un diplôme",
+   "La liberté n'a pas de limite"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que protège l'article 11 de la Déclaration de 1789 ?",
+  "a": [
+   "La libre communication des pensées et des opinions",
+   "Le droit de propriété",
+   "L'impôt",
+   "Le droit de grève"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de temps dure le mandat des membres nommés du Conseil constitutionnel ?",
+  "a": [
+   "5 ans, renouvelable",
+   "À vie",
+   "9 ans, non renouvelable",
+   "2 ans"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'une question prioritaire de constitutionnalité (QPC) ?",
+  "a": [
+   "Un sondage",
+   "Un référendum",
+   "Une question sur la constitutionnalité d'une loi",
+   "Un décret"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel article de la Constitution prévoit un gouvernement responsable devant l'Assemblée nationale ?",
+  "a": [
+   "L'article 1er",
+   "L'article 20",
+   "L'article 89",
+   "L'article 5"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui peut proposer une révision de la Constitution ?",
+  "a": [
+   "Le président et les parlementaires",
+   "Les juges",
+   "Le maire",
+   "Les préfets"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que le pluralisme politique ?",
+  "a": [
+   "Un parti unique",
+   "L'interdiction des syndicats",
+   "La censure",
+   "L'existence de plusieurs partis et opinions"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel rôle ont les partis politiques ?",
+  "a": [
+   "Juger",
+   "Gouverner seuls",
+   "Concourir à l'expression du suffrage",
+   "Fixer les lois seuls"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que le principe de légalité des délits et des peines ?",
+  "a": [
+   "Le juge invente la peine",
+   "Nul ne peut être puni sans loi antérieure",
+   "La loi s'applique rétroactivement",
+   "Tout acte est puni"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la non-rétroactivité de la loi pénale ?",
+  "a": [
+   "Une loi plus sévère ne vaut pas pour le passé",
+   "Les lois sont appliquées au passé",
+   "Les juges changent la loi",
+   "Les peines sont supprimées"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la proportionnalité de la peine ?",
+  "a": [
+   "Toute peine est identique",
+   "La peine dépend du juge seul",
+   "Les peines sont toujours maximales",
+   "La peine doit être adaptée à la gravité de l'infraction"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que l'individualisation de la peine ?",
+  "a": [
+   "Toutes les peines sont identiques",
+   "L'accusé choisit sa peine",
+   "La peine tient compte de la personne et de sa situation",
+   "La peine est secrète"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que l'aide juridictionnelle ?",
+  "a": [
+   "Une amende",
+   "Une aide de l'État pour les frais de justice",
+   "Une peine",
+   "Un impôt"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la liberté syndicale ?",
+  "a": [
+   "L'obligation d'adhérer",
+   "Le droit de créer un syndicat ou d'y adhérer",
+   "Un droit des élus",
+   "L'interdiction de grève"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la liberté de culte ?",
+  "a": [
+   "Imposer son culte",
+   "Interdire les religions",
+   "Financer un culte par l'impôt",
+   "Exercer sa religion dans le respect de l'ordre public"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que dit l'article 2 de la loi de 1905 ?",
+  "a": [
+   "L'État finance un culte",
+   "L'État choisit les religions",
+   "Elle ne reconnaît, ne salarie ni ne subventionne aucun culte",
+   "Les prêtres sont fonctionnaires"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle loi de 2010 interdit la dissimulation du visage dans l'espace public ?",
+  "a": [
+   "La loi de 1905",
+   "La loi du 11 octobre 2010",
+   "La loi Veil",
+   "La loi de 1881"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la liberté d'aller et venir ?",
+  "a": [
+   "Quitter l'école à volonté",
+   "Pouvoir circuler librement sur le territoire",
+   "Entrer chez autrui",
+   "Passer partout sans papiers"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'une démocratie délibérative ?",
+  "a": [
+   "Un régime sans débat",
+   "Un régime militaire",
+   "Un régime à tirage au sort uniquement",
+   "Un régime qui valorise le débat argumenté entre citoyens"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'une convention citoyenne ?",
+  "a": [
+   "Un tribunal",
+   "Un parti",
+   "Une assemblée de citoyens tirés au sort pour délibérer",
+   "Un congrès de juges"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'une pétition ?",
+  "a": [
+   "Un jugement",
+   "Une demande collective adressée à une autorité",
+   "Un vote",
+   "Une amende"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la désobéissance civile ?",
+  "a": [
+   "Enfreindre publiquement une loi par conviction",
+   "Voler",
+   "Frauder",
+   "Fuir la police"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que le principe de précaution ?",
+  "a": [
+   "Ne jamais agir",
+   "Attendre les preuves",
+   "Ignorer les risques",
+   "Agir contre un risque grave malgré l'incertitude"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Lequel de ces enjeux fait partie des Objectifs de développement durable ?",
+  "a": [
+   "La vente d'armes",
+   "La publicité",
+   "La mode rapide",
+   "L'accès à une eau propre"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Combien d'ODD l'ONU a-t-elle adoptés en 2015 ?",
+  "a": [
+   "8",
+   "17",
+   "10",
+   "25"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la cybersécurité citoyenne ?",
+  "a": [
+   "Protéger ses données et ses comptes en ligne",
+   "Pirater les autres",
+   "Divulguer ses mots de passe",
+   "Ignorer les mises à jour"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que l'hameçonnage (phishing) ?",
+  "a": [
+   "Un sport",
+   "Un logiciel libre",
+   "Un sondage",
+   "Une fraude qui vole des informations par faux messages"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'un deepfake ?",
+  "a": [
+   "Une application de sécurité",
+   "Un moteur",
+   "Un contenu truqué par IA imitant une personne",
+   "Un procédé photo"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que le fact-checking ?",
+  "a": [
+   "Inventer une info",
+   "Vérifier les faits d'une information",
+   "Supprimer une source",
+   "Sonder l'opinion"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la liberté académique ?",
+  "a": [
+   "Enseigner et chercher sans pression idéologique",
+   "Le droit de tricher",
+   "Le droit de ne pas payer",
+   "Une liberté des élèves de ne pas étudier"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que le pouvoir constituant ?",
+  "a": [
+   "Le pouvoir de juger",
+   "Le pouvoir de voter le budget",
+   "Le pouvoir de nommer les préfets",
+   "Le pouvoir d'établir ou de réviser la Constitution"
+  ],
+  "c": 3
+ }
+]

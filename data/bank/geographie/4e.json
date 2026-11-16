@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Qu'est-ce que l'urbanisation ?",
+  "a": [
+   "La destruction des villes",
+   "L'augmentation de la part de la population vivant en ville",
+   "Le départ vers les campagnes",
+   "La création de forêts"
+  ],
+  "c": 1
+ },
+ {
+  "q": "En quelle année la population urbaine mondiale dépasse-t-elle la population rurale (environ) ?",
+  "a": [
+   "1789",
+   "1950",
+   "2007",
+   "2050"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelle-t-on les quartiers d'habitat précaire des villes du Brésil ?",
+  "a": [
+   "Les favelas",
+   "Les médinas",
+   "Les kibboutz",
+   "Les ghettos"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la ségrégation urbaine ?",
+  "a": [
+   "La séparation des groupes sociaux par quartiers",
+   "Le mélange des groupes sociaux dans chaque quartier",
+   "La fusion de deux villes",
+   "La construction d'une route"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'une ville mondiale (ou métropole mondiale) ?",
+  "a": [
+   "Une ville construite récemment",
+   "Une ville touristique uniquement",
+   "Une grande ville au rôle économique international",
+   "Une capitale régionale"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle ville est un grand centre financier avec Wall Street ?",
+  "a": [
+   "Chicago",
+   "New York",
+   "Los Angeles",
+   "Miami"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la gentrification ?",
+  "a": [
+   "L'arrivée d'habitants plus aisés dans un quartier populaire",
+   "Le départ des habitants d'une ville",
+   "La construction de bidonvilles",
+   "La rénovation d'une forêt"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'une mobilité humaine ?",
+  "a": [
+   "Un changement de climat",
+   "Un déplacement de personnes",
+   "La production d'une usine",
+   "Une variation de la bourse"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le motif principal de la migration de travail ?",
+  "a": [
+   "Voir des paysages",
+   "Chercher un emploi",
+   "Faire du sport",
+   "Étudier la géologie"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un réfugié ?",
+  "a": [
+   "Une personne qui fuit son pays à cause de la guerre",
+   "Un touriste",
+   "Un étudiant",
+   "Un chef d'entreprise"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est l'impact du tourisme de masse sur un littoral ?",
+  "a": [
+   "Disparition du tourisme",
+   "Baisse du niveau de la mer",
+   "Diminution du bruit",
+   "Pression sur l'environnement et les ressources"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel canal relie l'océan Atlantique à l'océan Pacifique ?",
+  "a": [
+   "Le canal de Panama",
+   "Le canal de Suez",
+   "Le canal de Kiel",
+   "Le canal du Midi"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel détroit est un passage stratégique entre la Méditerranée et l'Atlantique ?",
+  "a": [
+   "Le détroit de Gibraltar",
+   "Le détroit de Malacca",
+   "Le détroit d'Ormuz",
+   "Le détroit de Béring"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel détroit relie l'océan Indien au Pacifique, très fréquenté par les bateaux ?",
+  "a": [
+   "Le détroit de Gibraltar",
+   "Le canal de Suez",
+   "Le Bosphore",
+   "Le détroit de Malacca"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel mot désigne les flux de marchandises transportées par navire ?",
+  "a": [
+   "Le tourisme aérien",
+   "Le trafic ferroviaire",
+   "Le commerce maritime",
+   "Les migrations"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un porte-conteneurs ?",
+  "a": [
+   "Un navire de croisière",
+   "Un bateau de pêche",
+   "Un voilier de course",
+   "Un navire qui transporte des marchandises en conteneurs"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la plus grande région productrice de pétrole du monde (réserves) ?",
+  "a": [
+   "Le bassin amazonien",
+   "La Sibérie orientale",
+   "Les Alpes",
+   "Le golfe Persique"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans quel secteur économique classe-t-on le commerce et le tourisme ?",
+  "a": [
+   "Le secteur tertiaire",
+   "Le secteur primaire",
+   "Le secteur secondaire",
+   "Le secteur minier"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'une FTN (firme transnationale) ?",
+  "a": [
+   "Une administration",
+   "Une grande entreprise présente dans plusieurs pays",
+   "Un syndicat",
+   "Un parti politique"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle région est appelée « atelier du monde » ?",
+  "a": [
+   "L'Europe de l'Est",
+   "L'Afrique centrale",
+   "L'Asie de l'Est (notamment la Chine)",
+   "L'Amérique du Sud"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que la délocalisation ?",
+  "a": [
+   "La création d'une ville nouvelle",
+   "La construction d'un canal",
+   "Le transfert d'activités d'un pays vers un autre",
+   "La rénovation d'un quartier"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelle-t-on un espace portuaire qui associe ports et grandes industries ?",
+  "a": [
+   "Une zone industrialo-portuaire",
+   "Un hameau",
+   "Une réserve naturelle",
+   "Un bocage"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel type d'agriculture produit en grande quantité avec beaucoup de machines ?",
+  "a": [
+   "L'agriculture intensive",
+   "L'agriculture de subsistance",
+   "La cueillette",
+   "La chasse"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que l'agriculture de subsistance ?",
+  "a": [
+   "Une agriculture exportatrice industrielle",
+   "Une agriculture qui nourrit surtout la famille du paysan",
+   "Une agriculture sans terre",
+   "Une agriculture sous-marine"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel pays est le premier exportateur mondial de soja avec les États-Unis ?",
+  "a": [
+   "La Suisse",
+   "Le Brésil",
+   "L'Islande",
+   "La Norvège"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment appelle-t-on un système d'élevage où les troupeaux se déplacent selon les saisons ?",
+  "a": [
+   "Le nomadisme pastoral",
+   "La stabulation",
+   "La viticulture",
+   "La permaculture"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel pays d'Asie du Sud-Est est un archipel de plus de 17 000 îles ?",
+  "a": [
+   "L'Indonésie",
+   "Les Philippines",
+   "La Malaisie",
+   "Le Viêt Nam"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le mode de transport le plus utilisé pour les échanges de marchandises à l'échelle mondiale ?",
+  "a": [
+   "Le transport maritime",
+   "Le transport aérien",
+   "Le transport ferroviaire",
+   "Le transport par câble"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle ville d'Inde est le grand centre financier et celui du cinéma de Bollywood ?",
+  "a": [
+   "New Delhi",
+   "Calcutta",
+   "Mumbai",
+   "Chennai"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle ville est le siège de l'ONU ?",
+  "a": [
+   "Genève",
+   "Paris",
+   "Bruxelles",
+   "New York"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle grande ville du Brésil est la plus peuplée du pays ?",
+  "a": [
+   "Brasilia",
+   "Salvador",
+   "São Paulo",
+   "Recife"
+  ],
+  "c": 2
+ }
+]

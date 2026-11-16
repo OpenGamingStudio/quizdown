@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel peuple s'est installé en Gaule à partir du VIIIe siècle avant J.-C. ?",
+  "a": [
+   "Les Vikings",
+   "Les Celtes (Gaulois)",
+   "Les Huns",
+   "Les Mongols"
+  ],
+  "c": 1
+ },
+ {
+  "q": "En quelle année Vercingétorix est-il vaincu à Alésia ?",
+  "a": [
+   "476",
+   "800",
+   "52 avant J.-C.",
+   "1066"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel général romain a conquis la Gaule ?",
+  "a": [
+   "Auguste",
+   "Néron",
+   "Jules César",
+   "Hannibal"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelle-t-on la tour principale d'un château fort ?",
+  "a": [
+   "Le donjon",
+   "La poterne",
+   "Le beffroi",
+   "Le créneau"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la Gaule romaine a reçu des Romains ?",
+  "a": [
+   "Des chemins de fer",
+   "Des châteaux forts",
+   "Des cathédrales",
+   "Des routes, des villes et des aqueducs"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel roi des Francs s'est converti au christianisme vers 496 ?",
+  "a": [
+   "Charlemagne",
+   "Clovis",
+   "Hugues Capet",
+   "Pépin le Bref"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui est couronné empereur en l'an 800 ?",
+  "a": [
+   "Clovis",
+   "Louis XIV",
+   "Charlemagne",
+   "Napoléon"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel empereur est réputé avoir créé des écoles ?",
+  "a": [
+   "Vercingétorix",
+   "Louis XIV",
+   "Charlemagne",
+   "Henri IV"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle date marque traditionnellement le début du Moyen Âge en Occident ?",
+  "a": [
+   "1492",
+   "1789",
+   "476",
+   "52 avant J.-C."
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel château de la Loire est construit à partir de 1519 sous le roi François Ier ?",
+  "a": [
+   "Chambord",
+   "Versailles",
+   "Carcassonne",
+   "Vincennes"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle date marque la fin du Moyen Âge selon les programmes ?",
+  "a": [
+   "476",
+   "1492",
+   "1789",
+   "987"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel siècle voit la construction des grandes cathédrales gothiques ?",
+  "a": [
+   "Du IIe au IIIe siècle",
+   "Du XVIIe au XVIIIe siècle",
+   "Du XIIe au XIIIe siècle",
+   "Du Ve au VIe siècle"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment s'appelait le paysan lié à la terre d'un seigneur ?",
+  "a": [
+   "Un chevalier",
+   "Un empereur",
+   "Un pharaon",
+   "Un serf"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'un seigneur au Moyen Âge ?",
+  "a": [
+   "Un moine copiste",
+   "Un artisan",
+   "Un noble qui possède des terres et protège ses paysans",
+   "Un esclave romain"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans quel lieu les moines copiaient-ils les livres ?",
+  "a": [
+   "Dans les monastères",
+   "Dans les châteaux de la Loire",
+   "Dans les arènes",
+   "Dans les théâtres"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle guerre oppose la France et l'Angleterre de 1337 à 1453 ?",
+  "a": [
+   "La guerre de Trente Ans",
+   "La guerre de Sept Ans",
+   "La guerre de Cent Ans",
+   "La guerre de Crimée"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle période suit le Moyen Âge ?",
+  "a": [
+   "Les Temps modernes",
+   "L'Antiquité",
+   "La Préhistoire",
+   "L'époque contemporaine"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel roi de France est surnommé le Roi-Soleil ?",
+  "a": [
+   "Louis XIV",
+   "Louis XVI",
+   "Henri IV",
+   "François Ier"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel roi a fait de Versailles la résidence de la cour ?",
+  "a": [
+   "Napoléon",
+   "Louis IX",
+   "Charles VII",
+   "Louis XIV"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel roi de France signe l'édit de Nantes en 1598 ?",
+  "a": [
+   "Louis XIII",
+   "Henri IV",
+   "François Ier",
+   "Charles IX"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel roi français est le contemporain de la Renaissance et de Léonard de Vinci ?",
+  "a": [
+   "Louis XVI",
+   "François Ier",
+   "Philippe Auguste",
+   "Clovis"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle invention de Gutenberg se répand au milieu du XVe siècle ?",
+  "a": [
+   "La machine à vapeur",
+   "Le téléphone",
+   "L'imprimerie",
+   "La photographie"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel navigateur portugais dirige l'expédition qui réalise le premier tour du monde (1519-1522) ?",
+  "a": [
+   "Christophe Colomb",
+   "Magellan",
+   "Jacques Cartier",
+   "Vasco de Gama"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel navigateur français explore le Canada en 1534 ?",
+  "a": [
+   "Samuel de Champlain",
+   "Magellan",
+   "Vasco de Gama",
+   "Jacques Cartier"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle période historique a lieu après la Révolution française ?",
+  "a": [
+   "L'époque contemporaine",
+   "Le Moyen Âge",
+   "L'Antiquité",
+   "La Préhistoire"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel roi fait construire la forteresse du Louvre vers 1190 ?",
+  "a": [
+   "Philippe Auguste",
+   "Louis XIV",
+   "Clovis",
+   "Henri IV"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que veut dire le mot « roi » dans une monarchie absolue ?",
+  "a": [
+   "Il est élu pour 5 ans",
+   "Il détient tous les pouvoirs",
+   "Il partage le pouvoir avec un président",
+   "Il n'a aucun pouvoir"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel siècle est celui de Louis XIV ?",
+  "a": [
+   "Le XVe siècle",
+   "Le XIXe siècle",
+   "Le XVIIe siècle",
+   "Le XIIe siècle"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans quelle ville Clovis est-il traditionnellement baptisé ?",
+  "a": [
+   "Reims",
+   "Paris",
+   "Lyon",
+   "Orléans"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel roi de France, mort en 1610, est assassiné par Ravaillac ?",
+  "a": [
+   "Louis XIII",
+   "Henri IV",
+   "Louis XIV",
+   "François Ier"
+  ],
+  "c": 1
+ }
+]

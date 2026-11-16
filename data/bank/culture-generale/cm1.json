@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Combien de cœurs a une pieuvre ?",
+  "a": [
+   "1",
+   "2",
+   "8",
+   "3"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le plus grand désert chaud du monde ?",
+  "a": [
+   "Le Gobi",
+   "Le Kalahari",
+   "Le Sahara",
+   "L'Atacama"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel métal est liquide à température ambiante ?",
+  "a": [
+   "Le fer",
+   "Le mercure",
+   "Le plomb",
+   "L'aluminium"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a peint la Joconde ?",
+  "a": [
+   "Léonard de Vinci",
+   "Michel-Ange",
+   "Raphaël",
+   "Picasso"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le plus grand animal du monde ?",
+  "a": [
+   "La baleine bleue",
+   "L'éléphant d'Afrique",
+   "Le requin-baleine",
+   "La girafe"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien d'os un adulte possède-t-il environ ?",
+  "a": [
+   "106",
+   "306",
+   "412",
+   "206"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel pays a la forme d'une botte ?",
+  "a": [
+   "L'Espagne",
+   "La Grèce",
+   "L'Italie",
+   "Le Portugal"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a inventé l'imprimerie à caractères mobiles en Europe, vers 1450 ?",
+  "a": [
+   "Edison",
+   "Gutenberg",
+   "Pasteur",
+   "Marconi"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le plus long fleuve de France ?",
+  "a": [
+   "La Seine",
+   "La Loire",
+   "Le Rhône",
+   "La Garonne"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel gaz de l'air est indispensable à notre respiration ?",
+  "a": [
+   "L'oxygène",
+   "L'hélium",
+   "L'hydrogène",
+   "Le gaz carbonique"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui sont les auteurs d'Astérix ?",
+  "a": [
+   "Hergé et Jacobs",
+   "Peyo et Franquin",
+   "Morris et Goscinny",
+   "Goscinny et Uderzo"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le plus haut sommet du monde ?",
+  "a": [
+   "Le K2",
+   "Le mont Blanc",
+   "L'Everest",
+   "Le Kilimandjaro"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Combien de cordes a un violon ?",
+  "a": [
+   "6",
+   "5",
+   "4",
+   "3"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel animal est un marsupial ?",
+  "a": [
+   "Le lapin",
+   "Le kangourou",
+   "Le renard",
+   "Le castor"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a écrit les « Fables » dont « Le Corbeau et le Renard » ?",
+  "a": [
+   "La Fontaine",
+   "Molière",
+   "Perrault",
+   "Victor Hugo"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la plus grosse planète du système solaire ?",
+  "a": [
+   "Saturne",
+   "La Terre",
+   "Neptune",
+   "Jupiter"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est l'oiseau le plus rapide en piqué ?",
+  "a": [
+   "L'aigle royal",
+   "L'autruche",
+   "Le colibri",
+   "Le faucon pèlerin"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la capitale du Japon ?",
+  "a": [
+   "Kyoto",
+   "Osaka",
+   "Tokyo",
+   "Séoul"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans quel pays se trouvent les pyramides de Gizeh ?",
+  "a": [
+   "Au Mexique",
+   "En Égypte",
+   "Au Maroc",
+   "En Inde"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel château près de Paris est devenu la résidence de Louis XIV et de la Cour ?",
+  "a": [
+   "Chambord",
+   "Chenonceau",
+   "Versailles",
+   "Amboise"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui est le journaliste héros créé par Hergé ?",
+  "a": [
+   "Tintin",
+   "Spirou",
+   "Lucky Luke",
+   "Gaston"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel insecte produit la soie des tissus ?",
+  "a": [
+   "L'abeille",
+   "La fourmi",
+   "Le criquet",
+   "Le ver à soie"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel océan sépare l'Europe de l'Amérique ?",
+  "a": [
+   "L'océan Pacifique",
+   "L'océan Indien",
+   "L'océan Atlantique",
+   "L'océan Arctique"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel instrument fait partie de la famille des cuivres ?",
+  "a": [
+   "Le violon",
+   "La trompette",
+   "La flûte",
+   "La harpe"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Combien de joueurs d'une équipe de football sont sur le terrain en même temps ?",
+  "a": [
+   "9",
+   "11",
+   "10",
+   "12"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la monnaie utilisée en France ?",
+  "a": [
+   "L'euro",
+   "Le franc",
+   "Le dollar",
+   "La livre"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel monument romain, un grand amphithéâtre, se trouve à Rome ?",
+  "a": [
+   "Le Parthénon",
+   "L'Alhambra",
+   "Le Panthéon",
+   "Le Colisée"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment s'appelle le bébé du kangourou ?",
+  "a": [
+   "Le faon",
+   "Le chiot",
+   "Le joey",
+   "Le veau"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel animal rayé de noir et de blanc vit dans la savane ?",
+  "a": [
+   "Le tigre",
+   "Le léopard",
+   "Le zèbre",
+   "Le guépard"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le sens qui nous permet d'entendre ?",
+  "a": [
+   "La vue",
+   "L'ouïe",
+   "L'odorat",
+   "Le goût"
+  ],
+  "c": 1
+ }
+]

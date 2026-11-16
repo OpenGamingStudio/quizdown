@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Quel âge approximatif a la Terre ?",
+  "a": [
+   "4,5 milliards d'années",
+   "450 millions d'années",
+   "45 milliards d'années",
+   "4,5 millions d'années"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle molécule porte l'information génétique ?",
+  "a": [
+   "L'ATP",
+   "L'hémoglobine",
+   "L'amidon",
+   "L'ADN"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment se nomment les unités qui composent l'ADN ?",
+  "a": [
+   "Les acides gras",
+   "Les glucoses",
+   "Les nucléotides",
+   "Les acides aminés"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelles bases azotées forment l'ADN ?",
+  "a": [
+   "A, U, C, G",
+   "A, T, C, G",
+   "A, T, U, G",
+   "A, B, C, D"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle base s'apparie avec l'adénine dans l'ADN ?",
+  "a": [
+   "La cytosine",
+   "La thymine",
+   "La guanine",
+   "L'uracile"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le rôle de la mitose ?",
+  "a": [
+   "Produire deux cellules identiques",
+   "Produire des gamètes",
+   "Fusionner deux cellules",
+   "Détruire l'ADN"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel niveau de biodiversité correspond à la variété des gènes au sein d'une espèce ?",
+  "a": [
+   "La diversité des écosystèmes",
+   "La diversité des continents",
+   "La diversité des climats",
+   "La diversité génétique"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel organite réalise la photosynthèse ?",
+  "a": [
+   "La mitochondrie",
+   "Le noyau",
+   "Le chloroplaste",
+   "Le ribosome"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel organite produit surtout l'ATP par respiration cellulaire ?",
+  "a": [
+   "Le chloroplaste",
+   "Le noyau",
+   "La mitochondrie",
+   "L'appareil de Golgi"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle molécule est le principal carburant des cellules ?",
+  "a": [
+   "Le sel",
+   "Le glucose",
+   "Le calcium",
+   "L'hémoglobine"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est l'équation simplifiée de la photosynthèse ?",
+  "a": [
+   "CO2 + H2O + lumière donne glucose + O2",
+   "O2 + glucose donne CO2 + H2O",
+   "N2 + H2 donne NH3",
+   "CH4 + O2 donne CO2"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le rôle de l'amidon chez les plantes ?",
+  "a": [
+   "Pigment vert",
+   "Hormone",
+   "Gaz",
+   "Réserve d'énergie"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel être vivant fait partie du microbiote intestinal humain ?",
+  "a": [
+   "Des virus uniquement",
+   "Des plantes",
+   "Des cailloux",
+   "Des bactéries"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est l'avantage d'un microbiote diversifié ?",
+  "a": [
+   "Aucun avantage",
+   "Détruit les vitamines",
+   "Aide à la digestion et à la défense",
+   "Provoque des maladies"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle couche de la Terre est la plus profonde ?",
+  "a": [
+   "Le manteau",
+   "Le noyau interne",
+   "La croûte",
+   "La lithosphère"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est l'élément majoritaire dans l'atmosphère terrestre ?",
+  "a": [
+   "Le diazote",
+   "Le dioxygène",
+   "Le dioxyde de carbone",
+   "L'argon"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la principale source d'énergie externe du climat terrestre ?",
+  "a": [
+   "Le rayonnement solaire",
+   "La chaleur du noyau",
+   "Les marées",
+   "Les volcans"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que l'effet de serre naturel ?",
+  "a": [
+   "Une fabrication de plantes",
+   "Une glaciation",
+   "Un refroidissement global",
+   "Un piégeage de chaleur par certains gaz"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel gaz est un gaz à effet de serre en plus du CO2 ?",
+  "a": [
+   "Le diazote",
+   "L'argon",
+   "Le méthane",
+   "Le dioxygène"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle est la composition du sol ?",
+  "a": [
+   "Seulement du sable",
+   "Matière minérale, matière organique, eau et air",
+   "Seulement de l'argile",
+   "Seulement des roches"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel rôle jouent les vers de terre dans le sol ?",
+  "a": [
+   "Ils détruisent les racines",
+   "Ils aèrent et mélangent le sol",
+   "Ils produisent du pétrole",
+   "Aucun rôle"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un puits de carbone ?",
+  "a": [
+   "Un réservoir qui absorbe plus de carbone qu'il n'en émet",
+   "Un gisement de charbon",
+   "Une mine de diamants",
+   "Un volcan actif"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est l'origine de l'oxygène atmosphérique ?",
+  "a": [
+   "La combustion du charbon",
+   "Les volcans",
+   "Les météorites",
+   "La photosynthèse"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la principale cause de l'érosion de la biodiversité actuelle ?",
+  "a": [
+   "La rotation de la Terre",
+   "Les marées",
+   "La destruction des habitats",
+   "Les aurores polaires"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le rôle des pollinisateurs ?",
+  "a": [
+   "Détruire les fruits",
+   "Produire du pétrole",
+   "Assurer la reproduction de nombreuses plantes",
+   "Chasser les herbivores"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle technique permet d'étudier l'ADN d'un organisme ?",
+  "a": [
+   "La spectrométrie solaire",
+   "Le séquençage",
+   "La sismique",
+   "La chromatographie de pigment seulement"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le rôle des enzymes digestives ?",
+  "a": [
+   "Découper les nutriments",
+   "Transporter l'oxygène",
+   "Fabriquer de l'ADN",
+   "Produire de la bile"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que l'agroécologie ?",
+  "a": [
+   "Une agriculture sans eau",
+   "Une agriculture qui utilise uniquement des pesticides",
+   "Une pratique minière",
+   "Une agriculture respectant les processus écologiques"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle science étudie les relations entre les êtres vivants et leur milieu ?",
+  "a": [
+   "La géologie",
+   "L'écologie",
+   "L'astronomie",
+   "La physique"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un taxon ?",
+  "a": [
+   "Une taxe",
+   "Un minéral",
+   "Un groupe d'organismes classés ensemble",
+   "Une hormone"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le rôle de la lumière pour une plante ?",
+  "a": [
+   "Fabriquer l'eau",
+   "Fournir l'énergie de la photosynthèse",
+   "Absorber le dioxygène",
+   "Détruire la chlorophylle"
+  ],
+  "c": 1
+ }
+]

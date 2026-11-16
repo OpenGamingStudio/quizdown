@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quelle est la capitale du Danemark ?",
+  "a": [
+   "Stockholm",
+   "Oslo",
+   "Copenhague",
+   "Aarhus"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a élaboré la théorie de la relativité générale ?",
+  "a": [
+   "Isaac Newton",
+   "Albert Einstein",
+   "Niels Bohr",
+   "Max Planck"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la capitale de la Turquie ?",
+  "a": [
+   "Ankara",
+   "Istanbul",
+   "Izmir",
+   "Bursa"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qui a écrit « Les Fleurs du mal » ?",
+  "a": [
+   "Paul Verlaine",
+   "Arthur Rimbaud",
+   "Alfred de Musset",
+   "Charles Baudelaire"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le numéro atomique de l'hydrogène ?",
+  "a": [
+   "2",
+   "8",
+   "0",
+   "1"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la capitale de la Norvège ?",
+  "a": [
+   "Stockholm",
+   "Copenhague",
+   "Oslo",
+   "Helsinki"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a composé « Le Boléro » ?",
+  "a": [
+   "Claude Debussy",
+   "Maurice Ravel",
+   "Erik Satie",
+   "Georges Bizet"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a proposé en 1869 un tableau périodique des éléments ?",
+  "a": [
+   "Mendeleïev",
+   "Lavoisier",
+   "Dalton",
+   "Bohr"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle bataille de 1815 a mis fin à l'Empire de Napoléon ?",
+  "a": [
+   "Waterloo",
+   "Austerlitz",
+   "Iéna",
+   "Wagram"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est l'unité de force dans le Système international ?",
+  "a": [
+   "Le joule",
+   "Le watt",
+   "Le pascal",
+   "Le newton"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel peintre a fondé le cubisme avec Picasso ?",
+  "a": [
+   "Henri Matisse",
+   "Claude Monet",
+   "Georges Braque",
+   "Paul Gauguin"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le plus long fleuve d'Afrique ?",
+  "a": [
+   "Le Congo",
+   "Le Nil",
+   "Le Niger",
+   "Le Zambèze"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la plus grosse lune de Saturne ?",
+  "a": [
+   "Europe",
+   "Titan",
+   "Ganymède",
+   "Triton"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qui a écrit « 1984 » ?",
+  "a": [
+   "George Orwell",
+   "Aldous Huxley",
+   "Ray Bradbury",
+   "H. G. Wells"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de paires de chromosomes compte l'espèce humaine ?",
+  "a": [
+   "46",
+   "22",
+   "24",
+   "23"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la monnaie du Japon ?",
+  "a": [
+   "Le yuan",
+   "Le won",
+   "Le yen",
+   "La roupie"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a écrit « Don Quichotte » ?",
+  "a": [
+   "Lope de Vega",
+   "Federico García Lorca",
+   "Cervantès",
+   "Gabriel García Márquez"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle molécule porte l'information génétique ?",
+  "a": [
+   "L'ATP",
+   "L'ADN",
+   "L'hémoglobine",
+   "La chlorophylle"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est la capitale de l'Argentine ?",
+  "a": [
+   "Buenos Aires",
+   "Santiago",
+   "Lima",
+   "Montevideo"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la formule chimique de l'eau ?",
+  "a": [
+   "CO2",
+   "O2",
+   "NaCl",
+   "H2O"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qui a peint « Les Nymphéas » ?",
+  "a": [
+   "Auguste Renoir",
+   "Edgar Degas",
+   "Georges Seurat",
+   "Claude Monet"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel pays est traversé par l'équateur ?",
+  "a": [
+   "L'Égypte",
+   "Le Maroc",
+   "Le Kenya",
+   "L'Inde"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel est le plus haut sommet des Alpes ?",
+  "a": [
+   "Le Cervin",
+   "Le mont Blanc",
+   "Le mont Rose",
+   "L'Eiger"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Dans quel pays se trouve Salzbourg, la ville natale de Mozart ?",
+  "a": [
+   "L'Allemagne",
+   "L'Italie",
+   "L'Autriche",
+   "La Hongrie"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a écrit « Germinal » ?",
+  "a": [
+   "Émile Zola",
+   "Victor Hugo",
+   "Guy de Maupassant",
+   "Honoré de Balzac"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien de temps la lumière du Soleil met-elle environ pour atteindre la Terre ?",
+  "a": [
+   "8 secondes",
+   "1 heure",
+   "1 jour",
+   "8 minutes"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle est la capitale du Maroc ?",
+  "a": [
+   "Casablanca",
+   "Marrakech",
+   "Rabat",
+   "Fès"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui a proposé la théorie de l'évolution par sélection naturelle ?",
+  "a": [
+   "Gregor Mendel",
+   "Charles Darwin",
+   "Louis Pasteur",
+   "Jean-Baptiste Lamarck"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel philosophe a écrit « Je pense, donc je suis » ?",
+  "a": [
+   "Pascal",
+   "Descartes",
+   "Voltaire",
+   "Kant"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le plus petit océan ?",
+  "a": [
+   "L'océan Arctique",
+   "L'océan Indien",
+   "L'océan Atlantique",
+   "L'océan Austral"
+  ],
+  "c": 0
+ }
+]

@@ -1,0 +1,312 @@
+[
+ {
+  "q": "Quelle est la différence entre égalité et équité ?",
+  "a": [
+   "Ce sont des synonymes exacts",
+   "L'égalité traite pareil, l'équité tient compte des besoins",
+   "L'équité interdit le droit",
+   "L'égalité est une punition"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel principe garantit l'égalité des citoyens quelle que soit leur religion ?",
+  "a": [
+   "La laïcité",
+   "La censure",
+   "L'autorité",
+   "Le patriotisme"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que dit la loi de 2004 sur la laïcité à l'école ?",
+  "a": [
+   "Elle impose une religion",
+   "Elle interdit toute prière",
+   "Elle supprime l'école privée",
+   "Elle interdit les signes religieux ostensibles à l'école"
+  ],
+  "c": 3
+ },
+ {
+  "q": "En quelle année a été proclamée la Déclaration universelle des droits de l'homme ?",
+  "a": [
+   "1789",
+   "1918",
+   "1948",
+   "1989"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Dans quelle ville a-t-elle été adoptée ?",
+  "a": [
+   "New York",
+   "Paris",
+   "Genève",
+   "Londres"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le rôle de la Cour européenne des droits de l'homme ?",
+  "a": [
+   "Juger les violations des droits de l'homme en Europe",
+   "Voter les lois françaises",
+   "Gérer l'euro",
+   "Commander l'armée"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que le vote ?",
+  "a": [
+   "Une punition",
+   "Un impôt",
+   "Un test",
+   "Un moyen de choisir ses représentants ou de décider"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Comment appelle-t-on le fait de ne pas voter ?",
+  "a": [
+   "L'inscription",
+   "La candidature",
+   "L'abstention",
+   "Le mandat"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que le secret du vote ?",
+  "a": [
+   "Le résultat est caché",
+   "Personne ne sait pour qui l'électeur a voté",
+   "Les votes sont payants",
+   "Seuls les maires votent"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que permet l'isoloir ?",
+  "a": [
+   "Voter en secret",
+   "Compter les votes",
+   "Mettre les affiches",
+   "Parler aux candidats"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel organe de l'État vérifie que les lois respectent la Constitution ?",
+  "a": [
+   "Le Sénat",
+   "La Cour des comptes",
+   "Le préfet",
+   "Le Conseil constitutionnel"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le rôle du Sénat ?",
+  "a": [
+   "Il juge les crimes",
+   "Il élit le président",
+   "Il vote les lois et représente les collectivités",
+   "Il dirige l'armée"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qui élit les sénateurs ?",
+  "a": [
+   "Tous les citoyens directement",
+   "Des grands électeurs (élus locaux)",
+   "Les juges",
+   "Le président"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel est le rôle d'un préfet ?",
+  "a": [
+   "Représenter l'État dans le département",
+   "Diriger la commune",
+   "Voter les lois",
+   "Juger"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que fait un conseil régional ?",
+  "a": [
+   "Il vote les lois nationales",
+   "Il juge",
+   "Il dirige l'armée",
+   "Il gère les lycées et les transports régionaux"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que la solidarité nationale ?",
+  "a": [
+   "Chacun garde tout",
+   "Une loi pénale",
+   "Les ressources collectives aident ceux qui en ont besoin",
+   "Un impôt local"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel système français finance la santé et les retraites ?",
+  "a": [
+   "Le Conseil d'État",
+   "La Sécurité sociale",
+   "La Banque de France",
+   "L'ONU"
+  ],
+  "c": 1
+ },
+ {
+  "q": "En quelle année a été créée la Sécurité sociale ?",
+  "a": [
+   "1945",
+   "1789",
+   "1905",
+   "1981"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'une discrimination à l'embauche ?",
+  "a": [
+   "Choisir selon les compétences",
+   "Refuser une candidature incomplète",
+   "Publier une offre",
+   "Refuser un candidat pour un motif interdit comme l'origine"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle autorité protège les droits et libertés des citoyens face à l'administration ?",
+  "a": [
+   "Le Sénat",
+   "La Cour de cassation",
+   "Le Défenseur des droits",
+   "Le maire"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle institution protège les données personnelles en France ?",
+  "a": [
+   "La CAF",
+   "La CNIL",
+   "La SNCF",
+   "L'INSEE"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un lanceur d'alerte ?",
+  "a": [
+   "Une personne qui signale un danger ou une fraude",
+   "Un policier",
+   "Un journaliste uniquement",
+   "Un hacker"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce que la liberté de la presse ?",
+  "a": [
+   "Publier n'importe quoi",
+   "Diffuser seulement des pubs",
+   "Obéir au gouvernement",
+   "Informer sans censure préalable, selon la loi"
+  ],
+  "c": 3
+ },
+ {
+  "q": "En quelle année la loi sur la liberté de la presse a-t-elle été votée ?",
+  "a": [
+   "1789",
+   "1905",
+   "1881",
+   "1958"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'une rumeur ?",
+  "a": [
+   "Une loi",
+   "Une information non vérifiée qui circule",
+   "Un décret",
+   "Une preuve"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un sondage d'opinion ?",
+  "a": [
+   "Une élection officielle",
+   "Un vote obligatoire",
+   "Une loi",
+   "Une enquête auprès d'un échantillon de personnes"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce que l'éducation aux médias ?",
+  "a": [
+   "Apprendre à tourner un film",
+   "Apprendre à voter",
+   "Apprendre à programmer",
+   "Apprendre à analyser et utiliser l'information"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que signifie « pluralisme des médias » ?",
+  "a": [
+   "Un seul média existe",
+   "Les médias sont gratuits",
+   "Plusieurs opinions et médias existent",
+   "Les médias sont interdits"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Pourquoi respecter les droits d'auteur ?",
+  "a": [
+   "Parce que tout est gratuit",
+   "Parce que la création appartient à son auteur",
+   "Pour se faire punir",
+   "Pour avoir du succès"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que la citoyenneté ?",
+  "a": [
+   "L'appartenance à une communauté politique",
+   "Un diplôme",
+   "Un salaire",
+   "Un métier"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un bien commun ?",
+  "a": [
+   "Une ressource partagée par tous, comme l'eau ou l'air",
+   "Un cadeau",
+   "Un bien volé",
+   "Un bien de luxe"
+  ],
+  "c": 0
+ }
+]

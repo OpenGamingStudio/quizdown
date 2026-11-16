@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel élément du matériel sert d'organe de sortie ?",
+  "a": [
+   "L'écran",
+   "Le clavier",
+   "La souris",
+   "Le micro"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est un exemple de capteur ?",
+  "a": [
+   "Un écran",
+   "Une imprimante",
+   "Un haut-parleur",
+   "Un thermomètre électronique"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans un objet technique, qu'est-ce qu'un actionneur ?",
+  "a": [
+   "Un capteur de lumière",
+   "Un câble d'énergie",
+   "Un élément qui produit un mouvement",
+   "Un écran"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle chaîne décrit le fonctionnement d'un objet automatisé ?",
+  "a": [
+   "Écran, souris, clavier",
+   "Capteur, unité de traitement, actionneur",
+   "Moteur, roue, câble",
+   "Batterie, câble, enceinte"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle énergie utilise un panneau solaire ?",
+  "a": [
+   "Le vent",
+   "La lumière du Soleil",
+   "Le pétrole",
+   "L'uranium"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle matière est un bon conducteur d'électricité ?",
+  "a": [
+   "Le cuivre",
+   "Le plastique",
+   "Le bois sec",
+   "Le verre"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Qu'est-ce qu'un circuit électrique fermé ?",
+  "a": [
+   "Un circuit sans pile",
+   "Un circuit cassé",
+   "Un circuit sans fil",
+   "Un circuit où le courant peut circuler"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'une DEL (LED) ?",
+  "a": [
+   "Un moteur",
+   "Un capteur de son",
+   "Une diode qui émet de la lumière",
+   "Un fil"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle unité mesure la tension électrique ?",
+  "a": [
+   "L'ampère",
+   "L'ohm",
+   "Le volt",
+   "Le watt"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle carte électronique éducative est très utilisée avec des capteurs ?",
+  "a": [
+   "Windows",
+   "Arduino",
+   "Linux",
+   "Photoshop"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce qu'un algorigramme ?",
+  "a": [
+   "Un virus",
+   "Un composant électronique",
+   "Un format d'image",
+   "Un schéma qui représente les étapes d'un algorithme"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Que fait le bloc « ajouter 1 à score » ?",
+  "a": [
+   "Il efface la variable score",
+   "Il remplace score par 1",
+   "Il augmente la variable score de 1",
+   "Il affiche le mot score"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'une fonction dans un programme ?",
+  "a": [
+   "Une variable fixe",
+   "Un composant",
+   "Une image",
+   "Un bloc d'instructions réutilisable"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Dans Scratch, que sont les « blocs personnalisés » ?",
+  "a": [
+   "Des blocs de musique seulement",
+   "Des erreurs",
+   "Des blocs créés pour réutiliser des instructions",
+   "Des lutins"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel bloc Scratch permet de répéter un nombre précis de fois ?",
+  "a": [
+   "Répéter indéfiniment",
+   "Répéter n fois",
+   "Quand clic",
+   "Si alors"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Que produit un test « si x > 5 » quand x = 8 ?",
+  "a": [
+   "Vrai",
+   "Faux",
+   "Erreur",
+   "Zéro"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien vaut 2 à la puissance 3 ?",
+  "a": [
+   "8",
+   "6",
+   "5",
+   "9"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Combien d'états un bit peut-il avoir ?",
+  "a": [
+   "1",
+   "10",
+   "8",
+   "2"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle valeur a le binaire 101 ?",
+  "a": [
+   "3",
+   "7",
+   "5",
+   "10"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un format de fichier ?",
+  "a": [
+   "La taille de l'écran",
+   "La manière de coder le contenu",
+   "Le nom d'un utilisateur",
+   "Un type de câble"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel format est compressé ?",
+  "a": [
+   "TXT",
+   "ZIP",
+   "BMP",
+   "CSV"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que le débit d'une connexion ?",
+  "a": [
+   "La quantité de données transférées par seconde",
+   "La couleur d'un écran",
+   "La taille d'un fichier",
+   "Le prix d'un abonnement"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle unité mesure le débit réseau ?",
+  "a": [
+   "Le litre",
+   "Le mètre",
+   "Le volt",
+   "Le bit par seconde"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'un gestionnaire de mots de passe ?",
+  "a": [
+   "Un site qui les publie",
+   "Un antivirus",
+   "Un logiciel qui les stocke de façon chiffrée",
+   "Un moteur de recherche"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que l'authentification à deux facteurs ?",
+  "a": [
+   "Un double mot de passe identique",
+   "Un antivirus",
+   "Une double vérification pour se connecter",
+   "Un cookie"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Que faire si on perd son téléphone ?",
+  "a": [
+   "Ne rien faire",
+   "Changer ses mots de passe et le signaler",
+   "Le chercher sans rien changer",
+   "Poster ses codes"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que le droit d'auteur ?",
+  "a": [
+   "La protection des œuvres de leur créateur",
+   "Le droit de tout copier",
+   "Une taxe",
+   "Un logiciel"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Que faut-il faire avant d'utiliser une image trouvée en ligne ?",
+  "a": [
+   "La copier sans réfléchir",
+   "La modifier en secret",
+   "L'imprimer",
+   "Vérifier sa licence"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le risque d'un réseau wifi public non sécurisé ?",
+  "a": [
+   "Écran cassé",
+   "Pas de lumière",
+   "Plus de batterie",
+   "Vol de données"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'un logiciel libre ?",
+  "a": [
+   "Un logiciel gratuit uniquement",
+   "Un virus",
+   "Un logiciel dont le code peut être étudié et modifié",
+   "Un jeu mobile"
+  ],
+  "c": 2
+ }
+]

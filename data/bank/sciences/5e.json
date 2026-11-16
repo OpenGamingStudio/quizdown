@@ -1,0 +1,302 @@
+[
+ {
+  "q": "Quel gaz les organismes utilisent-ils pour la respiration ?",
+  "a": [
+   "Le dioxygène",
+   "Le diazote",
+   "L'hélium",
+   "L'argon"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel gaz est rejeté lors de la respiration cellulaire ?",
+  "a": [
+   "Le dioxygène",
+   "L'hydrogène",
+   "Le néon",
+   "Le dioxyde de carbone"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le rôle des muscles lors d'un effort ?",
+  "a": [
+   "Fabriquer du dioxygène",
+   "Stocker du CO2 sans le rejeter",
+   "Consommer plus de dioxygène et de nutriments",
+   "Digérer les aliments"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment réagit le rythme cardiaque à l'effort ?",
+  "a": [
+   "Il diminue",
+   "Il augmente",
+   "Il s'arrête",
+   "Il ne change jamais"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle structure de l'insecte permet de respirer ?",
+  "a": [
+   "Les branchies",
+   "Les trachées",
+   "Les poumons",
+   "La peau seule"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Comment respirent la plupart des poissons ?",
+  "a": [
+   "Par des branchies",
+   "Par des poumons",
+   "Par la peau uniquement",
+   "Par des trachées"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment appelle-t-on le passage des aliments dans le sang à travers la paroi de l'intestin ?",
+  "a": [
+   "La respiration",
+   "La fécondation",
+   "La transpiration",
+   "L'absorption"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel muscle sépare le thorax de l'abdomen et aide à respirer ?",
+  "a": [
+   "Le biceps",
+   "Le coeur",
+   "Le diaphragme",
+   "L'estomac"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle roche sédimentaire est formée de débris de coquilles ?",
+  "a": [
+   "Le granite",
+   "Le basalte",
+   "Le calcaire",
+   "Le gneiss"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quel agent d'érosion creuse les vallées en montagne ?",
+  "a": [
+   "Le magnétisme",
+   "L'eau et les glaciers",
+   "La Lune",
+   "La chaleur interne"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Qu'est-ce que l'érosion ?",
+  "a": [
+   "L'usure des roches par l'eau, le vent, la glace",
+   "La formation d'une montagne",
+   "La fusion du magma",
+   "La création d'un volcan"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Comment appelle-t-on le dépôt de particules transportées par l'eau ?",
+  "a": [
+   "La fusion",
+   "L'éruption",
+   "La pollinisation",
+   "La sédimentation"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Qu'est-ce qu'une roche sédimentaire ?",
+  "a": [
+   "Une roche issue d'un magma",
+   "Une roche transformée par la chaleur uniquement",
+   "Un minéral pur",
+   "Une roche formée par accumulation de sédiments"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel phénomène accompagne souvent une éruption volcanique ?",
+  "a": [
+   "La formation d'un glacier",
+   "Une marée",
+   "L'émission de lave et de gaz",
+   "Une pluie d'étoiles"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce qu'un séisme ?",
+  "a": [
+   "Une éruption",
+   "Un tremblement de terre",
+   "Une tempête de sable",
+   "Un raz de marée"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quel instrument enregistre les séismes ?",
+  "a": [
+   "Le sismographe",
+   "Le baromètre",
+   "Le thermomètre",
+   "L'anémomètre"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel risque naturel est lié à des pluies intenses ?",
+  "a": [
+   "Les inondations",
+   "Les éruptions",
+   "Les séismes",
+   "Les marées noires"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est la cause d'une marée noire ?",
+  "a": [
+   "Un séisme",
+   "Un orage",
+   "La Lune",
+   "Un déversement de pétrole en mer"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est l'effet des activités humaines sur les paysages ?",
+  "a": [
+   "Aucun effet",
+   "Elles les rendent plats partout",
+   "Elles peuvent les modifier fortement",
+   "Elles arrêtent l'érosion"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle roche sédimentaire est formée de grains de sable cimentés ?",
+  "a": [
+   "Le granite",
+   "Le basalte",
+   "Le grès",
+   "Le marbre"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Quelle ressource est renouvelable ?",
+  "a": [
+   "Le pétrole",
+   "Le vent",
+   "Le charbon",
+   "Le gaz naturel"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle est l'origine des énergies fossiles ?",
+  "a": [
+   "Des restes d'êtres vivants enfouis et transformés",
+   "Le vent",
+   "Le rayonnement du Soleil",
+   "Les marées"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quel est le rôle du dioxygène dans les cellules ?",
+  "a": [
+   "Fabriquer du sucre",
+   "Produire de la lumière",
+   "Rien du tout",
+   "Libérer de l'énergie à partir des nutriments"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quelle activité humaine augmente fortement le CO2 atmosphérique ?",
+  "a": [
+   "La plantation de forêts",
+   "La marche à pied",
+   "La combustion d'énergies fossiles",
+   "L'agriculture sans moteur"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Comment appelle-t-on la montée de la mer due au réchauffement ?",
+  "a": [
+   "Une marée haute",
+   "Un tsunami",
+   "Une élévation du niveau marin",
+   "Une érosion"
+  ],
+  "c": 2
+ },
+ {
+  "q": "Qu'est-ce que le magma ?",
+  "a": [
+   "De l'eau chaude",
+   "De la roche fondue en profondeur",
+   "Du gaz volcanique",
+   "Du sable fondu"
+  ],
+  "c": 1
+ },
+ {
+  "q": "Quelle roche volcanique est issue du refroidissement rapide de lave ?",
+  "a": [
+   "Le basalte",
+   "Le calcaire",
+   "La craie",
+   "Le grès"
+  ],
+  "c": 0
+ },
+ {
+  "q": "Quelle est l'unité de l'énergie dans le système international ?",
+  "a": [
+   "Le watt",
+   "Le newton",
+   "Le mètre",
+   "Le joule"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel est le milieu où vivent surtout les poissons d'eau douce ?",
+  "a": [
+   "Les déserts",
+   "Les forêts sèches",
+   "Les glaciers",
+   "Les rivières et lacs"
+  ],
+  "c": 3
+ },
+ {
+  "q": "Quel facteur modifie la croissance d'une plante ?",
+  "a": [
+   "Le nom de la plante",
+   "La couleur du pot",
+   "La lumière, l'eau et la température",
+   "Le bruit"
+  ],
+  "c": 2
+ }
+]
