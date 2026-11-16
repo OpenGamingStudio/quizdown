@@ -85,7 +85,7 @@
   .logo { @apply m-0 -rotate-3 font-bold text-carte; font-size: clamp(3rem, 12vw, 7rem); line-height: .9; letter-spacing: -0.02em; }
   .logo span { @apply text-encre; }
   .tag { @apply m-0 max-w-120 text-[clamp(1.25rem,4vw,1.625rem)] leading-[1.2] font-semibold; }
-  .modes { @apply grid gap-4 min-[720px]:grid-cols-2; }
+  .modes { @apply grid gap-4 min-[720px]:grid-cols-3; }
   .mode { @apply min-h-28 pr-14; }
   .mode-title { @apply text-[clamp(1.5rem,5vw,1.875rem)] leading-[1.05] font-bold tracking-[-0.02em]; }
   .mode-shape { @apply absolute top-3 right-3 size-8; }
@@ -164,6 +164,32 @@
   .passe .back-btn { @apply mt-auto; }
   .passe .after { @apply mt-auto; }
   .who { @apply mt-3 mb-4 flex flex-wrap items-center gap-4 text-[clamp(2rem,8vw,3rem)] leading-[1.05]; }
+  /* en ligne : avatars, code de room, salle d'attente */
+  .avatar { @apply inline-block size-11 shrink-0; }
+  .avatar circle:first-child { stroke: var(--color-encre); stroke-width: 1.5px; }
+  .avatar.c0 circle:first-child { fill: var(--color-miel); }
+  .avatar.c1 circle:first-child { fill: var(--color-sarcelle); }
+  .avatar.c2 circle:first-child { fill: var(--color-rose); }
+  .avatar.c3 circle:first-child { fill: var(--color-tomate); }
+  .avatar.small { @apply size-9; }
+  .avatar.big { @apply size-16 sm:size-20; }
+  .avatars { @apply grid grid-cols-4 gap-2 min-[400px]:grid-cols-6; }
+  .av-btn { @apply grid min-h-14 place-items-center rounded-[10px] border-3 border-transparent bg-carte p-1; }
+  .av-btn .avatar { @apply size-11; }
+  .av-btn[aria-pressed=true] { @apply border-encre bg-miel shadow-dure; }
+  .code-in { @apply text-center text-[1.75rem] font-bold tracking-[.3em] uppercase; }
+  .code-geant { @apply m-0 rounded-carte border-3 border-encre bg-miel p-3 text-center text-[clamp(2.25rem,13vw,4rem)] leading-none font-bold tracking-[.18em] shadow-dure select-all; }
+  .ou { @apply text-center font-semibold; }
+  .alerte { @apply border-3 border-encre bg-miel p-3 font-semibold; }
+  .lobby, .lobby .bloc { @apply flex flex-col gap-3; }
+  .cfg { @apply m-0 font-semibold; }
+  .mini li .pn { @apply min-w-0 flex-1 break-words; }
+  .mini li small { @apply font-medium; }
+  .mini li.off { @apply opacity-60; }
+  .mini li .pt { @apply ml-auto text-[1.25rem] font-bold tabular-nums; }
+  .mini li .rep { @apply grid size-6 place-items-center rounded-full bg-sapin text-carte; }
+  .mini li .rep svg { @apply size-4; }
+  .btn.mode.online { @apply bg-rose; }
   .mini { @apply mt-2 flex list-none flex-col p-0; }
   .mini li { @apply flex items-center gap-3 border-b-2 border-encre py-2 last:border-0; }
   .mini li strong { @apply ml-auto text-[1.25rem] tabular-nums; }
