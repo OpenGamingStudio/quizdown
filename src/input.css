@@ -50,7 +50,7 @@
   th { @apply text-[.9375rem] font-semibold tracking-[.06em] uppercase; }
   td:last-child, th:last-child { @apply text-right; }
   label { @apply mb-1 block text-[.9375rem] font-semibold tracking-[.06em] uppercase; }
-  input[type=text] { @apply min-h-12 w-full rounded-[10px] border-3 border-encre bg-carte p-3 font-[inherit] text-encre; }
+  input[type=text], input[type=number] { @apply min-h-12 w-full rounded-[10px] border-3 border-encre bg-carte p-3 font-[inherit] text-encre; }
   :focus-visible { @apply outline-[3px] outline-offset-3 outline-encre; }
   input[aria-invalid=true] { @apply border-brique; }
   /* titres focalisés par le script au changement d'écran : cible de lecture, pas d'anneau */
@@ -109,19 +109,25 @@
   .btn.court { @apply w-auto items-center text-center; }
   .btn[disabled] { @apply cursor-default; }
 
-  /* choix du paquet : cartes posées en éventail, chacune sa couleur, sa forme et son inclinaison */
-  .deck { @apply flex flex-col gap-4 min-[480px]:flex-row min-[480px]:justify-center min-[480px]:gap-0 min-[480px]:px-2 min-[480px]:pt-4; }
-  .paquet { @apply min-h-24 justify-end pr-16 min-[480px]:-mx-1.5 min-[480px]:min-h-52 min-[480px]:w-40 min-[480px]:p-4 min-[720px]:min-h-64 min-[720px]:w-52 min-[720px]:p-5 min-[480px]:hover:z-10 min-[480px]:focus-visible:z-10 min-[480px]:duration-150 pointer-fine:min-[480px]:hover:-translate-y-2 motion-reduce:min-[480px]:hover:translate-y-0; }
-  .paquet-nom { @apply text-[1.75rem] leading-[1.05] font-bold tracking-[-0.02em] min-[720px]:text-[1.875rem]; }
-  .paquet-shape { @apply absolute top-3 right-3 size-9 min-[720px]:top-5 min-[720px]:right-5 min-[720px]:size-14; }
-  /* chaque paquet a sa silhouette : coin arrondi large, bords très ronds, carte droite, inclinée */
-  .paquet.k0 { @apply -rotate-2 rounded-tr-[44px] bg-miel min-[480px]:-rotate-6 min-[480px]:translate-y-3; }
-  .paquet.k1 { @apply rotate-2 rounded-[26px] bg-sarcelle text-carte min-[480px]:rotate-0; }
-  .paquet.k2 { @apply -rotate-1 rounded-bl-[44px] bg-rose min-[480px]:rotate-6 min-[480px]:translate-y-3; }
-  .paquet.k3 { @apply rotate-1 bg-sapin text-carte min-[480px]:-rotate-3; }
-  .paquet.k4 { @apply -rotate-2 bg-carte min-[480px]:rotate-3; }
 
   /* multijoueur : nombre, noms, jetons */
+  /* réglages de la partie : pastilles à cocher (aria-pressed), jamais la couleur seule : fond encre + coche */
+  .bloc { @apply m-0 min-w-0 border-0 p-0; }
+  .bloc legend { @apply mb-2 p-0; }
+  .chips { @apply flex flex-wrap gap-2; }
+  .chip { @apply inline-flex min-h-11 cursor-pointer items-center gap-2 rounded-[10px] border-3 border-encre bg-carte px-3 py-1.5 text-[1rem] leading-[1.1] font-semibold text-encre shadow-[2px_2px_0_#16110F] transition-[translate,box-shadow] duration-[60ms] active:translate-x-0.5 active:translate-y-0.5 active:shadow-none motion-reduce:transition-none; }
+  .chip .ico { @apply size-6; }
+  .chip small { @apply block text-[.8125rem] leading-[1.1] font-normal; }
+  .chip.groupe { @apply flex-col items-start gap-0 px-4 py-2; }
+  .chip.petit { @apply min-w-12 justify-center; }
+  .chip[aria-pressed=true] { @apply bg-encre text-carte; }
+  .chip[aria-pressed=true]::before { content: "✓"; }
+  .groupes { @apply mb-2; }
+  .lien { @apply mt-1 min-h-11 cursor-pointer border-0 bg-transparent px-0 text-[1rem] font-bold underline decoration-2 underline-offset-3; color: inherit; }
+  .reglage label { @apply mt-3; }
+  .chip.groupe[aria-pressed=true]::before { content: none; }
+  .reglage input[type=number] { @apply mb-2 w-32; }
+  .version { @apply mt-3 text-center; }
   .seg { @apply flex gap-2; }
   .seg .btn { @apply items-center justify-center text-center text-[1.375rem]; }
   .seg .btn[aria-pressed=true] { @apply bg-encre text-carte; }
