@@ -321,7 +321,6 @@ export class Manager {
       case 'start': return this.startGame(room, p);
       case 'answer': return this.answer(room, p, msg);
       case 'again':
-        if (room.host !== p.id) return this.err(sess, 'host_only');
         if (room.phase !== 'final') return this.err(sess, 'bad');
         return room.backToLobby();
       default: return this.err(sess, 'bad');
