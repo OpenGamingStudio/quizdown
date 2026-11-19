@@ -2,6 +2,12 @@
 
 Versionnage semver x.y.z ; la version s'affiche dans le jeu (Réglages).
 
+## 3.1.0 - Jouer en ligne plus visible
+- Accueil : « Créer une partie » et « Rejoindre avec un code » en gros boutons, en haut.
+- Salle d'attente : « Copier le lien » et « Partager… » (partage natif sur mobile).
+- Revanche en un clic pour tous les joueurs (plus seulement l'hôte).
+- Vérifié en ligne avec deux clients réels (code, lien, manche, revanche, reconnexion).
+
 ## 3.0.0 - Jouer en ligne
 - Nouveau mode « Jouer en ligne » : chacun sur son téléphone, room privée (aucune liste publique). Créer une room -> code de 5 caractères + lien à partager (`?room=CODE`) ; rejoindre en tapant le code ou en ouvrant le lien.
 - Pseudo + avatar (12 visages), salle d'attente avec les joueurs connectés, l'hôte règle thèmes, niveaux, nombre de questions et temps (visible par tous) puis lance. Questions synchronisées, classement en direct, podium final, récap des erreurs avec la bonne réponse, rejouer.

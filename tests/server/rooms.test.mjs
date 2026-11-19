@@ -382,7 +382,7 @@ describe('partie : scoring serveur', () => {
     expect(env.timers.size).toBe(0);
   });
 
-  it('again : hôte seulement, phase final seulement, retour au lobby scores à zéro', () => {
+  it('again : tout joueur (revanche), phase final seulement, retour au lobby scores à zéro', () => {
     const env = makeEnv();
     const { host, others } = started(env, 2, { themes: ['geo'], levels: ['facile'], n: 5, time: 10 });
     host.send({ t: 'again' });
@@ -391,8 +391,6 @@ describe('partie : scoring serveur', () => {
     expect(host.room().phase).toBe('final');
     expect(host.room().players[0].score).toBeGreaterThan(0);
     others[0].send({ t: 'again' });
-    expect(others[0].err().code).toBe('host_only');
-    host.send({ t: 'again' });
     const r = others[0].room();
     expect(r.phase).toBe('lobby');
     expect(r.players.every((p) => p.score === 0 && p.good === 0 && !p.answered)).toBe(true);

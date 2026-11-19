@@ -225,10 +225,16 @@ function home() {
   const n = el(`<section class="accueil" data-title="Accueil">
     <h1 class="logo">Quiz<span>Down</span></h1>
     <p class="tag">Vos thèmes, votre niveau, de 5 à 30 questions. Répondez vite, répondez juste.</p>
+    <div class="card en-ligne">
+      <h2 class="etiquette">Jouer en ligne, chacun sur son appareil</h2>
+      <div class="modes">
+        <button class="btn mode online" type="button" data-online="create"><span class="mode-title">Créer une partie</span><small>Vous recevez un code et un lien à envoyer à vos amis</small></button>
+        <button class="btn mode alt" type="button" data-online="join"><span class="mode-title">Rejoindre avec un code</span><small>Entrez le code à 5 caractères reçu</small></button>
+      </div>
+    </div>
     <div class="modes">
       <button class="btn mode primary" type="button" data-mode="solo">${shape(0, 'shape mode-shape')}<span class="mode-title">Jouer solo</span><small>Réglez la partie et battez votre record, gardé sur cet appareil</small></button>
       <button class="btn mode alt" type="button" data-mode="multi">${shape(1, 'shape mode-shape')}<span class="mode-title">Jouer à plusieurs</span><small>2 à 4 joueurs, chacun son tour sur le même téléphone</small></button>
-      <button class="btn mode online" type="button" data-mode="online">${shape(2, 'shape mode-shape')}<span class="mode-title">Jouer en ligne</span><small>Chacun sur son téléphone, avec un code à partager (room privée)</small></button>
     </div>
     <div class="card regles">
       <h2 class="etiquette">Comment jouer</h2>
@@ -241,7 +247,8 @@ function home() {
     ${records.length ? `<div class="card records"><h2 class="etiquette">Vos records</h2><ul>${records.map((r) => `<li><span>${esc(r.l)}</span><strong>${r.s} pts</strong></li>`).join('')}</ul></div>` : ''}
   </section>`);
   show(n);
-  n.querySelectorAll('[data-mode]').forEach((b) => b.onclick = () => b.dataset.mode === 'online' ? onlineMenu() : reglages(b.dataset.mode === 'multi'));
+  n.querySelectorAll('[data-mode]').forEach((b) => b.onclick = () => reglages(b.dataset.mode === 'multi'));
+  n.querySelectorAll('[data-online]').forEach((b) => b.onclick = () => onlineMenu('', b.dataset.online));
 }
 
 /* ---------- réglages de la partie : thèmes, niveaux, nombre de questions, temps (mémorisés) ---------- */
@@ -674,41 +681,42 @@ const oLeave = () => { send({ t: 'leave' }); netEnd(); };
 const onlineSettingsLabel = (s) => `${themesLabel(s)} · ${levelsLabel(s)} · ${s.n} questions · ${s.time} s`;
 
 /* menu : pseudo, avatar, créer ou rejoindre */
-function onlineMenu(code = '') {
+function onlineMenu(code = '', intent = code ? 'join' : 'create') {
   on.view = { key: 'menu' };
   const prof = loadProfile();
   const n = el(`<section class="card" data-title="Jouer en ligne">
-    <h1>Jouer en ligne</h1>
-    <p class="note">Une room privée : seuls ceux qui ont le code ou le lien peuvent entrer. 2 à 8 joueurs, chacun sur son téléphone.</p>
+    <h1>${intent === 'create' ? 'Créer une partie' : 'Rejoindre une partie'}</h1>
+    <p class="note">Une partie privée : seuls ceux qui ont le code ou le lien peuvent entrer. 2 à 8 joueurs, chacun sur son appareil.</p>
     <form class="stack" novalidate>
       <div><label for="o-name">Votre pseudo</label>
         <input type="text" id="o-name" maxlength="${NAME_MAX}" autocomplete="off" spellcheck="false" value="${esc(prof.name)}"></div>
       <fieldset class="bloc"><legend class="etiquette">Votre avatar</legend>
         <div class="avatars" id="avs">${Array.from({ length: AV_N }, (_, i) => `<button type="button" class="av-btn" data-a="${i}" aria-pressed="false" aria-label="Avatar ${i + 1}">${avatar(i)}</button>`).join('')}</div></fieldset>
       <p class="raison" id="oerr" role="alert"></p>
-      <button class="btn primary" type="button" id="create" data-main>Créer une room</button>
-      <div class="ou" aria-hidden="true">ou</div>
-      <div><label for="o-code">Rejoindre avec un code (5 caractères)</label>
+      ${intent === 'create'
+        ? '<button class="btn primary" type="button" id="create" data-main>Créer la partie</button>'
+        : `<div><label for="o-code">Code de la partie (5 caractères)</label>
         <input type="text" id="o-code" class="code-in" maxlength="5" autocomplete="off" autocapitalize="characters" spellcheck="false" inputmode="text" value="${esc(code)}"></div>
-      <button class="btn alt" type="submit" id="join">Rejoindre</button>
+      <button class="btn primary" type="submit" id="join">Rejoindre la partie</button>`}
       <button class="btn back-btn" type="button" id="back">${ICON_BACK}Retour</button>
     </form></section>`);
-  show(n, code ? '#o-name' : undefined);
+  show(n, '#o-name');
   let av = prof.av;
   const name = n.querySelector('#o-name'), cin = n.querySelector('#o-code');
+  if (cin) cin.oninput = () => { cin.value = cleanCode(cin.value); };
   const drawAv = () => n.querySelectorAll('[data-a]').forEach((b) => b.setAttribute('aria-pressed', +b.dataset.a === av));
   drawAv();
   n.querySelector('#avs').onclick = (e) => { const b = e.target.closest('[data-a]'); if (b) { av = +b.dataset.a; drawAv(); } };
-  cin.oninput = () => { cin.value = cleanCode(cin.value); };
   const me = () => {
     const nm = name.value.replace(/\s+/g, ' ').trim();
     if (!nm) { oerr('Choisissez un pseudo.'); name.focus(); return null; }
     saveProfile({ name: nm, av });
     return { name: nm, avatar: 'a' + av };
   };
-  n.querySelector('#create').onclick = () => { const p = me(); if (p) { oerr(''); netOpen({ t: 'create', ...p }); } };
+  if (intent === 'create') n.querySelector('#create').onclick = () => { const p = me(); if (p) { oerr(''); netOpen({ t: 'create', ...p }); } };
   n.querySelector('form').onsubmit = (e) => {
     e.preventDefault();
+    if (intent === 'create') return n.querySelector('#create').click();
     const p = me(); if (!p) return;
     const c = cleanCode(cin.value);
     if (!validCode(c)) { oerr('Le code a 5 caractères (lettres et chiffres, sans O, 0, I, 1).'); cin.focus(); return; }
@@ -731,9 +739,10 @@ const plRow = (p, st, extra = '') => `<li class="${p.id === st.you ? 'moi' : ''}
 function viewLobby(st) {
   const n = el(`<section class="card lobby" data-title="Salle d'attente">
     ${banner}
-    <p class="etiquette">Code de la room</p>
+    <p class="etiquette">Code de la partie</p>
     <p class="code-geant" id="code" aria-label="Code : ${[...st.code].join(' ')}">${esc(st.code)}</p>
-    <div class="stack"><button class="btn alt" type="button" id="share">Partager le lien</button><p class="note" id="shared" role="status"></p></div>
+    <div class="stack"><button class="btn alt" type="button" id="copy">Copier le lien</button>
+      <button class="btn alt" type="button" id="share" hidden>Partager…</button><p class="note" id="shared" role="status"></p></div>
     <h2 class="etiquette" id="pc"></h2>
     <ul class="mini lobby-joueurs" id="pl"></ul>
     <div class="bloc"><h2 class="etiquette">La partie</h2><p id="cfg" class="cfg"></p><button class="btn court" type="button" id="reglages" hidden>Régler la partie</button></div>
@@ -743,11 +752,16 @@ function viewLobby(st) {
     <button class="btn back-btn" type="button" id="quit">${ICON_BACK}Quitter la room</button></section>`);
   show(n, '#code');
   const link = `${location.origin}${location.pathname}?room=${st.code}`;
-  n.querySelector('#share').onclick = async () => {
-    const out = n.querySelector('#shared');
-    try { if (navigator.share) { await navigator.share({ title: 'QuizDown', text: `Rejoins ma partie QuizDown : code ${st.code}`, url: link }); return; } } catch (e) { if (e && e.name === 'AbortError') return; }
-    try { await navigator.clipboard.writeText(link); out.textContent = 'Lien copié.'; } catch { out.textContent = link; }
+  const out = n.querySelector('#shared');
+  n.querySelector('#copy').onclick = async () => {
+    try { await navigator.clipboard.writeText(link); out.textContent = 'Lien copié, envoyez-le à vos amis.'; } catch { out.textContent = link; }
   };
+  if (navigator.share) {
+    const sh = n.querySelector('#share'); sh.hidden = false;
+    sh.onclick = async () => {
+      try { await navigator.share({ title: 'QuizDown', text: `Rejoins ma partie QuizDown : code ${st.code}`, url: link }); } catch (e) { if (!e || e.name !== 'AbortError') out.textContent = link; }
+    };
+  }
   n.querySelector('#quit').onclick = oLeave; backAction = oLeave;
   n.querySelector('#start').onclick = () => { oerr(''); send({ t: 'start' }); };
   n.querySelector('#reglages').onclick = () => {
@@ -850,17 +864,13 @@ function viewFinal(st) {
     <div class="fin-b"><table class="detail"><caption class="sr-only">Détail des scores</caption><thead><tr><th scope="col">Place</th><th scope="col">Joueur</th><th scope="col">Justes</th><th scope="col">Points</th></tr></thead>
     <tbody>${rank.map((p) => `<tr><td>${place(p)}</td><td>${esc(p.name)}${p.id === st.you ? ' (vous)' : ''}</td><td>${p.good}/${st.total}</td><td>${p.score}</td></tr>`).join('')}</tbody></table>
     ${st.missed?.length ? recap(st.missed, `À retenir : ${plural(st.missed.length, 'question ratée')}`) : '<p class="bilan">Aucune erreur, bravo !</p>'}</div></div>
-    <div class="stack after fin-actions"><button class="btn primary" type="button" id="again" data-main ${host ? '' : 'hidden'}>Rejouer avec les mêmes joueurs</button>
-    <p class="note" id="wait" ${host ? 'hidden' : ''}>L'hôte peut relancer une partie.</p>
+    <div class="stack after fin-actions"><button class="btn primary" type="button" id="again" data-main>Revanche !</button>
     <button class="btn" type="button" id="quit">Quitter la room</button></div></section>`);
   show(n, 'h1'); backAction = oLeave;
   say(winners0({ players: rank }));
   n.querySelectorAll('.pile').forEach((s) => { s.style.height = s.dataset.h + '%'; });
   n.querySelector('#again').onclick = () => send({ t: 'again' });
   n.querySelector('#quit').onclick = oLeave;
-  on.view.update = (s) => {
-    const h = s.host === s.you; n.querySelector('#again').hidden = !h; n.querySelector('#wait').hidden = h;
-  };
 }
 
 /* lien direct : ?room=CODE ouvre le menu avec le code ; une room en cours (téléphone rechargé) est reprise */
