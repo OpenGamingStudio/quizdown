@@ -15,6 +15,14 @@ export function clientIp(req) {
   return req.socket.remoteAddress || 'unknown';
 }
 
+/** Origine autorisée : absente (client non navigateur), même hôte que la requête, ou liste ALLOWED_ORIGINS. */
+export function originOk(req, allowed = (process.env.ALLOWED_ORIGINS || '').split(',').map((x) => x.trim()).filter(Boolean)) {
+  const o = req.headers.origin;
+  if (!o) return true;
+  if (allowed.includes(o)) return true;
+  try { return new URL(o).host === req.headers.host; } catch { return false; }
+}
+
 export function start({ port = Number(process.env.PORT) || 8080, host = '127.0.0.1', bank = loadBank(), manager } = {}) {
   const mgr = manager || new Manager({ bank });
   const server = http.createServer((req, res) => {
@@ -29,6 +37,7 @@ export function start({ port = Number(process.env.PORT) || 8080, host = '127.0.0
   const wss = new WebSocketServer({ server, path: '/ws', maxPayload: 2048 });
 
   wss.on('connection', (ws, req) => {
+    if (!originOk(req)) { ws.close(1008); return; }
     const send = (obj) => { if (ws.readyState === ws.OPEN) ws.send(JSON.stringify(obj)); };
     const sess = mgr.connect(clientIp(req), send);
     if (!sess) {
@@ -37,6 +46,7 @@ export function start({ port = Number(process.env.PORT) || 8080, host = '127.0.0
       return;
     }
     sess.kick = () => ws.close(4000);
+    sess.drop = () => ws.close(1008);
     ws.isAlive = true;
     ws.on('pong', () => { ws.isAlive = true; });
     ws.on('message', (data, isBinary) => {

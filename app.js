@@ -625,7 +625,7 @@ const FACES = [
 const avatar = (a, cls = '') => { const n = Math.abs(a | 0) % AV_N, f = Math.floor(n / 4); return `<svg class="avatar c${n % 4} ${cls}" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10.500"/>${f === 2 ? '' : '<circle cx="8.500" cy="10" r="1.500" fill="#1B1B1F"/><circle cx="15.500" cy="10" r="1.500" fill="#1B1B1F"/>'}${FACES[f]}</svg>`; };
 const avNum = (id) => { const m = /^a(\d+)$/.exec(id || ''); return m ? +m[1] : 0; };
 
-const on = { ws: null, st: null, at: 0, sess: null, first: null, retry: 0, rt: 0, ping: 0, view: null, picked: null, off: false, tick: 0 };
+const on = { ws: null, st: null, at: 0, sess: null, first: null, retry: 0, rt: 0, ping: 0, view: null, picked: null, off: false, tick: 0, resuming: false };
 const wsUrl = () => `${location.protocol === 'https:' ? 'wss:' : 'ws:'}//${location.host}/ws`;
 const send = (m) => { if (on.ws && on.ws.readyState === 1) on.ws.send(JSON.stringify(m)); };
 function netOpen(first) {
@@ -642,11 +642,16 @@ function netConnect() {
   ws.onopen = () => {
     on.retry = 0;
     if (on.first) { send(on.first); on.first = null; }
-    else if (on.sess) send({ t: 'resume', code: on.sess.code, pid: on.sess.pid, token: on.sess.token });
+    else if (on.sess) { on.resuming = true; send({ t: 'resume', code: on.sess.code, pid: on.sess.pid, token: on.sess.token }); }
     clearInterval(on.ping); on.ping = setInterval(() => send({ t: 'ping' }), 25000);
   };
   ws.onmessage = (e) => { let m; try { m = JSON.parse(e.data); } catch { return; } netMsg(m); };
-  ws.onclose = () => { if (on.ws === ws) { clearInterval(on.ping); on.ws = null; netLost(); } };
+  ws.onclose = (ev) => {
+    if (on.ws !== ws) return;
+    clearInterval(on.ping); on.ws = null;
+    if (ev && ev.code === 4000) return netEnd('Session ouverte ailleurs : cette partie est maintenant jouée dans un autre onglet.');
+    netLost();
+  };
   ws.onerror = () => {};
 }
 function netLost() {
@@ -660,15 +665,15 @@ function netLost() {
 function netEnd(msg) {
   on.off = true; clearTimeout(on.rt); clearInterval(on.ping); clearInterval(on.tick);
   if (on.ws) { const w = on.ws; on.ws = null; w.onclose = null; try { w.close(); } catch {} }
-  on.sess = null; on.st = null; on.view = null; setSess(null);
+  on.sess = null; on.st = null; on.view = null; on.resuming = false; setSess(null);
   if (msg) { home(); app.insertAdjacentHTML('afterbegin', `<p class="card alerte" role="alert">${esc(msg)}</p>`); say(msg); } else home();
 }
 function oerr(msg) { const e = document.getElementById('oerr'); if (e) e.textContent = msg; say(msg); }
 function netMsg(m) {
-  if (m.t === 'joined') { on.sess = { code: m.code, pid: m.pid, token: m.token }; setSess(on.sess); const b = document.getElementById('net-banner'); if (b) b.hidden = true; return; }
+  if (m.t === 'joined') { on.sess = { code: m.code, pid: m.pid, token: m.token }; setSess(on.sess); on.resuming = false; const b = document.getElementById('net-banner'); if (b) b.hidden = true; return; }
   if (m.t === 'closed') return netEnd('La room a été fermée.');
   if (m.t === 'error') {
-    if (on.sess && !on.st) return netEnd(m.code === 'not_found' ? 'Cette room n\'existe plus.' : 'Impossible de reprendre la partie.');
+    if (on.sess && (!on.st || on.resuming)) return netEnd(m.code === 'not_found' ? 'Cette room n\'existe plus.' : 'Impossible de reprendre la partie.');
     return oerr(m.msg || 'Une erreur est survenue.');
   }
   if (m.t === 'room') { on.st = m; on.at = performance.now(); const b = document.getElementById('net-banner'); if (b) b.hidden = true; render(); }
@@ -864,12 +869,12 @@ function viewFinal(st) {
     <div class="fin-b"><table class="detail"><caption class="sr-only">Détail des scores</caption><thead><tr><th scope="col">Place</th><th scope="col">Joueur</th><th scope="col">Justes</th><th scope="col">Points</th></tr></thead>
     <tbody>${rank.map((p) => `<tr><td>${place(p)}</td><td>${esc(p.name)}${p.id === st.you ? ' (vous)' : ''}</td><td>${p.good}/${st.total}</td><td>${p.score}</td></tr>`).join('')}</tbody></table>
     ${st.missed?.length ? recap(st.missed, `À retenir : ${plural(st.missed.length, 'question ratée')}`) : '<p class="bilan">Aucune erreur, bravo !</p>'}</div></div>
-    <div class="stack after fin-actions"><button class="btn primary" type="button" id="again" data-main>Revanche !</button>
+    <div class="stack after fin-actions">${host ? '<button class="btn primary" type="button" id="again" data-main>Revanche !</button>' : '<p class="bilan" role="status">En attente de l\'hôte pour la revanche…</p>'}
     <button class="btn" type="button" id="quit">Quitter la room</button></div></section>`);
   show(n, 'h1'); backAction = oLeave;
   say(winners0({ players: rank }));
   n.querySelectorAll('.pile').forEach((s) => { s.style.height = s.dataset.h + '%'; });
-  n.querySelector('#again').onclick = () => send({ t: 'again' });
+  const ag = n.querySelector('#again'); if (ag) ag.onclick = () => send({ t: 'again' });
   n.querySelector('#quit').onclick = oLeave;
 }
 

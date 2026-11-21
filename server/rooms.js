@@ -12,6 +12,9 @@ export const LIMITS = {
   joinFailsPerMin: 15,
   emptyMs: 5 * 60 * 1000,
   idleMs: 45 * 60 * 1000,
+  lobbyIdleMs: 15 * 60 * 1000,
+  ghostMs: 60 * 1000,
+  rateKick: 5,
   revealMs: 4000,
 };
 const TIMES = [10, 15, 20, 30];
@@ -55,6 +58,7 @@ class Room {
     this.timer = null;
     this.lastActivity = mgr.now();
     this.emptySince = null;
+    this.origHost = null; // hôte d'origine, rendu s'il revient après une coupure brève
   }
 
   connected() { return this.players.filter((p) => p.sess); }
@@ -192,14 +196,32 @@ class Room {
     this.cur = null;
     this.reveal = null;
     for (const p of this.players) { p.score = 0; p.good = 0; p.missed = []; p.answer = null; }
-    this.broadcast();
+    // joueurs fantômes : partis (plus de jeton) ou déconnectés sans session
+    this.players = this.players.filter((p) => p.sess || p.token);
+    if (!this.byId(this.host)) this.host = null;
+    this.afterLeave(false);
+  }
+
+  /** Au salon : retire les joueurs déconnectés depuis trop longtemps (ou partis). */
+  pruneGhosts() {
+    if (this.phase !== 'lobby') return false;
+    const t = this.mgr.now(), lim = this.mgr.limits.ghostMs;
+    const before = this.players.length;
+    this.players = this.players.filter((p) => p.sess || (p.token && p.discAt != null && t - p.discAt < lim));
+    if (this.players.length === before) return false;
+    this.afterLeave(false);
+    return true;
   }
 
   /** Après une déconnexion / un départ. */
   afterLeave(wasHost) {
+    if (this.origHost && !this.byId(this.origHost)) this.origHost = null;
     if (wasHost || !this.byId(this.host)?.sess) {
       const next = this.connected()[0];
-      if (next) this.host = next.id;
+      if (next && next.id !== this.host) {
+        if (!this.origHost && this.byId(this.host)?.token) this.origHost = this.host;
+        this.host = next.id;
+      }
     }
     const alive = this.players.length > 0;
     if (!alive) return this.mgr.dropRoom(this, false);
@@ -278,9 +300,11 @@ export class Manager {
     sess.pid = null;
     if (!p || p.sess !== sess) return;
     p.sess = null;
+    p.discAt = this.now();
     const wasHost = room.host === p.id;
     if (leaving) {
       p.token = null; // plus de reprise possible
+      if (room.origHost === p.id) room.origHost = null;
       if (room.phase === 'lobby') room.players.splice(room.players.indexOf(p), 1);
     }
     room.touch();
@@ -299,7 +323,11 @@ export class Manager {
   /** Point d'entrée d'un message texte brut. */
   message(sess, raw) {
     if (sess.closed) return;
-    if (!this.rateOk(sess)) return this.err(sess, 'rate');
+    if (!this.rateOk(sess)) {
+      sess.over = (sess.over || 0) + 1;
+      if (sess.over >= this.limits.rateKick && sess.drop) return sess.drop();
+      return this.err(sess, 'rate');
+    }
     if (typeof raw !== 'string' || raw.length > 2048) return this.err(sess, 'bad');
     let msg;
     try { msg = JSON.parse(raw); } catch { return this.err(sess, 'bad'); }
@@ -322,6 +350,7 @@ export class Manager {
       case 'answer': return this.answer(room, p, msg);
       case 'again':
         if (room.phase !== 'final') return this.err(sess, 'bad');
+        if (room.host !== p.id) return this.err(sess, 'host_only');
         return room.backToLobby();
       default: return this.err(sess, 'bad');
     }
@@ -389,6 +418,7 @@ export class Manager {
     if (!room) return this.failJoin(sess, 'not_found');
     if (!cleanName(msg.name)) return this.err(sess, 'bad', 'name');
     if (room.phase !== 'lobby') return this.err(sess, 'started');
+    room.pruneGhosts();
     if (room.players.length >= this.limits.maxPlayers) return this.err(sess, 'full');
     const p = this.addPlayer(room, sess, msg);
     room.touch();
@@ -405,9 +435,11 @@ export class Manager {
     const old = p.sess;
     if (old) { old.room = null; old.pid = null; if (old.kick) old.kick(); }
     p.sess = sess;
+    p.discAt = null;
     sess.room = room;
     sess.pid = p.id;
     room.emptySince = null;
+    if (room.origHost === p.id) { room.host = p.id; room.origHost = null; }
     room.touch();
     sess.send({ t: 'joined', code: room.code, pid: p.id, token: p.token });
     room.broadcast();
@@ -446,7 +478,8 @@ export class Manager {
 
   answer(room, p, msg) {
     if (room.phase !== 'question' || !room.cur) return; // trop tard : ignoré
-    if (msg.qi !== room.qi || !Number.isInteger(msg.i) || msg.i < 0 || msg.i > 3) return this.err(p.sess, 'bad');
+    if (msg.qi !== room.qi) return; // réponse d'une question périmée : ignorée sans erreur
+    if (!Number.isInteger(msg.i) || msg.i < 0 || msg.i > 3) return this.err(p.sess, 'bad');
     if (p.answer !== null) return; // la première compte
     const c = room.cur;
     const remaining = Math.max(0, c.endAt - this.now());
@@ -464,9 +497,12 @@ export class Manager {
   sweep() {
     const t = this.now();
     for (const room of [...this.rooms.values()]) {
+      if (this.rooms.get(room.code) === room) room.pruneGhosts();
+      if (this.rooms.get(room.code) !== room) continue;
       const noOne = room.connected().length === 0;
+      const idle = room.phase === 'lobby' ? this.limits.lobbyIdleMs : this.limits.idleMs;
       if ((noOne && room.emptySince !== null && t - room.emptySince >= this.limits.emptyMs) ||
-          t - room.lastActivity >= this.limits.idleMs) {
+          t - room.lastActivity >= idle) {
         this.dropRoom(room, true);
       }
     }
