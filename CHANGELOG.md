@@ -2,6 +2,13 @@
 
 Versionnage semver x.y.z ; la version s'affiche dans le jeu (Réglages).
 
+## 3.1.1 - Fiabilité du multijoueur
+- Plus de joueurs fantômes : retirés au retour au salon, et au salon après 60 s de déconnexion ; ils ne prennent plus de place.
+- Reprise de connexion : si la room n'existe plus, un message clair au lieu d'un écran bloqué. L'hôte d'origine retrouve son rôle après une coupure brève.
+- Deux onglets sur la même session : message « session ouverte ailleurs » au lieu d'une boucle d'expulsions.
+- Revanche : réservée à l'hôte (les autres voient « En attente de l'hôte »). Réponse tardive ignorée sans erreur.
+- Serveur : contrôle de l'Origin, coupure après des dépassements répétés de débit, IP cliente de repli si X-Forwarded-For est vide, salons inactifs expirés après 15 min.
+
 ## 3.1.0 - Jouer en ligne plus visible
 - Accueil : « Créer une partie » et « Rejoindre avec un code » en gros boutons, en haut.
 - Salle d'attente : « Copier le lien » et « Partager… » (partage natif sur mobile).

@@ -311,8 +311,8 @@ describe('partie : scoring serveur', () => {
     const env = makeEnv();
     const { host, others } = started(env);
     const g = good(host.room());
-    host.send({ t: 'answer', qi: 3, i: 0 });
-    expect(host.err().code).toBe('bad');
+    host.send({ t: 'answer', qi: 3, i: 0 }); // périmée : ignorée sans erreur
+    expect(host.err()).toBeNull();
     host.send({ t: 'answer', qi: 0, i: 4 });
     expect(host.err().code).toBe('bad');
     host.send({ t: 'answer', qi: 0, i: '1' });
@@ -382,7 +382,7 @@ describe('partie : scoring serveur', () => {
     expect(env.timers.size).toBe(0);
   });
 
-  it('again : tout joueur (revanche), phase final seulement, retour au lobby scores à zéro', () => {
+  it('again : hôte seulement (revanche), phase final seulement, retour au lobby scores à zéro', () => {
     const env = makeEnv();
     const { host, others } = started(env, 2, { themes: ['geo'], levels: ['facile'], n: 5, time: 10 });
     host.send({ t: 'again' });
@@ -391,7 +391,10 @@ describe('partie : scoring serveur', () => {
     expect(host.room().phase).toBe('final');
     expect(host.room().players[0].score).toBeGreaterThan(0);
     others[0].send({ t: 'again' });
-    const r = others[0].room();
+    expect(others[0].err().code).toBe('host_only');
+    expect(host.room().phase).toBe('final');
+    host.send({ t: 'again' });
+    const r = host.room();
     expect(r.phase).toBe('lobby');
     expect(r.players.every((p) => p.score === 0 && p.good === 0 && !p.answered)).toBe(true);
     expect(r.q).toBeUndefined();
@@ -514,9 +517,9 @@ describe('déconnexion, reprise, transfert d\'hôte', () => {
     expect(c.room().settings.n).toBe(6);
     const nh = client(env, '1.1.1.9');
     nh.send({ t: 'resume', code: h.code, pid: h.pid, token: h.token });
-    expect(nh.room().host).toBe(c.pid);
+    expect(nh.room().host).toBe(h.pid); // l'hôte d'origine est rendu
     nh.send({ t: 'start' });
-    expect(nh.err().code).toBe('host_only');
+    expect(nh.room().phase).toBe('question');
   });
 
   it('leave en lobby : le joueur disparaît ; hôte transféré ; room supprimée quand vide', () => {
@@ -549,8 +552,7 @@ describe('déconnexion, reprise, transfert d\'hôte', () => {
 describe('expiration', () => {
   it('room sans joueur connecté supprimée après 5 min, avec closed', () => {
     const env = makeEnv();
-    const h = create(env);
-    const b = join(env, h.code, 'Bob');
+    const { host: h, others: [b] } = started(env, 2);
     h.drop();
     env.advance(4 * 60_000);
     env.mgr.sweep();
@@ -581,8 +583,7 @@ describe('expiration', () => {
 
   it('room inactive 45 min supprimée et joueurs prévenus (closed) ; l\'activité prolonge', () => {
     const env = makeEnv();
-    const h = create(env);
-    const b = join(env, h.code, 'Bob');
+    const { host: h, others: [b] } = started(env, 2, { themes: ['geo'], levels: ['facile'], n: 30, time: 30 });
     env.advance(40 * 60_000);
     b.send({ t: 'ping' }); // un ping n'est pas une activité de room
     h.send({ t: 'profile', name: 'Host2', avatar: 'a1' });
@@ -646,5 +647,106 @@ describe('bank.js', () => {
     const q = makeQuestions('dup', 3);
     const b = makeBank({ a: { facile: q }, b: { facile: q } });
     expect(b.pool(['a', 'b'], ['facile'])).toHaveLength(3);
+  });
+});
+
+describe('revue : fantômes, hôte, limites', () => {
+  const play = (env, all) => { for (let k = 0; k < 5; k++) { for (const c of all) c.send({ t: 'answer', qi: k, i: 0 }); env.advance(4000); } };
+
+  it('again retire les joueurs partis en cours de partie (pas de fantôme ni de place prise)', () => {
+    const env = makeEnv();
+    const { host, others } = started(env, 3);
+    others[0].send({ t: 'leave' });
+    play(env, [host, others[1]]);
+    expect(host.room().phase).toBe('final');
+    expect(host.room().players).toHaveLength(3);
+    host.send({ t: 'again' });
+    expect(host.room().phase).toBe('lobby');
+    expect(host.room().players.map((p) => p.id)).toEqual([host.pid, others[1].pid]);
+  });
+
+  it('places max : les fantômes ne comptent plus dans la limite', () => {
+    const env = makeEnv();
+    const { host, others } = started(env, 8);
+    for (const o of others.slice(0, 3)) o.send({ t: 'leave' });
+    play(env, [host, ...others.slice(3)]);
+    host.send({ t: 'again' });
+    const j = join(env, host.code, 'Neuf', '10.0.9.9');
+    expect(j.last('joined')).not.toBeNull();
+    expect(host.room().players).toHaveLength(6);
+  });
+
+  it('au salon, un joueur déconnecté depuis plus de 60 s est retiré, un retour rapide est conservé', () => {
+    const env = makeEnv();
+    const host = create(env, 'H', '5.0.0.1');
+    const a = join(env, host.code, 'A', '5.0.0.2');
+    const b = join(env, host.code, 'B', '5.0.0.3');
+    a.drop(); b.drop();
+    env.advance(30000);
+    const nb = client(env, '5.0.0.3');
+    nb.send({ t: 'resume', code: b.code, pid: b.pid, token: b.token });
+    env.advance(40000);
+    env.mgr.sweep();
+    expect(host.room().players.map((p) => p.name)).toEqual(['H', 'B']);
+  });
+
+  it('resume avec une room disparue : not_found', () => {
+    const env = makeEnv();
+    const h = create(env, 'H', '6.0.0.1');
+    env.mgr.dropRoom(env.mgr.rooms.get(h.code), true);
+    const n = client(env, '6.0.0.2');
+    n.send({ t: 'resume', code: h.code, pid: h.pid, token: h.token });
+    expect(n.err().code).toBe('not_found');
+  });
+
+  it('hôte rendu au retour après une coupure brève', () => {
+    const env = makeEnv();
+    const host = create(env, 'H', '7.0.0.1');
+    const a = join(env, host.code, 'A', '7.0.0.2');
+    host.drop();
+    expect(a.room().host).toBe(a.pid);
+    const nh = client(env, '7.0.0.1');
+    nh.send({ t: 'resume', code: host.code, pid: host.pid, token: host.token });
+    expect(nh.room().host).toBe(host.pid);
+    expect(a.room().host).toBe(host.pid);
+  });
+
+  it("hôte parti pour de bon : pas rendu", () => {
+    const env = makeEnv();
+    const host = create(env, 'H', '7.1.0.1');
+    const a = join(env, host.code, 'A', '7.1.0.2');
+    host.send({ t: 'leave' });
+    expect(a.room().host).toBe(a.pid);
+    expect(env.mgr.rooms.get(host.code).origHost).toBeNull();
+  });
+
+  it('réponse d\'une question périmée : ignorée sans erreur', () => {
+    const env = makeEnv();
+    const { host } = started(env, 2);
+    host.clear();
+    host.send({ t: 'answer', qi: 99, i: 0 });
+    expect(host.err()).toBeNull();
+    host.send({ t: 'answer', qi: 0, i: 9 });
+    expect(host.err().code).toBe('bad');
+  });
+
+  it('rate limit : après 5 dépassements la socket est fermée', () => {
+    const env = makeEnv();
+    const c = client(env, '8.0.0.1');
+    let dropped = 0;
+    c.sess.drop = () => { dropped++; };
+    for (let k = 0; k < 24; k++) c.send({ t: 'ping' });
+    expect(dropped).toBe(0);
+    for (let k = 0; k < 10; k++) c.send({ t: 'ping' });
+    expect(dropped).toBeGreaterThan(0);
+  });
+
+  it('un salon inactif expire plus vite qu\'une partie', () => {
+    const env = makeEnv();
+    const h = create(env, 'H', '9.0.0.1');
+    join(env, h.code, 'A', '9.0.0.2');
+    env.advance(16 * 60 * 1000);
+    env.mgr.sweep();
+    expect(env.mgr.rooms.size).toBe(0);
   });
 });

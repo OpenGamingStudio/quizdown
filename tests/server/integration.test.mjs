@@ -64,6 +64,15 @@ describe('serveur http + ws', () => {
     expect((await c).code).toBe(1009);
   });
 
+  it('Origin : même hôte accepté, autre site refusé (1008)', async () => {
+    const ok = await open({ origin: `http://127.0.0.1:${srv.port}`, 'x-forwarded-for': '10.2.0.1' });
+    ok.json({ t: 'ping' });
+    await ok.next((m) => m.t === 'pong');
+    ok.close();
+    const bad = await open({ origin: 'https://evil.example', 'x-forwarded-for': '10.2.0.2' });
+    expect((await closed(bad)).code).toBe(1008);
+  });
+
   it('trame binaire : erreur bad', async () => {
     const ws = await open({ 'x-forwarded-for': '10.1.0.2' });
     ws.send(Buffer.from([1, 2, 3]));
