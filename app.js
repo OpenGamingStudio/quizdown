@@ -1,7 +1,7 @@
 (() => {
 'use strict';
 
-const VERSION = '3.0.0';
+const VERSION = '3.2.0';
 const TIME = 15, BASE = 100, BONUS = 50, AUTO_NEXT_MS = 3000, LEAVE_MS = 200;
 const app = document.getElementById('app');
 const soundBtn = document.getElementById('sound');
@@ -904,6 +904,32 @@ document.getElementById('home').onclick = () => {
   if (app.querySelector('#quit')) { if (backAction === confirmQuit) confirmQuit(); return; }
   home();
 };
+/* ---------- compte OpenGamingStudio (facultatif) : records, réglages, configuration et profil en ligne suivent le joueur ---------- */
+const SAVE_KEYS = { best: KEY, settings: SKEY, config: CKEY, profile: PKEY };
+const readLS = (k) => { try { return JSON.parse(localStorage.getItem(k)); } catch { return null; } };
+if (window.OGSAccount) OGSAccount.init({
+  game: 'quizdown',
+  version: VERSION,
+  color: '#7C3AED',
+  getSave: () => ({ best: loadBest(), settings: readLS(SKEY), config: readLS(CKEY), profile: readLS(PKEY) }),
+  isEmpty: (d) => !d || !d.best || !Object.keys(d.best).length,
+  describe: (d) => `${Object.keys((d && d.best) || {}).length} record(s)`,
+  applySave: (d) => {
+    if (!d || typeof d !== 'object') return;
+    for (const [f, k] of Object.entries(SAVE_KEYS)) {
+      if (d[f] && typeof d[f] === 'object' && !Array.isArray(d[f])) { try { localStorage.setItem(k, JSON.stringify(d[f])); } catch {} }
+    }
+    const r = readLS(SKEY);
+    if (r && typeof r === 'object') {
+      if (typeof r.sound === 'boolean') settings.sound = r.sound;
+      if (Number.isFinite(r.volume)) settings.volume = Math.min(100, Math.max(0, Math.round(r.volume / 10) * 10));
+      if (typeof r.keys === 'boolean') settings.keys = r.keys;
+      if (typeof r.vibrate === 'boolean') settings.vibrate = r.vibrate;
+    }
+    refreshSound();
+    if (idx.themes.length) loadConfig();
+  },
+});
 refreshSound();
 fetch('data/index.json')
   .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })

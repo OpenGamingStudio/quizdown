@@ -2,6 +2,9 @@
 
 Versionnage semver x.y.z ; la version s'affiche dans le jeu (Réglages).
 
+## 3.2.0 - Compte OpenGamingStudio (facultatif)
+- Bouton « Compte » : pseudo + code de récupération, Google ou Discord. Records, réglages, configuration et profil en ligne sont sauvegardés et retrouvés sur tous vos appareils. Le jeu reste jouable sans compte.
+
 ## 3.1.1 - Fiabilité du multijoueur
 - Plus de joueurs fantômes : retirés au retour au salon, et au salon après 60 s de déconnexion ; ils ne prennent plus de place.
 - Reprise de connexion : si la room n'existe plus, un message clair au lieu d'un écran bloqué. L'hôte d'origine retrouve son rôle après une coupure brève.

@@ -6,7 +6,7 @@
 <title>Accueil · QuizDown</title>
 <meta name="description" content="QuizDown : un quiz en solo ou à plusieurs, 12 thèmes et tous les niveaux du CP à la Terminale. Jeu web open source d'OpenGamingStudio.">
 <meta name="theme-color" content="#E8402A">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; font-src 'self'; connect-src 'self'; img-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; font-src 'self'; connect-src 'self' https://api.opengamingstudio.com; img-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="no-referrer">
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
@@ -31,6 +31,7 @@
 <div id="live" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
 <main id="app" tabindex="-1"><noscript>QuizDown a besoin de JavaScript.</noscript></main>
 <footer class="foot">Un jeu <a href="https://github.com/OpenGamingStudio/quizdown" rel="noopener noreferrer">open source</a> d'OpenGamingStudio · MIT</footer>
-<script src="app.js"></script>
+<script src="account.js" defer></script>
+<script src="app.js" defer></script>
 </body>
 </html>
